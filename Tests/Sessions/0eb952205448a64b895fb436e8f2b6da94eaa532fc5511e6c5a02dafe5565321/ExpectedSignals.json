@@ -1,0 +1,968 @@
+{
+  "1d0bfca4-ee46-438c-86fa-100268b5f288": {
+    "EventCount": 2,
+    "Label": "CloudShell_ExitSession",
+    "AdditionalData": {
+      "sessionId": "1702777486856338259-db0c0ffee12f1e179",
+      "environmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "Summary": "Clicked CloudShell->Exit to exit interactive CloudShell session with 'c6bf914b-6b09-404c-bee5-087c2adbf910' Environment ID and '1702777486856338259-db0c0ffee12f1e179' Session ID.",
+    "CorrelationId": "1d0bfca4-ee46-438c-86fa-100268b5f288",
+    "FirstEventTime": "2023-12-17T02:40:26Z",
+    "AllEventArr": "cloudshell:GetEnvironmentStatus,cloudshell:DeleteSession",
+    "AllEventIdArr": "1d0bfca4-ee46-438c-86fa-100268b5f288,d8d58ca4-b0dd-4857-8263-ca108cc9b823",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudshell/home?region=us-east-1#c6bf914b-6b09-404c-bee5-087c2adbf910",
+    "LastEventTime": "2023-12-17T02:40:27Z",
+    "Name": "Clicked CloudShell->Exit"
+  },
+  "572478cb-aaf2-49a7-83f5-0383e7ffa94b": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": "EventName",
+      "startTime": null,
+      "attributeValue": "GetFileDownloadUrls",
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventName='GetFileDownloadUrls'.",
+    "CorrelationId": "572478cb-aaf2-49a7-83f5-0383e7ffa94b",
+    "FirstEventTime": "2023-12-17T02:42:24Z",
+    "AllEventArr": "cloudtrail:LookupEvents,config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "572478cb-aaf2-49a7-83f5-0383e7ffa94b,58d6f517-711f-4de5-b118-830542138157,70207046-08db-4efd-82ff-304d3b8cb7cb,c87c3ff8-df01-464a-8644-0bd67c6a559b",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=GetFileDownloadUrls",
+    "LastEventTime": "2023-12-17T02:42:24Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "273b8cb5-ec58-4177-9eed-bdec14728cfb": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": "ReadOnly",
+      "startTime": null,
+      "attributeValue": "false",
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by default attribute ReadOnly='false'.",
+    "CorrelationId": "273b8cb5-ec58-4177-9eed-bdec14728cfb",
+    "FirstEventTime": "2023-12-17T02:41:31Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders,cloudtrail:LookupEvents",
+    "AllEventIdArr": "273b8cb5-ec58-4177-9eed-bdec14728cfb,aa79b466-8bce-4b91-9fcd-53e4fcb28be5,5702d8bf-afed-438f-9f46-5e571d23d066,88091d21-e5d1-42d8-ae11-c915468061a6",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ReadOnly=false",
+    "LastEventTime": "2023-12-17T02:41:32Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "d5d86643-2c56-4f3a-b0a1-6f6221ced07f": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent_CloudShell_Heartbeat",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "d5d86643-2c56-4f3a-b0a1-6f6221ced07f",
+    "FirstEventTime": "2023-12-17T02:38:56Z",
+    "AllEventArr": "cloudshell:SendHeartBeat",
+    "AllEventIdArr": "d5d86643-2c56-4f3a-b0a1-6f6221ced07f",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:38:56Z",
+    "Name": "Suppressing automated background event"
+  },
+  "8f8975fa-3551-48a5-aa24-f029daefe544": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "8f8975fa-3551-48a5-aa24-f029daefe544",
+    "FirstEventTime": "2023-12-17T02:46:23Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "8f8975fa-3551-48a5-aa24-f029daefe544,b367c606-accf-4d53-a5c3-fd7c99329078",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:46:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "4d047bcd-9fcf-4802-887b-56a7517f62ce": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "30 minutes",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-17T02:12:45",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:42:45"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '30 minutes' ('2023-12-17T02:12:45Z' to '2023-12-17T02:42:45Z').",
+    "CorrelationId": "4d047bcd-9fcf-4802-887b-56a7517f62ce",
+    "FirstEventTime": "2023-12-17T02:42:45Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "4d047bcd-9fcf-4802-887b-56a7517f62ce",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=1800000",
+    "LastEventTime": "2023-12-17T02:42:45Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "11161033-78e3-4838-977a-ce0861425add": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T14:46:48",
+      "attributeValue": "AKIAREDACTED94OZC6KM",
+      "endTime": "2023-12-17T02:46:48"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED94OZC6KM' and custom date range of '12 hours' ('2023-12-16T14:46:48Z' to '2023-12-17T02:46:48Z').",
+    "CorrelationId": "11161033-78e3-4838-977a-ce0861425add",
+    "FirstEventTime": "2023-12-17T02:46:48Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "11161033-78e3-4838-977a-ce0861425add,f938da85-93fc-4eb2-97a2-1739a5537b7a",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED94OZC6KM&CustomTime=43200000",
+    "LastEventTime": "2023-12-17T02:46:48Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "16c65213-12b9-4408-b289-64a7c1f42e87": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-12-16T04:27:47",
+      "attributeValue": "false",
+      "endTime": "2023-12-17T02:44:47"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by default attribute ReadOnly='false' and custom date range of '1337 minutes' ('2023-12-16T04:27:47Z' to '2023-12-17T02:44:47Z').",
+    "CorrelationId": "16c65213-12b9-4408-b289-64a7c1f42e87",
+    "FirstEventTime": "2023-12-17T02:44:47Z",
+    "AllEventArr": "cloudtrail:LookupEvents,config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "16c65213-12b9-4408-b289-64a7c1f42e87,252d0894-a5c2-4038-af91-58374cbe0be8,8401daef-6bd7-4fc2-a9d5-e1f447da3c33,e87220e4-9338-4757-bd55-80ca4f5cb99d",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ReadOnly=false&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:44:47Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "18e2c7cb-92cb-4a54-ba90-316c4c69741b": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-12-16T04:27:33",
+      "attributeValue": "false",
+      "endTime": "2023-12-17T02:44:33"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by default attribute ReadOnly='false' and custom date range of '1337 minutes' ('2023-12-16T04:27:33Z' to '2023-12-17T02:44:33Z').",
+    "CorrelationId": "18e2c7cb-92cb-4a54-ba90-316c4c69741b",
+    "FirstEventTime": "2023-12-17T02:44:33Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "18e2c7cb-92cb-4a54-ba90-316c4c69741b,3a004d49-b299-4618-8d60-ed3bd1c45eba",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ReadOnly=false&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:44:33Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "4426986e-2915-4ea7-854a-91e0cdfcbbad": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory_SPECIFICEVENT",
+    "AdditionalData": {
+      "resourceTypeArr": null
+    },
+    "Summary": "Clicked CloudTrail->Event History->SPECIFICEVENT which displays all details for specific CloudTrail Event.",
+    "CorrelationId": "4426986e-2915-4ea7-854a-91e0cdfcbbad",
+    "FirstEventTime": "2023-12-17T02:44:49Z",
+    "AllEventArr": "config:DescribeConfigurationRecorders,config:DescribeConfigurationRecorderStatus",
+    "AllEventIdArr": "4426986e-2915-4ea7-854a-91e0cdfcbbad,9f90f6d0-8ba7-4339-a4ed-89b6da7d2093",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events",
+    "LastEventTime": "2023-12-17T02:44:49Z",
+    "Name": "Clicked CloudTrail->Event History->SPECIFICEVENT"
+  },
+  "97cb9aaa-6429-404c-9d6d-e91eca313e1b": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1 day",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T02:43:13",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:43:13"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '1 day' ('2023-12-16T02:43:13Z' to '2023-12-17T02:43:13Z').",
+    "CorrelationId": "97cb9aaa-6429-404c-9d6d-e91eca313e1b",
+    "FirstEventTime": "2023-12-17T02:43:13Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "97cb9aaa-6429-404c-9d6d-e91eca313e1b",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=86400000",
+    "LastEventTime": "2023-12-17T02:43:13Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "25d9bf70-ba91-44e7-b0ea-3830d90bce82": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory_SPECIFICEVENT",
+    "AdditionalData": {
+      "resourceTypeArr": null
+    },
+    "Summary": "Clicked CloudTrail->Event History->SPECIFICEVENT which displays all details for specific CloudTrail Event.",
+    "CorrelationId": "25d9bf70-ba91-44e7-b0ea-3830d90bce82",
+    "FirstEventTime": "2023-12-17T02:42:12Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "25d9bf70-ba91-44e7-b0ea-3830d90bce82,f8be9e1a-4c17-456a-afb9-9ba1b1e542ef",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events",
+    "LastEventTime": "2023-12-17T02:42:12Z",
+    "Name": "Clicked CloudTrail->Event History->SPECIFICEVENT"
+  },
+  "05be0b76-5591-45a8-8408-c97adb2d3257": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "05be0b76-5591-45a8-8408-c97adb2d3257",
+    "FirstEventTime": "2023-12-17T02:41:23Z",
+    "AllEventArr": "notifications:ListNotificationHubs,health:DescribeEventAggregates",
+    "AllEventIdArr": "05be0b76-5591-45a8-8408-c97adb2d3257,321270ab-0e95-4f0a-b45f-8e7dc5774259,aae07189-63c0-4366-8f09-80ef7cad37b9",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:41:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0523b9c7-8026-4572-8b44-1c36df0dbb91": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0523b9c7-8026-4572-8b44-1c36df0dbb91",
+    "FirstEventTime": "2023-12-17T02:41:09Z",
+    "AllEventArr": "notifications:ListNotificationHubs,health:DescribeEventAggregates",
+    "AllEventIdArr": "0523b9c7-8026-4572-8b44-1c36df0dbb91,7b3d2f5d-1a0e-49a3-ad69-d22eb18cb358,a293b239-cfc2-4dad-aff2-63895c9eda8c",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:41:09Z",
+    "Name": "Suppressing automated background event"
+  },
+  "91aef90e-e02d-40b8-b4a5-b5e5779e637a": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent_CloudShell_Heartbeat",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "91aef90e-e02d-40b8-b4a5-b5e5779e637a",
+    "FirstEventTime": "2023-12-17T02:39:56Z",
+    "AllEventArr": "cloudshell:SendHeartBeat",
+    "AllEventIdArr": "91aef90e-e02d-40b8-b4a5-b5e5779e637a",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:39:56Z",
+    "Name": "Suppressing automated background event"
+  },
+  "6aa72618-a8cf-4a44-b6d9-dbdd3a7ac52e": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventName",
+      "startTime": "2023-12-16T14:46:31",
+      "attributeValue": "LookupEvents",
+      "endTime": "2023-12-17T02:46:31"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventName='LookupEvents' and custom date range of '12 hours' ('2023-12-16T14:46:31Z' to '2023-12-17T02:46:31Z').",
+    "CorrelationId": "6aa72618-a8cf-4a44-b6d9-dbdd3a7ac52e",
+    "FirstEventTime": "2023-12-17T02:46:32Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "6aa72618-a8cf-4a44-b6d9-dbdd3a7ac52e,d1c3d8e8-b4f1-4567-a537-f61855d06fad",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=LookupEvents&CustomTime=43200000",
+    "LastEventTime": "2023-12-17T02:46:32Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "c2163f6c-af54-4e3a-aed1-d2a5541ec67d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "c2163f6c-af54-4e3a-aed1-d2a5541ec67d",
+    "FirstEventTime": "2023-12-17T02:51:24Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "c2163f6c-af54-4e3a-aed1-d2a5541ec67d,f3e11d06-197e-4588-a7db-75cd41fc9a84",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:51:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "4bef4327-f453-4c72-8de5-24dd9dd24694": {
+    "EventCount": 5,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ResourceName",
+      "startTime": "2023-12-16T04:29:00",
+      "attributeValue": "best_flija_topping",
+      "endTime": "2023-12-17T02:46:00"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceName='best_flija_topping' and custom date range of '1337 minutes' ('2023-12-16T04:29:00Z' to '2023-12-17T02:46:00Z') and containing event(s) referencing 1 Resource Type ('AWS::SecretsManager::Secret').",
+    "CorrelationId": "4bef4327-f453-4c72-8de5-24dd9dd24694",
+    "FirstEventTime": "2023-12-17T02:46:01Z",
+    "AllEventArr": "cloudtrail:LookupEvents,config:ListDiscoveredResources,config:DescribeConfigurationRecorders,config:DescribeConfigurationRecorderStatus",
+    "AllEventIdArr": "4bef4327-f453-4c72-8de5-24dd9dd24694,ae8c139b-bf6c-4d2b-8072-43bcbc7164a3,b7899082-532a-4e3f-8460-2bbf377ac306,f480c5e1-ea3d-4cab-9b23-4ce1841eb5a2,f71100d3-816e-491b-a318-613510a8571c",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ResourceName=best_flija_topping&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:46:01Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "a4d6ed1d-fb48-400c-a4d6-e8dceceee7df": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-12-16T04:27:27",
+      "attributeValue": "true",
+      "endTime": "2023-12-17T02:44:27"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ReadOnly='true' and custom date range of '1337 minutes' ('2023-12-16T04:27:27Z' to '2023-12-17T02:44:27Z').",
+    "CorrelationId": "a4d6ed1d-fb48-400c-a4d6-e8dceceee7df",
+    "FirstEventTime": "2023-12-17T02:44:27Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "a4d6ed1d-fb48-400c-a4d6-e8dceceee7df,cfff0cfd-31f8-4a12-80b2-f10eb0bc54d6",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ReadOnly=true&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:44:27Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "053eda7d-dcee-40af-8460-9d1dc8602e3d": {
+    "EventCount": 3,
+    "Label": "CloudTrail_EventHistory_SPECIFICEVENT",
+    "AdditionalData": {
+      "resourceTypeArr": "AWS::SecretsManager::Secret"
+    },
+    "Summary": "Clicked CloudTrail->Event History->SPECIFICEVENT which displays all details for specific CloudTrail Event, which currently references 1 Resource Type ('AWS::SecretsManager::Secret').",
+    "CorrelationId": "053eda7d-dcee-40af-8460-9d1dc8602e3d",
+    "FirstEventTime": "2023-12-17T02:45:56Z",
+    "AllEventArr": "config:ListDiscoveredResources,config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "053eda7d-dcee-40af-8460-9d1dc8602e3d,102996e7-2e09-4ba2-b64f-0a2f581155a4,3cb1060d-7df2-4550-bcf1-6434ded36f53",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events",
+    "LastEventTime": "2023-12-17T02:45:56Z",
+    "Name": "Clicked CloudTrail->Event History->SPECIFICEVENT"
+  },
+  "1e4127b1-6279-4b7c-9b7f-b8f6a5c0ceec": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ResourceName",
+      "startTime": "2023-12-16T04:28:32",
+      "attributeValue": "best_flija_topping",
+      "endTime": "2023-12-17T02:45:32"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceName='best_flija_topping' and custom date range of '1337 minutes' ('2023-12-16T04:28:32Z' to '2023-12-17T02:45:32Z').",
+    "CorrelationId": "1e4127b1-6279-4b7c-9b7f-b8f6a5c0ceec",
+    "FirstEventTime": "2023-12-17T02:45:32Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "1e4127b1-6279-4b7c-9b7f-b8f6a5c0ceec,5a3455ff-f705-4ec7-a0b8-402331b20598",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ResourceName=best_flija_topping&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:45:32Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "3c6439d0-9a4e-4986-83ff-e5207cbc7cfc": {
+    "EventCount": 1,
+    "Label": "SearchBar",
+    "AdditionalData": null,
+    "Summary": "Typed content into AWS Console Search Bar.",
+    "CorrelationId": "3c6439d0-9a4e-4986-83ff-e5207cbc7cfc",
+    "FirstEventTime": "2023-12-17T02:41:04Z",
+    "AllEventArr": "resource-explorer-2:ListIndexes",
+    "AllEventIdArr": "3c6439d0-9a4e-4986-83ff-e5207cbc7cfc",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:41:04Z",
+    "Name": "Typed into Search Bar"
+  },
+  "9d812b5b-f847-46af-8355-0cf8a01f8604": {
+    "EventCount": 12,
+    "Label": "CloudTrail_Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Dashboard which displays a summary of all CloudTrail components (e.g. Trails statuses, Insights and last 5 Events).",
+    "CorrelationId": "9d812b5b-f847-46af-8355-0cf8a01f8604",
+    "FirstEventTime": "2023-12-17T02:41:07Z",
+    "AllEventArr": "s3:ListBuckets,cloudtrail:DescribeTrails,cloudtrail:GetTrailStatus,cloudtrail:LookupEvents,organizations:ListDelegatedAdministrators,organizations:DescribeOrganization",
+    "AllEventIdArr": "9d812b5b-f847-46af-8355-0cf8a01f8604,aeb59c6c-1868-44e2-bbe4-98293a20132f,2e87eab8-648a-447a-a866-37af3f5b982f,402a93b3-2ef4-4f0e-9fa1-e499e087f6d4,5eac6460-7aae-41e7-9262-187a14d63609,9a77a045-4e5e-4c60-9122-3fe5bb1bb09f,f011736e-991b-49bb-ba20-89e0bc4fae10,fd58dd94-ea5c-48e6-b4ce-2ca4b362003f,036c3590-84e4-458a-85ac-7416b54ce692,92801b2c-ea7f-4c4e-b3a3-bb08aa9c3ce7,98b3faae-3be6-4f29-ab4d-7d19fd017f91,a783399d-1ac3-4534-80d7-03ddee39cf51",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/dashboard",
+    "LastEventTime": "2023-12-17T02:41:10Z",
+    "Name": "Clicked CloudTrail->Dashboard"
+  },
+  "f2dea422-6271-426b-bee9-89e6b0917183": {
+    "EventCount": 4,
+    "Label": "CloudShell_Actions_UploadFile",
+    "AdditionalData": {
+      "fileUploadPath": "Cloud.svg",
+      "environmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "Summary": "Clicked CloudShell->Actions->Upload File to upload 'Cloud.svg' file to interactive CloudShell session with 'c6bf914b-6b09-404c-bee5-087c2adbf910' Environment ID.",
+    "CorrelationId": "f2dea422-6271-426b-bee9-89e6b0917183",
+    "FirstEventTime": "2023-12-17T02:38:19Z",
+    "AllEventArr": "cloudshell:GetEnvironmentStatus,cloudshell:CreateSession,cloudshell:GetFileUploadUrls,cloudshell:DeleteSession",
+    "AllEventIdArr": "f2dea422-6271-426b-bee9-89e6b0917183,d2b1c2b6-b680-43b2-b4f9-34bba3f53e1f,3d702f9e-b269-4165-9a6f-b5a41109fc8f,0d14bff6-00c2-468d-9019-e5711c5eacdf",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudshell/home?region=us-east-1#c6bf914b-6b09-404c-bee5-087c2adbf910",
+    "LastEventTime": "2023-12-17T02:38:24Z",
+    "Name": "Clicked CloudShell->Actions->Upload File"
+  },
+  "03b54009-a6fe-4d4d-89a7-088b5dc5afd0": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "03b54009-a6fe-4d4d-89a7-088b5dc5afd0",
+    "FirstEventTime": "2023-12-17T02:40:43Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "03b54009-a6fe-4d4d-89a7-088b5dc5afd0,2d74503e-87b1-4eb2-bfd7-58ccd7e896f4,4da39d3c-b701-4f5d-bc1d-70036ecc4914",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:40:43Z",
+    "Name": "Suppressing automated background event"
+  },
+  "13b9f76d-6a3f-4835-acf6-b69c00157dfe": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ResourceType",
+      "startTime": "2023-12-16T04:28:08",
+      "attributeValue": "AWS::SecretsManager::Secret",
+      "endTime": "2023-12-17T02:45:08"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceType='AWS::SecretsManager::Secret' and custom date range of '1337 minutes' ('2023-12-16T04:28:08Z' to '2023-12-17T02:45:08Z').",
+    "CorrelationId": "13b9f76d-6a3f-4835-acf6-b69c00157dfe",
+    "FirstEventTime": "2023-12-17T02:45:08Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "13b9f76d-6a3f-4835-acf6-b69c00157dfe,a115e84d-ad90-4570-8ac6-9e62573081d1",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ResourceType=AWS%3a%3aSecretsManager%3a%3aSecret&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:45:08Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "4eaba32e-1292-4e01-ac60-2fa4cc28c7ce": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T04:26:26",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:43:26"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '1337 minutes' ('2023-12-16T04:26:26Z' to '2023-12-17T02:43:26Z').",
+    "CorrelationId": "4eaba32e-1292-4e01-ac60-2fa4cc28c7ce",
+    "FirstEventTime": "2023-12-17T02:43:33Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "4eaba32e-1292-4e01-ac60-2fa4cc28c7ce",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:43:33Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "14664703-8b27-4b42-b6af-227a8162d12f": {
+    "EventCount": 17,
+    "Label": "CloudShell_NewSession",
+    "AdditionalData": {
+      "sessionId": "1702777486856338259-db0c0ffee12f1e179",
+      "environmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "Summary": "Clicked CloudShell which launched pre-authenticated browser-based interactive shell with 'c6bf914b-6b09-404c-bee5-087c2adbf910' Environment ID and '1702777486856338259-db0c0ffee12f1e179' Session ID.",
+    "CorrelationId": "14664703-8b27-4b42-b6af-227a8162d12f",
+    "FirstEventTime": "2023-12-17T02:37:02Z",
+    "AllEventArr": "cloudshell:CreateEnvironment,cloudshell:GetLayout,cloudshell:UpdateLayout,cloudshell:GetEnvironmentStatus,cloudshell:RedeemCode,cloudshell:StartEnvironment,cloudshell:CreateSession,sts:GetCallerIdentity,cloudshell:PutCredentials",
+    "AllEventIdArr": "14664703-8b27-4b42-b6af-227a8162d12f,78fff920-ffdf-4289-ab5a-5bdbe4499984,cedb68b7-ce1f-4df4-b3b3-62df455ad2bc,2d484698-3e99-4ff7-bb3a-cb8b40e58a03,92a83aa6-7084-47eb-8020-6549c948c286,b5616d47-0275-4253-a743-07ab87c58081,e0bf0858-7e60-4654-bd35-a427a86d63fe,e703ad84-534b-413e-b9d2-61c090182cdd,7b5dd6ce-9ec1-4a8d-8bd0-45b74dbcab3e,d9f60193-d6af-4808-a560-a142dfa15407,27390601-e087-48b9-80ee-6930cd5093b3,8871a553-c1cb-4bef-85a4-7bd0a31e20c0,fd37a1eb-8f73-49ba-b50d-393062ef9daf,1a988b77-3139-4826-ba52-e6b16165f231,1ce7015f-1618-48b3-bcd0-6c142443dd76,616e4881-ef06-4eef-8b7c-d32f8d213a5e,a9752706-50c2-47d8-b0fb-8c0f347ab628",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudshell/home?region=us-east-1#c6bf914b-6b09-404c-bee5-087c2adbf910",
+    "LastEventTime": "2023-12-17T02:37:10Z",
+    "Name": "Clicked CloudShell (to create new session)"
+  },
+  "bf02fb5c-8436-4a2a-b9fe-f768c43c0504": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1 hour",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-17T01:42:57",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:42:57"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '1 hour' ('2023-12-17T01:42:57Z' to '2023-12-17T02:42:57Z').",
+    "CorrelationId": "bf02fb5c-8436-4a2a-b9fe-f768c43c0504",
+    "FirstEventTime": "2023-12-17T02:42:57Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "bf02fb5c-8436-4a2a-b9fe-f768c43c0504",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=3600000",
+    "LastEventTime": "2023-12-17T02:42:57Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "130ca899-c227-4bfb-af15-cd43d56e81ea": {
+    "EventCount": 4,
+    "Label": "CloudShell_Actions_DownloadFile",
+    "AdditionalData": {
+      "fileDownloadPath": "/home/cloudshell-user/Cloud.svg",
+      "environmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "Summary": "Clicked CloudShell->Actions->Download File to download '/home/cloudshell-user/Cloud.svg' file from interactive CloudShell session with 'c6bf914b-6b09-404c-bee5-087c2adbf910' Environment ID.",
+    "CorrelationId": "130ca899-c227-4bfb-af15-cd43d56e81ea",
+    "FirstEventTime": "2023-12-17T02:40:08Z",
+    "AllEventArr": "cloudshell:GetFileDownloadUrls,cloudshell:CreateSession,cloudshell:GetEnvironmentStatus,cloudshell:DeleteSession",
+    "AllEventIdArr": "130ca899-c227-4bfb-af15-cd43d56e81ea,3a55a374-2916-4d6c-a050-13969a72d72a,d63b2c7b-9116-4251-b6a4-46e5c4480b6b,18c4a345-5777-4a82-ac45-d8f7ad2e2772",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudshell/home?region=us-east-1#c6bf914b-6b09-404c-bee5-087c2adbf910",
+    "LastEventTime": "2023-12-17T02:40:11Z",
+    "Name": "Clicked CloudShell->Actions->Download File"
+  },
+  "cc48833d-55d9-4db9-b624-6ad5e42489a0": {
+    "EventCount": 2,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "cc48833d-55d9-4db9-b624-6ad5e42489a0",
+    "FirstEventTime": "2023-12-17T02:36:57Z",
+    "AllEventArr": "signin:GetSigninToken,signin:ConsoleLogin",
+    "AllEventIdArr": "cc48833d-55d9-4db9-b624-6ad5e42489a0,97be2860-5d67-4900-a118-415317813b91",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:36:58Z",
+    "Name": "Console Login"
+  },
+  "6b8dc46d-ced0-4dbc-a452-eb806665485f": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T04:26:26",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:43:26"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '1337 minutes' ('2023-12-16T04:26:26Z' to '2023-12-17T02:43:26Z').",
+    "CorrelationId": "6b8dc46d-ced0-4dbc-a452-eb806665485f",
+    "FirstEventTime": "2023-12-17T02:43:44Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "6b8dc46d-ced0-4dbc-a452-eb806665485f",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:43:44Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "9b497416-678f-4f56-afee-13fced4a3bc4": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "Username",
+      "startTime": "2023-12-16T04:29:04",
+      "attributeValue": "access-analyzer",
+      "endTime": "2023-12-17T02:46:04"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute Username='access-analyzer' and custom date range of '1337 minutes' ('2023-12-16T04:29:04Z' to '2023-12-17T02:46:04Z').",
+    "CorrelationId": "9b497416-678f-4f56-afee-13fced4a3bc4",
+    "FirstEventTime": "2023-12-17T02:46:04Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "9b497416-678f-4f56-afee-13fced4a3bc4,af437f0d-27e8-4f8f-a5c1-ad8572f7e94e",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?Username=access-analyzer&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:46:04Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "055fce12-e63c-4de8-b36c-c98397c2675d": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "Username",
+      "startTime": "2023-12-16T14:46:24",
+      "attributeValue": "access-analyzer",
+      "endTime": "2023-12-17T02:46:24"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute Username='access-analyzer' and custom date range of '12 hours' ('2023-12-16T14:46:24Z' to '2023-12-17T02:46:24Z').",
+    "CorrelationId": "055fce12-e63c-4de8-b36c-c98397c2675d",
+    "FirstEventTime": "2023-12-17T02:46:24Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "055fce12-e63c-4de8-b36c-c98397c2675d,91ad6030-1a8f-4421-b2d5-3e4cbd4aa6d3",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?Username=access-analyzer&CustomTime=43200000",
+    "LastEventTime": "2023-12-17T02:46:24Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "abc0202f-5307-48c7-a46e-613d6a0b7328": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T14:43:05",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:43:05"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '12 hours' ('2023-12-16T14:43:05Z' to '2023-12-17T02:43:05Z').",
+    "CorrelationId": "abc0202f-5307-48c7-a46e-613d6a0b7328",
+    "FirstEventTime": "2023-12-17T02:43:05Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "abc0202f-5307-48c7-a46e-613d6a0b7328",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=43200000",
+    "LastEventTime": "2023-12-17T02:43:05Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "292924fd-935a-44a4-8850-8e2c29c41fff": {
+    "EventCount": 3,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "292924fd-935a-44a4-8850-8e2c29c41fff",
+    "FirstEventTime": "2023-12-17T02:37:00Z",
+    "AllEventArr": "ce:GetCostAndUsage,ce:GetCostForecast,ec2:DescribeRegions",
+    "AllEventIdArr": "292924fd-935a-44a4-8850-8e2c29c41fff,0866a99d-5084-4b31-867f-48a8a3e900c0,da20901c-f036-402f-9e88-533a990e1b0b",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-12-17T02:37:01Z",
+    "Name": "Console Home"
+  },
+  "43cf9120-16aa-4a96-9fd3-feddfc42b34b": {
+    "EventCount": 9,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "43cf9120-16aa-4a96-9fd3-feddfc42b34b",
+    "FirstEventTime": "2023-12-17T02:37:00Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "43cf9120-16aa-4a96-9fd3-feddfc42b34b,4c58d2f4-71f1-4cf6-977e-db26f974b712,ba0ba780-b282-46d9-83ea-243c1828342d,ceda9319-168d-4568-9d7f-e6622e3f397c,d06c7e4a-b9ad-4238-b173-21e0b63bf1d9,d7b3492d-5d47-4ea0-944e-a07780e110bf,196e7797-e6eb-4405-8d5a-3b914600943d,35782ed2-e928-4bcf-9a83-9804196c2249,e7392352-7456-41d3-af22-387726475a80",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-17T02:37:01Z",
+    "Name": "Suppressing automated background event"
+  },
+  "09648ff1-8627-4108-a1d7-60508e09c08d": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventName",
+      "startTime": "2023-12-16T14:46:40",
+      "attributeValue": "LookupEvents",
+      "endTime": "2023-12-17T02:46:40"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventName='LookupEvents' and custom date range of '12 hours' ('2023-12-16T14:46:40Z' to '2023-12-17T02:46:40Z').",
+    "CorrelationId": "09648ff1-8627-4108-a1d7-60508e09c08d",
+    "FirstEventTime": "2023-12-17T02:46:40Z",
+    "AllEventArr": "config:DescribeConfigurationRecorders,config:DescribeConfigurationRecorderStatus,cloudtrail:LookupEvents",
+    "AllEventIdArr": "09648ff1-8627-4108-a1d7-60508e09c08d,eca8b440-831c-4482-a413-f31a4e745b63,cadf6480-083d-4560-8d51-24753a6fbc26,e5bb1029-2086-43cc-a6a7-174aad2d6f36",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=LookupEvents&CustomTime=43200000",
+    "LastEventTime": "2023-12-17T02:46:41Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "f26d6d0c-d7e8-495b-a792-bb37ba41866b": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "Username",
+      "startTime": "2023-12-16T14:46:09",
+      "attributeValue": "access-analyzer",
+      "endTime": "2023-12-17T02:46:09"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute Username='access-analyzer' and custom date range of '12 hours' ('2023-12-16T14:46:09Z' to '2023-12-17T02:46:09Z').",
+    "CorrelationId": "f26d6d0c-d7e8-495b-a792-bb37ba41866b",
+    "FirstEventTime": "2023-12-17T02:46:09Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "f26d6d0c-d7e8-495b-a792-bb37ba41866b",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?Username=access-analyzer&CustomTime=43200000",
+    "LastEventTime": "2023-12-17T02:46:09Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "9a7879fc-2bdf-4555-be90-8c18aa91455b": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory_SPECIFICEVENT",
+    "AdditionalData": {
+      "resourceTypeArr": null
+    },
+    "Summary": "Clicked CloudTrail->Event History->SPECIFICEVENT which displays all details for specific CloudTrail Event.",
+    "CorrelationId": "9a7879fc-2bdf-4555-be90-8c18aa91455b",
+    "FirstEventTime": "2023-12-17T02:43:52Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "9a7879fc-2bdf-4555-be90-8c18aa91455b,ac454fa5-222f-4441-8cf9-6780597526c5",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events",
+    "LastEventTime": "2023-12-17T02:43:52Z",
+    "Name": "Clicked CloudTrail->Event History->SPECIFICEVENT"
+  },
+  "26cc4d9e-6def-4458-808f-1f9b5c0b086f": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ResourceName",
+      "startTime": "2023-12-16T04:28:00",
+      "attributeValue": "blablaResourceName",
+      "endTime": "2023-12-17T02:45:00"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceName='blablaResourceName' and custom date range of '1337 minutes' ('2023-12-16T04:28:00Z' to '2023-12-17T02:45:00Z').",
+    "CorrelationId": "26cc4d9e-6def-4458-808f-1f9b5c0b086f",
+    "FirstEventTime": "2023-12-17T02:45:00Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "26cc4d9e-6def-4458-808f-1f9b5c0b086f,e3f35b0f-8913-4f94-8114-fb91a588c93e",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ResourceName=blablaResourceName&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:45:00Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "69b10ffc-4143-46bb-9394-e2a929ca10e4": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory_SPECIFICEVENT",
+    "AdditionalData": {
+      "resourceTypeArr": null
+    },
+    "Summary": "Clicked CloudTrail->Event History->SPECIFICEVENT which displays all details for specific CloudTrail Event.",
+    "CorrelationId": "69b10ffc-4143-46bb-9394-e2a929ca10e4",
+    "FirstEventTime": "2023-12-17T02:46:36Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "69b10ffc-4143-46bb-9394-e2a929ca10e4,a6daa8f4-a11d-4616-8d38-65f0860b77af",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events",
+    "LastEventTime": "2023-12-17T02:46:36Z",
+    "Name": "Clicked CloudTrail->Event History->SPECIFICEVENT"
+  },
+  "3c9685df-e39f-470b-b2c1-dbabd04cf575": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-12-16T04:27:52",
+      "attributeValue": "false",
+      "endTime": "2023-12-17T02:44:52"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by default attribute ReadOnly='false' and custom date range of '1337 minutes' ('2023-12-16T04:27:52Z' to '2023-12-17T02:44:52Z').",
+    "CorrelationId": "3c9685df-e39f-470b-b2c1-dbabd04cf575",
+    "FirstEventTime": "2023-12-17T02:44:52Z",
+    "AllEventArr": "cloudtrail:LookupEvents,config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "3c9685df-e39f-470b-b2c1-dbabd04cf575,6a4b690e-d8ae-4c8b-830b-1768d740d011,d37835f1-9f46-4ff0-8490-a7bb72b524c1,dd4ad2b5-948d-4020-8035-1babbc4b2773",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ReadOnly=false&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:44:52Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "38ee7281-173e-4601-b69d-2e2acf1a8455": {
+    "EventCount": 11,
+    "Label": "CloudShell_RenewSession",
+    "AdditionalData": {
+      "sessionId": "1702780707064535982-db0c0ffee2c8a1a39",
+      "environmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "Summary": "Automatically renewed existing CloudShell session with 'c6bf914b-6b09-404c-bee5-087c2adbf910' Environment ID and '1702780707064535982-db0c0ffee2c8a1a39' Session ID.",
+    "CorrelationId": "38ee7281-173e-4601-b69d-2e2acf1a8455",
+    "FirstEventTime": "2023-12-17T02:40:43Z",
+    "AllEventArr": "cloudshell:GetEnvironmentStatus,cloudshell:UpdateLayout,cloudshell:CreateEnvironment,cloudshell:GetLayout,cloudshell:RedeemCode,cloudshell:CreateSession,cloudshell:PutCredentials,sts:GetCallerIdentity,cloudshell:DeleteSession",
+    "AllEventIdArr": "38ee7281-173e-4601-b69d-2e2acf1a8455,92ec161a-7b7e-43de-8904-a7094f757364,a375efac-693f-4c3d-b835-99ee0e3dab93,c598b36e-f668-4728-a150-4fb9f45631f1,caf0c951-1367-4729-a48a-80e09828030e,49868a93-33e6-4627-bc56-bdcdf62906fe,59240a84-75c6-4734-aecd-d1ba4639cc3a,8ace3c21-5b1c-4b18-a9dd-55a8ef9ea683,be874745-baee-48e0-85ee-e883322fa6a9,eb215783-1a80-459d-b0a1-922c74f8c4b8,e88f053e-1cae-46c9-a054-39fe21a02b6a",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudshell/home?region=us-east-1#c6bf914b-6b09-404c-bee5-087c2adbf910",
+    "LastEventTime": "2023-12-17T02:40:45Z",
+    "Name": "Automatically renewed existing CloudShell session"
+  },
+  "be564209-e085-4d75-b702-34cad6731faf": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "ResourceName",
+      "startTime": "2023-12-16T04:28:54",
+      "attributeValue": "best_flija_topping",
+      "endTime": "2023-12-17T02:45:54"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceName='best_flija_topping' and custom date range of '1337 minutes' ('2023-12-16T04:28:54Z' to '2023-12-17T02:45:54Z').",
+    "CorrelationId": "be564209-e085-4d75-b702-34cad6731faf",
+    "FirstEventTime": "2023-12-17T02:45:54Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "be564209-e085-4d75-b702-34cad6731faf,d90850c1-2d3a-4f98-919b-b0f45dddc0c6",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ResourceName=best_flija_topping&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:45:54Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "1e241a46-552d-41cb-a6a4-f8ee64c925af": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T14:46:48",
+      "attributeValue": "AKIAREDACTED94OZC6KM",
+      "endTime": "2023-12-17T02:46:48"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED94OZC6KM' and custom date range of '12 hours' ('2023-12-16T14:46:48Z' to '2023-12-17T02:46:48Z').",
+    "CorrelationId": "1e241a46-552d-41cb-a6a4-f8ee64c925af",
+    "FirstEventTime": "2023-12-17T02:46:54Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "1e241a46-552d-41cb-a6a4-f8ee64c925af,722522b0-1b89-4d03-9885-654c86ba2078",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED94OZC6KM&CustomTime=43200000",
+    "LastEventTime": "2023-12-17T02:46:54Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "ddaabf54-3aa5-43ae-8aaa-18e204662e12": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T04:26:47",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:43:47"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '1337 minutes' ('2023-12-16T04:26:47Z' to '2023-12-17T02:43:47Z').",
+    "CorrelationId": "ddaabf54-3aa5-43ae-8aaa-18e204662e12",
+    "FirstEventTime": "2023-12-17T02:43:47Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "ddaabf54-3aa5-43ae-8aaa-18e204662e12",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:43:47Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "2efff963-012a-478b-b09f-18015b0ff922": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": "EventName",
+      "startTime": null,
+      "attributeValue": "GetFileDownloadUrls",
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventName='GetFileDownloadUrls'.",
+    "CorrelationId": "2efff963-012a-478b-b09f-18015b0ff922",
+    "FirstEventTime": "2023-12-17T02:42:04Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "2efff963-012a-478b-b09f-18015b0ff922,9a806ade-1e0f-40df-b416-99ddecc130e8",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=GetFileDownloadUrls",
+    "LastEventTime": "2023-12-17T02:42:04Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "a32128a8-23ab-459e-94bf-054eed22e6b0": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T04:26:26",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:43:26"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '1337 minutes' ('2023-12-16T04:26:26Z' to '2023-12-17T02:43:26Z').",
+    "CorrelationId": "a32128a8-23ab-459e-94bf-054eed22e6b0",
+    "FirstEventTime": "2023-12-17T02:43:26Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "a32128a8-23ab-459e-94bf-054eed22e6b0",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:43:26Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "46c66978-7c80-4871-8db4-eecc14e0922f": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory_SPECIFICEVENT",
+    "AdditionalData": {
+      "resourceTypeArr": null
+    },
+    "Summary": "Clicked CloudTrail->Event History->SPECIFICEVENT which displays all details for specific CloudTrail Event.",
+    "CorrelationId": "46c66978-7c80-4871-8db4-eecc14e0922f",
+    "FirstEventTime": "2023-12-17T02:44:41Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "46c66978-7c80-4871-8db4-eecc14e0922f,a8dc1bbd-125b-4bd8-86ac-c785a0d7ccd5",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events",
+    "LastEventTime": "2023-12-17T02:44:41Z",
+    "Name": "Clicked CloudTrail->Event History->SPECIFICEVENT"
+  },
+  "2ed7d2a7-8b98-4c1b-849b-540df3958549": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "EventName",
+      "startTime": "2023-12-16T04:27:11",
+      "attributeValue": "GetFileDownloadUrls",
+      "endTime": "2023-12-17T02:44:11"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventName='GetFileDownloadUrls' and custom date range of '1337 minutes' ('2023-12-16T04:27:11Z' to '2023-12-17T02:44:11Z').",
+    "CorrelationId": "2ed7d2a7-8b98-4c1b-849b-540df3958549",
+    "FirstEventTime": "2023-12-17T02:44:12Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "2ed7d2a7-8b98-4c1b-849b-540df3958549,cac943b2-8bbc-4608-80b1-3cb09183bb2c",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=GetFileDownloadUrls&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:44:12Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "2117460d-5e2e-4bbe-9d63-45c710d8f57e": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-12-16T04:26:56",
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": "2023-12-17T02:43:56"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K' and custom date range of '1337 minutes' ('2023-12-16T04:26:56Z' to '2023-12-17T02:43:56Z').",
+    "CorrelationId": "2117460d-5e2e-4bbe-9d63-45c710d8f57e",
+    "FirstEventTime": "2023-12-17T02:43:56Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders,cloudtrail:LookupEvents",
+    "AllEventIdArr": "2117460d-5e2e-4bbe-9d63-45c710d8f57e,c60f8bc2-abf7-40a2-ac0f-1f158fbd5369,d3880c98-34c9-4ba9-ac5d-60ac666fa28d,db0daa1f-5445-4e2a-8e38-bf7f349e7fe1",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:43:56Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "1d76e6fa-c9fb-46d9-a5fe-ff6fa1a4597b": {
+    "EventCount": 3,
+    "Label": "CloudTrail_Lake_Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Lake->Dashboard which displays steps for getting started with using CloudTrail Lake.",
+    "CorrelationId": "1d76e6fa-c9fb-46d9-a5fe-ff6fa1a4597b",
+    "FirstEventTime": "2023-12-17T02:41:23Z",
+    "AllEventArr": "organizations:ListDelegatedAdministrators,cloudtrail:ListEventDataStores,organizations:DescribeOrganization",
+    "AllEventIdArr": "1d76e6fa-c9fb-46d9-a5fe-ff6fa1a4597b,b52b3cb7-88a2-44f9-add1-292687a4b1d1,dd80f346-9a07-4b9f-9261-f397f685e625",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrailv2/home?region=us-east-1#/lake",
+    "LastEventTime": "2023-12-17T02:41:23Z",
+    "Name": "Clicked CloudTrail->Lake->Dashboard"
+  },
+  "b30db7a2-ac88-42d4-bce1-d13bb5453afd": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "EventId",
+      "startTime": "2023-12-16T04:27:00",
+      "attributeValue": "130ca899-c227-4bfb-af15-cd43d56e81ea",
+      "endTime": "2023-12-17T02:44:00"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventId='130ca899-c227-4bfb-af15-cd43d56e81ea' and custom date range of '1337 minutes' ('2023-12-16T04:27:00Z' to '2023-12-17T02:44:00Z').",
+    "CorrelationId": "b30db7a2-ac88-42d4-bce1-d13bb5453afd",
+    "FirstEventTime": "2023-12-17T02:44:00Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "b30db7a2-ac88-42d4-bce1-d13bb5453afd,7f9941be-0f5e-45fa-a466-02e155a3f572",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventId=130ca899-c227-4bfb-af15-cd43d56e81ea&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:44:01Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "75ddf900-65ef-4344-846b-b5d40f33ed98": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": "AccessKeyId",
+      "startTime": null,
+      "attributeValue": "AKIAREDACTED4NLL6A0K",
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='AKIAREDACTED4NLL6A0K'.",
+    "CorrelationId": "75ddf900-65ef-4344-846b-b5d40f33ed98",
+    "FirstEventTime": "2023-12-17T02:42:36Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "75ddf900-65ef-4344-846b-b5d40f33ed98,9351d85a-5656-4764-93aa-a1a162e97b50",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?AccessKeyId=AKIAREDACTED4NLL6A0K",
+    "LastEventTime": "2023-12-17T02:42:36Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "98dc413c-776d-4b57-acb0-833600027b4b": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "Username",
+      "startTime": "2023-12-16T04:28:49",
+      "attributeValue": "daniel.bohannon",
+      "endTime": "2023-12-17T02:45:49"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute Username='daniel.bohannon' and custom date range of '1337 minutes' ('2023-12-16T04:28:49Z' to '2023-12-17T02:45:49Z').",
+    "CorrelationId": "98dc413c-776d-4b57-acb0-833600027b4b",
+    "FirstEventTime": "2023-12-17T02:45:49Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "98dc413c-776d-4b57-acb0-833600027b4b,f7503ab6-1fc1-4c60-b571-8dfd0b818209",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?Username=daniel.bohannon&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:45:49Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "34d87afb-0c68-4054-b256-6bd410b4bfa2": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1337 minutes",
+      "attributeKey": "EventSource",
+      "startTime": "2023-12-16T04:27:18",
+      "attributeValue": "cloudshell.amazonaws.com",
+      "endTime": "2023-12-17T02:44:18"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventSource='cloudshell.amazonaws.com' and custom date range of '1337 minutes' ('2023-12-16T04:27:18Z' to '2023-12-17T02:44:18Z').",
+    "CorrelationId": "34d87afb-0c68-4054-b256-6bd410b4bfa2",
+    "FirstEventTime": "2023-12-17T02:44:18Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "34d87afb-0c68-4054-b256-6bd410b4bfa2,712adaac-3642-48ed-b480-7fdfa76622b4",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventSource=cloudshell.amazonaws.com&CustomTime=80220000",
+    "LastEventTime": "2023-12-17T02:44:18Z",
+    "Name": "Clicked CloudTrail->Event History"
+  }
+}

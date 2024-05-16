@@ -1,0 +1,1325 @@
+{
+  "2cf78e95-2b20-4c83-934a-1a449064c19b": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "2cf78e95-2b20-4c83-934a-1a449064c19b",
+    "FirstEventTime": "2023-04-29T05:14:00Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "2cf78e95-2b20-4c83-934a-1a449064c19b,6ff6f41b-bd36-4974-9031-b24761f7f813",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:14:00Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "2e132b93-a5c3-482e-85fb-7af65be668be": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "2e132b93-a5c3-482e-85fb-7af65be668be",
+    "FirstEventTime": "2023-04-29T05:17:14Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "2e132b93-a5c3-482e-85fb-7af65be668be",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:17:14Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "3960bcc3-dd1e-46d6-a25d-48db9bc4ac1c": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "3960bcc3-dd1e-46d6-a25d-48db9bc4ac1c",
+    "FirstEventTime": "2023-04-29T04:14:40Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "3960bcc3-dd1e-46d6-a25d-48db9bc4ac1c,82d64d20-cd0d-453a-b4f4-f6931fa7dea9",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:14:40Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "0bbac938-0abb-4ee1-b06e-ecc269309152": {
+    "EventCount": 15,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": "randomBucket03"
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions including 1 S3 Bucket ('randomBucket03').",
+    "CorrelationId": "0bbac938-0abb-4ee1-b06e-ecc269309152",
+    "FirstEventTime": "2023-04-29T04:08:32Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:ListAccessPoints,s3:GetBucketPublicAccessBlock,s3:ListBuckets,s3:GetAccountPublicAccessBlock,s3:GetBucketAcl,s3:GetBucketPolicyStatus,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "0bbac938-0abb-4ee1-b06e-ecc269309152,117617b8-5e27-44d2-9d0b-ff6435c6746f,275bbaac-c7e6-4128-9181-0a4284a5d035,8e1c9228-c503-4d52-816f-dd5126a1de29,9f452fed-a2b1-496d-8eae-f06704f7be13,c51dd262-5360-470a-885a-d3e0ab026c35,c745da2b-8912-43a3-94d3-18e9a7d81313,d6a77862-5f25-4b9f-8e97-94d0ebd9e3f7,e4811450-baea-405f-9eb7-167f925fd6f1,e9be18f1-c51e-4f31-be10-f5a962b37201,fe5ec2a8-2ce4-4631-9bfa-69aea1afb782,fecad711-6761-4a15-83f9-986ac825ce8b,2fb08bd7-89f9-4b3b-b4c4-663bfc23ff55,3b17d865-e070-4e5b-aaaf-79b9f65a1864,b37b8014-f647-491a-bd31-c15614f39e0b",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:08:33Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "89d0396f-9a67-40a7-9ad4-715585e63ea6": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "89d0396f-9a67-40a7-9ad4-715585e63ea6",
+    "FirstEventTime": "2023-04-29T04:13:32Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "89d0396f-9a67-40a7-9ad4-715585e63ea6,9e0b2fd2-8b1c-49f5-8eae-04357eb711bf",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:13:32Z",
+    "Name": "Suppressing automated background event"
+  },
+  "31a32d47-4a08-4ddc-87d8-8effa8af4c2c": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Not started"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'Not started'.",
+    "CorrelationId": "31a32d47-4a08-4ddc-87d8-8effa8af4c2c",
+    "FirstEventTime": "2023-04-29T04:34:27Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "31a32d47-4a08-4ddc-87d8-8effa8af4c2c",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:34:27Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "399a7caa-f60b-41b7-b475-fd4419f2ea33": {
+    "EventCount": 1,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "399a7caa-f60b-41b7-b475-fd4419f2ea33",
+    "FirstEventTime": "2023-04-29T04:08:22Z",
+    "AllEventArr": "signin:ConsoleLogin",
+    "AllEventIdArr": "399a7caa-f60b-41b7-b475-fd4419f2ea33",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:08:22Z",
+    "Name": "Console Login"
+  },
+  "7a423648-22ef-4fa8-a5e2-0fc5a3e44f12": {
+    "EventCount": 1,
+    "Label": "S3_Buckets_CreateBucket_Step1",
+    "AdditionalData": {
+      "awsRegion": "us-west-2"
+    },
+    "Summary": "Clicked S3->Buckets->Create Bucket (Step 1 of 2) to create a new S3 Bucket in AWS Region 'us-west-2'.",
+    "CorrelationId": "7a423648-22ef-4fa8-a5e2-0fc5a3e44f12",
+    "FirstEventTime": "2023-04-29T04:46:19Z",
+    "AllEventArr": "s3:GetAccountPublicAccessBlock",
+    "AllEventIdArr": "7a423648-22ef-4fa8-a5e2-0fc5a3e44f12",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/create?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:46:19Z",
+    "Name": "Clicked S3->Buckets->Create Bucket (Step 1 of 2)"
+  },
+  "22e90d18-e1f5-4e4e-94f1-1b0641506545": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "22e90d18-e1f5-4e4e-94f1-1b0641506545",
+    "FirstEventTime": "2023-04-29T04:28:33Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "22e90d18-e1f5-4e4e-94f1-1b0641506545,b99589c3-e7c5-4931-94fa-492f5ec0b98f",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:28:33Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7f712fbd-520b-4c64-8888-911389bc1059": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "7f712fbd-520b-4c64-8888-911389bc1059",
+    "FirstEventTime": "2023-04-29T04:16:41Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "7f712fbd-520b-4c64-8888-911389bc1059",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:16:41Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "26cdc7f5-eb41-4c4c-b4cc-340f785de1bc": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "26cdc7f5-eb41-4c4c-b4cc-340f785de1bc",
+    "FirstEventTime": "2023-04-29T05:22:26Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "26cdc7f5-eb41-4c4c-b4cc-340f785de1bc,5b6ac7f4-19bd-4249-8e9b-beccdece2bb7",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:22:26Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "12f8c480-b7e8-4e60-8f88-c1b2d9402827": {
+    "EventCount": 25,
+    "Label": "S3_Buckets_CreateBucket_Step2",
+    "AdditionalData": {
+      "tagObjArr": null,
+      "awsRegion": "us-west-2",
+      "bucketName": "randomBucket04"
+    },
+    "Summary": "Clicked S3->Buckets->Create Bucket (Step 2 of 2) to create a new S3 Bucket 'randomBucket04' in AWS Region 'us-west-2' with 0 Tags defined.",
+    "CorrelationId": "12f8c480-b7e8-4e60-8f88-c1b2d9402827",
+    "FirstEventTime": "2023-04-29T04:45:50Z",
+    "AllEventArr": "s3:PutBucketPublicAccessBlock,s3:CreateBucket,s3:GetBucketPublicAccessBlock,s3:GetBucketVersioning,s3:PutBucketEncryption,s3:GetBucketOwnershipControls,s3:ListBuckets,s3:GetBucketObjectLockConfiguration,s3:GetBucketTagging,s3:GetStorageLensConfiguration,s3:GetBucketEncryption,s3:GetAccountPublicAccessBlock,s3:GetBucketPolicyStatus,s3:GetStorageLensDashboardDataInternal,s3:ListAccessPoints,s3:GetBucketAcl",
+    "AllEventIdArr": "12f8c480-b7e8-4e60-8f88-c1b2d9402827,dd1c0d11-930b-4ca3-b85c-bbc69bb4bf85,02bf6bb0-6de2-4484-b8d7-c2d8ea7e2bb0,18d11d7d-e49d-4f52-bc4d-daf001e9323f,1c404cd0-2093-406f-ac06-5c5928db9d9f,285bb73e-8f4c-432a-baa0-ec1903f569a6,496501e8-e30d-468f-903e-944bc7705de9,4c5b4f72-8eb0-49ac-a631-cdbdfb5b82f0,718e0adb-d679-4b23-a477-f4f2852beb27,74482440-21d9-473f-90d9-7a7e8d5f7112,98a99938-8df2-4e1e-91f4-323e24fac0dc,f942995f-6455-47a5-b6d7-41aed074201b,12d16687-3da5-48e9-9297-d45135116e61,67c6a250-4eb2-4459-bf68-0f8ef89e715c,6b0550c7-c434-4317-a145-05d56a52572d,7d123f7d-55be-4b39-ac37-32513f336082,7dc0c098-21f3-431c-89a3-54cc30e17f08,acc468c8-8c55-4406-84bc-d2b899241d4b,daef18d3-ba0d-4011-8bab-48bc308c6f46,e3d1b0f2-c119-4e33-82d1-a0bad5849942,e8dfc9fc-0d37-40bd-8259-310e7fc5c231,2ccfaa3a-865e-4665-b216-2f865cc0194d,3d24233f-4c7c-4228-8f40-1b3fac731db5,af94bb79-838d-4b7d-b132-3422c11ec5c4,f056109b-4c79-44ae-bb53-e435b967b1b8",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/create?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:45:53Z",
+    "Name": "Clicked S3->Buckets->Create Bucket (Step 2 of 2)"
+  },
+  "09ba562c-ca19-46df-8848-b54754f5fcdd": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "09ba562c-ca19-46df-8848-b54754f5fcdd",
+    "FirstEventTime": "2023-04-29T04:45:17Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "09ba562c-ca19-46df-8848-b54754f5fcdd,fcca24f5-e512-4b46-b7e2-71035b4fd8fd",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:45:17Z",
+    "Name": "Suppressing automated background event"
+  },
+  "93c5725f-3737-47e3-9557-354951cec315": {
+    "EventCount": 1,
+    "Label": "S3_IAMAccessAnalyzer",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->IAM Access Analyzer to show all S3 Buckets configured to allow access by anyone using the Internet or authenticated AWS users.",
+    "CorrelationId": "93c5725f-3737-47e3-9557-354951cec315",
+    "FirstEventTime": "2023-04-29T05:25:33Z",
+    "AllEventArr": "access-analyzer:ListAnalyzers",
+    "AllEventIdArr": "93c5725f-3737-47e3-9557-354951cec315",
+    "Url": "https://s3.console.aws.amazon.com/s3/access?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:25:33Z",
+    "Name": "Clicked S3->IAM Access Analyzer"
+  },
+  "0e7ace3a-605d-48a5-9aab-8780dbb9fb8e": {
+    "EventCount": 1,
+    "Label": "S3_IAMAccessAnalyzer",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->IAM Access Analyzer to show all S3 Buckets configured to allow access by anyone using the Internet or authenticated AWS users.",
+    "CorrelationId": "0e7ace3a-605d-48a5-9aab-8780dbb9fb8e",
+    "FirstEventTime": "2023-04-29T05:03:45Z",
+    "AllEventArr": "access-analyzer:ListAnalyzers",
+    "AllEventIdArr": "0e7ace3a-605d-48a5-9aab-8780dbb9fb8e",
+    "Url": "https://s3.console.aws.amazon.com/s3/access?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:03:45Z",
+    "Name": "Clicked S3->IAM Access Analyzer"
+  },
+  "971b2f59-f014-4de5-a88b-8048b71dc08a": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-west-2"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-west-2'.",
+    "CorrelationId": "971b2f59-f014-4de5-a88b-8048b71dc08a",
+    "FirstEventTime": "2023-04-29T04:50:41Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "971b2f59-f014-4de5-a88b-8048b71dc08a",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:50:41Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "4a794576-c454-41af-9ac7-67eedd5d74ea": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4a794576-c454-41af-9ac7-67eedd5d74ea",
+    "FirstEventTime": "2023-04-29T05:55:21Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "4a794576-c454-41af-9ac7-67eedd5d74ea,baf2158c-5222-459a-a646-a7cb2fe6900d",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:55:21Z",
+    "Name": "Suppressing automated background event"
+  },
+  "72d477bf-2925-4e5c-bf1d-b16ac2058f7f": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "72d477bf-2925-4e5c-bf1d-b16ac2058f7f",
+    "FirstEventTime": "2023-04-29T04:08:35Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "72d477bf-2925-4e5c-bf1d-b16ac2058f7f,fef32f94-15fc-47f5-b48a-1edb82d8493d",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:08:35Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "27cb68c0-077e-45c6-b516-9d4feac2c740": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "27cb68c0-077e-45c6-b516-9d4feac2c740",
+    "FirstEventTime": "2023-04-29T04:38:18Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "27cb68c0-077e-45c6-b516-9d4feac2c740,c5c3787d-bcf4-482c-aab0-2866a5129768",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:38:18Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "d701e491-fefa-4d72-8a08-31c7aae00007": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "d701e491-fefa-4d72-8a08-31c7aae00007",
+    "FirstEventTime": "2023-04-29T04:09:26Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "d701e491-fefa-4d72-8a08-31c7aae00007,5b08d689-2bba-40b2-8dce-367bfd336f0e,72bbe1c6-d9ce-49e9-8018-f2c8fc903ae3,9888c4ad-0699-4f6a-834a-d8dd18aea8c3",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:09:27Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "ec6cc333-0d15-4882-8abd-e699469db9a3": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "All status types"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'All status types'.",
+    "CorrelationId": "ec6cc333-0d15-4882-8abd-e699469db9a3",
+    "FirstEventTime": "2023-04-29T04:14:11Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "ec6cc333-0d15-4882-8abd-e699469db9a3",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:14:11Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "932683fb-b99c-4a54-bbc7-e41ed7fb3c47": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "932683fb-b99c-4a54-bbc7-e41ed7fb3c47",
+    "FirstEventTime": "2023-04-29T04:40:16Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "932683fb-b99c-4a54-bbc7-e41ed7fb3c47,9e69af21-5e39-4fdf-8100-a7166552a859",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:40:16Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7a78df34-426c-4a45-8b76-ac546343facf": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "7a78df34-426c-4a45-8b76-ac546343facf",
+    "FirstEventTime": "2023-04-29T04:16:37Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "7a78df34-426c-4a45-8b76-ac546343facf",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:16:37Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "d662abf0-2f81-4efc-8641-eb1db1e6fbe5": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "All status types"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'All status types'.",
+    "CorrelationId": "d662abf0-2f81-4efc-8641-eb1db1e6fbe5",
+    "FirstEventTime": "2023-04-29T04:59:49Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "d662abf0-2f81-4efc-8641-eb1db1e6fbe5",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:59:49Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "9c4c8b4e-5b92-43a0-8a3a-37ae07942698": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "9c4c8b4e-5b92-43a0-8a3a-37ae07942698",
+    "FirstEventTime": "2023-04-29T05:20:19Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "9c4c8b4e-5b92-43a0-8a3a-37ae07942698,9d8e74f0-684d-4fd3-b7ed-63ed6ce7cb9e",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:20:19Z",
+    "Name": "Suppressing automated background event"
+  },
+  "89f4d644-33b6-48dc-b667-a5a7d7ec0d46": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "89f4d644-33b6-48dc-b667-a5a7d7ec0d46",
+    "FirstEventTime": "2023-04-29T04:13:39Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "89f4d644-33b6-48dc-b667-a5a7d7ec0d46,cd04e38a-9019-4a10-a63e-abd7f712500f",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:13:39Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "30a40fa4-6093-4d71-b2b4-93d6806096a2": {
+    "EventCount": 26,
+    "Label": "S3_Buckets_CreateBucket_Step2",
+    "AdditionalData": {
+      "tagObjArr": [
+        {
+          "Key": "tagKey1",
+          "Value": "tagKey1Val"
+        },
+        {
+          "Key": "tagKey2",
+          "Value": ""
+        },
+        {
+          "Key": "tagKey3",
+          "Value": "tagKey3Val"
+        }
+      ],
+      "awsRegion": "us-west-1",
+      "bucketName": "randomBucket05"
+    },
+    "Summary": "Clicked S3->Buckets->Create Bucket (Step 2 of 2) to create a new S3 Bucket 'randomBucket05' in AWS Region 'us-west-1' with 3 Tags defined (tagKey1='tagKey1Val',tagKey2=UNDEFINED,tagKey3='tagKey3Val').",
+    "CorrelationId": "30a40fa4-6093-4d71-b2b4-93d6806096a2",
+    "FirstEventTime": "2023-04-29T04:48:15Z",
+    "AllEventArr": "s3:PutBucketPublicAccessBlock,s3:CreateBucket,s3:GetBucketOwnershipControls,s3:GetBucketVersioning,s3:GetBucketObjectLockConfiguration,s3:GetBucketEncryption,s3:GetBucketTagging,s3:PutBucketEncryption,s3:GetBucketPublicAccessBlock,s3:PutBucketTagging,s3:ListBuckets,s3:GetStorageLensConfiguration,s3:GetStorageLensDashboardDataInternal,s3:GetBucketPolicyStatus,s3:ListAccessPoints,s3:GetAccountPublicAccessBlock,s3:GetBucketAcl",
+    "AllEventIdArr": "30a40fa4-6093-4d71-b2b4-93d6806096a2,a8f84426-9171-42db-a63a-34734a5563b1,1a9e46ad-9a06-46bf-972c-22be9b10866b,2b9481ae-2064-421e-a488-7911d21e1e28,588312b4-5421-4e18-8be0-a51b4d96ddde,91859819-fc6e-4463-96bf-72f15d64b234,b3b1d78c-f051-4832-b1a3-46751056e941,d118b2fe-4a91-4443-8ef5-40f4fd32b4a6,db28a52e-5a49-4125-a972-7ed1e55c899c,e8821275-0a71-4de3-a6d0-d202fd0100a2,311ed6d1-15e1-4537-a067-29c6bf7e9fea,414b6458-16bf-4cec-9e7c-a4509e33bbe3,58626bc6-6fff-47c2-8445-b91d88aad9d4,7cab004c-a0fe-48c2-84a1-e40e007d753c,87611d12-05be-4648-832b-b998ae287791,df5dba17-4323-4cd9-a036-c26d445018e7,1aab9b59-0498-4b9c-8f6c-f3369cb90cc7,625a3078-4fc5-4bd0-ad88-f52065abdf8b,7378f3d1-de87-4f8b-b60a-308ee3658bb2,dad5e8b8-3504-4276-a1e7-825d70768702,fd1dd51c-5b29-48d6-b31c-ad68bb67049b,26763340-f37b-4f09-bb70-acc188416d19,50c05a19-3fab-4d3f-a43d-8f75d2004a20,c75de468-3f9b-4b8b-9dba-2c494b765df1,ec12d0e5-731e-462d-ad56-3a40914b11dc,fe889d90-6e6b-4047-8ece-76d600311d2e",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/create?region=us-west-1",
+    "LastEventTime": "2023-04-29T04:48:19Z",
+    "Name": "Clicked S3->Buckets->Create Bucket (Step 2 of 2)"
+  },
+  "611ae1f2-8a2b-45a2-9b53-191760a41a73": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "611ae1f2-8a2b-45a2-9b53-191760a41a73",
+    "FirstEventTime": "2023-04-29T05:25:19Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "611ae1f2-8a2b-45a2-9b53-191760a41a73,65798bf9-55f2-4dfc-adbb-42f58061cdde",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:25:19Z",
+    "Name": "Suppressing automated background event"
+  },
+  "1548557a-9325-4a35-9918-7de8cb84cd12": {
+    "EventCount": 1,
+    "Label": "S3_MultiRegionAccessPoints",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Multi-Region Access Points to show all Multi-Region Access Points.",
+    "CorrelationId": "1548557a-9325-4a35-9918-7de8cb84cd12",
+    "FirstEventTime": "2023-04-29T04:57:50Z",
+    "AllEventArr": "s3:ListMultiRegionAccessPoints",
+    "AllEventIdArr": "1548557a-9325-4a35-9918-7de8cb84cd12",
+    "Url": "https://s3.console.aws.amazon.com/s3/mraps?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:57:50Z",
+    "Name": "Clicked S3->Multi-Region Access Points"
+  },
+  "83c5514b-0109-45e5-9994-c6e2d0217261": {
+    "EventCount": 1,
+    "Label": "S3_MultiRegionAccessPoints",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Multi-Region Access Points to show all Multi-Region Access Points.",
+    "CorrelationId": "83c5514b-0109-45e5-9994-c6e2d0217261",
+    "FirstEventTime": "2023-04-29T05:17:00Z",
+    "AllEventArr": "s3:ListMultiRegionAccessPoints",
+    "AllEventIdArr": "83c5514b-0109-45e5-9994-c6e2d0217261",
+    "Url": "https://s3.console.aws.amazon.com/s3/mraps?region=us-west-2",
+    "LastEventTime": "2023-04-29T05:17:00Z",
+    "Name": "Clicked S3->Multi-Region Access Points"
+  },
+  "016b7c90-1a5d-469b-8665-419aa91b72cc": {
+    "EventCount": 3,
+    "Label": "S3_StorageLens_AWSOrganizationsSettings",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Storage Lens->AWS Organizations settings to show and control the settings that authorize Storage Lens access and registration of member accounts as delegated administrators.",
+    "CorrelationId": "016b7c90-1a5d-469b-8665-419aa91b72cc",
+    "FirstEventTime": "2023-04-29T05:51:11Z",
+    "AllEventArr": "organizations:DescribeOrganization,organizations:ListAWSServiceAccessForOrganization,organizations:ListDelegatedAdministrators",
+    "AllEventIdArr": "016b7c90-1a5d-469b-8665-419aa91b72cc,7d67de2a-f942-491d-b25d-0a239041224d,9d7eda9d-3392-45cb-98ad-e3be5572fb26",
+    "Url": "https://s3.console.aws.amazon.com/s3/lens/organization-settings?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:51:12Z",
+    "Name": "Clicked S3->Storage Lens->AWS Organizations settings"
+  },
+  "111f2ca5-4d48-4420-940e-6dffbeb2ab28": {
+    "EventCount": 13,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "111f2ca5-4d48-4420-940e-6dffbeb2ab28",
+    "FirstEventTime": "2023-04-29T04:08:26Z",
+    "AllEventArr": "securityhub:DescribeHub,ce:GetCostForecast,servicecatalog-appregistry:ListApplications,ec2:DescribeAccountAttributes,ce:GetCostAndUsage,securityhub:ListFindingAggregators,securityhub:GetInsightResults,securityhub:ListMembers,ram:ListResources,securityhub:GetFindingAggregator,securityhub:GetAdministratorAccount,securityhub:GetControlFindingSummary",
+    "AllEventIdArr": "111f2ca5-4d48-4420-940e-6dffbeb2ab28,797fcb18-8934-4918-9619-1e87d13b6f29,81ff405d-4dae-4e72-bd7b-a345d2dac890,de0d2a53-a0e8-498e-833f-8801ac33f9a2,f2969172-b605-4a42-ba4a-ff2eef4733ee,32abe12b-4e94-4af6-a186-50855575d3df,3558997e-0b95-4a76-a75e-7e9970dc1935,695b3452-0d8f-49f0-9078-4bd08a5826ae,aac28710-df9e-4507-ac2d-2ca80f3349db,af5a8dfb-df1d-46c7-821f-6921588f1bfc,afc6b466-a009-40bc-8ffd-8c2b78832219,e5cb3864-5d42-4798-8b59-7f85bde66925,55860b4c-3af4-49cf-be91-9dd1f89ed68a",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-04-29T04:08:28Z",
+    "Name": "Console Home"
+  },
+  "da93afec-9b1e-4058-a885-4fbf3a745578": {
+    "EventCount": 1,
+    "Label": "S3_IAMAccessAnalyzer",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->IAM Access Analyzer to show all S3 Buckets configured to allow access by anyone using the Internet or authenticated AWS users.",
+    "CorrelationId": "da93afec-9b1e-4058-a885-4fbf3a745578",
+    "FirstEventTime": "2023-04-29T04:40:51Z",
+    "AllEventArr": "access-analyzer:ListAnalyzers",
+    "AllEventIdArr": "da93afec-9b1e-4058-a885-4fbf3a745578",
+    "Url": "https://s3.console.aws.amazon.com/s3/access?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:40:51Z",
+    "Name": "Clicked S3->IAM Access Analyzer"
+  },
+  "8198fce4-5d96-4e4e-9c0b-d97f3cf7c79b": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "8198fce4-5d96-4e4e-9c0b-d97f3cf7c79b",
+    "FirstEventTime": "2023-04-29T04:48:47Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "8198fce4-5d96-4e4e-9c0b-d97f3cf7c79b,ea8aa1f6-41cc-4166-aefe-2e82deef1e14",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:48:47Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "a6bf1b8c-e219-40e6-ada2-6e21efc5bb60": {
+    "EventCount": 1,
+    "Label": "S3_MultiRegionAccessPoints",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Multi-Region Access Points to show all Multi-Region Access Points.",
+    "CorrelationId": "a6bf1b8c-e219-40e6-ada2-6e21efc5bb60",
+    "FirstEventTime": "2023-04-29T04:14:08Z",
+    "AllEventArr": "s3:ListMultiRegionAccessPoints",
+    "AllEventIdArr": "a6bf1b8c-e219-40e6-ada2-6e21efc5bb60",
+    "Url": "https://s3.console.aws.amazon.com/s3/mraps?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:14:08Z",
+    "Name": "Clicked S3->Multi-Region Access Points"
+  },
+  "11ca4669-9082-4623-86bd-eb8882fdde38": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "11ca4669-9082-4623-86bd-eb8882fdde38",
+    "FirstEventTime": "2023-04-29T05:14:08Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "11ca4669-9082-4623-86bd-eb8882fdde38,14b74e97-19a8-4a54-93a0-72a5067100d6,239df194-2918-434b-9dc3-c9d274005095,e772116b-24bf-442a-a3b1-9280c04dd9f9",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:14:09Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "1109a5e4-ce9c-4769-a3b8-87c37c89c979": {
+    "EventCount": 3,
+    "Label": "S3_Buckets_DeleteBucket_Step2",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->Delete Bucket (Step 2 of 2) to delete the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "1109a5e4-ce9c-4769-a3b8-87c37c89c979",
+    "FirstEventTime": "2023-04-29T04:39:48Z",
+    "AllEventArr": "s3:ListBuckets,s3:DeleteBucket",
+    "AllEventIdArr": "1109a5e4-ce9c-4769-a3b8-87c37c89c979,6e572164-fbf0-4c3d-8886-a93f2a2a5fa9,d5da9e4c-c1bb-4f42-938f-d60689df23bf",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/randomBucket03/delete?region=us-east-2",
+    "LastEventTime": "2023-04-29T04:39:48Z",
+    "Name": "Clicked S3->Buckets->Delete Bucket (Step 2 of 2)"
+  },
+  "74c1ea6c-822f-446b-a38b-33a2d2d9a6a3": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "All status types"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'All status types'.",
+    "CorrelationId": "74c1ea6c-822f-446b-a38b-33a2d2d9a6a3",
+    "FirstEventTime": "2023-04-29T04:16:41Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "74c1ea6c-822f-446b-a38b-33a2d2d9a6a3",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:16:41Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "0b4862d2-0289-412b-9926-ead8b8c67195": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "0b4862d2-0289-412b-9926-ead8b8c67195",
+    "FirstEventTime": "2023-04-29T04:38:11Z",
+    "AllEventArr": "s3:GetStorageLensDashboardDataInternal,s3:GetStorageLensConfiguration",
+    "AllEventIdArr": "0b4862d2-0289-412b-9926-ead8b8c67195,775568cf-582a-4e6f-9523-2b0e2cc39528,815d3bc9-a27a-429e-8ebb-a5ad6f588a3e,fac1886f-509c-45b9-a7aa-f7dd6c9fe764",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:38:11Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "aff2c8ca-4cc2-4b5c-ac11-7fe3b8379c2b": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "aff2c8ca-4cc2-4b5c-ac11-7fe3b8379c2b",
+    "FirstEventTime": "2023-04-29T04:09:14Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "aff2c8ca-4cc2-4b5c-ac11-7fe3b8379c2b",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:09:14Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "47c52182-3390-40b9-8128-f47134f6f057": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "All status types"
+      ],
+      "awsRegionArr": "us-west-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-west-1' with Status Type 'All status types'.",
+    "CorrelationId": "47c52182-3390-40b9-8128-f47134f6f057",
+    "FirstEventTime": "2023-04-29T04:58:48Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "47c52182-3390-40b9-8128-f47134f6f057",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-west-1",
+    "LastEventTime": "2023-04-29T04:58:48Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "3bc475a8-da3e-47ae-b3cb-e9ddcbf965b1": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "3bc475a8-da3e-47ae-b3cb-e9ddcbf965b1",
+    "FirstEventTime": "2023-04-29T04:38:47Z",
+    "AllEventArr": "s3:GetStorageLensDashboardDataInternal,s3:GetStorageLensConfiguration",
+    "AllEventIdArr": "3bc475a8-da3e-47ae-b3cb-e9ddcbf965b1,3cb2afff-97af-4e43-9fb6-c73878ccc393,45155940-12d3-4eea-adfc-dad0c7ac8cd6,d6d05426-09db-4949-89c4-9454fac49fff",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:38:47Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "ffd9c357-1613-4011-9d4a-57d896783b1e": {
+    "EventCount": 1,
+    "Label": "S3_MultiRegionAccessPoints",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Multi-Region Access Points to show all Multi-Region Access Points.",
+    "CorrelationId": "ffd9c357-1613-4011-9d4a-57d896783b1e",
+    "FirstEventTime": "2023-04-29T05:22:47Z",
+    "AllEventArr": "s3:ListMultiRegionAccessPoints",
+    "AllEventIdArr": "ffd9c357-1613-4011-9d4a-57d896783b1e",
+    "Url": "https://s3.console.aws.amazon.com/s3/mraps?region=us-west-2",
+    "LastEventTime": "2023-04-29T05:22:47Z",
+    "Name": "Clicked S3->Multi-Region Access Points"
+  },
+  "60bc0439-8d58-4778-a1b8-d0067214602a": {
+    "EventCount": 4,
+    "Label": "S3_Buckets_DeleteBucket_Step1",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->Delete Bucket (Step 1 of 2) to delete the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "60bc0439-8d58-4778-a1b8-d0067214602a",
+    "FirstEventTime": "2023-04-29T04:39:04Z",
+    "AllEventArr": "s3:ListAccessPoints,s3:GetBucketWebsite,s3:GetBucketPolicy,s3:ListMultiRegionAccessPoints",
+    "AllEventIdArr": "60bc0439-8d58-4778-a1b8-d0067214602a,765630a0-c0ef-4813-b1d3-cf68c971f86e,9cd9c5d3-5950-4327-a0f9-87d5c35f5475,494a97e5-0e03-427a-8f50-5e71db195f27",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/randomBucket03/delete?region=us-east-2",
+    "LastEventTime": "2023-04-29T04:39:05Z",
+    "Name": "Clicked S3->Buckets->Delete Bucket (Step 1 of 2)"
+  },
+  "ad2a72f1-348b-4a07-b4fe-d15836a30a12": {
+    "EventCount": 1,
+    "Label": "S3_StorageLens_Dashboards",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Storage Lens->Dashboards to provide visibility into storage usage and activity trends for S3 Buckets.",
+    "CorrelationId": "ad2a72f1-348b-4a07-b4fe-d15836a30a12",
+    "FirstEventTime": "2023-04-29T05:40:44Z",
+    "AllEventArr": "s3:ListStorageLensConfigurations",
+    "AllEventIdArr": "ad2a72f1-348b-4a07-b4fe-d15836a30a12",
+    "Url": "https://s3.console.aws.amazon.com/s3/lens?region=ap-southeast-2",
+    "LastEventTime": "2023-04-29T05:40:44Z",
+    "Name": "Clicked S3->Storage Lens->Dashboards"
+  },
+  "2273239e-2496-4f71-b684-e9ec5a8dce86": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2273239e-2496-4f71-b684-e9ec5a8dce86",
+    "FirstEventTime": "2023-04-29T05:35:20Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2273239e-2496-4f71-b684-e9ec5a8dce86,f4413ce7-14c7-4c49-bdc1-34992359f110",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:35:20Z",
+    "Name": "Suppressing automated background event"
+  },
+  "5ec8c33e-4a25-4d5c-ac59-8370c971b8c7": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "All status types"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'All status types'.",
+    "CorrelationId": "5ec8c33e-4a25-4d5c-ac59-8370c971b8c7",
+    "FirstEventTime": "2023-04-29T04:58:26Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "5ec8c33e-4a25-4d5c-ac59-8370c971b8c7",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:58:26Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "0b65164b-4b00-4b01-9b17-9eae73ad555c": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0b65164b-4b00-4b01-9b17-9eae73ad555c",
+    "FirstEventTime": "2023-04-29T05:10:18Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0b65164b-4b00-4b01-9b17-9eae73ad555c,94d5eb68-f62c-432c-9d1d-7961d8725a4f",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:10:18Z",
+    "Name": "Suppressing automated background event"
+  },
+  "ce5789c1-8665-4417-932e-ca65a51c1247": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "ce5789c1-8665-4417-932e-ca65a51c1247",
+    "FirstEventTime": "2023-04-29T04:50:15Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "ce5789c1-8665-4417-932e-ca65a51c1247",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:50:15Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "4154c074-cd7a-48d6-95fc-714ff44ef4d8": {
+    "EventCount": 1,
+    "Label": "S3_MultiRegionAccessPoints",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Multi-Region Access Points to show all Multi-Region Access Points.",
+    "CorrelationId": "4154c074-cd7a-48d6-95fc-714ff44ef4d8",
+    "FirstEventTime": "2023-04-29T04:09:35Z",
+    "AllEventArr": "s3:ListMultiRegionAccessPoints",
+    "AllEventIdArr": "4154c074-cd7a-48d6-95fc-714ff44ef4d8",
+    "Url": "https://s3.console.aws.amazon.com/s3/mraps?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:09:35Z",
+    "Name": "Clicked S3->Multi-Region Access Points"
+  },
+  "424ab23c-da7a-4a44-8f12-5820efadaa88": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Finished"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'Finished'.",
+    "CorrelationId": "424ab23c-da7a-4a44-8f12-5820efadaa88",
+    "FirstEventTime": "2023-04-29T05:00:52Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "424ab23c-da7a-4a44-8f12-5820efadaa88",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:00:52Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "17071bdc-abfc-4313-9184-a7032424f769": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "17071bdc-abfc-4313-9184-a7032424f769",
+    "FirstEventTime": "2023-04-29T04:08:32Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "17071bdc-abfc-4313-9184-a7032424f769,8d3cbd09-5d60-4069-b449-548d4686114c",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:08:32Z",
+    "Name": "Suppressing automated background event"
+  },
+  "2d7ef990-51d3-4905-af5e-990b6bb7039a": {
+    "EventCount": 1,
+    "Label": "SearchBar",
+    "AdditionalData": null,
+    "Summary": "Typed content into AWS Console Search Bar.",
+    "CorrelationId": "2d7ef990-51d3-4905-af5e-990b6bb7039a",
+    "FirstEventTime": "2023-04-29T04:40:12Z",
+    "AllEventArr": "resource-explorer-2:ListIndexes",
+    "AllEventIdArr": "2d7ef990-51d3-4905-af5e-990b6bb7039a",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:40:12Z",
+    "Name": "Typed into Search Bar"
+  },
+  "4d423fcc-3e0f-4866-b304-99b62b5fbdf4": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "4d423fcc-3e0f-4866-b304-99b62b5fbdf4",
+    "FirstEventTime": "2023-04-29T05:13:54Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "4d423fcc-3e0f-4866-b304-99b62b5fbdf4",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:13:54Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "00986270-2608-42f6-b8a9-09f5930d9141": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Cancelled"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'Cancelled'.",
+    "CorrelationId": "00986270-2608-42f6-b8a9-09f5930d9141",
+    "FirstEventTime": "2023-04-29T05:01:59Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "00986270-2608-42f6-b8a9-09f5930d9141",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:01:59Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "88d4476a-2a72-4438-a57b-76cc6b3a820b": {
+    "EventCount": 1,
+    "Label": "S3_BlockPublicAccessSettings",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Block Public Access Settings For This Account to show and control the settings that allow public access to data in S3 Buckets.",
+    "CorrelationId": "88d4476a-2a72-4438-a57b-76cc6b3a820b",
+    "FirstEventTime": "2023-04-29T05:30:37Z",
+    "AllEventArr": "s3:GetAccountPublicAccessBlock",
+    "AllEventIdArr": "88d4476a-2a72-4438-a57b-76cc6b3a820b",
+    "Url": "https://s3.console.aws.amazon.com/s3/settings?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:30:37Z",
+    "Name": "Clicked S3->Block Public Access Settings For This Account"
+  },
+  "b863e527-8ee7-4c1f-b3f6-8261029f5cdd": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-west-2"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-west-2'.",
+    "CorrelationId": "b863e527-8ee7-4c1f-b3f6-8261029f5cdd",
+    "FirstEventTime": "2023-04-29T04:09:19Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "b863e527-8ee7-4c1f-b3f6-8261029f5cdd",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:09:19Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "51e08a35-99f0-4b99-9e93-c5047221774c": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "51e08a35-99f0-4b99-9e93-c5047221774c",
+    "FirstEventTime": "2023-04-29T04:14:38Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "51e08a35-99f0-4b99-9e93-c5047221774c,f3e657ad-d3d5-45e0-bb5e-baae42e8508a,11a0f746-1fbb-4d69-8988-c1c6a939eef9,76e69a56-76ec-4098-ae0f-71fb70dc317c",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:14:39Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "baabae6d-167b-4661-918a-4c161d400a9f": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Awaiting your confirmation to run"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'Awaiting your confirmation to run'.",
+    "CorrelationId": "baabae6d-167b-4661-918a-4c161d400a9f",
+    "FirstEventTime": "2023-04-29T05:01:14Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "baabae6d-167b-4661-918a-4c161d400a9f",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:01:14Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "01e306c8-adf5-4265-a171-5cf575faef13": {
+    "EventCount": 8,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "01e306c8-adf5-4265-a171-5cf575faef13",
+    "FirstEventTime": "2023-04-29T04:08:25Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "01e306c8-adf5-4265-a171-5cf575faef13,8e5438db-a15e-44cf-8835-53aa2d77f3f1,0ebb4b89-4b23-48f1-9000-f1684bc80a0f,229f2c4b-009e-438d-8f36-eeaff3d169c1,6ed00855-8995-4962-82f6-de94571d280b,7b1116d1-47ac-4668-a7cd-6ea78fecd063,a5c7f434-a24b-4647-901d-c18f364a554e,eb00bf52-aa1e-4f7b-a740-1edeb77e78e4",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:08:26Z",
+    "Name": "Suppressing automated background event"
+  },
+  "a03c8a65-2e59-4c48-b11c-459a1e7bc445": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "a03c8a65-2e59-4c48-b11c-459a1e7bc445",
+    "FirstEventTime": "2023-04-29T05:00:18Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "a03c8a65-2e59-4c48-b11c-459a1e7bc445,c8d36b77-01b6-43c8-9790-d7bf7e89dced",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:00:18Z",
+    "Name": "Suppressing automated background event"
+  },
+  "2b9d2918-dcfa-494e-8fba-4605094ca09f": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2b9d2918-dcfa-494e-8fba-4605094ca09f",
+    "FirstEventTime": "2023-04-29T05:45:20Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2b9d2918-dcfa-494e-8fba-4605094ca09f,cae84992-aca6-454b-b2d1-90e4f70d68b5",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:45:20Z",
+    "Name": "Suppressing automated background event"
+  },
+  "a74f039e-a5bc-450c-98dc-c511290d7870": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Finished"
+      ],
+      "awsRegionArr": "us-west-2"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-west-2' with Status Type 'Finished'.",
+    "CorrelationId": "a74f039e-a5bc-450c-98dc-c511290d7870",
+    "FirstEventTime": "2023-04-29T04:12:36Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "a74f039e-a5bc-450c-98dc-c511290d7870",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:12:36Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "7f373925-4c7f-43f3-88b3-5b2643335439": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "7f373925-4c7f-43f3-88b3-5b2643335439",
+    "FirstEventTime": "2023-04-29T04:23:33Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "7f373925-4c7f-43f3-88b3-5b2643335439,fba1ba2c-7edd-4e08-9246-9008906d1b73",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:23:33Z",
+    "Name": "Suppressing automated background event"
+  },
+  "670e5182-d7f2-482a-ae72-432c4b0648a2": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "670e5182-d7f2-482a-ae72-432c4b0648a2",
+    "FirstEventTime": "2023-04-29T05:30:19Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "670e5182-d7f2-482a-ae72-432c4b0648a2,94c8fb82-8d8b-448f-9723-a08ea9d010e8",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:30:19Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0debb81b-1a67-47dc-909c-9dd06e057ba8": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0debb81b-1a67-47dc-909c-9dd06e057ba8",
+    "FirstEventTime": "2023-04-29T05:50:21Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0debb81b-1a67-47dc-909c-9dd06e057ba8,ef2ce040-4d03-4f37-bbca-f5e09cbd0fa2",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:50:21Z",
+    "Name": "Suppressing automated background event"
+  },
+  "c153e7e2-fbfd-47dc-93bd-37fbc0b5b547": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Failed"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'Failed'.",
+    "CorrelationId": "c153e7e2-fbfd-47dc-93bd-37fbc0b5b547",
+    "FirstEventTime": "2023-04-29T05:02:21Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "c153e7e2-fbfd-47dc-93bd-37fbc0b5b547",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:02:21Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "0cdfa615-24ed-44e2-b911-813c0e0c2bb3": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0cdfa615-24ed-44e2-b911-813c0e0c2bb3",
+    "FirstEventTime": "2023-04-29T04:18:32Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0cdfa615-24ed-44e2-b911-813c0e0c2bb3,592eebbc-8cb3-4f11-b7b4-e49e729e0057",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:18:32Z",
+    "Name": "Suppressing automated background event"
+  },
+  "27400641-4fcc-468f-9fa6-ae59df4d281b": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "27400641-4fcc-468f-9fa6-ae59df4d281b",
+    "FirstEventTime": "2023-04-29T04:38:34Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "27400641-4fcc-468f-9fa6-ae59df4d281b,eaab614c-e463-438b-8a63-bd58d10d4833",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:38:34Z",
+    "Name": "Suppressing automated background event"
+  },
+  "186edd73-7096-4d6c-9d61-96959ac4bb7d": {
+    "EventCount": 2,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "All status types",
+        "All status types"
+      ],
+      "awsRegionArr": [
+        "us-east-1",
+        "us-west-2"
+      ]
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1','us-west-2' with Status Type 'All status types','All status types'.",
+    "CorrelationId": "186edd73-7096-4d6c-9d61-96959ac4bb7d",
+    "FirstEventTime": "2023-04-29T04:12:30Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "186edd73-7096-4d6c-9d61-96959ac4bb7d,d685862e-ae97-4782-824f-712df8098c62",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:12:32Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "3d1409f4-fbea-4c27-9f15-78872a4469d1": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "In-progress"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'In-progress'.",
+    "CorrelationId": "3d1409f4-fbea-4c27-9f15-78872a4469d1",
+    "FirstEventTime": "2023-04-29T05:00:30Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "3d1409f4-fbea-4c27-9f15-78872a4469d1",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:00:30Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "e9398e3e-dfd5-4e75-bf98-8e01db924ca0": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "e9398e3e-dfd5-4e75-bf98-8e01db924ca0",
+    "FirstEventTime": "2023-04-29T04:55:17Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "e9398e3e-dfd5-4e75-bf98-8e01db924ca0,eb41e53d-e688-4d21-9ab8-2ea222a51328",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:55:17Z",
+    "Name": "Suppressing automated background event"
+  },
+  "b227db90-1ac6-454c-b691-9f64433b3645": {
+    "EventCount": 1,
+    "Label": "S3_Buckets_CreateBucket_Step1",
+    "AdditionalData": {
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked S3->Buckets->Create Bucket (Step 1 of 2) to create a new S3 Bucket in AWS Region 'us-east-1'.",
+    "CorrelationId": "b227db90-1ac6-454c-b691-9f64433b3645",
+    "FirstEventTime": "2023-04-29T04:42:03Z",
+    "AllEventArr": "s3:GetAccountPublicAccessBlock",
+    "AllEventIdArr": "b227db90-1ac6-454c-b691-9f64433b3645",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/create?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:42:03Z",
+    "Name": "Clicked S3->Buckets->Create Bucket (Step 1 of 2)"
+  },
+  "03f5228a-5031-47be-b8a4-5e9e7c5097d7": {
+    "EventCount": 15,
+    "Label": "S3_StorageLens_Dashboards",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Storage Lens->Dashboards to provide visibility into storage usage and activity trends for S3 Buckets.",
+    "CorrelationId": "03f5228a-5031-47be-b8a4-5e9e7c5097d7",
+    "FirstEventTime": "2023-04-29T05:40:40Z",
+    "AllEventArr": "s3:ListStorageLensConfigurations",
+    "AllEventIdArr": "03f5228a-5031-47be-b8a4-5e9e7c5097d7,3c60a5a5-db24-4fab-894c-8c260cefa16e,0bc8e31a-f372-4887-aff0-a65cec364123,4071fc27-5f74-49f5-b9ae-c27df0683f7a,4bfa0a1b-1b44-48a7-8860-6913763ce6f1,a18c5769-9bf5-4899-88cf-d0f46e06e8c6,c85f62d9-d263-47e0-93e9-798f73a54f76,dd0dee20-3cf5-4b0d-9117-c4fb38f1d0f1,ed3a1dbe-9cfc-4c11-8678-bb97ecf541d8,c5ffb7ac-a15f-44e0-b16e-e69334730034,313b019d-da35-46f0-9c6f-d91b6eb63c8e,66b74965-b6a9-467f-8e70-828bcc2695a2,6bf5058f-97d2-4d97-aaca-00040ace67e1,6e6277d3-73a5-449d-bf18-2710a3ce0a94,c8185f4b-c280-4509-878f-4c26b16aaf70",
+    "Url": "https://s3.console.aws.amazon.com/s3/lens?region=us-east-2",
+    "LastEventTime": "2023-04-29T05:40:43Z",
+    "Name": "Clicked S3->Storage Lens->Dashboards"
+  },
+  "06ba65d3-9839-48f3-aa44-ff1d6d4b3839": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "06ba65d3-9839-48f3-aa44-ff1d6d4b3839",
+    "FirstEventTime": "2023-04-29T05:42:35Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "06ba65d3-9839-48f3-aa44-ff1d6d4b3839,525d8317-51f8-4f30-bbec-618255832ba3,54fcd590-9514-4a29-87e1-621e27f83efe,b45841c2-2684-487e-973e-66c63217ce85",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:42:36Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "94a4b6eb-2f27-4661-9fa0-16fdc35ca759": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "94a4b6eb-2f27-4661-9fa0-16fdc35ca759",
+    "FirstEventTime": "2023-04-29T05:15:18Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "94a4b6eb-2f27-4661-9fa0-16fdc35ca759,d91575bf-6e94-4037-bb64-1ef8765c4053",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:15:18Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7ad1752c-7491-4632-8d8b-3116388a74ac": {
+    "EventCount": 6,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "7ad1752c-7491-4632-8d8b-3116388a74ac",
+    "FirstEventTime": "2023-04-29T04:40:37Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:ListBuckets,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "7ad1752c-7491-4632-8d8b-3116388a74ac,8b7d73bb-92b8-4442-919f-b951e20d3918,f0b68232-2566-4eb6-8192-0c761d047d21,0ccc3e7b-212a-4495-b423-3c0cb0751574,a7e2bd8a-f80d-4503-b5cc-8383da44bef2,ce5ab799-3324-4d23-91de-9198cc29efae",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:40:38Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "c2c4010c-2b41-4c2b-8ddb-6f0d08f321d0": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "c2c4010c-2b41-4c2b-8ddb-6f0d08f321d0",
+    "FirstEventTime": "2023-04-29T05:05:18Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "c2c4010c-2b41-4c2b-8ddb-6f0d08f321d0,cf46a1a9-aaa6-4fe8-afd0-5a749dde07b9",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:05:18Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0af32865-b01d-4dae-93b8-d18880043ac1": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0af32865-b01d-4dae-93b8-d18880043ac1",
+    "FirstEventTime": "2023-04-29T04:50:17Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0af32865-b01d-4dae-93b8-d18880043ac1,40035d40-14e9-4cf4-82aa-8dfcd12933ff",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:50:17Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7bd4095e-6ce2-4a5d-a630-a91f246f5c07": {
+    "EventCount": 5,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "7bd4095e-6ce2-4a5d-a630-a91f246f5c07",
+    "FirstEventTime": "2023-04-29T04:41:12Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:ListBuckets,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "7bd4095e-6ce2-4a5d-a630-a91f246f5c07,87593e01-33ad-4ce5-afe5-fa97b69425df,0d7aa55a-424d-4aa1-87e6-08b2782141ca,9e8cee6e-90ac-4a0f-b55c-926ec3a23b8d,c1277d7b-bf80-4133-88f8-5fe107feddec",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:41:13Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "5921bddb-1b7d-4ef0-81ac-add198c3e326": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Completed"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'Completed'.",
+    "CorrelationId": "5921bddb-1b7d-4ef0-81ac-add198c3e326",
+    "FirstEventTime": "2023-04-29T05:01:38Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "5921bddb-1b7d-4ef0-81ac-add198c3e326",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:01:38Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "62663eda-0d24-4e3f-b8e8-b10058244301": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "62663eda-0d24-4e3f-b8e8-b10058244301",
+    "FirstEventTime": "2023-04-29T04:16:39Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "62663eda-0d24-4e3f-b8e8-b10058244301,a9ef998a-8a6f-4302-bf3f-0f41c50aeffd",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:16:39Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "53841595-acc8-4811-9f28-08ee4b044872": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "Not started"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'Not started'.",
+    "CorrelationId": "53841595-acc8-4811-9f28-08ee4b044872",
+    "FirstEventTime": "2023-04-29T05:00:02Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "53841595-acc8-4811-9f28-08ee4b044872",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-29T05:00:02Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "1ae71c09-bbc9-4476-a2c7-93644f9bc986": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "1ae71c09-bbc9-4476-a2c7-93644f9bc986",
+    "FirstEventTime": "2023-04-29T04:33:33Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "1ae71c09-bbc9-4476-a2c7-93644f9bc986,b69cf13e-b27d-46fb-bbe3-1ed65586cf1e",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T04:33:33Z",
+    "Name": "Suppressing automated background event"
+  },
+  "5fa43842-480c-4133-b5bb-5e60e45da78c": {
+    "EventCount": 1,
+    "Label": "S3_IAMAccessAnalyzer",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->IAM Access Analyzer to show all S3 Buckets configured to allow access by anyone using the Internet or authenticated AWS users.",
+    "CorrelationId": "5fa43842-480c-4133-b5bb-5e60e45da78c",
+    "FirstEventTime": "2023-04-29T04:13:06Z",
+    "AllEventArr": "access-analyzer:ListAnalyzers",
+    "AllEventIdArr": "5fa43842-480c-4133-b5bb-5e60e45da78c",
+    "Url": "https://s3.console.aws.amazon.com/s3/access?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:13:06Z",
+    "Name": "Clicked S3->IAM Access Analyzer"
+  },
+  "901c0b95-b8af-4f7b-8bd2-0246dddb7181": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-west-2"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-west-2'.",
+    "CorrelationId": "901c0b95-b8af-4f7b-8bd2-0246dddb7181",
+    "FirstEventTime": "2023-04-29T04:08:43Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "901c0b95-b8af-4f7b-8bd2-0246dddb7181,f186af9e-5db3-4582-8d69-18ed65421567",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-west-2",
+    "LastEventTime": "2023-04-29T04:08:43Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "1d4da16f-365c-4ded-89cd-68e7c8ead367": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "1d4da16f-365c-4ded-89cd-68e7c8ead367",
+    "FirstEventTime": "2023-04-29T05:40:20Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "1d4da16f-365c-4ded-89cd-68e7c8ead367,6c9995f1-96f4-4038-a887-81e6538ba76f",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-29T05:40:20Z",
+    "Name": "Suppressing automated background event"
+  },
+  "1e3e532a-0fd6-4381-80fc-aa2cbc8eab02": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-2"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-2'.",
+    "CorrelationId": "1e3e532a-0fd6-4381-80fc-aa2cbc8eab02",
+    "FirstEventTime": "2023-04-29T04:49:15Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "1e3e532a-0fd6-4381-80fc-aa2cbc8eab02,bc326c44-bc52-41ab-b42b-a6277b4253ba",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-2",
+    "LastEventTime": "2023-04-29T04:49:15Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "28a25749-ba0d-4c4b-88f2-c50aa9df652f": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "28a25749-ba0d-4c4b-88f2-c50aa9df652f",
+    "FirstEventTime": "2023-04-29T04:13:16Z",
+    "AllEventArr": "s3:GetStorageLensDashboardDataInternal,s3:GetStorageLensConfiguration",
+    "AllEventIdArr": "28a25749-ba0d-4c4b-88f2-c50aa9df652f,50c62504-08ba-4dcb-8a4b-ed251553380c,2e5d7a98-bc3d-41e1-a925-99fa7dd367e8,f8dfe77f-3884-49e5-b52d-6017f8729a38",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-29T04:13:17Z",
+    "Name": "Clicked S3->Buckets"
+  }
+}

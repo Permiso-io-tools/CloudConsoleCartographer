@@ -1,0 +1,501 @@
+{
+  "74b2425c-ce80-40a7-87fd-156ad9c7807a": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "74b2425c-ce80-40a7-87fd-156ad9c7807a",
+    "FirstEventTime": "2023-04-26T15:09:02Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "74b2425c-ce80-40a7-87fd-156ad9c7807a,c91af494-da9e-4393-a5bf-9f0ccd5e6803",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:09:02Z",
+    "Name": "Suppressing automated background event"
+  },
+  "72da6f4f-430b-4441-b683-599e671a5b61": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "72da6f4f-430b-4441-b683-599e671a5b61",
+    "FirstEventTime": "2023-04-26T15:34:04Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "72da6f4f-430b-4441-b683-599e671a5b61,81830c20-ed4c-40f7-8cfc-dde3f69c564f",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:34:04Z",
+    "Name": "Suppressing automated background event"
+  },
+  "c5351660-867d-4801-8d98-aeffb9f71977": {
+    "EventCount": 3,
+    "Label": "IAM_Users_SPECIFICUSER_AccessAdvisor",
+    "AdditionalData": {
+      "userName": "randomUser05",
+      "userArn": "arn:aws:iam::200802171337:user/randomUser05"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser05'->Access Advisor which displays all services that IAM User 'randomUser05' can access and when they were last accessed.",
+    "CorrelationId": "c5351660-867d-4801-8d98-aeffb9f71977",
+    "FirstEventTime": "2023-04-26T15:04:50Z",
+    "AllEventArr": "iam:GenerateServiceLastAccessedDetails,iam:GetServiceLastAccessedDetails",
+    "AllEventIdArr": "c5351660-867d-4801-8d98-aeffb9f71977,e9b7f534-04d5-4a0a-a6e5-1d74b6297852,bddf11c7-4bd0-4fec-9d4a-87538ee83c5c",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser05?section=access_advisor",
+    "LastEventTime": "2023-04-26T15:04:52Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Access Advisor"
+  },
+  "8a6a97f0-c7ea-44f6-937d-cba55e806250": {
+    "EventCount": 7,
+    "Label": "IAM_Users_SPECIFICUSER_AccessAdvisor",
+    "AdditionalData": {
+      "userName": "randomUser02",
+      "userArn": "arn:aws:iam::200802171337:user/randomUser02"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser02'->Access Advisor which displays all services that IAM User 'randomUser02' can access and when they were last accessed.",
+    "CorrelationId": "8a6a97f0-c7ea-44f6-937d-cba55e806250",
+    "FirstEventTime": "2023-04-26T15:01:43Z",
+    "AllEventArr": "iam:GenerateServiceLastAccessedDetails,iam:GetServiceLastAccessedDetails,iam:ListPoliciesGrantingServiceAccess",
+    "AllEventIdArr": "8a6a97f0-c7ea-44f6-937d-cba55e806250,10b97ec1-5e70-478b-b1d5-2b83be354fe4,fbec7c76-f275-44c8-a2ba-36834bf79021,890c3cf1-4dbd-406c-a3a7-6662e2c4c260,ac40ad2b-93f2-43a7-93f3-9331d2829d98,68580ed6-1372-45a1-a995-9b9489a54c3f,a50383b3-0778-4719-9833-da8cce8de75e",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser02?section=access_advisor",
+    "LastEventTime": "2023-04-26T15:01:49Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Access Advisor"
+  },
+  "3e8d14b4-4c52-4dba-8445-947778b3df83": {
+    "EventCount": 7,
+    "Label": "IAM_Users_SPECIFICUSER_SecurityCredentials",
+    "AdditionalData": {
+      "userName": "randomUser06",
+      "accessKeyIdArr": [
+        "AKIAREDACTEDTUA8BZ97",
+        "AKIAREDACTEDYA1TWHE0"
+      ]
+    },
+    "Summary": "Clicked IAM->Users->'randomUser06'->Security Credentials which displays all credential information for IAM User 'randomUser06' including its 2 corresponding Access Keys ('AKIAREDACTEDTUA8BZ97','AKIAREDACTEDYA1TWHE0').",
+    "CorrelationId": "3e8d14b4-4c52-4dba-8445-947778b3df83",
+    "FirstEventTime": "2023-04-26T15:00:32Z",
+    "AllEventArr": "iam:ListSigningCertificates,iam:ListSSHPublicKeys,iam:ListServiceSpecificCredentials,iam:GetAccessKeyLastUsed,iam:ListAccessKeys",
+    "AllEventIdArr": "3e8d14b4-4c52-4dba-8445-947778b3df83,7d0b83a8-2523-4cf0-8d26-23f7a884e813,7f7b0c6f-3a9a-4028-810e-ae9b74ac5216,b0de0116-7d0a-4d23-88da-cef5e56e1a46,d560dffc-74ce-4f9d-8aec-8a9e046b8379,fdb6ed7f-99f8-4d29-a068-095f3107368f,fe4d9aaf-e7e5-41bf-a7c4-02e16771c26e",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser06?section=security_credentials",
+    "LastEventTime": "2023-04-26T15:00:32Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Security Credentials"
+  },
+  "310b1e60-83e2-473e-a14c-2e0aefcba721": {
+    "EventCount": 13,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "310b1e60-83e2-473e-a14c-2e0aefcba721",
+    "FirstEventTime": "2023-04-26T14:53:31Z",
+    "AllEventArr": "ec2:DescribeAccountAttributes,ce:GetCostAndUsage,servicecatalog-appregistry:ListApplications,ram:ListResources,securityhub:ListMembers,ce:GetCostForecast,securityhub:DescribeHub,securityhub:GetInsightResults,securityhub:GetFindingAggregator,securityhub:ListFindingAggregators,securityhub:GetAdministratorAccount,securityhub:GetControlFindingSummary",
+    "AllEventIdArr": "310b1e60-83e2-473e-a14c-2e0aefcba721,0e5b9bff-f119-4704-bdfe-133bc551cb13,10352666-82ba-4be2-b819-4cb15aa78710,1668b385-9c4f-48de-8146-0942f9ed1525,1f724857-35b1-4a55-8070-787ff637419a,2616d1d9-f881-4a40-a150-8b9f197198b3,40032cdc-7553-4a21-80f7-f68a6ba5b057,793df371-905f-4225-931f-50c0ecf9bb10,9df9ff91-266c-4bbe-aead-6f52336f3f5e,a3b38dd6-6849-45c2-8f60-2b5efe004189,b930612d-831c-4e20-abb0-4e925424731a,dd8a015b-ee2e-42db-83c6-62768dc1bb21,3898b069-ca05-4e25-8c82-cd915870ab49",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-04-26T14:53:33Z",
+    "Name": "Console Home"
+  },
+  "1d4c0550-c888-4065-b6bf-5e39e598c857": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "1d4c0550-c888-4065-b6bf-5e39e598c857",
+    "FirstEventTime": "2023-04-26T15:29:04Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "1d4c0550-c888-4065-b6bf-5e39e598c857,b09cb4e7-b28f-44a7-8b41-0df28a35b082",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:29:04Z",
+    "Name": "Suppressing automated background event"
+  },
+  "4709dfa9-58ef-4870-8f68-d2215f1c2642": {
+    "EventCount": 2,
+    "Label": "IAM_Users_SPECIFICUSER_Permissions",
+    "AdditionalData": {
+      "groupNameArr": null,
+      "userName": "randomUser05",
+      "accessKeyIdArr": null,
+      "policyArnArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser05'->Permissions which displays all permissions for IAM User 'randomUser05' which has 0 Access Keys defined, 0 IAM Policies directly attached and is a member of 0 IAM Groups.",
+    "CorrelationId": "4709dfa9-58ef-4870-8f68-d2215f1c2642",
+    "FirstEventTime": "2023-04-26T15:04:40Z",
+    "AllEventArr": "iam:ListUserTags,iam:ListAccessKeys",
+    "AllEventIdArr": "4709dfa9-58ef-4870-8f68-d2215f1c2642,0797089c-ec86-42c5-ba26-f0c45732c56b",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser05?section=permissions",
+    "LastEventTime": "2023-04-26T15:04:46Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Permissions"
+  },
+  "27d777d4-3386-40ad-a457-f07cb860fc05": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "27d777d4-3386-40ad-a457-f07cb860fc05",
+    "FirstEventTime": "2023-04-26T14:59:02Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "27d777d4-3386-40ad-a457-f07cb860fc05,9c1eb4b7-0641-4c13-b8d7-f6d7dc54bb6a",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T14:59:02Z",
+    "Name": "Suppressing automated background event"
+  },
+  "f52b2fd0-5d7d-4ac9-a5ca-3b0ae0ad41d6": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "f52b2fd0-5d7d-4ac9-a5ca-3b0ae0ad41d6",
+    "FirstEventTime": "2023-04-26T15:19:03Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "f52b2fd0-5d7d-4ac9-a5ca-3b0ae0ad41d6,f92eff8b-9ab5-4cee-a0c9-b6f7979bd68c",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:19:03Z",
+    "Name": "Suppressing automated background event"
+  },
+  "d006191b-316c-450e-b9f6-4d7fd40c4c09": {
+    "EventCount": 10,
+    "Label": "IAM",
+    "AdditionalData": null,
+    "Summary": "Clicked IAM which displays IAM (Identity and Access Management) dashboard.",
+    "CorrelationId": "d006191b-316c-450e-b9f6-4d7fd40c4c09",
+    "FirstEventTime": "2023-04-26T14:54:01Z",
+    "AllEventArr": "iam:GetAccountSummary,iam:ListOpenIDConnectProviders,iam:ListRoles,iam:ListAccountAliases,iam:ListUsers,iam:ListAccessKeys,iam:ListPolicies,iam:ListGroups,organizations:DescribeOrganization",
+    "AllEventIdArr": "d006191b-316c-450e-b9f6-4d7fd40c4c09,233008bd-5286-405b-a368-dad56840cb72,34a4d934-b2ff-4f89-b374-313d020022b2,3b406837-319c-48bf-975e-ca5bf791747c,75ccdaf2-d114-48e8-8751-d66b8b9ade7b,c6dac605-0b77-473c-9818-8ecf510595f3,d1be0974-4ae6-4ef3-8c68-3e616f2ea47f,e648dbf8-b630-46fd-9aac-61cab2083c72,f4290132-b7af-4da1-8677-82d097ad47ec,025055e9-998e-4a7e-86e3-cc5426b9f501",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/home",
+    "LastEventTime": "2023-04-26T14:54:03Z",
+    "Name": "Clicked IAM"
+  },
+  "43259006-83fc-4478-99d2-db7d33289d3b": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "43259006-83fc-4478-99d2-db7d33289d3b",
+    "FirstEventTime": "2023-04-26T15:39:05Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "43259006-83fc-4478-99d2-db7d33289d3b,bb949c56-b251-453a-8432-25590801a8f5",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:39:05Z",
+    "Name": "Suppressing automated background event"
+  },
+  "3c647c12-cf55-4de8-9b13-cf40a1418103": {
+    "EventCount": 11,
+    "Label": "IAM_Users_SPECIFICUSER_Permissions",
+    "AdditionalData": {
+      "groupNameArr": null,
+      "userName": "randomUser04",
+      "accessKeyIdArr": "AKIAREDACTEDGVUXHZ4R",
+      "policyArnArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser04'->Permissions which displays all permissions for IAM User 'randomUser04' which has 1 Access Key defined ('AKIAREDACTEDGVUXHZ4R'), 0 IAM Policies directly attached and is a member of 0 IAM Groups.",
+    "CorrelationId": "3c647c12-cf55-4de8-9b13-cf40a1418103",
+    "FirstEventTime": "2023-04-26T15:03:08Z",
+    "AllEventArr": "iam:ListAttachedUserPolicies,iam:ListAccessKeys,iam:GetUser,iam:ListMFADevices,iam:GetLoginProfile,iam:GetAccessKeyLastUsed,access-analyzer:ListPolicyGenerations,iam:ListUserPolicies,iam:ListUserTags",
+    "AllEventIdArr": "3c647c12-cf55-4de8-9b13-cf40a1418103,8a0bc368-94ed-47e1-8b6d-18867de40c77,8df4df81-197d-4dcf-8394-62d3bfb314e9,96b93c57-4ae9-4357-bb9e-9a6afd052672,97b9c2da-ab35-4386-a586-004001943c0f,c7c3bd9e-63c5-45da-ae66-2f48fb3b3709,dfadc1b8-cd6d-45c5-aece-56388a0a76c3,e8235e7e-5821-490e-a68e-318d2a45e49a,e91c3cda-8896-443b-8a14-05747a73a1db,4a31c538-9dbe-460d-846f-30e665f05910,c86fecd7-fdb9-4013-b42a-2e52009184ca",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser04?section=permissions",
+    "LastEventTime": "2023-04-26T15:03:09Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Permissions"
+  },
+  "9a2b730e-7061-4596-9013-7420c862d0a6": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "9a2b730e-7061-4596-9013-7420c862d0a6",
+    "FirstEventTime": "2023-04-26T15:04:02Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "9a2b730e-7061-4596-9013-7420c862d0a6,9df15091-8ddc-4ec0-902e-7aab382e52a6",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:04:02Z",
+    "Name": "Suppressing automated background event"
+  },
+  "9575116e-6c41-44a6-895b-f81cfdf640f7": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "9575116e-6c41-44a6-895b-f81cfdf640f7",
+    "FirstEventTime": "2023-04-26T14:54:02Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "9575116e-6c41-44a6-895b-f81cfdf640f7,da36a4ce-7231-42db-ae70-be30b57b5269",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T14:54:02Z",
+    "Name": "Suppressing automated background event"
+  },
+  "3fa161ed-79c4-4352-bed3-cb10b8c317fd": {
+    "EventCount": 9,
+    "Label": "IAM_Users_SPECIFICUSER_Permissions",
+    "AdditionalData": {
+      "groupNameArr": null,
+      "userName": "randomUser05",
+      "accessKeyIdArr": null,
+      "policyArnArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser05'->Permissions which displays all permissions for IAM User 'randomUser05' which has 0 Access Keys defined, 0 IAM Policies directly attached and is a member of 0 IAM Groups.",
+    "CorrelationId": "3fa161ed-79c4-4352-bed3-cb10b8c317fd",
+    "FirstEventTime": "2023-04-26T15:04:31Z",
+    "AllEventArr": "iam:ListUserTags,iam:GetLoginProfile,iam:ListUserPolicies,iam:ListAttachedUserPolicies,iam:ListAccessKeys,access-analyzer:ListPolicyGenerations,iam:ListMFADevices,iam:GetUser",
+    "AllEventIdArr": "3fa161ed-79c4-4352-bed3-cb10b8c317fd,625d0337-3703-41d4-b273-1700ad6fad28,9832e747-7ef9-448a-ab6b-6cba8530fdb5,a318a784-126b-4fde-bd10-428347f73e75,cdfae8d2-66bc-4541-b4f4-342053719387,d3f2bf95-ca1c-4da9-b8ca-6b8220e6149c,d84fdf47-22b3-42a5-8635-3eff7bb35c25,fc1a8419-428f-46e0-9979-e32247b74d56,f45f4454-8986-419a-a00d-b4a29a96eb69",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser05?section=permissions",
+    "LastEventTime": "2023-04-26T15:04:32Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Permissions"
+  },
+  "03afb9df-dec3-481b-b983-ba5faa079d12": {
+    "EventCount": 3,
+    "Label": "IAM_Users_SPECIFICUSER_AccessAdvisor",
+    "AdditionalData": {
+      "userName": "randomUser01",
+      "userArn": "arn:aws:iam::200802171337:user/randomUser01"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser01'->Access Advisor which displays all services that IAM User 'randomUser01' can access and when they were last accessed.",
+    "CorrelationId": "03afb9df-dec3-481b-b983-ba5faa079d12",
+    "FirstEventTime": "2023-04-26T14:57:04Z",
+    "AllEventArr": "iam:GenerateServiceLastAccessedDetails,iam:GetServiceLastAccessedDetails",
+    "AllEventIdArr": "03afb9df-dec3-481b-b983-ba5faa079d12,f1301c46-1533-44f2-b9ce-1e753166c33a,85b769fb-d67d-48ef-b3d4-284f0b991f92",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser01?section=access_advisor",
+    "LastEventTime": "2023-04-26T14:57:07Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Access Advisor"
+  },
+  "ac7e20c3-ff16-46ec-98e7-6eeedad7dbc9": {
+    "EventCount": 8,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "ac7e20c3-ff16-46ec-98e7-6eeedad7dbc9",
+    "FirstEventTime": "2023-04-26T14:53:31Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "ac7e20c3-ff16-46ec-98e7-6eeedad7dbc9,da97d55a-ecd7-4d71-9dcf-faeca289ae11,01d01c53-42e1-4ecb-abf4-ae9a5c705e52,045475e4-6aca-4dbe-9c60-df5ee6f293d1,601a53fd-409d-4c9d-b6ea-7b0a35f41fbe,70a6c1de-6334-41c4-b497-e3470f1b5dce,be609b83-0f5b-4aec-86c7-394d37e06c14,ec403c21-8a6d-40b7-af2c-64a2b180d104",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T14:53:32Z",
+    "Name": "Suppressing automated background event"
+  },
+  "97143d83-76ff-4967-8176-e52833434b9d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "97143d83-76ff-4967-8176-e52833434b9d",
+    "FirstEventTime": "2023-04-26T15:24:03Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "97143d83-76ff-4967-8176-e52833434b9d,dd4ff238-758e-4812-9884-ac73e97990bd",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:24:03Z",
+    "Name": "Suppressing automated background event"
+  },
+  "721e5a73-9f26-4483-90e2-d997edb48d9a": {
+    "EventCount": 1,
+    "Label": "IAM_Users_SPECIFICUSER_Tags",
+    "AdditionalData": {
+      "userName": "randomUser06"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser06'->Tags which displays all potential tags for IAM User 'randomUser06'.",
+    "CorrelationId": "721e5a73-9f26-4483-90e2-d997edb48d9a",
+    "FirstEventTime": "2023-04-26T15:00:22Z",
+    "AllEventArr": "iam:ListUserTags",
+    "AllEventIdArr": "721e5a73-9f26-4483-90e2-d997edb48d9a",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser06?section=tags",
+    "LastEventTime": "2023-04-26T15:00:22Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Tags"
+  },
+  "013b7501-3567-4d26-a95b-66604fb20702": {
+    "EventCount": 47,
+    "Label": "IAM_Users",
+    "AdditionalData": {
+      "userNameArr": [
+        "randomUser01",
+        "randomUser02",
+        "randomUser04",
+        "randomUser05",
+        "randomUser06"
+      ],
+      "accessKeyIdArr": [
+        "AKIAREDACTED0SZ2Q3TV",
+        "AKIAREDACTEDGVUXHZ4R",
+        "AKIAREDACTEDTUA8BZ97",
+        "AKIAREDACTEDYA1TWHE0"
+      ]
+    },
+    "Summary": "Clicked IAM->Users which displays all IAM Users in paged format, currently displaying 5 IAM Users ('randomUser01','randomUser02','randomUser04','randomUser05','randomUser06') which have 4 Access Keys defined ('AKIAREDACTED0SZ2Q3TV','AKIAREDACTEDGVUXHZ4R','AKIAREDACTEDTUA8BZ97','AKIAREDACTEDYA1TWHE0').",
+    "CorrelationId": "013b7501-3567-4d26-a95b-66604fb20702",
+    "FirstEventTime": "2023-04-26T14:54:24Z",
+    "AllEventArr": "iam:ListMFADevices,iam:ListGroupsForUser,iam:GetLoginProfile,iam:ListAccessKeys,iam:GetAccessKeyLastUsed",
+    "AllEventIdArr": "013b7501-3567-4d26-a95b-66604fb20702,0eaf4346-38c0-495f-9ee9-a62930bde731,372a2d2c-eec1-4344-a8ed-62d298fcbf71,4477d28d-7136-40ad-bdb0-f33b52794199,47290020-f976-4c38-89fb-565a6d1070cb,9d867b8e-2f89-414c-a625-c1861ab51f8e,b2c5c4d1-646c-417f-9f8e-63a2ed9ef110,c280c51a-df47-4539-bb4a-eb8f7905d0d7,f08ee49b-0172-4ea7-b6d0-c2b614c374ca,f1238127-94dc-4f38-a7d8-58cd6321d668,2a09179a-0577-4d83-b0d6-7969cd1846d3,5022b848-0935-444a-a5c7-e368f6a183d9,61bd707e-a55e-49d0-93f0-19eff9419be0,8915635c-4227-4604-b99a-1cd3fc5658fd,af2ccd1d-0769-444a-9007-e6115f663c43,09224e45-8a05-41ff-95b1-8684571cd63d,2360f68b-6a8e-43c9-904b-acf02c1c7abd,39cabbaf-629b-4902-9044-a5b70a470052,596e5fb8-69ef-4211-b2db-8c1ff3fe4f72,5f73890d-b9d8-43b1-8e72-2c82566367c6,36c738f9-0257-4d97-a7f3-ef6d01485c51,45e167a0-bae9-4535-94d0-0d825aa33262,8cfd8d4e-323d-44f2-b0b8-f1169c5a72df,96f475a6-55bb-497c-86ef-4976f924ffa9,97e98daa-d583-444d-a179-f16b5c2ca624,b5fb3ad7-50ef-4252-98af-c95d881ec41a,d5595402-78d0-4c78-8cef-8f160bf1ac09,de23e617-02d2-415f-ae6b-9776c15b7c18,e30ba10a-efd0-493e-a4ce-7f47d1f87f91,f0994e59-25e6-40da-931c-59d615759109,7e4ee3af-3b65-4b26-9c9b-d73b0a130c82,aedbae0e-0c3b-4c39-a80c-062c2ad3f53f,c648d432-0104-4d73-9447-c7d0ea7f9362,ca2b7f30-b3e1-4e4c-9f86-b608708e8792,e64d4981-1c66-421c-87cd-4638a6bf8556,0d6ea418-6251-4540-9932-62799ae702ad,214d1d0c-1c6b-4c87-bf4b-00c4241601ba,c459904b-acba-4594-94c0-e291a71e50d6,c898adb1-77e4-41aa-b6c3-72e0817bec0d,0aa96335-2b27-4a38-9ffb-f31d5c6f1aa7,191c73dc-bb38-43cc-8b94-bc51f0a2b2e2,2c2e7773-94a7-41bc-b93a-c1e6e25461d0,2d787576-93d3-426b-8767-df284795f42d,3b88742a-9b7a-4a6c-9b63-09f072a13966,902872dd-67c3-4ec4-a81d-2c910863a94b,bdc87cfb-fdd9-4430-80aa-e1d5507d2b91,c6e31825-3c1a-4968-bcb8-7b7783cb1880",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users",
+    "LastEventTime": "2023-04-26T14:54:30Z",
+    "Name": "Clicked IAM->Users"
+  },
+  "6a43da48-f8ce-4f95-8c02-299b197903cf": {
+    "EventCount": 3,
+    "Label": "IAM_Users_SPECIFICUSER_Permissions",
+    "AdditionalData": {
+      "groupNameArr": null,
+      "userName": "randomUser04",
+      "accessKeyIdArr": "AKIAREDACTEDGVUXHZ4R",
+      "policyArnArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser04'->Permissions which displays all permissions for IAM User 'randomUser04' which has 1 Access Key defined ('AKIAREDACTEDGVUXHZ4R'), 0 IAM Policies directly attached and is a member of 0 IAM Groups.",
+    "CorrelationId": "6a43da48-f8ce-4f95-8c02-299b197903cf",
+    "FirstEventTime": "2023-04-26T15:03:17Z",
+    "AllEventArr": "iam:ListUserTags,iam:GetAccessKeyLastUsed,iam:ListAccessKeys",
+    "AllEventIdArr": "6a43da48-f8ce-4f95-8c02-299b197903cf,377d556e-40de-4a09-b3ce-0ac37b9a29c2,4d973237-a469-4e95-a3fe-a5811d010d7c",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser04?section=permissions",
+    "LastEventTime": "2023-04-26T15:03:22Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Permissions"
+  },
+  "033172d6-8317-4968-9719-1895bab4b207": {
+    "EventCount": 1,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "033172d6-8317-4968-9719-1895bab4b207",
+    "FirstEventTime": "2023-04-26T14:53:28Z",
+    "AllEventArr": "signin:ConsoleLogin",
+    "AllEventIdArr": "033172d6-8317-4968-9719-1895bab4b207",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T14:53:28Z",
+    "Name": "Console Login"
+  },
+  "14294934-0540-442b-a41e-131f8c6098e0": {
+    "EventCount": 12,
+    "Label": "IAM_Users_SPECIFICUSER_Permissions",
+    "AdditionalData": {
+      "groupNameArr": null,
+      "userName": "randomUser02",
+      "accessKeyIdArr": "AKIAREDACTED0SZ2Q3TV",
+      "policyArnArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser02'->Permissions which displays all permissions for IAM User 'randomUser02' which has 1 Access Key defined ('AKIAREDACTED0SZ2Q3TV'), 0 IAM Policies directly attached and is a member of 0 IAM Groups.",
+    "CorrelationId": "14294934-0540-442b-a41e-131f8c6098e0",
+    "FirstEventTime": "2023-04-26T15:01:27Z",
+    "AllEventArr": "iam:GetAccessKeyLastUsed,access-analyzer:ListPolicyGenerations,iam:ListAccessKeys,iam:GetUser,iam:GetLoginProfile,iam:ListMFADevices,iam:ListUserPolicies,iam:ListAttachedUserPolicies,iam:ListUserTags",
+    "AllEventIdArr": "14294934-0540-442b-a41e-131f8c6098e0,259dd6ec-6a39-44f9-865a-7f97635f18b6,5fdd414d-9768-4dd5-a32d-0b5d4e003ba2,94413eac-69ac-4693-b20b-695b3938de98,a053cf9e-0cf9-4614-8915-3b2765bf9443,a594527c-c0e1-44ac-9a3e-b51e8fc021ab,b675f2a8-4a29-4d15-8ebc-3fa6e6568826,dceb4b5e-b135-4a02-aaeb-5269139adc6e,f19bd335-820c-455f-96ef-d8efbfb0381b,f53e8d6b-1cc4-497a-a2d3-763da0f31dea,c1d78278-c491-4d02-84ff-ec55fbbfbf35,e5789421-da08-4c03-a967-2f9b4472f6e6",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser02?section=permissions",
+    "LastEventTime": "2023-04-26T15:01:35Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Permissions"
+  },
+  "8d334b3b-c618-4528-bce3-2b40f6d55f5f": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "8d334b3b-c618-4528-bce3-2b40f6d55f5f",
+    "FirstEventTime": "2023-04-26T15:14:03Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "8d334b3b-c618-4528-bce3-2b40f6d55f5f,ee8fb770-3090-428e-9ada-78e3c30b95c2",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-26T15:14:03Z",
+    "Name": "Suppressing automated background event"
+  },
+  "07c2fa68-466f-458f-b5bc-16d4f936a9a4": {
+    "EventCount": 13,
+    "Label": "IAM_Users_SPECIFICUSER_Permissions",
+    "AdditionalData": {
+      "groupNameArr": null,
+      "userName": "randomUser06",
+      "accessKeyIdArr": [
+        "AKIAREDACTEDTUA8BZ97",
+        "AKIAREDACTEDYA1TWHE0"
+      ],
+      "policyArnArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser06'->Permissions which displays all permissions for IAM User 'randomUser06' which has 2 Access Keys defined ('AKIAREDACTEDTUA8BZ97','AKIAREDACTEDYA1TWHE0'), 0 IAM Policies directly attached and is a member of 0 IAM Groups.",
+    "CorrelationId": "07c2fa68-466f-458f-b5bc-16d4f936a9a4",
+    "FirstEventTime": "2023-04-26T14:58:52Z",
+    "AllEventArr": "iam:GetAccessKeyLastUsed,iam:ListMFADevices,iam:ListAttachedUserPolicies,iam:ListAccessKeys,iam:ListUserPolicies,iam:GetLoginProfile,iam:GetUser,access-analyzer:ListPolicyGenerations,iam:ListUserTags",
+    "AllEventIdArr": "07c2fa68-466f-458f-b5bc-16d4f936a9a4,33836a3a-b1ef-4f4c-ae8b-1bed03cff29f,3c1987f0-abed-481a-979a-7ec1897db6ad,467e98cd-4739-438f-a6fc-0c9819bd7398,8e3ec80e-1a92-4c60-aa58-11030e78b7c6,97aad630-3974-4f6b-a962-277675c66ebd,9897ece7-b7fd-4a88-bf10-6b696a55c287,a543f97b-6245-49d2-914e-141258c78c81,b114cfd7-d828-4e47-9b12-85d9d31ea6ff,ba1f886b-c84d-4738-aaa3-c5c5da65a0c4,eea9aea8-99d4-488b-ab97-f720ffbe3a34,21d23be5-a099-4fc7-9621-d10318a9c011,f5c5ea2a-9703-4a3a-b2bd-02b1384b0ae6",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser06?section=permissions",
+    "LastEventTime": "2023-04-26T14:58:53Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Permissions"
+  },
+  "2108f84f-a3d5-455f-8a25-232d1a0a1567": {
+    "EventCount": 9,
+    "Label": "IAM_Users_SPECIFICUSER_Permissions",
+    "AdditionalData": {
+      "groupNameArr": null,
+      "userName": "randomUser01",
+      "accessKeyIdArr": null,
+      "policyArnArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser01'->Permissions which displays all permissions for IAM User 'randomUser01' which has 0 Access Keys defined, 0 IAM Policies directly attached and is a member of 0 IAM Groups.",
+    "CorrelationId": "2108f84f-a3d5-455f-8a25-232d1a0a1567",
+    "FirstEventTime": "2023-04-26T14:55:21Z",
+    "AllEventArr": "iam:ListAccessKeys,iam:GetUser,iam:ListAttachedUserPolicies,iam:GetLoginProfile,iam:ListMFADevices,iam:ListUserTags,access-analyzer:ListPolicyGenerations,iam:ListUserPolicies",
+    "AllEventIdArr": "2108f84f-a3d5-455f-8a25-232d1a0a1567,34030600-5ebb-4b8a-ba0a-5d7b6a893ea7,429c1f37-84cd-4855-ad57-58e62e839927,510e88c9-61bd-42e2-b46b-794718277ee7,626660a5-87d6-46d2-b488-f2691185fd3d,6b09931a-5ce3-4c95-a467-450bd9f5c15e,6e88cc41-0dca-475b-a07f-59b8ffcd44a4,6ef8ceff-0b15-46d7-85d1-1d491a5c28de,90e35980-3902-4525-ae09-7ae1ec5e7e0e",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser01?section=permissions",
+    "LastEventTime": "2023-04-26T14:55:21Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Permissions"
+  },
+  "393508cd-6c73-42f9-9846-c14cd3610831": {
+    "EventCount": 7,
+    "Label": "IAM_Users_SPECIFICUSER_AccessAdvisor",
+    "AdditionalData": {
+      "userName": "randomUser06",
+      "userArn": "arn:aws:iam::200802171337:user/randomUser06"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser06'->Access Advisor which displays all services that IAM User 'randomUser06' can access and when they were last accessed.",
+    "CorrelationId": "393508cd-6c73-42f9-9846-c14cd3610831",
+    "FirstEventTime": "2023-04-26T15:00:41Z",
+    "AllEventArr": "iam:GetServiceLastAccessedDetails,iam:GenerateServiceLastAccessedDetails,iam:ListPoliciesGrantingServiceAccess",
+    "AllEventIdArr": "393508cd-6c73-42f9-9846-c14cd3610831,a5a3e1f5-a912-46c8-9197-2356ae28d86e,77c79a04-1584-424f-83d8-0af5e6d7fbe0,337a9170-5f19-40c5-a438-cbe2eddd5da2,462c5c59-e58a-4b46-82f6-dad396fb22e6,2cb782c2-e5f2-4959-af69-90d33c6f6cdb,4739f454-1ebc-4753-a5c4-2496a065d227",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser06?section=access_advisor",
+    "LastEventTime": "2023-04-26T15:00:47Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Access Advisor"
+  },
+  "f955d15b-4531-4970-aa2b-6d47f52f0290": {
+    "EventCount": 1,
+    "Label": "IAM_Users_SPECIFICUSER_Tags",
+    "AdditionalData": {
+      "userName": "randomUser01"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser01'->Tags which displays all potential tags for IAM User 'randomUser01'.",
+    "CorrelationId": "f955d15b-4531-4970-aa2b-6d47f52f0290",
+    "FirstEventTime": "2023-04-26T14:56:18Z",
+    "AllEventArr": "iam:ListUserTags",
+    "AllEventIdArr": "f955d15b-4531-4970-aa2b-6d47f52f0290",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser01?section=tags",
+    "LastEventTime": "2023-04-26T14:56:18Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Tags"
+  },
+  "04405575-76d5-4bb3-a0af-de93a5a92cc9": {
+    "EventCount": 6,
+    "Label": "IAM_Users_SPECIFICUSER_SecurityCredentials",
+    "AdditionalData": {
+      "userName": "randomUser02",
+      "accessKeyIdArr": "AKIAREDACTED0SZ2Q3TV"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser02'->Security Credentials which displays all credential information for IAM User 'randomUser02' including its 1 corresponding Access Key ('AKIAREDACTED0SZ2Q3TV').",
+    "CorrelationId": "04405575-76d5-4bb3-a0af-de93a5a92cc9",
+    "FirstEventTime": "2023-04-26T15:01:39Z",
+    "AllEventArr": "iam:ListServiceSpecificCredentials,iam:ListSigningCertificates,iam:ListAccessKeys,iam:ListSSHPublicKeys,iam:GetAccessKeyLastUsed",
+    "AllEventIdArr": "04405575-76d5-4bb3-a0af-de93a5a92cc9,3043786f-ac6d-48f8-959b-9e524f0dd5b0,62c750a0-3fef-4cf4-9e03-d92a48ac558b,956a2633-a453-4f75-aeec-5891ce186a40,c429d90d-5c00-4678-9df9-83dec70a2306,f012b322-0958-43f8-ad65-8563d4c6c6bb",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser02?section=security_credentials",
+    "LastEventTime": "2023-04-26T15:01:39Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Security Credentials"
+  },
+  "32f52592-bf8f-49aa-a0f3-d225c57eae3e": {
+    "EventCount": 4,
+    "Label": "IAM_Users_SPECIFICUSER_AccessAdvisor",
+    "AdditionalData": {
+      "userName": "randomUser04",
+      "userArn": "arn:aws:iam::200802171337:user/randomUser04"
+    },
+    "Summary": "Clicked IAM->Users->'randomUser04'->Access Advisor which displays all services that IAM User 'randomUser04' can access and when they were last accessed.",
+    "CorrelationId": "32f52592-bf8f-49aa-a0f3-d225c57eae3e",
+    "FirstEventTime": "2023-04-26T15:03:28Z",
+    "AllEventArr": "iam:GenerateServiceLastAccessedDetails,iam:GetServiceLastAccessedDetails,iam:ListPoliciesGrantingServiceAccess",
+    "AllEventIdArr": "32f52592-bf8f-49aa-a0f3-d225c57eae3e,773b5a3d-f213-4780-b377-3d2f805298c3,4e723032-147b-46b4-8b0f-fc54a6558c70,98fb5377-0568-4eb7-9793-52e4c149c649",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser04?section=access_advisor",
+    "LastEventTime": "2023-04-26T15:03:31Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Access Advisor"
+  },
+  "0063c2c2-8130-416f-ab19-b844752daaeb": {
+    "EventCount": 5,
+    "Label": "IAM_Users_SPECIFICUSER_SecurityCredentials",
+    "AdditionalData": {
+      "userName": "randomUser01",
+      "accessKeyIdArr": null
+    },
+    "Summary": "Clicked IAM->Users->'randomUser01'->Security Credentials which displays all credential information for IAM User 'randomUser01', although currently it has 0 Access Keys defined.",
+    "CorrelationId": "0063c2c2-8130-416f-ab19-b844752daaeb",
+    "FirstEventTime": "2023-04-26T14:56:40Z",
+    "AllEventArr": "iam:ListSSHPublicKeys,iam:ListServiceSpecificCredentials,iam:ListSigningCertificates,iam:ListAccessKeys",
+    "AllEventIdArr": "0063c2c2-8130-416f-ab19-b844752daaeb,204cee83-38f8-40ad-be1e-d6ab837228a8,2ece40d9-a68b-48d6-8660-ebff6f9add55,565972dd-7695-47fe-b286-03b9dc01de29,5da6f626-69ca-46e6-9282-c652701672d1",
+    "Url": "https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/randomUser01?section=security_credentials",
+    "LastEventTime": "2023-04-26T14:56:40Z",
+    "Name": "Clicked IAM->Users->SPECIFICUSER->Security Credentials"
+  }
+}

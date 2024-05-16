@@ -1,0 +1,100 @@
+{
+  "eedf732b-deb8-4ac8-a3ec-5624a867c049": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "eedf732b-deb8-4ac8-a3ec-5624a867c049",
+    "FirstEventTime": "2023-11-30T07:16:50Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "eedf732b-deb8-4ac8-a3ec-5624a867c049,fe88b590-c4a9-429b-ba3d-399fda30fbc7",
+    "Url": "N/A",
+    "LastEventTime": "2023-11-30T07:16:50Z",
+    "Name": "Suppressing automated background event"
+  },
+  "08b6c271-333c-44f2-9741-cabf3246fe7b": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "08b6c271-333c-44f2-9741-cabf3246fe7b",
+    "FirstEventTime": "2023-11-30T07:16:32Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "08b6c271-333c-44f2-9741-cabf3246fe7b",
+    "Url": "N/A",
+    "LastEventTime": "2023-11-30T07:16:32Z",
+    "Name": "Suppressing automated background event"
+  },
+  "197da5a2-5775-4b87-bc1c-a22d648e2bb4": {
+    "EventCount": 6,
+    "Label": "VPC_VirtualPrivateCloud_Endpoints_CreateEndpoint_Step1B",
+    "AdditionalData": {
+      "vpcId": "vpc-db0c0ffee56bc40db"
+    },
+    "Summary": "Clicked VPC->Virtual Private Cloud->Endpoints->Create Endpoint (Step 1.5 of 2)->VPC to select the existing VPC 'vpc-db0c0ffee56bc40db' in which to create a new VPC Endpoint.",
+    "CorrelationId": "197da5a2-5775-4b87-bc1c-a22d648e2bb4",
+    "FirstEventTime": "2023-11-30T07:18:32Z",
+    "AllEventArr": "ec2:DescribeSubnets,ec2:DescribeAvailabilityZones,ec2:DescribeSecurityGroups,ec2:DescribeRouteTables",
+    "AllEventIdArr": "197da5a2-5775-4b87-bc1c-a22d648e2bb4,38fb07a9-9299-46d1-8b2d-4146449a21d9,6d63fe2f-0564-4b05-acf0-a7aac8fb4adf,75c438a8-6687-4e0f-9003-3c0a6a9d96f9,af8730d0-d64c-460b-b97b-2c4afa491a7b,bbc4ff7e-8942-43ff-bb2f-86da80917831",
+    "Url": "https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#CreateVpcEndpoint:",
+    "LastEventTime": "2023-11-30T07:18:32Z",
+    "Name": "Clicked VPC->Virtual Private Cloud->Endpoints->Create Endpoint (Step 1.5 of 2)->VPC"
+  },
+  "f5066646-65fd-4f71-9fdf-2fbb76cac9f4": {
+    "EventCount": 3,
+    "Label": "VPC_VirtualPrivateCloud_Endpoints_CreateEndpoint_Step1",
+    "AdditionalData": null,
+    "Summary": "Clicked VPC->Virtual Private Cloud->Endpoints->Create Endpoint (Step 1 of 2) to create a new VPC Endpoint.",
+    "CorrelationId": "f5066646-65fd-4f71-9fdf-2fbb76cac9f4",
+    "FirstEventTime": "2023-11-30T07:16:19Z",
+    "AllEventArr": "ec2:DescribeVpcs,ec2:DescribeVpcEndpointServices",
+    "AllEventIdArr": "f5066646-65fd-4f71-9fdf-2fbb76cac9f4,c00f13d9-1345-4695-8bf4-a6514a978079,fbb37ee1-943b-478b-92fe-29c6bc32db42",
+    "Url": "https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#CreateVpcEndpoint:",
+    "LastEventTime": "2023-11-30T07:16:23Z",
+    "Name": "Clicked VPC->Virtual Private Cloud->Endpoints->Create Endpoint (Step 1 of 2)"
+  },
+  "4718692c-d0db-4fe2-8afb-44a5b8845aef": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4718692c-d0db-4fe2-8afb-44a5b8845aef",
+    "FirstEventTime": "2023-11-30T07:16:23Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "4718692c-d0db-4fe2-8afb-44a5b8845aef,aa11a931-d3a4-41cc-921b-e840fac42b41",
+    "Url": "N/A",
+    "LastEventTime": "2023-11-30T07:16:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "11e95352-72ae-456a-9565-a98b4563659a": {
+    "EventCount": 4,
+    "Label": "VPC_VirtualPrivateCloud_Endpoints",
+    "AdditionalData": null,
+    "Summary": "Clicked VPC->Virtual Private Cloud->Endpoints which displays all VPC Endpoints in a searchable paged format.",
+    "CorrelationId": "11e95352-72ae-456a-9565-a98b4563659a",
+    "FirstEventTime": "2023-11-30T07:15:50Z",
+    "AllEventArr": "ec2:DescribeVpcs,ec2:DescribeVpcEndpoints,ec2:DescribeInstanceConnectEndpoints,ec2:DescribeVpcEndpointServices",
+    "AllEventIdArr": "11e95352-72ae-456a-9565-a98b4563659a,3a5aedc5-5d5f-4976-a57a-3c3df0456a17,8aae33e1-a9ee-48ad-a31f-b115218853a3,d476957c-d883-4a93-80a3-64ea7dc4c5ae",
+    "Url": "https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#Endpoints:",
+    "LastEventTime": "2023-11-30T07:15:55Z",
+    "Name": "Clicked VPC->Virtual Private Cloud->Endpoints"
+  },
+  "089ca63b-f6f9-4e75-aec7-8e68ddee34a4": {
+    "EventCount": 8,
+    "Label": "VPC_VirtualPrivateCloud_Endpoints_CreateEndpoint_Step2",
+    "AdditionalData": {
+      "vpcId": "vpc-db0c0ffee56bc40db",
+      "serviceName": "aws.api.us-east-1.kendra-ranking",
+      "vpcEndpointId": "vpce-db0c0ffee984e07fa",
+      "vpcName": "myVPCEndpoint1"
+    },
+    "Summary": "Clicked VPC->Virtual Private Cloud->Endpoints->Create Endpoint (Step 2 of 2) to create a new VPC Endpoint 'vpce-db0c0ffee984e07fa' named 'myVPCEndpoint1' for 'aws.api.us-east-1.kendra-ranking' service.",
+    "CorrelationId": "089ca63b-f6f9-4e75-aec7-8e68ddee34a4",
+    "FirstEventTime": "2023-11-30T07:19:13Z",
+    "AllEventArr": "ec2:CreateVpcEndpoint,ec2:DescribeVpcEndpointServices,ec2:DescribeVpcs,ec2:DescribeInstanceConnectEndpoints,ec2:DescribeVpcEndpoints",
+    "AllEventIdArr": "089ca63b-f6f9-4e75-aec7-8e68ddee34a4,17e67d42-d862-43fa-bb02-a3d6bc01accf,2eefeed7-830a-4033-8713-fa1fb1ff1c13,49bd8774-2296-4ade-9815-95d48a45052d,4ea84fb6-c86f-4794-9fa5-b6eab3d104bd,b75354ac-5474-4f10-ae9c-65346d5f32ef,f21003c6-383a-430e-8ded-4ddc28536110,e7661470-f1ac-4a96-807c-c509441d3d15",
+    "Url": "https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#CreateVpcEndpoint:",
+    "LastEventTime": "2023-11-30T07:19:17Z",
+    "Name": "Clicked VPC->Virtual Private Cloud->Endpoints->Create Endpoint (Step 2 of 2)"
+  }
+}

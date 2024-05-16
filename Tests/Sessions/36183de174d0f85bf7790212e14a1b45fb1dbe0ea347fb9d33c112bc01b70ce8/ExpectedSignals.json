@@ -1,0 +1,396 @@
+{
+  "36acecbf-56f7-407f-903c-64662b74f8d2": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "36acecbf-56f7-407f-903c-64662b74f8d2",
+    "FirstEventTime": "2023-12-22T02:28:50Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "36acecbf-56f7-407f-903c-64662b74f8d2,e3ae2ace-9de4-4c2d-aacb-10233498df3f",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:28:50Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0abc3523-4df2-4456-b757-df21ebb54b2b": {
+    "EventCount": 8,
+    "Label": "CloudTrail_Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Dashboard which displays a summary of all CloudTrail components (e.g. Trails statuses, Insights and last 5 Events).",
+    "CorrelationId": "0abc3523-4df2-4456-b757-df21ebb54b2b",
+    "FirstEventTime": "2023-12-22T02:13:46Z",
+    "AllEventArr": "s3:ListBuckets,cloudtrail:DescribeTrails,organizations:ListDelegatedAdministrators,cloudtrail:LookupEvents,organizations:DescribeOrganization,cloudtrail:GetTrailStatus",
+    "AllEventIdArr": "0abc3523-4df2-4456-b757-df21ebb54b2b,f3c402f5-22ac-43c8-a1c9-425c446380b5,083e5d01-50ba-45e6-b867-c9bc56d86dac,0cc2b482-96a8-4d80-9438-ae13110152be,8f22e5bc-ef1b-4cdf-9ab1-df04380235e6,9850722a-c7c9-4216-ba34-8d4011bf9ce6,c2256260-a436-4406-a76e-56dfc57803b3,cb06a294-ab8c-44e8-bca4-466415db14af",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/dashboard",
+    "LastEventTime": "2023-12-22T02:13:47Z",
+    "Name": "Clicked CloudTrail->Dashboard"
+  },
+  "5f2bee06-3258-4953-a682-1c486e2a13f7": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "5f2bee06-3258-4953-a682-1c486e2a13f7",
+    "FirstEventTime": "2023-12-22T02:23:49Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "5f2bee06-3258-4953-a682-1c486e2a13f7,e26a71b1-9892-4140-817d-b890ac3b6c44",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:23:49Z",
+    "Name": "Suppressing automated background event"
+  },
+  "639701a0-e0e1-4a4f-a6c5-6dbaf01e4795": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "639701a0-e0e1-4a4f-a6c5-6dbaf01e4795",
+    "FirstEventTime": "2023-12-22T02:58:57Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "639701a0-e0e1-4a4f-a6c5-6dbaf01e4795,828fb7cd-dff4-42b7-8961-ae4a78646cde",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:58:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "dad1a2a3-dc99-4bcc-b6a7-0bffefe6f458": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "dad1a2a3-dc99-4bcc-b6a7-0bffefe6f458",
+    "FirstEventTime": "2023-12-22T02:13:37Z",
+    "AllEventArr": "notifications:ListNotificationHubs,health:DescribeEventAggregates",
+    "AllEventIdArr": "dad1a2a3-dc99-4bcc-b6a7-0bffefe6f458,38184e1f-e774-41de-9a2e-aabcfc588b88,4a1af85b-d630-4a9d-a12e-9787bdd3de24",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:13:38Z",
+    "Name": "Suppressing automated background event"
+  },
+  "70f949b5-faf5-4839-a711-cdd277b2c2e1": {
+    "EventCount": 2,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "70f949b5-faf5-4839-a711-cdd277b2c2e1",
+    "FirstEventTime": "2023-12-22T02:13:21Z",
+    "AllEventArr": "signin:GetSigninToken,signin:ConsoleLogin",
+    "AllEventIdArr": "70f949b5-faf5-4839-a711-cdd277b2c2e1,102756cd-5e28-41d0-aaa2-082731b02d68",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:13:22Z",
+    "Name": "Console Login"
+  },
+  "4b474718-eb4e-48a5-b07a-5d29d4f20368": {
+    "EventCount": 1,
+    "Label": "CloudTrail_Trails_SPECIFICTRAIL_Delete",
+    "AdditionalData": {
+      "trailArn": "arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName",
+      "trailName": "myTrailName"
+    },
+    "Summary": "Clicked CloudTrail->Trails->'myTrailName'->Delete to delete 'myTrailName' CloudTrail Trail with ARN 'arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName'.",
+    "CorrelationId": "4b474718-eb4e-48a5-b07a-5d29d4f20368",
+    "FirstEventTime": "2023-12-22T02:15:41Z",
+    "AllEventArr": "cloudtrail:DeleteTrail",
+    "AllEventIdArr": "4b474718-eb4e-48a5-b07a-5d29d4f20368",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/trails/arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName",
+    "LastEventTime": "2023-12-22T02:15:41Z",
+    "Name": "Clicked CloudTrail->Trails->SPECIFICTRAIL->Delete"
+  },
+  "32936887-88cf-4a8c-9703-1fa891d2a35a": {
+    "EventCount": 4,
+    "Label": "CloudTrail_Trails_SPECIFICTRAIL_StopLogging",
+    "AdditionalData": {
+      "trailArn": "arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName",
+      "trailName": "myTrailName"
+    },
+    "Summary": "Clicked CloudTrail->Trails->'myTrailName'->Stop Logging to stop logging events for 'myTrailName' CloudTrail Trail with ARN 'arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName'.",
+    "CorrelationId": "32936887-88cf-4a8c-9703-1fa891d2a35a",
+    "FirstEventTime": "2023-12-22T02:15:08Z",
+    "AllEventArr": "cloudtrail:DescribeTrails,cloudtrail:StopLogging,cloudtrail:GetTrailStatus",
+    "AllEventIdArr": "32936887-88cf-4a8c-9703-1fa891d2a35a,4cd3eb78-34e5-453e-a433-c632807f606d,9e384e59-218c-4bd6-b6a9-5fb83f373442,eb927cc6-2193-4a38-9fc7-fb824b771bc0",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/trails/arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName",
+    "LastEventTime": "2023-12-22T02:15:08Z",
+    "Name": "Clicked CloudTrail->Trails->SPECIFICTRAIL->Stop Logging"
+  },
+  "752ec825-9f38-4d36-8914-23906b28343e": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "752ec825-9f38-4d36-8914-23906b28343e",
+    "FirstEventTime": "2023-12-22T03:08:59Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "752ec825-9f38-4d36-8914-23906b28343e,eca936e5-8a14-409c-a5cd-6767f6ed85d3",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T03:08:59Z",
+    "Name": "Suppressing automated background event"
+  },
+  "b71f69e5-6fb8-4aa0-a674-757c040a4402": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "b71f69e5-6fb8-4aa0-a674-757c040a4402",
+    "FirstEventTime": "2023-12-22T02:38:52Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "b71f69e5-6fb8-4aa0-a674-757c040a4402,f5ce3f08-a3de-44aa-a9ea-23a63cc7ce3f",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:38:52Z",
+    "Name": "Suppressing automated background event"
+  },
+  "01d01c87-c7dd-4b7a-8b47-c6671a562528": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "01d01c87-c7dd-4b7a-8b47-c6671a562528",
+    "FirstEventTime": "2023-12-22T02:43:54Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "01d01c87-c7dd-4b7a-8b47-c6671a562528,b9ef259f-6aba-4cd5-9ec0-e1204409c609",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:43:54Z",
+    "Name": "Suppressing automated background event"
+  },
+  "527ee234-3c01-45d7-9d3e-d048e2fb213e": {
+    "EventCount": 8,
+    "Label": "CloudTrail_Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Dashboard which displays a summary of all CloudTrail components (e.g. Trails statuses, Insights and last 5 Events).",
+    "CorrelationId": "527ee234-3c01-45d7-9d3e-d048e2fb213e",
+    "FirstEventTime": "2023-12-22T02:13:30Z",
+    "AllEventArr": "cloudtrail:DescribeTrails,s3:ListBuckets,organizations:ListDelegatedAdministrators,cloudtrail:LookupEvents,cloudtrail:GetTrailStatus,organizations:DescribeOrganization",
+    "AllEventIdArr": "527ee234-3c01-45d7-9d3e-d048e2fb213e,595d6894-ea82-42c4-9a9d-6c74a98ad7d3,01373c95-303b-4bb3-9d4e-500e048a1abf,133e9763-c0b6-4b9d-bffa-f995de9a2082,3e457e1f-dbc2-4021-bc4b-74fd1ffd39aa,d465334a-4d94-4980-b500-eafca7942163,e5870419-aba6-4569-b668-42a51b57df05,f7c0ed92-f45f-48a6-8dc6-665a0e855a4d",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/dashboard",
+    "LastEventTime": "2023-12-22T02:13:31Z",
+    "Name": "Clicked CloudTrail->Dashboard"
+  },
+  "2eddbe99-ebfc-40a8-a7b8-8880408458b1": {
+    "EventCount": 3,
+    "Label": "CloudTrail_Trails",
+    "AdditionalData": {
+      "trailArnArr": [
+        "arn:aws:cloudtrail:us-east-2:200802171337:trail/management-events",
+        "arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName"
+      ],
+      "trailNameArr": [
+        "management-events",
+        "myTrailName"
+      ]
+    },
+    "Summary": "Clicked CloudTrail->Trails which displays all CloudTrail Trails and their high-level properties (e.g. Region, S3 Bucket, Status, etc.), currently displaying 2 CloudTrail Trails ('management-events','myTrailName').",
+    "CorrelationId": "2eddbe99-ebfc-40a8-a7b8-8880408458b1",
+    "FirstEventTime": "2023-12-22T02:15:32Z",
+    "AllEventArr": "cloudtrail:DescribeTrails,cloudtrail:GetTrailStatus",
+    "AllEventIdArr": "2eddbe99-ebfc-40a8-a7b8-8880408458b1,830ed5b6-315e-4eb9-b1ed-6db8e92e93ae,83bb09a3-ce8d-41f3-960d-c9512173693a",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/trails",
+    "LastEventTime": "2023-12-22T02:15:32Z",
+    "Name": "Clicked CloudTrail->Trails"
+  },
+  "4832827d-1512-4609-8250-a4b7ad58910f": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4832827d-1512-4609-8250-a4b7ad58910f",
+    "FirstEventTime": "2023-12-22T02:13:47Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "4832827d-1512-4609-8250-a4b7ad58910f,97374d16-5392-466c-9086-5de53688d83e,c51c730e-30a8-4134-b97e-af1ac8a9f97b",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:13:47Z",
+    "Name": "Suppressing automated background event"
+  },
+  "45cf2f3d-9e29-452a-9c02-c43cec8236d1": {
+    "EventCount": 13,
+    "Label": "CloudTrail_Dashboard_CreateTrail_Step2",
+    "AdditionalData": {
+      "trailArn": "arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName",
+      "trailName": "myTrailName"
+    },
+    "Summary": "Clicked CloudTrail->Dashboard->CreateTrail (Step 2 of 2) to create 'myTrailName' CloudTrail Trail with ARN 'arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName'.",
+    "CorrelationId": "45cf2f3d-9e29-452a-9c02-c43cec8236d1",
+    "FirstEventTime": "2023-12-22T02:14:39Z",
+    "AllEventArr": "s3:CreateBucket,cloudtrail:PutEventSelectors,kms:CreateKey,s3:GetBucketLocation,s3:PutBucketPublicAccessBlock,cloudtrail:CreateTrail,kms:CreateAlias,cloudtrail:PutInsightSelectors,s3:PutBucketPolicy,cloudtrail:StartLogging,cloudtrail:GetTrailStatus,cloudtrail:DescribeTrails",
+    "AllEventIdArr": "45cf2f3d-9e29-452a-9c02-c43cec8236d1,4f7d8d9e-70a2-4941-bf52-84f2155c43c0,6769cca9-7e24-4708-83b7-985a73b0c1dc,8af0cbbc-e124-44ea-b990-614e21d7af23,970c62a2-b5fd-4783-96de-6e6466346bff,af71a569-9743-46cb-835d-3f0afdb3cb44,c1bc2302-0b46-477d-b0bf-9400634c503e,cb8ca3cb-aa5a-43d7-bb7d-80658387b31c,d6d6a331-13e8-47e6-86ee-879cebad7731,f4726fc1-75f5-4c86-8638-ab33f7583193,5c5427ba-9804-4768-9d82-821ceedf31d9,903f64b8-4d32-42d3-9c5d-d2c63f1fb9ed,d68ae657-8ecc-4304-9959-f0ce1088d041",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/create",
+    "LastEventTime": "2023-12-22T02:14:40Z",
+    "Name": "Clicked CloudTrail->Dashboard->CreateTrail (Step 2 of 2)"
+  },
+  "b48afd08-541e-4d9e-bcc1-1e27618369ef": {
+    "EventCount": 3,
+    "Label": "CloudTrail_Trails",
+    "AdditionalData": {
+      "trailArnArr": [
+        "arn:aws:cloudtrail:us-east-2:200802171337:trail/management-events",
+        "arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName"
+      ],
+      "trailNameArr": [
+        "management-events",
+        "myTrailName"
+      ]
+    },
+    "Summary": "Clicked CloudTrail->Trails which displays all CloudTrail Trails and their high-level properties (e.g. Region, S3 Bucket, Status, etc.), currently displaying 2 CloudTrail Trails ('management-events','myTrailName').",
+    "CorrelationId": "b48afd08-541e-4d9e-bcc1-1e27618369ef",
+    "FirstEventTime": "2023-12-22T02:15:28Z",
+    "AllEventArr": "cloudtrail:GetTrailStatus,cloudtrail:DescribeTrails",
+    "AllEventIdArr": "b48afd08-541e-4d9e-bcc1-1e27618369ef,b950fdfc-db09-482b-8cbc-d27cafaff346,f7ea2b6f-b31b-4511-bf98-6ca01d7651a9",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/trails",
+    "LastEventTime": "2023-12-22T02:15:28Z",
+    "Name": "Clicked CloudTrail->Trails"
+  },
+  "0dba2a19-cf1e-4915-ab5e-9c828dd2a3ea": {
+    "EventCount": 3,
+    "Label": "CloudTrail_Dashboard_CreateTrail_Step1",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Dashboard->CreateTrail (Step 1 of 2) to create a CloudTrail Trail.",
+    "CorrelationId": "0dba2a19-cf1e-4915-ab5e-9c828dd2a3ea",
+    "FirstEventTime": "2023-12-22T02:13:58Z",
+    "AllEventArr": "cloudtrail:GetTrailStatus,cloudtrail:DescribeTrails,cloudtrail:GetEventSelectors",
+    "AllEventIdArr": "0dba2a19-cf1e-4915-ab5e-9c828dd2a3ea,2e2915e7-aadd-44f4-a877-63d657754548,0fc5c419-de35-43dc-b539-021e9b29b2aa",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/create",
+    "LastEventTime": "2023-12-22T02:13:59Z",
+    "Name": "Clicked CloudTrail->Dashboard->CreateTrail (Step 1 of 2)"
+  },
+  "2b0bc0e9-06dd-4ee9-928e-d4d6ebeb5ea4": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2b0bc0e9-06dd-4ee9-928e-d4d6ebeb5ea4",
+    "FirstEventTime": "2023-12-22T02:33:51Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2b0bc0e9-06dd-4ee9-928e-d4d6ebeb5ea4,4b946599-fca6-43e6-92f3-26c59ed73a17",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:33:51Z",
+    "Name": "Suppressing automated background event"
+  },
+  "166d06d7-43f0-47c0-810f-5ba44f3b3fa9": {
+    "EventCount": 7,
+    "Label": "CloudTrail_Lake_EventDataStores",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Lake->Event Data Stores which displays all CloudTrail Event Data Stores in a searchable paged format.",
+    "CorrelationId": "166d06d7-43f0-47c0-810f-5ba44f3b3fa9",
+    "FirstEventTime": "2023-12-22T02:13:38Z",
+    "AllEventArr": "iam:ListRoles,cloudtrail:GetTrail,organizations:ListDelegatedAdministrators,cloudtrail:GetTrailStatus,cloudtrail:ListEventDataStores,cloudtrail:ListTrails,organizations:DescribeOrganization",
+    "AllEventIdArr": "166d06d7-43f0-47c0-810f-5ba44f3b3fa9,1bfbb473-6ea1-45f0-b839-bd2950cc28e5,4b6c5933-f1d8-4ee8-b8a1-94cf773cec4b,7aef4624-d7d4-47b5-b296-55d06d5c11cb,853c8b2d-e85f-49a2-bbe7-c557dc79a149,b269d36a-e673-4659-8105-9a2aa7db884b,bb9c9220-13f0-4797-aa9a-90f64060520a",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrailv2/home?region=us-east-1#/lake/eventDataStores",
+    "LastEventTime": "2023-12-22T02:13:38Z",
+    "Name": "Clicked CloudTrail->Lake->Event Data Stores"
+  },
+  "0d6c71c8-43a5-4eb9-b92f-9664e72176c7": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0d6c71c8-43a5-4eb9-b92f-9664e72176c7",
+    "FirstEventTime": "2023-12-22T03:03:58Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0d6c71c8-43a5-4eb9-b92f-9664e72176c7,7cb4ad5b-7d4a-4a96-8847-81d1726fbcfd",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T03:03:58Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0bf77269-ef44-4448-a48e-9e10904d2e3d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0bf77269-ef44-4448-a48e-9e10904d2e3d",
+    "FirstEventTime": "2023-12-22T02:18:48Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0bf77269-ef44-4448-a48e-9e10904d2e3d,9aa4701e-6140-4579-ba03-664fab819ce7",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:18:48Z",
+    "Name": "Suppressing automated background event"
+  },
+  "2de55551-9b58-46cd-a7c6-1e8838d18add": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2de55551-9b58-46cd-a7c6-1e8838d18add",
+    "FirstEventTime": "2023-12-22T03:14:00Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2de55551-9b58-46cd-a7c6-1e8838d18add,677a2108-9497-4a62-aa65-758d91d12aeb",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T03:14:00Z",
+    "Name": "Suppressing automated background event"
+  },
+  "c408db13-423c-461e-8a47-4da5a910933f": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "c408db13-423c-461e-8a47-4da5a910933f",
+    "FirstEventTime": "2023-12-22T02:48:55Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "c408db13-423c-461e-8a47-4da5a910933f,ed11bb94-a061-4508-bcfd-ad0bd33a2c57",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:48:55Z",
+    "Name": "Suppressing automated background event"
+  },
+  "114d3f27-16b8-44f1-a49c-e209a4be8c1c": {
+    "EventCount": 18,
+    "Label": "CloudTrail_Trails_SPECIFICTRAIL",
+    "AdditionalData": {
+      "trailArn": "arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName",
+      "trailName": "myTrailName"
+    },
+    "Summary": "Clicked CloudTrail->Trails->'myTrailName' which displays all details for 'myTrailName' CloudTrail Trail with ARN 'arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName'.",
+    "CorrelationId": "114d3f27-16b8-44f1-a49c-e209a4be8c1c",
+    "FirstEventTime": "2023-12-22T02:14:52Z",
+    "AllEventArr": "kms:ListAliases,cloudtrail:GetTrailStatus,cloudtrail:DescribeTrails,cloudtrail:ListTags,cloudtrail:GetEventSelectors,s3:GetBucketLocation,cloudtrail:GetInsightSelectors",
+    "AllEventIdArr": "114d3f27-16b8-44f1-a49c-e209a4be8c1c,20642716-a18d-4d14-be9d-614337968702,260de913-a921-4add-a267-4cddb6ee330a,29b349e9-ae3c-4372-a9eb-48d76db7f8cc,33366557-fa2c-4fe2-bdd5-0310b4949169,806832aa-8a22-4c1b-a10c-b35b04b7ed26,8a869f47-452b-4a52-9bef-8f45ef4f4e5c,9822fd7c-00d2-4a6a-94c2-c2eeca24b16d,a02408e7-ed92-43c6-b400-ac0a564ac728,a8b1248f-629e-48af-b0b8-8c2bdada4304,aadb132a-35c6-4380-92ce-d294bddb5295,b50af03b-9278-41ae-97c2-1ab55c19986a,ba59f8c8-8ddd-4061-a82f-f4fe1cbcefbf,bd5731d6-fe69-4ce7-8b59-c42bb8c7d6f0,be907180-e7d3-4de1-8070-e85a96019b9b,eb3820a8-6186-4af7-a844-8a8437f5d50b,fd87a32d-f08d-40ef-8b3d-55ad838929e3,fe16d2e3-4c50-4ce8-9063-a6741b0eca7d",
+    "Url": "https://us-east-2.console.aws.amazon.com/cloudtrail/home?region=us-east-2#/trails/arn:aws:cloudtrail:us-east-2:200802171337:trail/myTrailName",
+    "LastEventTime": "2023-12-22T02:14:52Z",
+    "Name": "Clicked CloudTrail->Trails->SPECIFICTRAIL"
+  },
+  "232c7e8c-28f8-4b28-b453-99b8db67cd58": {
+    "EventCount": 9,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "232c7e8c-28f8-4b28-b453-99b8db67cd58",
+    "FirstEventTime": "2023-12-22T02:13:25Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "232c7e8c-28f8-4b28-b453-99b8db67cd58,8f08805f-73f3-424d-b6f2-72be0fb4f26f,9fa83cdb-8e66-4f8c-b565-ac3f6ae15005,a61c4928-85d1-4650-9d76-5186479874d4,f836f0e0-6b22-4300-9d9e-4e4475924f63,fa28adfc-2cf4-4756-9018-eac0bf6e0309,ff2ecb2a-eb0d-4344-8818-21a32cf31031,0e1ced8f-a53b-4cab-b7e0-1825c8a89d9a,c30b54b4-ec31-425b-b78a-7ef1c596f4b7",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:13:26Z",
+    "Name": "Suppressing automated background event"
+  },
+  "23b6d9b3-8768-481c-afca-8b80310584dc": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "23b6d9b3-8768-481c-afca-8b80310584dc",
+    "FirstEventTime": "2023-12-22T02:13:31Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "23b6d9b3-8768-481c-afca-8b80310584dc,9ff2d90f-6c43-476a-9818-3098dec33f83,de002d09-45ad-4939-baeb-63c60963686a",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:13:31Z",
+    "Name": "Suppressing automated background event"
+  },
+  "6e6bd0ba-e5eb-4645-9081-ead4fd4aea77": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "6e6bd0ba-e5eb-4645-9081-ead4fd4aea77",
+    "FirstEventTime": "2023-12-22T02:53:56Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "6e6bd0ba-e5eb-4645-9081-ead4fd4aea77,e40e17da-fa98-4fb4-b06f-6c5372463706",
+    "Url": "N/A",
+    "LastEventTime": "2023-12-22T02:53:56Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0915b334-eec6-4ed6-9a1b-6a951cb879a2": {
+    "EventCount": 3,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "0915b334-eec6-4ed6-9a1b-6a951cb879a2",
+    "FirstEventTime": "2023-12-22T02:13:25Z",
+    "AllEventArr": "ce:GetCostAndUsage,ce:GetCostForecast,ec2:DescribeRegions",
+    "AllEventIdArr": "0915b334-eec6-4ed6-9a1b-6a951cb879a2,5fee6406-1320-46d0-bffb-bff5a9c3ccb3,d40ad20b-e8c0-419f-ac2c-fb3d3f42c2c8",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-12-22T02:13:26Z",
+    "Name": "Console Home"
+  }
+}

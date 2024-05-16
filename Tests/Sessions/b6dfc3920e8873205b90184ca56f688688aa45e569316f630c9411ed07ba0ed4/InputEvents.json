@@ -1,0 +1,6514 @@
+[
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "b2fd41a6-04f6-4ced-bd87-9858a3a40541",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 100,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "16525a5c-d6c0-4b49-8695-03941a00aff8",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "cf874522-bf32-460c-901d-18de658e1fa4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "16525a5c-d6c0-4b49-8695-03941a00aff8",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "418a5994-298c-4e20-987d-fc93ab4f18a9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee6e5e585f",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "b12879cb-d30b-4de0-ba0f-cbc903146984",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "dfdfb1ea-32ee-4078-96d6-aa00f44ee75b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "instance"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      },
+      "maxResults": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "70a1dd77-1d20-4376-99d7-ff13f8c0426b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "022e339d-ac19-4fb9-a258-850aa2f2b4d3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "d79f4561-7825-4baf-a2af-906d26f8a93e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee6e5e585f",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "08d8763c-8911-4fdb-a876-8ab62a8137ba",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffee6e5e585f",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:44Z",
+    "eventID": "df987f97-8eff-4ed2-b1a3-ad40bde7911e",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee6e5e585f"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:45Z",
+    "eventID": "f2f94008-fa17-43ff-863e-529a392d7b2e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                },
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                },
+                {
+                  "value": "i-db0c0ffee98361ad0"
+                },
+                {
+                  "value": "i-db0c0ffee8c20e5fc"
+                },
+                {
+                  "value": "i-db0c0ffeeffd53ad4"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:45Z",
+    "eventID": "8de2db7a-438f-4a67-8315-17fc73ff1863",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "requestParameters": {
+      "maxRecords": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:45Z",
+    "eventID": "53c42295-e038-42fa-95e4-f5d3bad8d5a1",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:45Z",
+    "eventID": "c6ecace8-6674-4d9e-8421-279781ca2f30",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetInstanceProfile",
+    "requestParameters": {
+      "instanceProfileName": "AmazonSSMRoleForInstancesQuickSetup"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:39:45Z",
+    "eventID": "09454e5c-c4a7-4941-8e2b-647ca7dc208f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "5819e9a3-1aac-48ba-8133-a0ff0e3dfd71",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "39b20acf-e9b3-4e1f-8aeb-22308f5f3f82",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "3bf12a0c-d47c-4818-85c4-5b037ac05164",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "69bd71d4-6960-4db5-91d9-5360b8833988",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "dba8c0a0-d7dd-4132-8f44-2cbc3e8e7394",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "9b8d66de-9388-40ce-abaf-0c0167fec0e3",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "8fea04f4-3213-4bab-96be-2ca8f780db95",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:30Z",
+    "eventID": "59b13c66-74d3-47e3-8da2-4476559404b9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffee445fa741",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:31Z",
+    "eventID": "5c3dd296-bd96-4e83-a2ef-96aad2996b30",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:31Z",
+    "eventID": "3649567e-b16a-4c4b-af41-c3d2d5370cd3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeImages",
+    "requestParameters": {
+      "executableBySet": {},
+      "ownersSet": {},
+      "imagesSet": {
+        "items": [
+          {
+            "imageId": "ami-db0c0ffee7a47241f"
+          }
+        ]
+      },
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:31Z",
+    "eventID": "24720b30-8d5e-4d0d-8c4f-fc1caeddb515",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetInstanceProfile",
+    "requestParameters": {
+      "instanceProfileName": "AmazonSSMRoleForInstancesQuickSetup"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:31Z",
+    "eventID": "d6041ad7-9bab-46fe-b01e-3b4a7b8a4349",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:46Z",
+    "eventID": "5253b97d-549d-429f-9b59-d7418426f6ef",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "StartInstances",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "5a93d9d7-7f93-418b-8e28-413be196bf79",
+      "instancesSet": {
+        "items": [
+          {
+            "currentState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "previousState": {
+              "code": 80,
+              "name": "stopped"
+            },
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:40:47Z",
+    "eventID": "a91babc4-8afc-4721-98ee-d4733c95ca23",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "13a85b89-37ba-40e7-b5bd-ae8dade6ca59",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "4231d526-5304-4151-b43f-6484a01b37bf",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "aa3162ab-9c20-4247-8295-59a0a558e2de",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "c1323791-2411-484a-bf76-bb0ba387f934",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffee445fa741",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "629e6024-9fab-4cb3-944b-36163c880bb3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "8072f46d-9091-4705-a46e-c4e7d1ebd7e9",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee445fa741"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "ca43a46f-b400-4210-a80f-5e4ff8a0009c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "1a93a5c4-405b-4044-a833-4fa599a03216",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:20Z",
+    "eventID": "6f30968a-b695-49de-94d0-9541dcd41b5f",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetInstanceProfile",
+    "requestParameters": {
+      "instanceProfileName": "AmazonSSMRoleForInstancesQuickSetup"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:41:37Z",
+    "eventID": "b30c1048-3585-414e-a921-64616cf6d567",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:01Z",
+    "eventID": "9cffef55-66d1-4791-9323-c5ebc50ca4c6",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023 2:42:01 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:01Z",
+    "eventID": "23b171c1-ec8e-42cd-874d-4ad485cfd9c3",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023, 2:42:01 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:10Z",
+    "eventID": "fe934720-e67c-4497-9357-263d3756f4be",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:10Z",
+    "eventID": "3c29d2e7-0e28-4fea-9961-a9b4cccbe9a5",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetInstanceProfile",
+    "requestParameters": {
+      "instanceProfileName": "AmazonSSMRoleForInstancesQuickSetup"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:10Z",
+    "eventID": "8d9b4acd-dac9-427f-a709-59021633f2b2",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:10Z",
+    "eventID": "cf3d12d1-02d3-4dea-ba8d-8929e1535f1c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffee445fa741",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:10Z",
+    "eventID": "404028cc-20f6-4a64-b7b4-26008cf24209",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:10Z",
+    "eventID": "cf69556b-d810-4257-af26-248c1ea623df",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:10Z",
+    "eventID": "47b38356-c196-43db-9627-525e1aaca684",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:14Z",
+    "eventID": "f5c0c233-1581-429b-9c82-e25561f3e78d",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:24Z",
+    "eventID": "68188ddf-59ec-41a3-886f-462df6ac6753",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "StopInstances",
+    "requestParameters": {
+      "force": false,
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "45926c84-efa6-4638-a321-072f9ec405c2",
+      "instancesSet": {
+        "items": [
+          {
+            "currentState": {
+              "code": 64,
+              "name": "stopping"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:25Z",
+    "eventID": "ee637d6e-1f64-423f-9ded-27ee586a2412",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee445fa741"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:25Z",
+    "eventID": "e3474f47-1fcb-4d82-82fc-306c0b074e70",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:36Z",
+    "eventID": "58f86d00-4bca-4809-a083-df6c576530cc",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:41Z",
+    "eventID": "0a931a81-648c-46eb-9157-61ba5ae4867e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:46Z",
+    "eventID": "debcc6a0-8714-4e80-8ca5-acba0f70f6ed",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:42:46Z",
+    "eventID": "a2bc1584-edf3-4ba4-9acc-324cb367092f",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee445fa741"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "6696d1e8-4f5d-42b3-9a4e-28edcef60fff",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "5dc0703b-7e49-4b37-a16a-5cb2b0e13681",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "38a2f2ee-6e81-4413-b2c3-0a26e6482018",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetInstanceProfile",
+    "requestParameters": {
+      "instanceProfileName": "AmazonSSMRoleForInstancesQuickSetup"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "599d21bf-926e-4948-ba8a-dd513454ae3e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "instance"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      },
+      "maxResults": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "9c8196eb-54c5-4a77-8a02-25ec691e63d6",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "1f250168-66bf-4b8b-b83a-d1d1bbefb12a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "d39ca167-b0b2-41bf-ba43-2b0b6753d8f0",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 100,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "b37405b3-eef1-45b3-b9c3-e45c7ab9ae09",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "3db7d95b-93f1-43a0-aa9f-00fad1030df5",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "d1221b5d-9fbd-4eb5-8562-63bb34bcd2e3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "92f835a3-9475-4281-900a-e158316516b8",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "requestParameters": {
+      "maxRecords": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "612a0846-f0e7-4500-9742-4b6317b57756",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "e951c582-4edf-4b75-b509-f73ca1ab24d0",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee445fa741"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "286ca7ee-50dd-4724-a6b3-9e6fd431997d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                },
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                },
+                {
+                  "value": "i-db0c0ffee98361ad0"
+                },
+                {
+                  "value": "i-db0c0ffee8c20e5fc"
+                },
+                {
+                  "value": "i-db0c0ffeeffd53ad4"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:02Z",
+    "eventID": "1040630f-0477-4dab-94a5-519df66076a7",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "54f86784-5dde-406a-8c05-23d589bd0037",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "5cb4ffb5-a8a9-4b82-9519-159072ef89e4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffee445fa741",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "e23ff824-98b7-4512-b523-ae172d91a7e4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "db249d88-ab4f-4503-bbe1-e42bbef67aea",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "759ecbf5-c79c-4e3d-a9b6-fba168409065",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee445fa741"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "2e25d3ea-0926-40ee-aaa1-4524e6e36bd9",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "38fbaf50-d970-4e4e-a4ed-057d0dba0b13",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "5eb3b9dc-7c00-48d8-b20a-cc8c5982bfb5",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetInstanceProfile",
+    "requestParameters": {
+      "instanceProfileName": "AmazonSSMRoleForInstancesQuickSetup"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "7e2d909e-99d2-43e4-98c9-c8647b1c80c8",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "6ced4223-4561-4efc-a2d0-5c69534c57a1",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:50Z",
+    "eventID": "9e4ae3f0-c577-4b80-ac5f-ce6ef33517b1",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:51Z",
+    "eventID": "7553e260-1e33-48f1-bfcf-a04e36bff166",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:43:51Z",
+    "eventID": "074386a5-5728-423e-bfb7-b52d5dece65e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                },
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                },
+                {
+                  "value": "i-db0c0ffee98361ad0"
+                },
+                {
+                  "value": "i-db0c0ffee8c20e5fc"
+                },
+                {
+                  "value": "i-db0c0ffeeffd53ad4"
+                }
+              ]
+            },
+            "name": "resource-id"
+          },
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "Name"
+                }
+              ]
+            },
+            "name": "key"
+          }
+        ]
+      },
+      "maxResults": 1000
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:20Z",
+    "eventID": "cd254795-a086-4899-9397-5e521f881a41",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "StartInstances",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "d1fa4d62-a7ac-4893-bc7a-a4252b4adab6",
+      "instancesSet": {
+        "items": [
+          {
+            "currentState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "previousState": {
+              "code": 80,
+              "name": "stopped"
+            },
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "currentState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "previousState": {
+              "code": 80,
+              "name": "stopped"
+            },
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          },
+          {
+            "currentState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "previousState": {
+              "code": 80,
+              "name": "stopped"
+            },
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "currentState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "previousState": {
+              "code": 80,
+              "name": "stopped"
+            },
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "currentState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "previousState": {
+              "code": 80,
+              "name": "stopped"
+            },
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:22Z",
+    "eventID": "b853c1b6-947f-4afa-8bda-7071cf4ec908",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:32Z",
+    "eventID": "0942269d-71b3-49d1-b0ff-323a08ccc72c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:37Z",
+    "eventID": "98d766b4-8a8c-495a-84b8-b21a82b37769",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:43Z",
+    "eventID": "d9a21a78-ba77-42c4-b2e5-cc6af7b20b44",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:45Z",
+    "eventID": "cdf27450-bdb8-4793-8925-5ae778e41c38",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee445fa741"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:45Z",
+    "eventID": "0edc10ad-87f1-4a1c-8be6-1a32c8736b4c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                },
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                },
+                {
+                  "value": "i-db0c0ffee98361ad0"
+                },
+                {
+                  "value": "i-db0c0ffee8c20e5fc"
+                },
+                {
+                  "value": "i-db0c0ffeeffd53ad4"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:45Z",
+    "eventID": "12ffc26e-480c-4867-a6b7-f93e4b2563a2",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:45Z",
+    "eventID": "9f9a806f-5951-4c99-93e3-a2c19090e40f",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "requestParameters": {
+      "maxRecords": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:45Z",
+    "eventID": "3dd0394a-c96a-4491-a2f1-32fd7bfec49d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:45Z",
+    "eventID": "93a28789-f60d-436b-8cee-1df5786404dd",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 100,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:53Z",
+    "eventID": "24888a8c-11c9-42f9-8d4b-b6e12a40c9ba",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:44:58Z",
+    "eventID": "589cec58-3585-4ba7-8aa8-fbc900659e16",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:10Z",
+    "eventID": "c91d91e0-9763-45b1-8a0a-083e3f650fb3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffee445fa741",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:10Z",
+    "eventID": "2f7b5e9d-d9f8-4256-aadc-0f00af31c518",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee445fa741"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:10Z",
+    "eventID": "a0607339-b612-4c50-9974-e91e40830881",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "4a4dae09-4ab8-483a-8068-5c62222bf66c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "8d67812a-65d6-4c09-b8ad-0257c970b1b7",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "a9405017-77bb-4c78-adb3-6d12f01d49a7",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee445fa741",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "da296b8c-9cb1-4047-aca2-9680e23545ce",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "1ad3acec-cf58-4a2f-8aa2-ae2883cbdf30",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "ad0377c3-fedb-43d9-afaf-14d6cca46994",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "8fce675f-e01e-4c78-a079-f52093274a8b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:11Z",
+    "eventID": "393b798b-7f81-431f-80fd-f11508e0bf3b",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetInstanceProfile",
+    "requestParameters": {
+      "instanceProfileName": "AmazonSSMRoleForInstancesQuickSetup"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:12Z",
+    "eventID": "7db94d6f-4d7f-41d5-beff-459b2391634f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                },
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                },
+                {
+                  "value": "i-db0c0ffee98361ad0"
+                },
+                {
+                  "value": "i-db0c0ffee8c20e5fc"
+                },
+                {
+                  "value": "i-db0c0ffeeffd53ad4"
+                }
+              ]
+            },
+            "name": "resource-id"
+          },
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "Name"
+                }
+              ]
+            },
+            "name": "key"
+          }
+        ]
+      },
+      "maxResults": 1000
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:12Z",
+    "eventID": "b6fca3a7-e419-4a43-aca6-0c2291dac162",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:22Z",
+    "eventID": "0a34b04c-6730-46a2-b4f4-c360797fa2c7",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "RebootInstances",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "58be6a5a-8381-4c8a-bae6-3481b31133f0",
+      "_return": true
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:45:23Z",
+    "eventID": "38a860d1-6d74-466d-ace9-634259efe739",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:00Z",
+    "eventID": "1b9d5ed5-b1d6-41c4-a35a-839f0fee5b0c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "StopInstances",
+    "requestParameters": {
+      "force": false,
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "1abd168d-eca8-4821-8592-6049921bd29a",
+      "instancesSet": {
+        "items": [
+          {
+            "currentState": {
+              "code": 64,
+              "name": "stopping"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "currentState": {
+              "code": 64,
+              "name": "stopping"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          },
+          {
+            "currentState": {
+              "code": 64,
+              "name": "stopping"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "currentState": {
+              "code": 64,
+              "name": "stopping"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "currentState": {
+              "code": 64,
+              "name": "stopping"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffee445fa741"
+          }
+        ]
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:01Z",
+    "eventID": "d74164e1-db43-4179-9f93-e67fffe34425",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:11Z",
+    "eventID": "5d640f05-b10c-4277-a777-e810dccf57a6",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:16Z",
+    "eventID": "c3403061-aa37-48af-8fad-148af31f49e0",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:21Z",
+    "eventID": "fd4920f1-60b0-4862-9c15-b598fcef2531",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeImages",
+    "requestParameters": {
+      "executableBySet": {},
+      "ownersSet": {
+        "items": [
+          {
+            "owner": "self"
+          }
+        ]
+      },
+      "imagesSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "75ddd235-0600-405c-b940-a3d7d7924d16",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "0a02a4c6-f006-498b-a091-9cb395447c3b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeImages",
+    "requestParameters": {
+      "executableBySet": {},
+      "ownersSet": {},
+      "imagesSet": {
+        "items": [
+          {
+            "imageId": "ami-db0c0ffee3c44b17f"
+          }
+        ]
+      },
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "c0a4d1e2-7585-4ac2-bab5-a4eb7f9b8f7c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSubnets",
+    "requestParameters": {
+      "filterSet": {},
+      "maxResults": 200,
+      "subnetSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "2f04b754-e81b-4cf1-988f-b46e357e5e70",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "df0c9c27-4fbd-4344-b146-7ade071ddeef",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcs",
+    "requestParameters": {
+      "maxResults": 200,
+      "vpcSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "3e40fafb-0590-47a1-9458-f42e84b96548",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {
+        "items": [
+          {
+            "attributeName": "default-vpc"
+          },
+          {
+            "attributeName": "supported-platforms"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "083e3208-6d3a-4752-8fc0-30d76400ab1a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "b0916e86-13e1-49c2-99ee-6017386c3550",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 200,
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "running"
+                }
+              ]
+            },
+            "name": "instance-state-name"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "09002f88-ab48-43ba-a269-0c432cdd3710",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypeOfferings",
+    "requestParameters": {
+      "DescribeInstanceTypeOfferingsRequest": {
+        "Filter": {
+          "Name": "instance-type",
+          "Value": {
+            "tag": 1
+          },
+          "tag": 1
+        },
+        "LocationType": "availability-zone"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "ca0a6ba0-a254-4887-b084-8948a5cf8436",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneIdSet": {},
+      "availabilityZoneSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:22Z",
+    "eventID": "8d9209f5-1793-464d-8eaa-b507fae5aab4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetEbsEncryptionByDefault",
+    "requestParameters": {
+      "GetEbsEncryptionByDefaultRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:23Z",
+    "eventID": "4a015334-907c-4d05-afec-ea06c1cf199b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSnapshots",
+    "requestParameters": {
+      "snapshotSet": {
+        "items": [
+          {
+            "snapshotId": "snap-db0c0ffee27b8e430"
+          }
+        ]
+      },
+      "ownersSet": {},
+      "sharedUsersSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:23Z",
+    "eventID": "5cc39f45-68b6-4424-8e95-0769a965d35b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetEbsEncryptionByDefault",
+    "requestParameters": {
+      "GetEbsEncryptionByDefaultRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:23Z",
+    "eventID": "e3c7eacb-79bb-41cb-9855-bf9fc0a48c1b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAUPOvbxOKSH-V6zS_RyFWNx8zgcLvhPuEvGvZWSlszeObNEQe_65wX--N25HNOZCBMV-BPqSqxJRs7-xGS4fzUecJywoqFAnrYIWPY2Bq1uiLMWwEaO6ArzuafhHBA-JgQlTR1TiIO5MdxoCpHWPHXsAw-nj3Pr07wwUnuASaSQ922QZlXKb4_-tvpQoi9Y0as70Wpq2WbmUEg==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:23Z",
+    "eventID": "b8cb8c4d-8e12-4f6e-8e29-5c6350bbc979",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAQnLmksvbrcy8WZSVrr5BuAslhFPENieIBAgh0PUQPz6boukMbu8dKEnPFbM3P044iMVSJwWRcL_RH3ahqb1-Ok3eC4kuR9mmcWb2x9v7LGLimMFatmYGeqPtf5Ea6gdc7Y4qJVPYa53EuroNqlg8OQh0Uv_ZSvcIULZ9_MtaxL3DB2-agdMEzLSNppLDuMlCy88Xt50tbp4i5i-hJM=",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:23Z",
+    "eventID": "b2f58583-22f5-4bae-a160-bdc7be26df71",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetEbsEncryptionByDefault",
+    "requestParameters": {
+      "GetEbsEncryptionByDefaultRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:24Z",
+    "eventID": "fcafcac6-e7d6-4e96-a1fa-40320013468b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAQp2UsYa2hxP_M8gxRM4XZSU2QFjXsinb7d_A-hUEHG2hUPZchv4dsG5zCYuI4Y08iybQeOGdeUXUGkKwAnZ_sm4L7x1p93G93UJRZ28RAEkjZE6QwJyOHCA9uXP7H42WhE4LU9eWfS-BmuUsQvoIM0-9nIwZqyVnkO_6RKZWUrwXM48OM6mNNns_wWNRLgPLIsgp9XrJyVo9g==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:24Z",
+    "eventID": "b1da4553-5d2d-4a70-b3a3-c327574cf851",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAARjEtAhudmr_aMaVFTw86lkF9eZ2tatcz9nQrpkV1ZiLpTUZmN3-omxaYkIymdI6i6QY80BXWlxKTeIPz5hwOTG2g8KBpl0frT5ezuyj09xSPJfOTdR6wcX-7jHnwexh44c0BR9PR9-rRvIIRy1PJSrQY-twbuLNOF_LKZCtj3ZdVStWGbtydNfvJFV0dAoSWMFlgRrjz_Q=",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:24Z",
+    "eventID": "c3c8fa1f-8b3b-43d4-9069-48d8d9f7b90a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAV73OMMQcDiGQOsT87MP-Es71GbI7nOFVQUYyZRtB1Dy5cAht1UGLBYK_hAl7KaagDMUp8AquJUfha0WZPZT81D4htGTLPZCQqzCWj1MATyIHq5D4Eb7YU4ZeEkEOz4Ww8NTBsk-zrzvgPGM8PgwgQ3Dxx6cmB9HPHxTNHww8LZNmKzqBBYv_quTrRbT1d04ljhUn_0n-SiBAm2PP4Ik",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:24Z",
+    "eventID": "88796dd9-b896-4ecb-a7f9-6cb08e040d6d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAZKb95nqDnv83-wLpbxr5_SqwlGJUqy8AFut9G2u3cCf9xSbkxAj5oPfxfjHNzv9051R-sAJmdV7o3fVy01wbL-28bZjVEcEa7fnfRzY6rBlu0H9rgumBr35jGxVoYKyOKCdajp7d8NmYGY-__BvfcCKf2aSKPSJ4mSR69-mB2WeMgbHaW8AKhKZEfK9VUodwxSQoGK9HFYblCP4EnWwhQ==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:24Z",
+    "eventID": "3e7d3621-6de8-4a11-bce4-da393ff6e6ed",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAATmg5ECZegZ2YXM1QSa46Ae_-G8xevUxTg1WkHsRKH2zZIi-8DpTMS1SevS1V0QoDEZ5GxWukL-14VlXE1LaLAo_apOrPOgDRoDHic8lsZyOzcfwDcZSwDTOR7sEiPD0wxXz8Emkq8ZfmG8YfY1W7P51BX1fa3nqjDetCZF81nMWathQb0hMMnf0ytxoo3BANpImoIu5UKRiowoB8w==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:25Z",
+    "eventID": "422c22ab-ceb5-447e-96ab-51102037ddca",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypeOfferings",
+    "requestParameters": {
+      "DescribeInstanceTypeOfferingsRequest": {
+        "Filter": {
+          "Name": "instance-type",
+          "Value": {
+            "content": "t2.micro",
+            "tag": 1
+          },
+          "tag": 1
+        },
+        "LocationType": "availability-zone"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:37Z",
+    "eventID": "2352f8c8-4f24-4de7-b967-c8461fa86a65",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:43Z",
+    "eventID": "f0903a64-750c-4d29-a26f-7ec4dc430c52",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:53Z",
+    "eventID": "ce618f36-991f-4608-9ea9-d349caa9b1c9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:46:58Z",
+    "eventID": "fda97522-1071-4c7c-90a8-101056e1722f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:02Z",
+    "eventID": "cfb25b0e-d3b4-4a04-bc6c-b4b5bce8af8a",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023 2:47:02 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:02Z",
+    "eventID": "8e2f27b8-fd27-4ed7-95f2-7cea0389b471",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023, 2:47:02 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:03Z",
+    "eventID": "cc26740c-19f4-4557-b64f-291d3070047b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:13Z",
+    "eventID": "33e8a607-34e7-46fb-89c6-d42451882abe",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:15Z",
+    "eventID": "8b28539d-1dae-4022-a523-f0bfd18c8dbe",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:24Z",
+    "eventID": "2b00bd50-c139-434c-abb1-60af06e9f128",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:34Z",
+    "eventID": "be5845e3-69f5-4c82-a8c6-3287f036067a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 200,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:34Z",
+    "eventID": "274a4677-5f47-45c6-82dc-80c332a41559",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:34Z",
+    "eventID": "15dbc504-8fb8-41fc-b600-2497b97269a3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeManagedPrefixLists",
+    "requestParameters": {
+      "DescribeManagedPrefixListsRequest": {
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:39Z",
+    "eventID": "c3e7f22f-5977-479a-b8f0-d674963e4403",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 200,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:39Z",
+    "eventID": "c3e7f22f-5977-479a-b8f0-d674963e4403",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 200,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:39Z",
+    "eventID": "ca336db0-9b65-4ae7-b3c2-fff343a4e2cb",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeManagedPrefixLists",
+    "requestParameters": {
+      "DescribeManagedPrefixListsRequest": {
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:40Z",
+    "eventID": "d0d33c27-cc44-4619-9dec-9c045ce448d4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 200,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:40Z",
+    "eventID": "612541ee-dca5-4a6f-9793-aea85d5df3a8",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeManagedPrefixLists",
+    "requestParameters": {
+      "DescribeManagedPrefixListsRequest": {
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:40Z",
+    "eventID": "97fd5cc4-e657-44f4-a382-58fc35fd8b12",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeManagedPrefixLists",
+    "requestParameters": {
+      "DescribeManagedPrefixListsRequest": {
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:40Z",
+    "eventID": "5d1d4646-1de9-4394-a4c3-121348b440eb",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 200,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:42Z",
+    "eventID": "ea1f3a27-f809-48f8-965c-13df13cdd7fd",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 200,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:42Z",
+    "eventID": "a3037d1e-7f68-4328-be04-8821a8fc11d9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeManagedPrefixLists",
+    "requestParameters": {
+      "DescribeManagedPrefixListsRequest": {
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:47:44Z",
+    "eventID": "7b72f7e8-c70c-4cd0-8a6c-77315003aa5b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:48:33Z",
+    "eventID": "c750bb65-47cf-419b-b64d-11702947117e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeKeyPairs",
+    "requestParameters": {
+      "includePublicKey": false,
+      "keySet": {},
+      "keyPairIdSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:49:06Z",
+    "eventID": "abd242fe-fc15-4d00-bcb2-eaca148bc44d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:49:06Z",
+    "eventID": "20734c1c-2b56-4b9b-bad8-e27c84de7b9c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "AuthorizeSecurityGroupIngress",
+    "requestParameters": {
+      "ipPermissions": {
+        "items": [
+          {
+            "fromPort": 22,
+            "groups": {},
+            "toPort": 22,
+            "ipProtocol": "tcp",
+            "ipv6Ranges": {},
+            "prefixListIds": {},
+            "ipRanges": {
+              "items": [
+                {
+                  "cidrIp": "13.37.0.148/32"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "groupId": "sg-db0c0ffee1fa9c4e4"
+    },
+    "responseElements": {
+      "_return": true,
+      "securityGroupRuleSet": {
+        "items": [
+          {
+            "securityGroupRuleId": "sgr-db0c0ffee5683fba9",
+            "ipProtocol": "tcp",
+            "cidrIpv4": "13.37.0.148/32",
+            "isEgress": false,
+            "toPort": 22,
+            "groupId": "sg-db0c0ffee1fa9c4e4",
+            "fromPort": 22,
+            "groupOwnerId": "200802171337"
+          }
+        ]
+      },
+      "requestId": "07795b4d-4a1d-49e9-b283-98d3abeb4ddc"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:49:08Z",
+    "eventID": "5d20d5bd-84e4-4864-bad0-5ba08a44d194",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "RunInstances",
+    "requestParameters": {
+      "blockDeviceMapping": {},
+      "networkInterfaceSet": {
+        "items": [
+          {
+            "groupSet": {
+              "items": [
+                {
+                  "groupId": "sg-db0c0ffee1fa9c4e4"
+                }
+              ]
+            },
+            "deviceIndex": 0,
+            "associatePublicIpAddress": true
+          }
+        ]
+      },
+      "privateDnsNameOptions": {
+        "enableResourceNameDnsARecord": true,
+        "enableResourceNameDnsAAAARecord": false,
+        "hostnameType": "ip-name"
+      },
+      "disableApiStop": false,
+      "disableApiTermination": false,
+      "clientToken": "3b9904da-c7c2-471e-9b43-ea1b415d05e3",
+      "ebsOptimized": false,
+      "instanceType": "t2.micro",
+      "monitoring": {
+        "enabled": false
+      },
+      "tagSpecificationSet": {
+        "items": [
+          {
+            "resourceType": "instance",
+            "tags": [
+              {
+                "key": "Name",
+                "value": "my3TestServers"
+              }
+            ]
+          }
+        ]
+      },
+      "instancesSet": {
+        "items": [
+          {
+            "maxCount": 3,
+            "imageId": "ami-db0c0ffee3c44b17f",
+            "minCount": 3
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "groupSet": {},
+      "ownerId": "200802171337",
+      "instancesSet": {
+        "items": [
+          {
+            "rootDeviceType": "ebs",
+            "currentInstanceBootMode": "legacy-bios",
+            "stateReason": {
+              "message": "pending",
+              "code": "pending"
+            },
+            "architecture": "x86_64",
+            "imageId": "ami-db0c0ffee3c44b17f",
+            "cpuOptions": {
+              "coreCount": 1,
+              "threadsPerCore": 1
+            },
+            "tagSet": {
+              "items": [
+                {
+                  "key": "Name",
+                  "value": "my3TestServers"
+                }
+              ]
+            },
+            "hypervisor": "xen",
+            "placement": {
+              "tenancy": "default",
+              "availabilityZone": "us-east-1c"
+            },
+            "ebsOptimized": false,
+            "rootDeviceName": "/dev/xvda",
+            "virtualizationType": "hvm",
+            "launchTime": 1692240548000,
+            "capacityReservationSpecification": {
+              "capacityReservationPreference": "open"
+            },
+            "privateDnsNameOptions": {
+              "enableResourceNameDnsARecord": true,
+              "enableResourceNameDnsAAAARecord": false,
+              "hostnameType": "ip-name"
+            },
+            "instanceState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "privateIpAddress": "13.37.0.79",
+            "monitoring": {
+              "state": "disabled"
+            },
+            "networkInterfaceSet": {
+              "items": [
+                {
+                  "privateIpAddress": "13.37.0.79",
+                  "tagSet": {},
+                  "networkInterfaceId": "eni-db0c0ffee92fc5a62",
+                  "sourceDestCheck": true,
+                  "attachment": {
+                    "attachTime": 1692240548000,
+                    "deviceIndex": 0,
+                    "attachmentId": "eni-attach-db0c0ffee219930cd",
+                    "networkCardIndex": 0,
+                    "deleteOnTermination": true,
+                    "status": "attaching"
+                  },
+                  "groupSet": {
+                    "items": [
+                      {
+                        "groupName": "launch-wizard-3",
+                        "groupId": "sg-db0c0ffee1fa9c4e4"
+                      }
+                    ]
+                  },
+                  "vpcId": "vpc-db0c0ffee56bc40db",
+                  "ipv6AddressesSet": {},
+                  "ownerId": "200802171337",
+                  "privateDnsName": "ip-13-37-0-51.ec2.internal",
+                  "subnetId": "subnet-db0c0ffeeb9f46c3e",
+                  "interfaceType": "interface",
+                  "privateIpAddressesSet": {
+                    "item": [
+                      {
+                        "privateIpAddress": "13.37.0.79",
+                        "privateDnsName": "ip-13-37-0-51.ec2.internal",
+                        "primary": true
+                      }
+                    ]
+                  },
+                  "macAddress": "0e:a0:4b:4a:74:5f",
+                  "status": "in-use"
+                }
+              ]
+            },
+            "instanceId": "i-db0c0ffee27e69e8c",
+            "privateDnsName": "ip-13-37-0-51.ec2.internal",
+            "instanceType": "t2.micro",
+            "enaSupport": true,
+            "enclaveOptions": {
+              "enabled": false
+            },
+            "bootMode": "uefi-preferred",
+            "maintenanceOptions": {
+              "autoRecovery": "default"
+            },
+            "vpcId": "vpc-db0c0ffee56bc40db",
+            "clientToken": "3b9904da-c7c2-471e-9b43-ea1b415d05e3",
+            "metadataOptions": {
+              "state": "pending",
+              "httpProtocolIpv4": "enabled",
+              "httpPutResponseHopLimit": 2,
+              "httpTokens": "required",
+              "httpProtocolIpv6": "disabled",
+              "httpEndpoint": "enabled",
+              "instanceMetadataTags": "disabled"
+            },
+            "sourceDestCheck": true,
+            "productCodes": {},
+            "subnetId": "subnet-db0c0ffeeb9f46c3e",
+            "blockDeviceMapping": {},
+            "groupSet": {
+              "items": [
+                {
+                  "groupName": "launch-wizard-3",
+                  "groupId": "sg-db0c0ffee1fa9c4e4"
+                }
+              ]
+            },
+            "amiLaunchIndex": 1
+          },
+          {
+            "rootDeviceType": "ebs",
+            "currentInstanceBootMode": "legacy-bios",
+            "stateReason": {
+              "message": "pending",
+              "code": "pending"
+            },
+            "architecture": "x86_64",
+            "imageId": "ami-db0c0ffee3c44b17f",
+            "cpuOptions": {
+              "coreCount": 1,
+              "threadsPerCore": 1
+            },
+            "tagSet": {
+              "items": [
+                {
+                  "key": "Name",
+                  "value": "my3TestServers"
+                }
+              ]
+            },
+            "hypervisor": "xen",
+            "placement": {
+              "tenancy": "default",
+              "availabilityZone": "us-east-1c"
+            },
+            "ebsOptimized": false,
+            "rootDeviceName": "/dev/xvda",
+            "virtualizationType": "hvm",
+            "launchTime": 1692240548000,
+            "capacityReservationSpecification": {
+              "capacityReservationPreference": "open"
+            },
+            "privateDnsNameOptions": {
+              "enableResourceNameDnsARecord": true,
+              "enableResourceNameDnsAAAARecord": false,
+              "hostnameType": "ip-name"
+            },
+            "instanceState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "privateIpAddress": "13.37.0.152",
+            "monitoring": {
+              "state": "disabled"
+            },
+            "networkInterfaceSet": {
+              "items": [
+                {
+                  "privateIpAddress": "13.37.0.152",
+                  "tagSet": {},
+                  "networkInterfaceId": "eni-db0c0ffeea59e523c",
+                  "sourceDestCheck": true,
+                  "attachment": {
+                    "attachTime": 1692240548000,
+                    "deviceIndex": 0,
+                    "attachmentId": "eni-attach-db0c0ffee83c8e503",
+                    "networkCardIndex": 0,
+                    "deleteOnTermination": true,
+                    "status": "attaching"
+                  },
+                  "groupSet": {
+                    "items": [
+                      {
+                        "groupName": "launch-wizard-3",
+                        "groupId": "sg-db0c0ffee1fa9c4e4"
+                      }
+                    ]
+                  },
+                  "vpcId": "vpc-db0c0ffee56bc40db",
+                  "ipv6AddressesSet": {},
+                  "ownerId": "200802171337",
+                  "privateDnsName": "ip-13-37-0-86.ec2.internal",
+                  "subnetId": "subnet-db0c0ffeeb9f46c3e",
+                  "interfaceType": "interface",
+                  "privateIpAddressesSet": {
+                    "item": [
+                      {
+                        "privateIpAddress": "13.37.0.152",
+                        "privateDnsName": "ip-13-37-0-86.ec2.internal",
+                        "primary": true
+                      }
+                    ]
+                  },
+                  "macAddress": "0e:34:c6:28:23:cd",
+                  "status": "in-use"
+                }
+              ]
+            },
+            "instanceId": "i-db0c0ffeeb678d1db",
+            "privateDnsName": "ip-13-37-0-86.ec2.internal",
+            "instanceType": "t2.micro",
+            "enaSupport": true,
+            "enclaveOptions": {
+              "enabled": false
+            },
+            "bootMode": "uefi-preferred",
+            "maintenanceOptions": {
+              "autoRecovery": "default"
+            },
+            "vpcId": "vpc-db0c0ffee56bc40db",
+            "clientToken": "3b9904da-c7c2-471e-9b43-ea1b415d05e3",
+            "metadataOptions": {
+              "state": "pending",
+              "httpProtocolIpv4": "enabled",
+              "httpPutResponseHopLimit": 2,
+              "httpTokens": "required",
+              "httpProtocolIpv6": "disabled",
+              "httpEndpoint": "enabled",
+              "instanceMetadataTags": "disabled"
+            },
+            "sourceDestCheck": true,
+            "productCodes": {},
+            "subnetId": "subnet-db0c0ffeeb9f46c3e",
+            "blockDeviceMapping": {},
+            "groupSet": {
+              "items": [
+                {
+                  "groupName": "launch-wizard-3",
+                  "groupId": "sg-db0c0ffee1fa9c4e4"
+                }
+              ]
+            },
+            "amiLaunchIndex": 2
+          },
+          {
+            "rootDeviceType": "ebs",
+            "currentInstanceBootMode": "legacy-bios",
+            "stateReason": {
+              "message": "pending",
+              "code": "pending"
+            },
+            "architecture": "x86_64",
+            "imageId": "ami-db0c0ffee3c44b17f",
+            "cpuOptions": {
+              "coreCount": 1,
+              "threadsPerCore": 1
+            },
+            "tagSet": {
+              "items": [
+                {
+                  "key": "Name",
+                  "value": "my3TestServers"
+                }
+              ]
+            },
+            "hypervisor": "xen",
+            "placement": {
+              "tenancy": "default",
+              "availabilityZone": "us-east-1c"
+            },
+            "ebsOptimized": false,
+            "rootDeviceName": "/dev/xvda",
+            "virtualizationType": "hvm",
+            "launchTime": 1692240548000,
+            "capacityReservationSpecification": {
+              "capacityReservationPreference": "open"
+            },
+            "privateDnsNameOptions": {
+              "enableResourceNameDnsARecord": true,
+              "enableResourceNameDnsAAAARecord": false,
+              "hostnameType": "ip-name"
+            },
+            "instanceState": {
+              "code": 0,
+              "name": "pending"
+            },
+            "privateIpAddress": "13.37.0.711",
+            "monitoring": {
+              "state": "disabled"
+            },
+            "networkInterfaceSet": {
+              "items": [
+                {
+                  "privateIpAddress": "13.37.0.711",
+                  "tagSet": {},
+                  "networkInterfaceId": "eni-db0c0ffee32b12d82",
+                  "sourceDestCheck": true,
+                  "attachment": {
+                    "attachTime": 1692240548000,
+                    "deviceIndex": 0,
+                    "attachmentId": "eni-attach-db0c0ffee68e348e0",
+                    "networkCardIndex": 0,
+                    "deleteOnTermination": true,
+                    "status": "attaching"
+                  },
+                  "groupSet": {
+                    "items": [
+                      {
+                        "groupName": "launch-wizard-3",
+                        "groupId": "sg-db0c0ffee1fa9c4e4"
+                      }
+                    ]
+                  },
+                  "vpcId": "vpc-db0c0ffee56bc40db",
+                  "ipv6AddressesSet": {},
+                  "ownerId": "200802171337",
+                  "privateDnsName": "ip-13-37-0-244.ec2.internal",
+                  "subnetId": "subnet-db0c0ffeeb9f46c3e",
+                  "interfaceType": "interface",
+                  "privateIpAddressesSet": {
+                    "item": [
+                      {
+                        "privateIpAddress": "13.37.0.711",
+                        "privateDnsName": "ip-13-37-0-244.ec2.internal",
+                        "primary": true
+                      }
+                    ]
+                  },
+                  "macAddress": "0e:eb:e9:22:68:bf",
+                  "status": "in-use"
+                }
+              ]
+            },
+            "instanceId": "i-db0c0ffeede6d749f",
+            "privateDnsName": "ip-13-37-0-244.ec2.internal",
+            "instanceType": "t2.micro",
+            "enaSupport": true,
+            "enclaveOptions": {
+              "enabled": false
+            },
+            "bootMode": "uefi-preferred",
+            "maintenanceOptions": {
+              "autoRecovery": "default"
+            },
+            "vpcId": "vpc-db0c0ffee56bc40db",
+            "clientToken": "3b9904da-c7c2-471e-9b43-ea1b415d05e3",
+            "metadataOptions": {
+              "state": "pending",
+              "httpProtocolIpv4": "enabled",
+              "httpPutResponseHopLimit": 2,
+              "httpTokens": "required",
+              "httpProtocolIpv6": "disabled",
+              "httpEndpoint": "enabled",
+              "instanceMetadataTags": "disabled"
+            },
+            "sourceDestCheck": true,
+            "productCodes": {},
+            "subnetId": "subnet-db0c0ffeeb9f46c3e",
+            "blockDeviceMapping": {},
+            "groupSet": {
+              "items": [
+                {
+                  "groupName": "launch-wizard-3",
+                  "groupId": "sg-db0c0ffee1fa9c4e4"
+                }
+              ]
+            },
+            "amiLaunchIndex": 0
+          }
+        ]
+      },
+      "requestId": "33bde891-f7ca-4557-ae72-d1adc9c62499",
+      "reservationId": "r-db0c0ffee1a892ef5"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:50:12Z",
+    "eventID": "e9d180db-e625-4acd-85b4-819473364f95",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:02Z",
+    "eventID": "df7d661a-d05e-4f3b-b9ae-1d97b740a072",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023, 2:52:02 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:02Z",
+    "eventID": "f5398558-dcab-4e36-a8ff-78d951b34282",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023 2:52:02 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:12Z",
+    "eventID": "12ead661-ca30-4800-8071-188239bb5232",
+    "eventSource": "resource-explorer-2.amazonaws.com",
+    "eventName": "ListIndexes",
+    "requestParameters": {
+      "Type": "AGGREGATOR"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:15Z",
+    "eventID": "58dbb45f-d044-44d9-a876-8ba3000a3ebe",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "ece30ea4-5077-42ae-ba2f-4ae3360f3f6c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVolumes",
+    "requestParameters": {
+      "volumeSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "cf687b6e-3d3f-43cd-b6db-39bb25bdec6d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribePlacementGroups",
+    "requestParameters": {
+      "placementGroupSet": {},
+      "placementGroupIdSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "cda8fa6e-579f-45f5-a28d-4518a8bcb717",
+    "eventSource": "elasticloadbalancing.amazonaws.com",
+    "eventName": "DescribeLoadBalancers",
+    "requestParameters": {
+      "pageSize": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "84d9e324-f582-4a94-a747-43024a61ae79",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeHosts",
+    "requestParameters": {
+      "DescribeHostsRequest": {
+        "MaxResults": 500
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "24574bfe-9067-4e14-9655-cffec96b5a81",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "c954462e-fb4f-4193-8f75-5cb451c427cd",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "846c23f3-1408-4dd4-89d1-72cae26c58c2",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeLaunchTemplates",
+    "requestParameters": {
+      "DescribeLaunchTemplatesRequest": {
+        "MaxResults": 1
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "2443971d-dd23-4593-b537-24b604224d37",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeKeyPairs",
+    "requestParameters": {
+      "includePublicKey": false,
+      "keySet": {},
+      "keyPairIdSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "3fc9ac26-327f-48d3-b625-9dfc4369f215",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneIdSet": {},
+      "availabilityZoneSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "286c9390-949c-4b36-971f-8565135a07f6",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVolumeStatus",
+    "requestParameters": {
+      "volumeSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "f2acee04-5385-4344-bb11-76f4c9252679",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSnapshots",
+    "requestParameters": {
+      "snapshotSet": {},
+      "maxResults": 1000,
+      "ownersSet": {
+        "items": [
+          {
+            "owner": "200802171337"
+          }
+        ]
+      },
+      "sharedUsersSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:30Z",
+    "eventID": "d3dd4ff1-8313-4d36-bab7-008c8c0d1cf0",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "a60a95dc-704a-432d-ad30-b6db56488de4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "92c5d78e-4a64-41c4-875c-8ba3b4b71213",
+    "eventSource": "autoscaling.amazonaws.com",
+    "eventName": "DescribeAutoScalingGroups",
+    "requestParameters": {
+      "maxRecords": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "ff339259-f853-4287-ace0-5eac789ac178",
+    "eventSource": "elasticloadbalancing.amazonaws.com",
+    "eventName": "DescribeLoadBalancers",
+    "requestParameters": {
+      "pageSize": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "d514fc87-8468-42fe-8a38-bdf0ac1b165e",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023, 2:52:31 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "f77ab067-a94d-4f7a-897f-2c537d3a7fde",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 1000,
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "3363e387-27ad-43ea-801f-a0fad194df47",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023 2:52:31 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "821d50de-dc14-453b-b04f-3a1eddd46929",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRegions",
+    "requestParameters": {
+      "allRegions": true,
+      "regionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:31Z",
+    "eventID": "9b0b8863-3c98-466a-966c-d63678564bac",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "23b1a4c4-e7f0-43b0-8e43-6989474c2222",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAZfQGHAzMdoLgtXzcJaf0ocUwF50EIARKyKXifEuCsZCK0DzaNtwL4Q8w2uqP0QpXmgMrvcy4WVJRx86nAll0I7Jd1eKVy_8T6zcG7MxeD5neNFXS8nmp8SMhC_3tKyWOdhgg7TKMJSP0WJROdYDKr3yCLmZhWAuynF_dWob1FxHKwBYjJ4Jdw49Z2zy4_DCjoMDf7h24T-SUqv9MHk=",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "940659a4-fb2f-42ef-9582-421691479cc3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAdkyeSHFTj5YEK_h9YJxEfBlh9xX6qGra4GkaQGeWLjMCNrHUb1SuvcMvg_jhHTgDIw5oIoSAN1hmT8pWf8RaLK9OvvkiQqB7dtERx0PT-AvXdj9lV6ZVelmnyAnE_esDgK7hj6v-u1qqSSE2KR1TdTGVVBlxwAZj2rDs-tnCkwBdy2XVaV1je-Y71jAfy6KMLcqmLhlzj8=",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "317cc0ed-c2f6-4b06-8f1f-04b327f4207e",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "requestParameters": {
+      "maxRecords": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "d5a072f5-6638-4482-9611-b75b3239c37e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "d5b0e5a4-327c-4e33-a473-ae3b99ba2fb6",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAfE9ivY6UXKLSON3QCXs8sOSjPW9eWGTGHA-ZLVWP5StS2zEtc1iv0POUZPVnunwcXbK_otrk9vOz0Z0sLAfDQivRVqCtP1Y16161T1gnXbmVD7FQLi7UkfwPk5gSCsq_25ViNsEoC84SsuYwqnXf2CSPx_Pi42jOhgtVXrBUK4GlCrPJbzvroRlV_oc4TW4RDl0YPyJiQ19Sw==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "c1d526b1-c48c-4b44-bf00-a9c68d0f2c79",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 100,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "78017c2d-4900-4282-8d6e-4439aea8e62d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "3ed158fa-32da-44b5-8883-437d2745c6fa",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                },
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                },
+                {
+                  "value": "i-db0c0ffee98361ad0"
+                },
+                {
+                  "value": "i-db0c0ffee8c20e5fc"
+                },
+                {
+                  "value": "i-db0c0ffeeffd53ad4"
+                },
+                {
+                  "value": "i-db0c0ffee27e69e8c"
+                },
+                {
+                  "value": "i-db0c0ffeede6d749f"
+                },
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "9449202a-e999-4d43-8126-1b0fbeda7581",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          },
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          },
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:56Z",
+    "eventID": "a44140ac-a032-404e-83fa-bb164dedf308",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "instance"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      },
+      "maxResults": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:57Z",
+    "eventID": "8bac59c2-4574-430a-bdf4-9fef779fdf74",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAWnNX8DWfA8SFtTzaDmQMzMwXwDgrEdLzHklS8LbLq-Eve49mA3WaKj0sgGkBuK-1RPS8l1oZe-gt1pSQR7bfinXfzm83hhm-RoRLoaLrFeHpE1BuggodCxTj4kOqrDNnaOA8f_7eEsQGcmO8zVSQUJdCI6w0ndGT-e3xxBfNVCRWZ2PFvqSZ-lqrESfJqz55Ftm7nELg3L8eg==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:57Z",
+    "eventID": "5b88e94e-0027-47bb-8870-47be8933846d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAZQJCcszjdpJRbAT3gzCyb0Br0OJje5VkzNo-PkK0WfHBzeDAqSRambgCbiM9PIJxuPaGpb8saY37VUKG4Fg7cfpL_xffz4GGBopJFvoS-edRxMMsaqcH4FX3XNVoBWfSMp9X26NelIiThSkLM4k4ptpKTa5vdKrgQFq3FGgFjsWCwQdes1F-tip-1G-G-z5iU7s6zSPJT7XF_E0Ry36",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:57Z",
+    "eventID": "52d7b882-150b-4191-b676-03d4f4bc62de",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAASPrrlmudP-R4L42o19HE-B3QLy2MplYGZE6pRN8Pud0o7GCvUvpK34Pj6DXogmJKCrORTz4yA-PUpLRPD3jdjVEN5n-9-ifhKzeMHXCBTVNEE75eXNTC8znD87H-Gnmo595R-KaHPUiZNk5mvHyyTgikzwfi-5QeZUYYG2R-s1ycpdXiBPjbRacBD5KuOIosnUMZpWXQsMfzBxEfkXj9Q==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:52:57Z",
+    "eventID": "dcd00166-80b1-4d73-8341-d0b95c22a337",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAT6iRaFeZfVHtA4uy1TLmzsHPumIycgJzbyRmGGC7rl5daybxdYmJX-bOcWb5QDl4gHgZdxWV2dtBMF0fcNDHxgMihhGJqvApGOScXus6LK30K1n8RxdN2PGErTrRWwytWKzD5DpOD_DZWShVPLy3KCEz-qPinaEMggScHtNWOFp19bmWmnq-lHsW5grtRs69yjjWCzGSB2jZweiNA==",
+        "MaxResults": 100
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "b4ec2ce0-dfb2-4f3f-8549-9cc3f514c7c9",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffeeb678d1db"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "df9b8f42-31ff-4823-b457-596e10266f15",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "04153099-f922-4fbd-a4ad-16e37b3272c3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffeeb678d1db",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "6d1f7199-faed-4778-aa94-2df4bc686f61",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffeeb678d1db",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "8ec13bc1-6ce1-44b0-bf4c-8bfb8643f79c",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "7456d8fb-66bd-400a-829e-95aae20dc3fb",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeImages",
+    "requestParameters": {
+      "executableBySet": {},
+      "ownersSet": {},
+      "imagesSet": {
+        "items": [
+          {
+            "imageId": "ami-db0c0ffee3c44b17f"
+          }
+        ]
+      },
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "f83f3133-ab13-4b0c-9b2d-aa0c57ad1e6f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "a7af6d14-c5ea-49d5-a7cd-4e6544e8c6c4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "375e851f-6e82-4fa0-9f4e-0a46d0136b46",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcs",
+    "requestParameters": {
+      "filterSet": {},
+      "vpcSet": {
+        "items": [
+          {
+            "vpcId": "vpc-db0c0ffee56bc40db"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "90c0251e-7b5f-4a76-a722-b096120e368f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffeeb678d1db",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "b5d7f99c-252d-4f0a-be10-c0e8dedaeb24",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "0394b96b-63ca-4598-9b00-6d280d171895",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:43Z",
+    "eventID": "a4df09fa-d3f9-43ee-a0a7-c5e2e6eedac5",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSubnets",
+    "requestParameters": {
+      "filterSet": {},
+      "subnetSet": {
+        "items": [
+          {
+            "subnetId": "subnet-db0c0ffeeb9f46c3e"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:44Z",
+    "eventID": "95672e5f-e6c2-4d22-a9be-4af9df68d379",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:53:44Z",
+    "eventID": "dc29e8d8-0d3d-4d3c-a8c7-1fd17f6e58d1",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:54:47Z",
+    "eventID": "dcda526d-400c-42f6-8bba-f3c1597e00cf",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:54:47Z",
+    "eventID": "277676d2-beed-4f9e-94bd-4f41a961f038",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffeeb678d1db",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:19Z",
+    "eventID": "c1ad55af-b226-4149-9d29-28dc09a276ce",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "TerminateInstances",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "b029fdcf-5d29-4826-a588-14ad76565793",
+      "instancesSet": {
+        "items": [
+          {
+            "currentState": {
+              "code": 32,
+              "name": "shutting-down"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:20Z",
+    "eventID": "36b0a2c7-01b5-4604-903c-c364315c84c6",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "ba0073ab-10ec-41df-9a8b-42758b8b48a7",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffeeb678d1db"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "a5a50bb4-b084-4e9e-83b3-f5ade00844bd",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "ff2adcda-bc61-4664-b2e3-046797098e56",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 100,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "3353aa3c-7107-480b-86e1-8943ea1ee875",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "75401d4a-65cd-4b67-8f44-6d1be3f20d67",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "instance"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      },
+      "maxResults": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "821cd306-3863-4f21-a6f1-cf0514c650f4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "fdb37896-e84f-45e3-b7d6-d5961ec54e1c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffeeb678d1db",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "c48f1fcf-8659-4c6f-80f8-6f0480d318b5",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffeeb678d1db",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "fcb9c819-5eb6-4e78-83e1-2d1a09b698e7",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee445fa741"
+                },
+                {
+                  "value": "i-db0c0ffee6e5e585f"
+                },
+                {
+                  "value": "i-db0c0ffee98361ad0"
+                },
+                {
+                  "value": "i-db0c0ffee8c20e5fc"
+                },
+                {
+                  "value": "i-db0c0ffeeffd53ad4"
+                },
+                {
+                  "value": "i-db0c0ffee27e69e8c"
+                },
+                {
+                  "value": "i-db0c0ffeede6d749f"
+                },
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "617ba30e-a097-4343-9835-6ae55987aad5",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "requestParameters": {
+      "maxRecords": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "1d31bd97-7bfd-4621-9a89-b0c2d34f84d3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "7239459a-60f0-4d3f-8551-55619825442e",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "510f17c8-d278-40df-a035-37cbc0859c81",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffeeb678d1db"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:37Z",
+    "eventID": "49f31683-c2ef-4e18-8c20-0537c8d5f7e8",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffeeb678d1db",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:38Z",
+    "eventID": "aa3ab268-9f8f-488c-a54f-20218a802d0b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:38Z",
+    "eventID": "147c83bb-2c62-453d-a357-6da344a9c8c2",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee445fa741"
+          },
+          {
+            "instanceId": "i-db0c0ffee6e5e585f"
+          },
+          {
+            "instanceId": "i-db0c0ffee98361ad0"
+          },
+          {
+            "instanceId": "i-db0c0ffee8c20e5fc"
+          },
+          {
+            "instanceId": "i-db0c0ffeeffd53ad4"
+          },
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          },
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:38Z",
+    "eventID": "b401fbae-2936-4067-a538-df82d0da3508",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:48Z",
+    "eventID": "9421653d-6ec5-4c3e-92e6-fdc39577f42f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:55:53Z",
+    "eventID": "7634d2f6-329d-467d-8a31-3fe0d19f0caf",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffeeb678d1db"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "7752c865-6ce2-4dad-8fd7-ca0ba074cd3c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee27e69e8c"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "5ba9e5d2-5308-4b9c-88d9-f0f62e4933c2",
+    "eventSource": "compute-optimizer.amazonaws.com",
+    "eventName": "GetEnrollmentStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "8b4d895d-a322-4d8b-8f96-209715602e2d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee27e69e8c"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "31f0fd36-37c2-495c-8288-36385a8ddae9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          }
+        ]
+      },
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "f932f951-0c21-4282-bd3c-f6a0c0b94a3e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkInterfaces",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee27e69e8c"
+                }
+              ]
+            },
+            "name": "attachment.instance-id"
+          }
+        ]
+      },
+      "networkInterfaceIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "656ce13d-7847-415e-af9c-86784e62db64",
+    "eventSource": "ssm.amazonaws.com",
+    "eventName": "DescribeInstanceInformation",
+    "requestParameters": {
+      "filters": [
+        {
+          "key": "InstanceIds",
+          "values": [
+            "i-db0c0ffee27e69e8c"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "426e0605-0bce-4203-b418-d70f6882f806",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee27e69e8c",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "35d0712a-5f2a-4514-84b7-eb7bc8c23d0b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "f62ed7b0-dc4d-4295-8f0c-1626f282333d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceCreditSpecifications",
+    "requestParameters": {
+      "DescribeInstanceCreditSpecificationsRequest": {
+        "InstanceId": {
+          "content": "i-db0c0ffee27e69e8c",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:11Z",
+    "eventID": "51a888b6-a8d1-4c7e-96e1-96c8c1245254",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee27e69e8c",
+      "attribute": "disableApiStop"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:12Z",
+    "eventID": "af036aa6-1995-4891-97af-5552f759f979",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:56:56Z",
+    "eventID": "34d6025e-75fc-4858-baff-8c0dd68130db",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee27e69e8c"
+                },
+                {
+                  "value": "i-db0c0ffeede6d749f"
+                }
+              ]
+            },
+            "name": "resource-id"
+          },
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "Name"
+                }
+              ]
+            },
+            "name": "key"
+          }
+        ]
+      },
+      "maxResults": 1000
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:57:28Z",
+    "eventID": "e510afae-148a-44d3-8570-10afe2e6973c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "i-db0c0ffee27e69e8c"
+                },
+                {
+                  "value": "i-db0c0ffeede6d749f"
+                }
+              ]
+            },
+            "name": "instance-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:57:28Z",
+    "eventID": "376b39e5-5399-4ade-a47e-e91b29627502",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffee27e69e8c",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:57:29Z",
+    "eventID": "938723d7-6f67-49e2-91a0-bf23956b39db",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceAttribute",
+    "requestParameters": {
+      "instanceId": "i-db0c0ffeede6d749f",
+      "attribute": "disableApiTermination"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:57:31Z",
+    "eventID": "68eefa2d-9558-4dbf-8cc8-34bea6dd0b89",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023, 2:57:31 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:57:31Z",
+    "eventID": "3478d906-6049-4d68-a928-ba042bc8e43c",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Aug 10, 2023 2:57:31 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:20Z",
+    "eventID": "e0ac13a5-74b0-4903-b69d-d96e4b9bcb69",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "TerminateInstances",
+    "requestParameters": {
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "a58b663a-fcf6-4bbb-a349-bddfcef95459",
+      "instancesSet": {
+        "items": [
+          {
+            "currentState": {
+              "code": 32,
+              "name": "shutting-down"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "currentState": {
+              "code": 32,
+              "name": "shutting-down"
+            },
+            "previousState": {
+              "code": 16,
+              "name": "running"
+            },
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:21Z",
+    "eventID": "4c24bf2d-bedc-4963-94aa-9cf28ae25c50",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:31Z",
+    "eventID": "c35c5949-1788-4c33-83be-1dce10240112",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:36Z",
+    "eventID": "776be5ae-6533-4d8c-91ea-45348d465d8b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:42Z",
+    "eventID": "50ffc092-d64b-4727-b588-702192003a70",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:44Z",
+    "eventID": "027861a3-0ff5-40a2-945e-838e181064f5",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:52Z",
+    "eventID": "01fe441f-e2d4-44bd-b5a2-9d053f793d6b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-17T02:58:57Z",
+    "eventID": "13695a06-1f6a-4821-99ed-528432303f7a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "filterSet": {},
+      "instancesSet": {
+        "items": [
+          {
+            "instanceId": "i-db0c0ffee27e69e8c"
+          },
+          {
+            "instanceId": "i-db0c0ffeede6d749f"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  }
+]

@@ -1,0 +1,288 @@
+{
+  "22186b67-955a-4a5d-8b62-a6b6f2f427ae": {
+    "EventCount": 4,
+    "Label": "EC2_Instances_CapacityReservations",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Instances->Capacity Reservations which displays all EC2 Instance Capacity Reservations in a searchable paged format with no filter applied.",
+    "CorrelationId": "22186b67-955a-4a5d-8b62-a6b6f2f427ae",
+    "FirstEventTime": "2023-08-07T04:10:44Z",
+    "AllEventArr": "ec2:GetCapacityReservationAccountAttribute,ec2:DescribeCapacityReservations,ec2:DescribeAvailabilityZones,ec2:DescribeTags",
+    "AllEventIdArr": "22186b67-955a-4a5d-8b62-a6b6f2f427ae,89e46aa0-386b-4b01-86f7-e130e22cf61a,bfc5ebaa-4219-47b8-8b24-e50a8c954a2c,e8f69d4f-45e5-43d7-8f8d-0c6ede82cc22",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityReservations:",
+    "LastEventTime": "2023-08-07T04:10:44Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations"
+  },
+  "1ae755d7-75eb-43ee-a6a9-5473f96c476d": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_CapacityReservations_CreateCapacityReservation_Step1",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Instances->Capacity Reservations->Create Capacity Reservation (Step 1 of 2) which reserves EC2 Instance Capacity in a specific Availability Zone for any duration.",
+    "CorrelationId": "1ae755d7-75eb-43ee-a6a9-5473f96c476d",
+    "FirstEventTime": "2023-08-07T04:03:06Z",
+    "AllEventArr": "ec2:DescribeAvailabilityZones,ec2:DescribePlacementGroups",
+    "AllEventIdArr": "1ae755d7-75eb-43ee-a6a9-5473f96c476d,33e47cb7-6f6e-49a7-88b5-1127961351eb",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CreateCapacityReservation:",
+    "LastEventTime": "2023-08-07T04:03:06Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations->Create Capacity Reservation (Step 1 of 2)"
+  },
+  "af1220c8-da37-44bc-a769-0d6ac0fb98a9": {
+    "EventCount": 19,
+    "Label": "VPC_VPCDashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked VPC->VPC Dashboard which displays counts of all VPC resources (e.g. VPCs, subnets, route tables, etc.).",
+    "CorrelationId": "af1220c8-da37-44bc-a769-0d6ac0fb98a9",
+    "FirstEventTime": "2023-08-07T03:59:00Z",
+    "AllEventArr": "ec2:DescribeRegions,ec2:DescribeVpcs,ec2:DescribeDhcpOptions,ec2:DescribeSubnets,ec2:DescribeEgressOnlyInternetGateways,ec2:DescribeRouteTables,ec2:DescribeAddresses,ec2:DescribeAccountAttributes,ec2:DescribeVpcEndpointServiceConfigurations,ec2:DescribeInstances,ec2:DescribeSecurityGroups,ec2:DescribeNetworkAcls,ec2:DescribeVpcEndpoints,ec2:DescribeVpnConnections,ec2:DescribeInternetGateways,ec2:DescribeCustomerGateways,ec2:DescribeVpnGateways,ec2:DescribeVpcPeeringConnections",
+    "AllEventIdArr": "af1220c8-da37-44bc-a769-0d6ac0fb98a9,004d5928-08e9-4e84-9d7b-5f4a61d3cf7d,348dc261-3881-4bd0-bf65-1c5819dd0431,4325e5ac-deef-4ba6-a39a-92f66edd76a7,86e77fbd-5de9-4b56-b805-6d3a2e494797,a032cbce-453e-4f85-acf2-12dd89a1525c,ae83e4ed-a74f-4f37-8f47-8bdd6c6f6580,dc614283-8fbc-4e49-b6f3-0b4a16a38c74,e3e1e56a-88c6-4b59-9b59-e366748cff6e,099287c8-fe7a-407e-9562-1b3e949bcc82,09aed6e7-eb1a-4b05-b248-85b6c71f612b,1dd292d2-f0fb-49ef-80cb-a25304418284,30ec0c52-0e9e-407a-91b6-b987044d4238,5c9c1c68-5eed-4a82-b77b-647706b34024,769b729a-bf61-460e-9722-3e5e5280ad3f,9bce905a-b3e5-4865-92cc-d7b4d255cf9f,cff2d1b6-4e7f-4f6b-8718-580fd91e9b90,e4b25ddd-78cb-439c-a399-20efe7cbffd9,e9af4547-6db3-4837-a2c8-8a580ddf198b",
+    "Url": "https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-07T03:59:02Z",
+    "Name": "Clicked VPC->VPC Dashboard"
+  },
+  "ac9f4913-cf8d-43c4-9e03-9d7d876d0085": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_CapacityReservations",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": [
+        {
+          "Key": "instanceType",
+          "Value": "a1.medium"
+        },
+        {
+          "Key": "availabilityZone",
+          "Value": "us-east-1a"
+        }
+      ]
+    },
+    "Summary": "Clicked EC2->Instances->Capacity Reservations which displays all EC2 Instance Capacity Reservations in a searchable paged format while filtered by 2 custom attributes (instance-type='a1.medium', availability-zone='us-east-1a').",
+    "CorrelationId": "ac9f4913-cf8d-43c4-9e03-9d7d876d0085",
+    "FirstEventTime": "2023-08-07T04:06:37Z",
+    "AllEventArr": "ec2:DescribeCapacityReservations,ec2:DescribeTags",
+    "AllEventIdArr": "ac9f4913-cf8d-43c4-9e03-9d7d876d0085,e49260b8-7efd-45d2-89e0-6dc79672db24",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityReservations:instanceType=a1.medium;availabilityZone=us-east-1a",
+    "LastEventTime": "2023-08-07T04:06:37Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations"
+  },
+  "9156c8e1-7299-4bcb-9589-eac6a38f2647": {
+    "EventCount": 1,
+    "Label": "EC2_EC2Dashboard_ServiceHealth_Refresh",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Service Health->Refresh button to refresh EC2 Service Health summary dashboard tile.",
+    "CorrelationId": "9156c8e1-7299-4bcb-9589-eac6a38f2647",
+    "FirstEventTime": "2023-08-07T03:58:07Z",
+    "AllEventArr": "ec2:DescribeAvailabilityZones",
+    "AllEventIdArr": "9156c8e1-7299-4bcb-9589-eac6a38f2647",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-07T03:58:07Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Service Health->Refresh"
+  },
+  "b04237be-6463-49d8-988f-eb4ee8fc1611": {
+    "EventCount": 5,
+    "Label": "EC2_Instances_CapacityReservations_SPECIFICCAPACITYRESERVATION_CancelCapacityReservation",
+    "AdditionalData": {
+      "capacityReservationId": "cr-db0c0ffeec8e5ebcf"
+    },
+    "Summary": "Clicked EC2->Instances->Capacity Reservations->'cr-db0c0ffeec8e5ebcf'->Cancel Capacity Reservation which cancels existing 'cr-db0c0ffeec8e5ebcf' EC2 Instance Capacity Reservation.",
+    "CorrelationId": "b04237be-6463-49d8-988f-eb4ee8fc1611",
+    "FirstEventTime": "2023-08-07T04:10:18Z",
+    "AllEventArr": "ec2:CancelCapacityReservation,ec2:GetCapacityReservationUsage,ec2:GetGroupsForCapacityReservation,ec2:DescribeCapacityReservations,ram:GetResourceShareAssociations",
+    "AllEventIdArr": "b04237be-6463-49d8-988f-eb4ee8fc1611,248c691a-e9cc-4b7b-a99c-a296c49ec8dd,3b9fc5ef-3c10-4b0b-b1e6-80798d1641b3,cb223885-49e9-4add-a8f5-99fdf706fb2a,cfa70597-1e10-4d77-b2fa-0480e8944a41",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityReservationDetails:crId=cr-db0c0ffeec8e5ebcf",
+    "LastEventTime": "2023-08-07T04:10:19Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations->SPECIFICCAPACITYRESERVATION->Cancel Capacity Reservation"
+  },
+  "068ef5f3-b4c0-4411-949a-d3d7a80a1175": {
+    "EventCount": 11,
+    "Label": "EC2_EC2Dashboard_Resources_Refresh",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Resources->Refresh button to refresh EC2 Resources summary dashboard tile.",
+    "CorrelationId": "068ef5f3-b4c0-4411-949a-d3d7a80a1175",
+    "FirstEventTime": "2023-08-07T03:56:30Z",
+    "AllEventArr": "ec2:DescribePlacementGroups,autoscaling:DescribeAutoScalingGroups,ec2:DescribeKeyPairs,ec2:DescribeInstances,ec2:DescribeHosts,ec2:DescribeVolumes,ec2:DescribeSnapshots,elasticloadbalancing:DescribeLoadBalancers,ec2:DescribeAddresses,ec2:DescribeSecurityGroups",
+    "AllEventIdArr": "068ef5f3-b4c0-4411-949a-d3d7a80a1175,2db75f5c-f86a-46ee-9d3d-7db7c9bb4ef0,78f39462-4520-41e2-94f5-3bfe5247edfa,79301446-6699-4537-9fd3-da100effd126,7eff6ab9-dc21-45d0-9d14-30f761276644,81e15a03-4b88-48d8-b644-3e0f98fdb7f9,820bb596-d09b-4007-a600-9f769df9f5ab,8b349ec3-a060-45bc-875c-a5215752c2fd,bdbd6fb5-f85d-4f91-8336-e2fb80fe4a6e,c31894a0-a3a7-42ca-9ecd-a178b82294d6,a84cf392-e872-499a-aa08-f54e42ec784d",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-07T03:56:31Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Resources->Refresh"
+  },
+  "4c461e84-032d-493a-9ee9-b5bb4072ebf6": {
+    "EventCount": 5,
+    "Label": "EC2_Instances_CapacityReservations_CreateCapacityReservation_Step2",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Instances->Capacity Reservations->Create Capacity Reservation (Step 2 of 2) which reserves EC2 Instance Capacity in a specific Availability Zone for any duration.",
+    "CorrelationId": "4c461e84-032d-493a-9ee9-b5bb4072ebf6",
+    "FirstEventTime": "2023-08-07T04:05:02Z",
+    "AllEventArr": "ec2:GetCapacityReservationAccountAttribute,ec2:CreateCapacityReservation,ec2:DescribeCapacityReservations,ec2:DescribeAvailabilityZones,ec2:DescribeTags",
+    "AllEventIdArr": "4c461e84-032d-493a-9ee9-b5bb4072ebf6,7dfb2854-ff33-44f7-b2db-5b878d2db108,85a3c372-76f0-4633-83db-6ae075390981,fba1178d-0574-4479-840e-f4a86cf9bdeb,fd628fd0-fc8f-4b5b-a1b2-49c819d4a62e",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CreateCapacityReservation:",
+    "LastEventTime": "2023-08-07T04:05:02Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations->Create Capacity Reservation (Step 2 of 2)"
+  },
+  "8f03a2e4-5e80-4520-a006-921df1f06912": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_CapacityReservations",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": {
+        "Key": "instanceType",
+        "Value": "a1.medium"
+      }
+    },
+    "Summary": "Clicked EC2->Instances->Capacity Reservations which displays all EC2 Instance Capacity Reservations in a searchable paged format while filtered by 1 custom attribute (instance-type='a1.medium').",
+    "CorrelationId": "8f03a2e4-5e80-4520-a006-921df1f06912",
+    "FirstEventTime": "2023-08-07T04:05:47Z",
+    "AllEventArr": "ec2:DescribeCapacityReservations,ec2:DescribeTags",
+    "AllEventIdArr": "8f03a2e4-5e80-4520-a006-921df1f06912,e1887d08-27e0-41b7-92b8-9581fa36c3ff",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityReservations:instanceType=a1.medium",
+    "LastEventTime": "2023-08-07T04:05:47Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations"
+  },
+  "484cd7df-67e0-4723-ab42-1a0bdfcca806": {
+    "EventCount": 11,
+    "Label": "EC2_EC2Dashboard_Settings_DefaultCreditSpecification",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Settings->Default Credit Specification tab which displays default credit options for CPU usage of burstable performance instances.",
+    "CorrelationId": "484cd7df-67e0-4723-ab42-1a0bdfcca806",
+    "FirstEventTime": "2023-08-07T04:01:18Z",
+    "AllEventArr": "ec2:DescribeInstanceTypes,ec2:GetDefaultCreditSpecification",
+    "AllEventIdArr": "484cd7df-67e0-4723-ab42-1a0bdfcca806,a48b1eeb-487d-42c8-914f-01805efc4982,c9e4fcf7-ae25-49f6-8bf7-2a74ba6d0a28,de8a1035-f795-4370-8965-10a88dd45142,e7aa68aa-0d72-4288-94a7-5f0d84888650,eb7802b5-5e96-4727-8bee-274fe2cd3bd4,883052ce-c321-45b9-ba72-764f2f5b0268,8c0413eb-8f3d-4d9a-ab8a-45bc496e9c76,b0e89018-acbb-4265-80db-3bcc83360c07,c279f926-c376-4733-977a-5651eba35d95,e143b0bf-21c3-4b48-a28c-e776ccb6017a",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Settings:tab=defaultCreditSpecification",
+    "LastEventTime": "2023-08-07T04:01:19Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Settings->Default Credit Specification"
+  },
+  "65335bd8-c26c-4994-ab13-738ef7a663bc": {
+    "EventCount": 2,
+    "Label": "EC2_EC2Dashboard_ScheduledEvents_Refresh",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Scheduled Events->Refresh button to refresh EC2 Scheduled Events summary dashboard tile.",
+    "CorrelationId": "65335bd8-c26c-4994-ab13-738ef7a663bc",
+    "FirstEventTime": "2023-08-07T03:57:32Z",
+    "AllEventArr": "ec2:DescribeInstanceStatus,ec2:DescribeVolumeStatus",
+    "AllEventIdArr": "65335bd8-c26c-4994-ab13-738ef7a663bc,fb595369-4ad8-4281-95a7-ee77b09c454a",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-07T03:57:32Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Scheduled Events->Refresh"
+  },
+  "8fb15c2d-4321-4857-a779-c01a6b2111de": {
+    "EventCount": 1,
+    "Label": "EC2_EC2Dashboard_Settings_Zones",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Settings->Zones tab which displays management options for Zones in current AWS Region.",
+    "CorrelationId": "8fb15c2d-4321-4857-a779-c01a6b2111de",
+    "FirstEventTime": "2023-08-07T04:01:02Z",
+    "AllEventArr": "ec2:DescribeAvailabilityZones",
+    "AllEventIdArr": "8fb15c2d-4321-4857-a779-c01a6b2111de",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Settings:tab=zones",
+    "LastEventTime": "2023-08-07T04:01:02Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Settings->Zones"
+  },
+  "403b3348-26c9-42ee-be96-c16fdbd75e5d": {
+    "EventCount": 4,
+    "Label": "EC2_Instances_CapacityReservations_SPECIFICCAPACITYRESERVATION",
+    "AdditionalData": {
+      "capacityReservationId": "cr-db0c0ffeec8e5ebcf"
+    },
+    "Summary": "Clicked EC2->Instances->Capacity Reservations->'cr-db0c0ffeec8e5ebcf' which displays a summary of details for existing 'cr-db0c0ffeec8e5ebcf' EC2 Instance Capacity Reservation.",
+    "CorrelationId": "403b3348-26c9-42ee-be96-c16fdbd75e5d",
+    "FirstEventTime": "2023-08-07T04:08:59Z",
+    "AllEventArr": "ec2:GetGroupsForCapacityReservation,ram:GetResourceShareAssociations,ec2:GetCapacityReservationUsage,ec2:DescribeCapacityReservations",
+    "AllEventIdArr": "403b3348-26c9-42ee-be96-c16fdbd75e5d,4e1ef6c6-aa1b-4774-8de9-18a36ba9a6f6,a897ef64-a73a-430f-bfbc-ff18e90c373a,b4e76239-e057-4417-a5e2-2f3f923ff488",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityReservationDetails:crId=cr-db0c0ffeec8e5ebcf",
+    "LastEventTime": "2023-08-07T04:08:59Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations->SPECIFICCAPACITYRESERVATION"
+  },
+  "39270939-1da9-4dd4-86ad-af77f4d1a2d7": {
+    "EventCount": 2,
+    "Label": "EC2_EC2Dashboard_Settings_EBSEncryption",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Settings->EBS Encryption tab which displays the default encryption status of all new EBS volumes and copies of snapshots created in current account.",
+    "CorrelationId": "39270939-1da9-4dd4-86ad-af77f4d1a2d7",
+    "FirstEventTime": "2023-08-07T03:59:48Z",
+    "AllEventArr": "ec2:GetEbsEncryptionByDefault,ec2:GetEbsDefaultKmsKeyId",
+    "AllEventIdArr": "39270939-1da9-4dd4-86ad-af77f4d1a2d7,8f3d4e08-965e-4d05-8c8d-12f0fe844905",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Settings:tab=ebsEncryption",
+    "LastEventTime": "2023-08-07T03:59:48Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Settings->EBS Encryption"
+  },
+  "7920a24a-ff9d-4614-8a84-fdc8b1cb2972": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "7920a24a-ff9d-4614-8a84-fdc8b1cb2972",
+    "FirstEventTime": "2023-08-07T03:59:01Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "7920a24a-ff9d-4614-8a84-fdc8b1cb2972,acc335e7-129a-419f-8634-f88beea4df8b,f1bbd1ef-acfb-4c1f-ae00-f0dbcbbc4280",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-07T03:59:01Z",
+    "Name": "Suppressing automated background event"
+  },
+  "18ed5ad2-1047-4afd-820a-a52302e4eea9": {
+    "EventCount": 1,
+    "Label": "EC2_EC2Dashboard_AccountAttributes_Refresh",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Account Attributes->Refresh button to refresh EC2 Account Attributes summary dashboard tile.",
+    "CorrelationId": "18ed5ad2-1047-4afd-820a-a52302e4eea9",
+    "FirstEventTime": "2023-08-07T03:58:26Z",
+    "AllEventArr": "ec2:DescribeAccountAttributes",
+    "AllEventIdArr": "18ed5ad2-1047-4afd-820a-a52302e4eea9",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-07T03:58:26Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Account Attributes->Refresh"
+  },
+  "4d871897-b1a1-47ee-ab3b-a797a392f0ed": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_CapacityReservations",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": [
+        {
+          "Key": "instanceType",
+          "Value": "a1.medium"
+        },
+        {
+          "Key": "availabilityZone",
+          "Value": "us-east-1a"
+        },
+        {
+          "Key": "instanceMatchCriteria",
+          "Value": "open"
+        }
+      ]
+    },
+    "Summary": "Clicked EC2->Instances->Capacity Reservations which displays all EC2 Instance Capacity Reservations in a searchable paged format while filtered by 3 custom attributes (instance-type='a1.medium', availability-zone='us-east-1a', instance-match-criteria='open').",
+    "CorrelationId": "4d871897-b1a1-47ee-ab3b-a797a392f0ed",
+    "FirstEventTime": "2023-08-07T04:07:16Z",
+    "AllEventArr": "ec2:DescribeTags,ec2:DescribeCapacityReservations",
+    "AllEventIdArr": "4d871897-b1a1-47ee-ab3b-a797a392f0ed,c2d4499f-21c7-4277-b911-a4d993a65e4e",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityReservations:instanceType=a1.medium;availabilityZone=us-east-1a;instanceMatchCriteria=open",
+    "LastEventTime": "2023-08-07T04:07:16Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations"
+  },
+  "cc7b27f3-566e-4504-8c38-bc290a3e47e9": {
+    "EventCount": 1,
+    "Label": "EC2_EC2Dashboard_Settings_EC2SerialConsole",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Settings->EC2 Serial Console tab which allows or prevents EC2 Serial Console access to EC2 Instances in current account.",
+    "CorrelationId": "cc7b27f3-566e-4504-8c38-bc290a3e47e9",
+    "FirstEventTime": "2023-08-07T04:01:34Z",
+    "AllEventArr": "ec2:GetSerialConsoleAccessStatus",
+    "AllEventIdArr": "cc7b27f3-566e-4504-8c38-bc290a3e47e9",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Settings:tab=ec2SerialConsole",
+    "LastEventTime": "2023-08-07T04:01:34Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Settings->EC2 Serial Console"
+  },
+  "08ac10dc-9c45-44d6-a999-821e2ad27d40": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_CapacityReservations",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Instances->Capacity Reservations which displays all EC2 Instance Capacity Reservations in a searchable paged format with no filter applied.",
+    "CorrelationId": "08ac10dc-9c45-44d6-a999-821e2ad27d40",
+    "FirstEventTime": "2023-08-07T04:07:58Z",
+    "AllEventArr": "ec2:DescribeCapacityReservations,ec2:DescribeTags",
+    "AllEventIdArr": "08ac10dc-9c45-44d6-a999-821e2ad27d40,a04bb510-33d0-41b2-b68b-a51af2dae8a9",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityReservations:",
+    "LastEventTime": "2023-08-07T04:07:58Z",
+    "Name": "Clicked EC2->Instances->Capacity Reservations"
+  }
+}

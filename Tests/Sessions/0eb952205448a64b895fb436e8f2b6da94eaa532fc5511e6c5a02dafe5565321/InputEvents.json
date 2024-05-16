@@ -1,0 +1,3061 @@
+[
+  {
+    "eventTime": "2023-12-17T02:36:57Z",
+    "eventID": "cc48833d-55d9-4db9-b624-6ad5e42489a0",
+    "eventSource": "signin.amazonaws.com",
+    "eventName": "GetSigninToken",
+    "requestParameters": null,
+    "responseElements": {
+      "GetSigninToken": "Success",
+      "credentials": {
+        "accessKeyId": "AKIAREDACTEDY1ZC8641"
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Jersey/${project.version} (HttpUrlConnection 11.0.21)",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:36:58Z",
+    "eventID": "97be2860-5d67-4900-a118-415317813b91",
+    "eventSource": "signin.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "requestParameters": null,
+    "responseElements": {
+      "ConsoleLogin": "Success"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:00Z",
+    "eventID": "d7b3492d-5d47-4ea0-944e-a07780e110bf",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "accountNotification"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:37:00 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "health.amazonaws.com",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:00Z",
+    "eventID": "d06c7e4a-b9ad-4238-b173-21e0b63bf1d9",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "issue"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:37:00 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:00Z",
+    "eventID": "ceda9319-168d-4568-9d7f-e6622e3f397c",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "accountNotification"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:37:00 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:00Z",
+    "eventID": "4c58d2f4-71f1-4cf6-977e-db26f974b712",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "issue"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:37:00 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "health.amazonaws.com",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:00Z",
+    "eventID": "292924fd-935a-44a4-8850-8e2c29c41fff",
+    "eventSource": "ce.amazonaws.com",
+    "eventName": "GetCostAndUsage",
+    "requestParameters": {
+      "GroupBy": [
+        {
+          "Type": "DIMENSION",
+          "Key": "SERVICE"
+        }
+      ],
+      "Filter": {
+        "Not": {
+          "Or": [
+            {
+              "Dimensions": {
+                "Values": [
+                  "Credit"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            },
+            {
+              "Dimensions": {
+                "Values": [
+                  "Refund"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            }
+          ]
+        }
+      },
+      "Granularity": "MONTHLY",
+      "Metrics": [
+        "UnblendedCost"
+      ],
+      "TimePeriod": {
+        "Start": "2023-07-01T00:00:00Z",
+        "End": "2024-01-01T00:00:00Z"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:00Z",
+    "eventID": "43cf9120-16aa-4a96-9fd3-feddfc42b34b",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "scheduledChange"
+        ],
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:37:00 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "health.amazonaws.com",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:00Z",
+    "eventID": "ba0ba780-b282-46d9-83ea-243c1828342d",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "scheduledChange"
+        ],
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:37:00 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:01Z",
+    "eventID": "0866a99d-5084-4b31-867f-48a8a3e900c0",
+    "eventSource": "ce.amazonaws.com",
+    "eventName": "GetCostForecast",
+    "requestParameters": {
+      "Granularity": "MONTHLY",
+      "Metric": "NET_UNBLENDED_COST",
+      "Filter": {
+        "Not": {
+          "Or": [
+            {
+              "Dimensions": {
+                "Values": [
+                  "Credit"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            },
+            {
+              "Dimensions": {
+                "Values": [
+                  "Refund"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            }
+          ]
+        }
+      },
+      "TimePeriod": {
+        "Start": "2023-12-17T00:00:00Z",
+        "End": "2024-01-01T00:00:00Z"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:01Z",
+    "eventID": "e7392352-7456-41d3-af22-387726475a80",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:01Z",
+    "eventID": "196e7797-e6eb-4405-8d5a-3b914600943d",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:37:01 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:01Z",
+    "eventID": "da20901c-f036-402f-9e88-533a990e1b0b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRegions",
+    "requestParameters": {
+      "allRegions": true,
+      "regionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:01Z",
+    "eventID": "35782ed2-e928-4bcf-9a83-9804196c2249",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:37:01 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:02Z",
+    "eventID": "78fff920-ffdf-4289-ab5a-5bdbe4499984",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetLayout",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:02Z",
+    "eventID": "cedb68b7-ce1f-4df4-b3b3-62df455ad2bc",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "UpdateLayout",
+    "requestParameters": {
+      "layout": "{\"main\":{\"widgetsConnection\":[{\"tabID\":\"177da169-c3e5-4090-903d-6a475e61fabc\"}],\"type\":\"tab-area\",\"currentIndex\":0},\"activeTabId\":\"177da169-c3e5-4090-903d-6a475e61fabc\"}"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:02Z",
+    "eventID": "14664703-8b27-4b42-b6af-227a8162d12f",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "CreateEnvironment",
+    "requestParameters": null,
+    "responseElements": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910",
+      "StartScreenMessages": [
+        {
+          "type": "INFO",
+          "id": "al23-release-2023-12",
+          "link": {
+            "url": "https://docs.aws.amazon.com/cloudshell/latest/userguide/cloudshell-AL2023-migration.html",
+            "text": "Learn More"
+          },
+          "content": "CloudShell has migrated to Amazon Linux 2023 in this Region. "
+        }
+      ],
+      "Status": "SUSPENDED"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:03Z",
+    "eventID": "e0bf0858-7e60-4654-bd35-a427a86d63fe",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "RedeemCode",
+    "requestParameters": {
+      "KeyBase": "***",
+      "AuthCode": "***",
+      "CodeVerifier": "***",
+      "RedirectUri": "https://auth.cloudshell.us-east-1.aws.amazon.com/callback.js?state=ae9dd1d0-bae5-416e-97c8-8646faa90e31"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:03Z",
+    "eventID": "b5616d47-0275-4253-a743-07ab87c58081",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:03Z",
+    "eventID": "2d484698-3e99-4ff7-bb3a-cb8b40e58a03",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:03Z",
+    "eventID": "e703ad84-534b-413e-b9d2-61c090182cdd",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "StartEnvironment",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:03Z",
+    "eventID": "92a83aa6-7084-47eb-8020-6549c948c286",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:05Z",
+    "eventID": "7b5dd6ce-9ec1-4a8d-8bd0-45b74dbcab3e",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:06Z",
+    "eventID": "d9f60193-d6af-4808-a560-a142dfa15407",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:07Z",
+    "eventID": "27390601-e087-48b9-80ee-6930cd5093b3",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:09Z",
+    "eventID": "fd37a1eb-8f73-49ba-b50d-393062ef9daf",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:09Z",
+    "eventID": "8871a553-c1cb-4bef-85a4-7bd0a31e20c0",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:10Z",
+    "eventID": "a9752706-50c2-47d8-b0fb-8c0f347ab628",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "UpdateLayout",
+    "requestParameters": {
+      "layout": "{\"main\":{\"widgetsConnection\":[{\"tabID\":\"177da169-c3e5-4090-903d-6a475e61fabc\",\"environmentID\":\"c6bf914b-6b09-404c-bee5-087c2adbf910\",\"sessionID\":\"1702777486856338259-db0c0ffee12f1e179\"}],\"type\":\"tab-area\",\"currentIndex\":0},\"activeTabId\":\"177da169-c3e5-4090-903d-6a475e61fabc\"}"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:10Z",
+    "eventID": "1a988b77-3139-4826-ba52-e6b16165f231",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "CreateSession",
+    "requestParameters": {
+      "TabId": "177da169-c3e5-4090-903d-6a475e61fabc",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": {
+      "TokenValue": "***",
+      "StreamUrl": "wss://ssmmessages.us-east-1.amazonaws.com/v1/data-channel/1702777486856338259-db0c0ffee12f1e179?role=publish_subscribe&cell-number=AAEAAYer59TDNBq5vbWadCKBytrIahK4nBjhbcFWXP3M7rX3AAAAAGV+XtXAq9L+VwP1pEtGL/y7UQFJgxXfmcc5AyKzSp4fTzxDUg==",
+      "SessionId": "1702777486856338259-db0c0ffee12f1e179",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:10Z",
+    "eventID": "1ce7015f-1618-48b3-bcd0-6c142443dd76",
+    "eventSource": "sts.amazonaws.com",
+    "eventName": "GetCallerIdentity",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "aws-sdk-go/1.48.8 (go1.21.4; linux; amd64) md/internal exec-env/AWS_Lambda_go1.x moontide-service",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:37:10Z",
+    "eventID": "616e4881-ef06-4eef-8b7c-d32f8d213a5e",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "PutCredentials",
+    "requestParameters": {
+      "KeyBase": "***",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910",
+      "RefreshToken": "***"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:38:19Z",
+    "eventID": "f2dea422-6271-426b-bee9-89e6b0917183",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:38:20Z",
+    "eventID": "d2b1c2b6-b680-43b2-b4f9-34bba3f53e1f",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "CreateSession",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": {
+      "TokenValue": "***",
+      "StreamUrl": "wss://ssmmessages.us-east-1.amazonaws.com/v1/data-channel/1702778013343978757-db0c0ffeeaabfd0bc?role=publish_subscribe&cell-number=AAEAAbpq0Qpyllseou9yQ9c7NZ+/WFQ1BQScEGzlbLTl3jMkAAAAAGV+Xxyvn9S5850/45oDuVtnqbbHxUMjC3Zr0HG2zGEOYQpk9A==",
+      "SessionId": "1702778013343978757-db0c0ffeeaabfd0bc",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:38:21Z",
+    "eventID": "3d702f9e-b269-4165-9a6f-b5a41109fc8f",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetFileUploadUrls",
+    "requestParameters": {
+      "FileUploadPath": "Cloud.svg",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:38:24Z",
+    "eventID": "0d14bff6-00c2-468d-9019-e5711c5eacdf",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "DeleteSession",
+    "requestParameters": {
+      "SessionId": "1702778013343978757-db0c0ffeeaabfd0bc",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:38:56Z",
+    "eventID": "d5d86643-2c56-4f3a-b0a1-6f6221ced07f",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "SendHeartBeat",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:39:56Z",
+    "eventID": "91aef90e-e02d-40b8-b4a5-b5e5779e637a",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "SendHeartBeat",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:08Z",
+    "eventID": "d63b2c7b-9116-4251-b6a4-46e5c4480b6b",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:08Z",
+    "eventID": "3a55a374-2916-4d6c-a050-13969a72d72a",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "CreateSession",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": {
+      "TokenValue": "***",
+      "StreamUrl": "wss://ssmmessages.us-east-1.amazonaws.com/v1/data-channel/1702780707064535982-db0c0ffee1034a1d1?role=publish_subscribe&cell-number=AAEAASg8IG7lab5l/D9gofF1k0uo/vABB0otfj780+YGDrrZAAAAAGV+X4gWwZr1xssFkH4NaARzxV5HL/GUVHi114UdJXK+JHcH3A==",
+      "SessionId": "1702780707064535982-db0c0ffee1034a1d1",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:08Z",
+    "eventID": "130ca899-c227-4bfb-af15-cd43d56e81ea",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetFileDownloadUrls",
+    "requestParameters": {
+      "FileDownloadPath": "/home/cloudshell-user/Cloud.svg",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:11Z",
+    "eventID": "18c4a345-5777-4a82-ac45-d8f7ad2e2772",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "DeleteSession",
+    "requestParameters": {
+      "SessionId": "1702780707064535982-db0c0ffee1034a1d1",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:26Z",
+    "eventID": "1d0bfca4-ee46-438c-86fa-100268b5f288",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:27Z",
+    "eventID": "d8d58ca4-b0dd-4857-8263-ca108cc9b823",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "DeleteSession",
+    "requestParameters": {
+      "SessionId": "1702777486856338259-db0c0ffee12f1e179",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "03b54009-a6fe-4d4d-89a7-088b5dc5afd0",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:40:43 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "caf0c951-1367-4729-a48a-80e09828030e",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "2d74503e-87b1-4eb2-bfd7-58ccd7e896f4",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "a375efac-693f-4c3d-b835-99ee0e3dab93",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "CreateEnvironment",
+    "requestParameters": null,
+    "responseElements": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910",
+      "StartScreenMessages": [
+        {
+          "type": "INFO",
+          "id": "al23-release-2023-12",
+          "link": {
+            "url": "https://docs.aws.amazon.com/cloudshell/latest/userguide/cloudshell-AL2023-migration.html",
+            "text": "Learn More"
+          },
+          "content": "CloudShell has migrated to Amazon Linux 2023 in this Region. "
+        }
+      ],
+      "Status": "RUNNING"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "c598b36e-f668-4728-a150-4fb9f45631f1",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetLayout",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "92ec161a-7b7e-43de-8904-a7094f757364",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "UpdateLayout",
+    "requestParameters": {
+      "layout": "{\"main\":{\"widgetsConnection\":[{\"tabID\":\"177da169-c3e5-4090-903d-6a475e61fabc\",\"environmentID\":\"c6bf914b-6b09-404c-bee5-087c2adbf910\",\"sessionID\":\"1702777486856338259-db0c0ffee12f1e179\"}],\"type\":\"tab-area\",\"currentIndex\":0},\"activeTabId\":\"177da169-c3e5-4090-903d-6a475e61fabc\"}"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "4da39d3c-b701-4f5d-bc1d-70036ecc4914",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:40:43 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:43Z",
+    "eventID": "38ee7281-173e-4601-b69d-2e2acf1a8455",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "GetEnvironmentStatus",
+    "requestParameters": {
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:44Z",
+    "eventID": "eb215783-1a80-459d-b0a1-922c74f8c4b8",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "DeleteSession",
+    "requestParameters": {
+      "SessionId": "1702777486856338259-db0c0ffee12f1e179",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:44Z",
+    "eventID": "be874745-baee-48e0-85ee-e883322fa6a9",
+    "eventSource": "sts.amazonaws.com",
+    "eventName": "GetCallerIdentity",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "aws-sdk-go/1.48.8 (go1.21.4; linux; amd64) md/internal exec-env/AWS_Lambda_go1.x moontide-service",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:44Z",
+    "eventID": "8ace3c21-5b1c-4b18-a9dd-55a8ef9ea683",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "PutCredentials",
+    "requestParameters": {
+      "KeyBase": "***",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910",
+      "RefreshToken": "***"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:44Z",
+    "eventID": "49868a93-33e6-4627-bc56-bdcdf62906fe",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "RedeemCode",
+    "requestParameters": {
+      "KeyBase": "***",
+      "AuthCode": "***",
+      "CodeVerifier": "***",
+      "RedirectUri": "https://auth.cloudshell.us-east-1.aws.amazon.com/callback.js?state=40de86dd-98e5-40e4-b29e-d04915030867"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:44Z",
+    "eventID": "59240a84-75c6-4734-aecd-d1ba4639cc3a",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "CreateSession",
+    "requestParameters": {
+      "TabId": "177da169-c3e5-4090-903d-6a475e61fabc",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "responseElements": {
+      "TokenValue": "***",
+      "StreamUrl": "wss://ssmmessages.us-east-1.amazonaws.com/v1/data-channel/1702780707064535982-db0c0ffee2c8a1a39?role=publish_subscribe&cell-number=AAEAAX6aNd1jVWIKfy4KQeuKthAcwq/dCvBPBx7FXm8fM454AAAAAGV+X6wn7Kh5f5R8WqS1+9VrbTQyJ+IeJ8n8U08dPZZgPS8xdg==",
+      "SessionId": "1702780707064535982-db0c0ffee2c8a1a39",
+      "EnvironmentId": "c6bf914b-6b09-404c-bee5-087c2adbf910"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:40:45Z",
+    "eventID": "e88f053e-1cae-46c9-a054-39fe21a02b6a",
+    "eventSource": "cloudshell.amazonaws.com",
+    "eventName": "UpdateLayout",
+    "requestParameters": {
+      "layout": "{\"main\":{\"widgetsConnection\":[{\"tabID\":\"177da169-c3e5-4090-903d-6a475e61fabc\",\"environmentID\":\"c6bf914b-6b09-404c-bee5-087c2adbf910\",\"sessionID\":\"1702780707064535982-db0c0ffee2c8a1a39\"}],\"type\":\"tab-area\",\"currentIndex\":0},\"activeTabId\":\"177da169-c3e5-4090-903d-6a475e61fabc\"}"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:04Z",
+    "eventID": "3c6439d0-9a4e-4986-83ff-e5207cbc7cfc",
+    "eventSource": "resource-explorer-2.amazonaws.com",
+    "eventName": "ListIndexes",
+    "requestParameters": {
+      "Type": "AGGREGATOR"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:07Z",
+    "eventID": "aeb59c6c-1868-44e2-bbe4-98293a20132f",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "DescribeTrails",
+    "requestParameters": {
+      "includeShadowTrails": true,
+      "trailNameList": []
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:07Z",
+    "eventID": "9d812b5b-f847-46af-8355-0cf8a01f8604",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3-external-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[AWSCloudTrail, aws-internal/3 aws-sdk-java/1.12.597 Linux/5.10.199-167.747.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.392-b09 java/1.8.0_392 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:08Z",
+    "eventID": "2e87eab8-648a-447a-a866-37af3f5b982f",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "DescribeTrails",
+    "requestParameters": {
+      "includeShadowTrails": true,
+      "trailNameList": []
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:08Z",
+    "eventID": "f011736e-991b-49bb-ba20-89e0bc4fae10",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "eventCategory": "insight",
+      "maxResults": 25
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:08Z",
+    "eventID": "5eac6460-7aae-41e7-9262-187a14d63609",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 5,
+      "endTime": "Dec 17, 2023, 2:36:08 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:08Z",
+    "eventID": "402a93b3-2ef4-4f0e-9fa1-e499e087f6d4",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "GetTrailStatus",
+    "requestParameters": {
+      "name": "arn:aws:cloudtrail:us-east-2:200802171337:trail/management-events"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:08Z",
+    "eventID": "9a77a045-4e5e-4c60-9122-3fe5bb1bb09f",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "ListDelegatedAdministrators",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": "AccessDenied",
+    "errorMessage": "User: arn:aws:sts::200802171337:assumed-role/AWSReservedSSO_AdministratorAccess_db0c0ffee5667faa/krileva@demo.io is not authorized to perform: organizations:ListDelegatedAdministrators on resource: * because no resource-based policy allows the organizations:ListDelegatedAdministrators action",
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:08Z",
+    "eventID": "fd58dd94-ea5c-48e6-b4ce-2ca4b362003f",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "DescribeOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:09Z",
+    "eventID": "0523b9c7-8026-4572-8b44-1c36df0dbb91",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:09Z",
+    "eventID": "92801b2c-ea7f-4c4e-b3a3-bb08aa9c3ce7",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "nextToken": "MEijWRZAjX3o5Xk1zHTEf14g3a9zZAdGp5jqNF6K1G8bI5xbdLJoFBtWjBy6/rwf",
+      "eventCategory": "insight",
+      "maxResults": 25
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:09Z",
+    "eventID": "7b3d2f5d-1a0e-49a3-ad69-d22eb18cb358",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:41:09 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:09Z",
+    "eventID": "036c3590-84e4-458a-85ac-7416b54ce692",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": "ThrottlingException",
+    "errorMessage": "Rate exceeded",
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:09Z",
+    "eventID": "a293b239-cfc2-4dad-aff2-63895c9eda8c",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:41:09 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:09Z",
+    "eventID": "98b3faae-3be6-4f29-ab4d-7d19fd017f91",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": "ThrottlingException",
+    "errorMessage": "Rate exceeded",
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:10Z",
+    "eventID": "a783399d-1ac3-4534-80d7-03ddee39cf51",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "nextToken": "cdi5KvOT1HFeSVIJ0Wr6/IAf7BrhSv7FCzZ2S9BIWB5mwP2RqnaqqlwRVRY0Ostr",
+      "eventCategory": "insight",
+      "maxResults": 25
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:23Z",
+    "eventID": "05be0b76-5591-45a8-8408-c97adb2d3257",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:23Z",
+    "eventID": "dd80f346-9a07-4b9f-9261-f397f685e625",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "DescribeOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:23Z",
+    "eventID": "b52b3cb7-88a2-44f9-add1-292687a4b1d1",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "ListEventDataStores",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:23Z",
+    "eventID": "aae07189-63c0-4366-8f09-80ef7cad37b9",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:41:23 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:23Z",
+    "eventID": "1d76e6fa-c9fb-46d9-a5fe-ff6fa1a4597b",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "ListDelegatedAdministrators",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": "AccessDenied",
+    "errorMessage": "User: arn:aws:sts::200802171337:assumed-role/AWSReservedSSO_AdministratorAccess_db0c0ffee5667faa/krileva@demo.io is not authorized to perform: organizations:ListDelegatedAdministrators on resource: * because no resource-based policy allows the organizations:ListDelegatedAdministrators action",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:23Z",
+    "eventID": "321270ab-0e95-4f0a-b45f-8e7dc5774259",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:41:23 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:31Z",
+    "eventID": "273b8cb5-ec58-4177-9eed-bdec14728cfb",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:31Z",
+    "eventID": "aa79b466-8bce-4b91-9fcd-53e4fcb28be5",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:32Z",
+    "eventID": "88091d21-e5d1-42d8-ae11-c915468061a6",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:41:32Z",
+    "eventID": "5702d8bf-afed-438f-9f46-5e571d23d066",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:04Z",
+    "eventID": "2efff963-012a-478b-b09f-18015b0ff922",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "GetFileDownloadUrls"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:04Z",
+    "eventID": "9a806ade-1e0f-40df-b416-99ddecc130e8",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:12Z",
+    "eventID": "f8be9e1a-4c17-456a-afb9-9ba1b1e542ef",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:12Z",
+    "eventID": "25d9bf70-ba91-44e7-b0ea-3830d90bce82",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:24Z",
+    "eventID": "c87c3ff8-df01-464a-8644-0bd67c6a559b",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:24Z",
+    "eventID": "58d6f517-711f-4de5-b118-830542138157",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "GetFileDownloadUrls"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:24Z",
+    "eventID": "572478cb-aaf2-49a7-83f5-0383e7ffa94b",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "GetFileDownloadUrls"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:24Z",
+    "eventID": "70207046-08db-4efd-82ff-304d3b8cb7cb",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:36Z",
+    "eventID": "9351d85a-5656-4764-93aa-a1a162e97b50",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:36Z",
+    "eventID": "75ddf900-65ef-4344-846b-b5d40f33ed98",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "maxResults": 50,
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "GetFileDownloadUrls"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:45Z",
+    "eventID": "4d047bcd-9fcf-4802-887b-56a7517f62ce",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 17, 2023, 2:12:45 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:42:45 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:42:57Z",
+    "eventID": "bf02fb5c-8436-4a2a-b9fe-f768c43c0504",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 17, 2023, 1:42:57 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:42:57 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:05Z",
+    "eventID": "abc0202f-5307-48c7-a46e-613d6a0b7328",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:43:05 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:05 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:13Z",
+    "eventID": "97cb9aaa-6429-404c-9d6d-e91eca313e1b",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:43:13 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:13 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:26Z",
+    "eventID": "a32128a8-23ab-459e-94bf-054eed22e6b0",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:26:26 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:26 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:33Z",
+    "eventID": "4eaba32e-1292-4e01-ac60-2fa4cc28c7ce",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:26:26 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:26 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:44Z",
+    "eventID": "6b8dc46d-ced0-4dbc-a452-eb806665485f",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:26:26 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:26 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:47Z",
+    "eventID": "ddaabf54-3aa5-43ae-8aaa-18e204662e12",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:26:47 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:47 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:52Z",
+    "eventID": "9a7879fc-2bdf-4555-be90-8c18aa91455b",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:52Z",
+    "eventID": "ac454fa5-222f-4441-8cf9-6780597526c5",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:56Z",
+    "eventID": "c60f8bc2-abf7-40a2-ac0f-1f158fbd5369",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:56Z",
+    "eventID": "2117460d-5e2e-4bbe-9d63-45c710d8f57e",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:56Z",
+    "eventID": "db0daa1f-5445-4e2a-8e38-bf7f349e7fe1",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:26:56 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:56 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:43:56Z",
+    "eventID": "d3880c98-34c9-4ba9-ac5d-60ac666fa28d",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:26:56 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:43:56 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:00Z",
+    "eventID": "b30db7a2-ac88-42d4-bce1-d13bb5453afd",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:00 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:00 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED4NLL6A0K"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:01Z",
+    "eventID": "7f9941be-0f5e-45fa-a466-02e155a3f572",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:00 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:00 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventId",
+          "attributeValue": "130ca899-c227-4bfb-af15-cd43d56e81ea"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:12Z",
+    "eventID": "2ed7d2a7-8b98-4c1b-849b-540df3958549",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:11 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:11 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventId",
+          "attributeValue": "130ca899-c227-4bfb-af15-cd43d56e81ea"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:12Z",
+    "eventID": "cac943b2-8bbc-4608-80b1-3cb09183bb2c",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:11 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:11 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "GetFileDownloadUrls"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:18Z",
+    "eventID": "34d87afb-0c68-4054-b256-6bd410b4bfa2",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:18 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:18 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "GetFileDownloadUrls"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:18Z",
+    "eventID": "712adaac-3642-48ed-b480-7fdfa76622b4",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:18 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:18 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventSource",
+          "attributeValue": "cloudshell.amazonaws.com"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:27Z",
+    "eventID": "a4d6ed1d-fb48-400c-a4d6-e8dceceee7df",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:27 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:27 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "true"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:27Z",
+    "eventID": "cfff0cfd-31f8-4a12-80b2-f10eb0bc54d6",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:27 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:27 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventSource",
+          "attributeValue": "cloudshell.amazonaws.com"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:33Z",
+    "eventID": "18e2c7cb-92cb-4a54-ba90-316c4c69741b",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:33 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:33 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "true"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:33Z",
+    "eventID": "3a004d49-b299-4618-8d60-ed3bd1c45eba",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:33 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:33 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:41Z",
+    "eventID": "a8dc1bbd-125b-4bd8-86ac-c785a0d7ccd5",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:41Z",
+    "eventID": "46c66978-7c80-4871-8db4-eecc14e0922f",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:47Z",
+    "eventID": "e87220e4-9338-4757-bd55-80ca4f5cb99d",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:47 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:47 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:47Z",
+    "eventID": "8401daef-6bd7-4fc2-a9d5-e1f447da3c33",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:47Z",
+    "eventID": "252d0894-a5c2-4038-af91-58374cbe0be8",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:47Z",
+    "eventID": "16c65213-12b9-4408-b289-64a7c1f42e87",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:47 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:47 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:49Z",
+    "eventID": "4426986e-2915-4ea7-854a-91e0cdfcbbad",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:49Z",
+    "eventID": "9f90f6d0-8ba7-4339-a4ed-89b6da7d2093",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:52Z",
+    "eventID": "dd4ad2b5-948d-4020-8035-1babbc4b2773",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:52Z",
+    "eventID": "d37835f1-9f46-4ff0-8490-a7bb72b524c1",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:52 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:52 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:52Z",
+    "eventID": "3c9685df-e39f-470b-b2c1-dbabd04cf575",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:27:52 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:44:52 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:44:52Z",
+    "eventID": "6a4b690e-d8ae-4c8b-830b-1768d740d011",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:00Z",
+    "eventID": "e3f35b0f-8913-4f94-8114-fb91a588c93e",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:00 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:00 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ReadOnly",
+          "attributeValue": "false"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:00Z",
+    "eventID": "26cc4d9e-6def-4458-808f-1f9b5c0b086f",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:00 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:00 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "blablaResourceName"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:08Z",
+    "eventID": "a115e84d-ad90-4570-8ac6-9e62573081d1",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:08 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:08 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "blablaResourceName"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:08Z",
+    "eventID": "13b9f76d-6a3f-4835-acf6-b69c00157dfe",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:08 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:08 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceType",
+          "attributeValue": "AWS::SecretsManager::Secret"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:32Z",
+    "eventID": "5a3455ff-f705-4ec7-a0b8-402331b20598",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:32 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:32 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "best_flija_topping"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:32Z",
+    "eventID": "1e4127b1-6279-4b7c-9b7f-b8f6a5c0ceec",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:32 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:32 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceType",
+          "attributeValue": "AWS::SecretsManager::Secret"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:49Z",
+    "eventID": "f7503ab6-1fc1-4c60-b571-8dfd0b818209",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:49 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:49 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "best_flija_topping"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:49Z",
+    "eventID": "98dc413c-776d-4b57-acb0-833600027b4b",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:49 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:49 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "Username",
+          "attributeValue": "daniel.bohannon"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:54Z",
+    "eventID": "d90850c1-2d3a-4f98-919b-b0f45dddc0c6",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:54 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:54 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "Username",
+          "attributeValue": "daniel.bohannon"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:54Z",
+    "eventID": "be564209-e085-4d75-b702-34cad6731faf",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:28:54 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:45:54 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "best_flija_topping"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:56Z",
+    "eventID": "053eda7d-dcee-40af-8460-9d1dc8602e3d",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "ListDiscoveredResources",
+    "requestParameters": {
+      "resourceType": "AWS::SecretsManager::Secret",
+      "limit": 0,
+      "includeDeletedResources": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:56Z",
+    "eventID": "3cb1060d-7df2-4550-bcf1-6434ded36f53",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:45:56Z",
+    "eventID": "102996e7-2e09-4ba2-b64f-0a2f581155a4",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:01Z",
+    "eventID": "f71100d3-816e-491b-a318-613510a8571c",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:01Z",
+    "eventID": "f480c5e1-ea3d-4cab-9b23-4ce1841eb5a2",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:01Z",
+    "eventID": "b7899082-532a-4e3f-8460-2bbf377ac306",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "ListDiscoveredResources",
+    "requestParameters": {
+      "resourceType": "AWS::SecretsManager::Secret",
+      "limit": 0,
+      "includeDeletedResources": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:01Z",
+    "eventID": "4bef4327-f453-4c72-8de5-24dd9dd24694",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:29:00 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:00 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "best_flija_topping"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:01Z",
+    "eventID": "ae8c139b-bf6c-4d2b-8072-43bcbc7164a3",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:29:01 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:01 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "best_flija_topping"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:04Z",
+    "eventID": "af437f0d-27e8-4f8f-a5c1-ad8572f7e94e",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:29:04 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:04 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "Username",
+          "attributeValue": "access-analyzer"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:04Z",
+    "eventID": "9b497416-678f-4f56-afee-13fced4a3bc4",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 4:29:04 AM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:04 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "ResourceName",
+          "attributeValue": "best_flija_topping"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:09Z",
+    "eventID": "f26d6d0c-d7e8-495b-a792-bb37ba41866b",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:09 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:09 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "Username",
+          "attributeValue": "access-analyzer"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:23Z",
+    "eventID": "8f8975fa-3551-48a5-aa24-f029daefe544",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:46:23 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:23Z",
+    "eventID": "b367c606-accf-4d53-a5c3-fd7c99329078",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:46:23 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:24Z",
+    "eventID": "055fce12-e63c-4de8-b36c-c98397c2675d",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:24 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:24 AM"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:24Z",
+    "eventID": "91ad6030-1a8f-4421-b2d5-3e4cbd4aa6d3",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:24 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:24 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "Username",
+          "attributeValue": "access-analyzer"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:32Z",
+    "eventID": "d1c3d8e8-b4f1-4567-a537-f61855d06fad",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:31 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:31 AM"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:32Z",
+    "eventID": "6aa72618-a8cf-4a44-b6d9-dbdd3a7ac52e",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:31 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:31 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "LookupEvents"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:36Z",
+    "eventID": "a6daa8f4-a11d-4616-8d38-65f0860b77af",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:36Z",
+    "eventID": "69b10ffc-4143-46bb-9394-e2a929ca10e4",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:40Z",
+    "eventID": "eca8b440-831c-4482-a413-f31a4e745b63",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorderStatus",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:40Z",
+    "eventID": "09648ff1-8627-4108-a1d7-60508e09c08d",
+    "eventSource": "config.amazonaws.com",
+    "eventName": "DescribeConfigurationRecorders",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:41Z",
+    "eventID": "e5bb1029-2086-43cc-a6a7-174aad2d6f36",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:40 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:40 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "LookupEvents"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:41Z",
+    "eventID": "cadf6480-083d-4560-8d51-24753a6fbc26",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:40 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:40 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "LookupEvents"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:48Z",
+    "eventID": "11161033-78e3-4838-977a-ce0861425add",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:48 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:48 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED94OZC6KM"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:48Z",
+    "eventID": "f938da85-93fc-4eb2-97a2-1739a5537b7a",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:48 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:48 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "EventName",
+          "attributeValue": "LookupEvents"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:54Z",
+    "eventID": "722522b0-1b89-4d03-9885-654c86ba2078",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:48 PM",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:48 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED94OZC6KM"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:46:54Z",
+    "eventID": "1e241a46-552d-41cb-a6a4-f8ee64c925af",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "LookupEvents",
+    "requestParameters": {
+      "startTime": "Dec 16, 2023, 2:46:48 PM",
+      "nextToken": "aQEcFEJQWAOIXhQ1T78v1UwyAQelp0bdiyVAj1uwyNyzM4jX4r/E6refAtwrMcyt",
+      "maxResults": 50,
+      "endTime": "Dec 17, 2023, 2:46:48 AM",
+      "lookupAttributes": [
+        {
+          "attributeKey": "AccessKeyId",
+          "attributeValue": "AKIAREDACTED94OZC6KM"
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:51:24Z",
+    "eventID": "f3e11d06-197e-4588-a7db-75cd41fc9a84",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023, 2:51:24 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-17T02:51:24Z",
+    "eventID": "c2163f6c-af54-4e3a-aed1-d2a5541ec67d",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 10, 2023 2:51:24 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  }
+]

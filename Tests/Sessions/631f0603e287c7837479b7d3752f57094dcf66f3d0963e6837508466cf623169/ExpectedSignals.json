@@ -1,0 +1,473 @@
+{
+  "85032dca-e2e1-4af6-be89-b004835ec2cd": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": [
+        "a1.xlarge",
+        "c3.large"
+      ],
+      "availabilityZone": "us-east-1d",
+      "graph": "Instance Types",
+      "platform": "Linux/UNIX",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Instance Types', Instance Types='a1.xlarge','c3.large', Availability Zone='us-east-1d', Platform='Linux/UNIX' and default Date Range='1 week' ('2023-07-28T13:18:37Z' to '2023-08-04T13:18:37Z').",
+    "CorrelationId": "85032dca-e2e1-4af6-be89-b004835ec2cd",
+    "FirstEventTime": "2023-08-04T13:18:38Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "85032dca-e2e1-4af6-be89-b004835ec2cd",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:18:38Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "505617df-87ca-44dc-9158-9a8e8363a87b": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PlacementScore_Step2",
+    "AdditionalData": {
+      "regionNameArr": [
+        "ap-south-1",
+        "ap-southeast-2"
+      ]
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 2 of 2) which scores AWS Regions to help identify optimal Region or Availability Zones in which to run EC2 Spot Instance workloads, currently filtered by Regions To Score='ap-south-1','ap-southeast-2'.",
+    "CorrelationId": "505617df-87ca-44dc-9158-9a8e8363a87b",
+    "FirstEventTime": "2023-08-04T13:24:52Z",
+    "AllEventArr": "ec2:GetSpotPlacementScores",
+    "AllEventIdArr": "505617df-87ca-44dc-9158-9a8e8363a87b",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotPlacementScore:",
+    "LastEventTime": "2023-08-04T13:24:52Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 2 of 2)"
+  },
+  "d0edde44-7b78-4199-a152-086b8a4bae98": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Windows",
+      "timespanStr": "3 hours"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Windows' and custom Date Range='3 hours' ('2023-08-04T10:13:53Z' to '2023-08-04T13:13:53Z').",
+    "CorrelationId": "d0edde44-7b78-4199-a152-086b8a4bae98",
+    "FirstEventTime": "2023-08-04T13:13:53Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "d0edde44-7b78-4199-a152-086b8a4bae98",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:13:53Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "26589c42-0559-413c-9837-9ffa026bd88d": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": [
+        "a1.xlarge",
+        "c3.large",
+        "g5.2xlarge"
+      ],
+      "availabilityZone": "us-east-1d",
+      "graph": "Instance Types",
+      "platform": "Linux/UNIX",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Instance Types', Instance Types='a1.xlarge','c3.large','g5.2xlarge', Availability Zone='us-east-1d', Platform='Linux/UNIX' and default Date Range='1 week' ('2023-07-28T13:18:54Z' to '2023-08-04T13:18:54Z').",
+    "CorrelationId": "26589c42-0559-413c-9837-9ffa026bd88d",
+    "FirstEventTime": "2023-08-04T13:18:54Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "26589c42-0559-413c-9837-9ffa026bd88d",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:18:54Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "074cb071-7c59-4ab3-af3d-58adb49d1693": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "074cb071-7c59-4ab3-af3d-58adb49d1693",
+    "FirstEventTime": "2023-08-04T13:36:29Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "074cb071-7c59-4ab3-af3d-58adb49d1693,ca94e265-210f-4cdd-b971-f6e60118a1c8",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:36:29Z",
+    "Name": "Suppressing automated background event"
+  },
+  "de8e9806-07a5-448a-8611-228e9591fc81": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Windows",
+      "timespanStr": "3 months"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Windows' and custom Date Range='3 months' ('2023-05-06T13:14:41Z' to '2023-08-04T13:14:41Z').",
+    "CorrelationId": "de8e9806-07a5-448a-8611-228e9591fc81",
+    "FirstEventTime": "2023-08-04T13:14:41Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "de8e9806-07a5-448a-8611-228e9591fc81",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:14:41Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "4f485a9d-9899-4740-9b87-ef7d406c1471": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Windows",
+      "timespanStr": "3 months"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Windows' and custom Date Range='3 months' ('2023-05-06T13:15:01Z' to '2023-08-04T13:15:01Z').",
+    "CorrelationId": "4f485a9d-9899-4740-9b87-ef7d406c1471",
+    "FirstEventTime": "2023-08-04T13:15:01Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "4f485a9d-9899-4740-9b87-ef7d406c1471",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:15:01Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "1d7bd256-4bfb-4cc3-9aba-2113e5a08b0d": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "c3.large",
+      "availabilityZone": "us-east-1d",
+      "graph": "Instance Types",
+      "platform": "Linux/UNIX",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Instance Types', Instance Type='c3.large', Availability Zone='us-east-1d', Platform='Linux/UNIX' and default Date Range='1 week' ('2023-07-28T13:17:54Z' to '2023-08-04T13:17:54Z').",
+    "CorrelationId": "1d7bd256-4bfb-4cc3-9aba-2113e5a08b0d",
+    "FirstEventTime": "2023-08-04T13:17:54Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "1d7bd256-4bfb-4cc3-9aba-2113e5a08b0d",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:17:54Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "8ef3306a-9fb1-4fa5-988d-e5bc69782435": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Windows",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Windows' and default Date Range='1 week' ('2023-07-28T13:13:36Z' to '2023-08-04T13:13:36Z').",
+    "CorrelationId": "8ef3306a-9fb1-4fa5-988d-e5bc69782435",
+    "FirstEventTime": "2023-08-04T13:13:36Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "8ef3306a-9fb1-4fa5-988d-e5bc69782435",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:13:36Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "d2150426-9a47-40de-9f2c-808072b484ed": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Linux/UNIX",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Linux/UNIX' and default Date Range='1 week' ('2023-07-28T13:12:35Z' to '2023-08-04T13:12:35Z').",
+    "CorrelationId": "d2150426-9a47-40de-9f2c-808072b484ed",
+    "FirstEventTime": "2023-08-04T13:12:35Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "d2150426-9a47-40de-9f2c-808072b484ed",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:12:35Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "7dc11f64-c0f3-4107-93c4-8dce762470da": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Red Hat Enterprise Linux",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Red Hat Enterprise Linux' and default Date Range='1 week' ('2023-07-28T13:12:54Z' to '2023-08-04T13:12:54Z').",
+    "CorrelationId": "7dc11f64-c0f3-4107-93c4-8dce762470da",
+    "FirstEventTime": "2023-08-04T13:12:54Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "7dc11f64-c0f3-4107-93c4-8dce762470da",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:12:54Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "b46b5926-8ebe-41fd-a6dc-d776155d3f4b": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PlacementScore_Step2",
+    "AdditionalData": {
+      "regionNameArr": [
+        "ap-south-1",
+        "ap-southeast-2"
+      ]
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 2 of 2) which scores AWS Regions to help identify optimal Region or Availability Zones in which to run EC2 Spot Instance workloads, currently filtered by Regions To Score='ap-south-1','ap-southeast-2'.",
+    "CorrelationId": "b46b5926-8ebe-41fd-a6dc-d776155d3f4b",
+    "FirstEventTime": "2023-08-04T13:25:01Z",
+    "AllEventArr": "ec2:GetSpotPlacementScores",
+    "AllEventIdArr": "b46b5926-8ebe-41fd-a6dc-d776155d3f4b",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotPlacementScore:",
+    "LastEventTime": "2023-08-04T13:25:01Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 2 of 2)"
+  },
+  "8ae8b480-0756-4ffb-a6f9-075bda9bf0ad": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "c3.large",
+      "availabilityZone": "us-east-1a",
+      "graph": "Instance Types",
+      "platform": "Windows",
+      "timespanStr": "3 months"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Instance Types', Instance Type='c3.large', Availability Zone='us-east-1a', Platform='Windows' and custom Date Range='3 months' ('2023-05-06T13:15:18Z' to '2023-08-04T13:15:18Z').",
+    "CorrelationId": "8ae8b480-0756-4ffb-a6f9-075bda9bf0ad",
+    "FirstEventTime": "2023-08-04T13:15:19Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "8ae8b480-0756-4ffb-a6f9-075bda9bf0ad",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:15:19Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "14d1f66d-a3de-439d-a821-d3509de8ae56": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "14d1f66d-a3de-439d-a821-d3509de8ae56",
+    "FirstEventTime": "2023-08-04T13:31:25Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "14d1f66d-a3de-439d-a821-d3509de8ae56,efe9746b-c66f-4715-8852-849fadc69cbb",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:31:25Z",
+    "Name": "Suppressing automated background event"
+  },
+  "32ac7145-acdb-49d2-9dce-6230f457f696": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "c3.large",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Linux/UNIX",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by default values Graph='Availability Zones', Instance Type='c3.large', Platform='Linux/UNIX' and default Date Range='1 week' ('2023-07-28T13:11:34Z' to '2023-08-04T13:11:34Z').",
+    "CorrelationId": "32ac7145-acdb-49d2-9dce-6230f457f696",
+    "FirstEventTime": "2023-08-04T13:11:35Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "32ac7145-acdb-49d2-9dce-6230f457f696",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:11:35Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "b65629bd-4f1a-4ee7-9df2-8fa56043b0f5": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "SUSE Linux",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='SUSE Linux' and default Date Range='1 week' ('2023-07-28T13:13:18Z' to '2023-08-04T13:13:18Z').",
+    "CorrelationId": "b65629bd-4f1a-4ee7-9df2-8fa56043b0f5",
+    "FirstEventTime": "2023-08-04T13:13:18Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "b65629bd-4f1a-4ee7-9df2-8fa56043b0f5",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:13:18Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "cafcd80b-18c3-4f5e-80eb-8674ec4a38eb": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Windows",
+      "timespanStr": "1 month"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Windows' and custom Date Range='1 month' ('2023-07-05T13:14:27Z' to '2023-08-04T13:14:27Z').",
+    "CorrelationId": "cafcd80b-18c3-4f5e-80eb-8674ec4a38eb",
+    "FirstEventTime": "2023-08-04T13:14:27Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "cafcd80b-18c3-4f5e-80eb-8674ec4a38eb",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:14:27Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "439cc68c-27d0-4a28-bb7a-0207f8f3abd0": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "439cc68c-27d0-4a28-bb7a-0207f8f3abd0",
+    "FirstEventTime": "2023-08-04T14:01:34Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "439cc68c-27d0-4a28-bb7a-0207f8f3abd0,b1d0c0a8-acec-4693-bd77-999b03883938",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T14:01:34Z",
+    "Name": "Suppressing automated background event"
+  },
+  "47df6ffc-022e-4a8d-a20c-870d2a3a49b3": {
+    "EventCount": 3,
+    "Label": "EC2_Instances_SpotRequests_PlacementScore_Step1",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 1 of 2) which scores AWS Regions to help identify optimal Region or Availability Zones in which to run EC2 Spot Instance workloads.",
+    "CorrelationId": "47df6ffc-022e-4a8d-a20c-870d2a3a49b3",
+    "FirstEventTime": "2023-08-04T13:23:28Z",
+    "AllEventArr": "ec2:DescribeImages,ec2:DescribeAccountAttributes,ec2:GetInstanceTypesFromInstanceRequirements",
+    "AllEventIdArr": "47df6ffc-022e-4a8d-a20c-870d2a3a49b3,6d2296b1-4d75-4bf8-bd89-e742e6c305dc,81a71a37-7189-4b47-a8d8-b46e0291b30a",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotPlacementScore:",
+    "LastEventTime": "2023-08-04T13:23:28Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 1 of 2)"
+  },
+  "04bdbd69-bdb7-4008-9308-2de3dc13a2da": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "c3.large",
+      "availabilityZone": "us-east-1a",
+      "graph": "Instance Types",
+      "platform": "Linux/UNIX",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Instance Types', Instance Type='c3.large', Availability Zone='us-east-1a', Platform='Linux/UNIX' and default Date Range='1 week' ('2023-07-28T13:16:56Z' to '2023-08-04T13:16:56Z').",
+    "CorrelationId": "04bdbd69-bdb7-4008-9308-2de3dc13a2da",
+    "FirstEventTime": "2023-08-04T13:16:57Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "04bdbd69-bdb7-4008-9308-2de3dc13a2da",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:16:57Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "a9d70d3a-8f24-4c5a-81be-43ee73ee65e9": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "a9d70d3a-8f24-4c5a-81be-43ee73ee65e9",
+    "FirstEventTime": "2023-08-04T13:21:24Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "a9d70d3a-8f24-4c5a-81be-43ee73ee65e9,b1cdc905-ce47-46f7-a249-5a2f64ff69b3",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:21:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "da5addea-1cd8-48d2-84f6-a29410f128ec": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "da5addea-1cd8-48d2-84f6-a29410f128ec",
+    "FirstEventTime": "2023-08-04T13:46:31Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "da5addea-1cd8-48d2-84f6-a29410f128ec,db361fcb-32e6-45bb-8ca7-4be78d80ffb3",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:46:31Z",
+    "Name": "Suppressing automated background event"
+  },
+  "d4e94f8e-a8d7-4710-9111-51975ed9626b": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "d4e94f8e-a8d7-4710-9111-51975ed9626b",
+    "FirstEventTime": "2023-08-04T13:56:33Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "d4e94f8e-a8d7-4710-9111-51975ed9626b,d6c39d1a-e79d-4858-8c65-35d16171605c",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:56:33Z",
+    "Name": "Suppressing automated background event"
+  },
+  "6d7f5dff-9e7b-48d9-8e1f-744148fda203": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "6d7f5dff-9e7b-48d9-8e1f-744148fda203",
+    "FirstEventTime": "2023-08-04T13:51:32Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "6d7f5dff-9e7b-48d9-8e1f-744148fda203,b9f2761e-cb95-46ac-9dcf-e4982ab6ba23",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:51:32Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0583afd6-811c-4ea2-85d9-c6f38506d50d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0583afd6-811c-4ea2-85d9-c6f38506d50d",
+    "FirstEventTime": "2023-08-04T13:11:23Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0583afd6-811c-4ea2-85d9-c6f38506d50d,bd76846b-7e1a-4b78-9262-57457be42c9b",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:11:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "5f2c9570-7365-4f47-b833-dd0490c671f4": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "a1.metal",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Windows",
+      "timespanStr": "1 day"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by custom values Graph='Availability Zones', Instance Type='a1.metal', Platform='Windows' and custom Date Range='1 day' ('2023-08-03T13:14:11Z' to '2023-08-04T13:14:11Z').",
+    "CorrelationId": "5f2c9570-7365-4f47-b833-dd0490c671f4",
+    "FirstEventTime": "2023-08-04T13:14:11Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "5f2c9570-7365-4f47-b833-dd0490c671f4",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-04T13:14:11Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "24d800a0-1f07-4c88-98c6-b2faaf5a5c81": {
+    "EventCount": 16,
+    "Label": "EC2_EC2Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard which displays all EC2 compute resources (e.g. instances, volumes, snapshots, load balancers, etc.).",
+    "CorrelationId": "24d800a0-1f07-4c88-98c6-b2faaf5a5c81",
+    "FirstEventTime": "2023-08-04T13:10:20Z",
+    "AllEventArr": "ec2:DescribeKeyPairs,ec2:DescribeSnapshots,ec2:DescribeLaunchTemplates,ec2:DescribeAddresses,ec2:DescribeVolumes,ec2:DescribeInstances,ec2:DescribeHosts,autoscaling:DescribeAutoScalingGroups,elasticloadbalancing:DescribeLoadBalancers,ec2:DescribePlacementGroups,ec2:DescribeVolumeStatus,ec2:DescribeAvailabilityZones,ec2:DescribeInstanceStatus,ec2:DescribeSecurityGroups,ec2:DescribeAccountAttributes",
+    "AllEventIdArr": "24d800a0-1f07-4c88-98c6-b2faaf5a5c81,a1fd2601-0f45-4bce-895d-fd011c10c161,35a19905-fef3-4e6b-b564-9806ff96338e,4ac27ccb-a5bd-4f01-95e6-b7830896e2f6,4e35f115-2fde-440c-8d68-de934f35c748,8453a58d-2424-410e-93f3-60080c9c1f13,92bca028-f9a0-4d16-a8eb-b57330575a9d,97314492-f46e-4ecc-bd9c-0cf0bced3257,aad5b47f-a0b5-4cd4-900d-01fb8576971e,c3099618-9122-46e9-ad11-e9d2275ec5bc,c770a81d-463f-456b-a6c3-92eb40252c86,cc3220c5-9554-4ea6-8d84-4937fa46dd5b,cc5e3046-b94e-45c9-90e6-aba54efcd363,da55db05-4245-4a13-8792-c13ff94a3808,eb94ee4d-452a-4edb-96e1-d699918c2d1d,ff4ae00b-75b4-49bb-8465-31fc1142c609",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-04T13:10:21Z",
+    "Name": "Clicked EC2->EC2 Dashboard"
+  },
+  "57b626f1-2884-4df8-b920-0ebe70710850": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "57b626f1-2884-4df8-b920-0ebe70710850",
+    "FirstEventTime": "2023-08-04T13:41:30Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "57b626f1-2884-4df8-b920-0ebe70710850,a0ca1f4b-0c90-47fa-8478-333b6f356a35",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-04T13:41:30Z",
+    "Name": "Suppressing automated background event"
+  }
+}

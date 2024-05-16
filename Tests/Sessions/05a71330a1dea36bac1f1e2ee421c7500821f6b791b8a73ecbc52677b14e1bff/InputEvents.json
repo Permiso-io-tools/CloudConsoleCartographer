@@ -1,0 +1,561 @@
+[
+  {
+    "eventTime": "2023-11-30T07:15:50Z",
+    "eventID": "3a5aedc5-5d5f-4976-a57a-3c3df0456a17",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpoints",
+    "requestParameters": {
+      "DescribeVpcEndpointsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:15:50Z",
+    "eventID": "11e95352-72ae-456a-9565-a98b4563659a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcs",
+    "requestParameters": {
+      "maxResults": 1000,
+      "vpcSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:15:50Z",
+    "eventID": "8aae33e1-a9ee-48ad-a31f-b115218853a3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceConnectEndpoints",
+    "requestParameters": {
+      "DescribeInstanceConnectEndpointsRequest": {
+        "MaxResults": 50
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:15:55Z",
+    "eventID": "d476957c-d883-4a93-80a3-64ea7dc4c5ae",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpointServices",
+    "requestParameters": {
+      "DescribeVpcEndpointServicesRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:19Z",
+    "eventID": "f5066646-65fd-4f71-9fdf-2fbb76cac9f4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcs",
+    "requestParameters": {
+      "maxResults": 1000,
+      "vpcSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:23Z",
+    "eventID": "fbb37ee1-943b-478b-92fe-29c6bc32db42",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpointServices",
+    "requestParameters": {
+      "DescribeVpcEndpointServicesRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:23Z",
+    "eventID": "c00f13d9-1345-4695-8bf4-a6514a978079",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpointServices",
+    "requestParameters": {
+      "DescribeVpcEndpointServicesRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:23Z",
+    "eventID": "aa11a931-d3a4-41cc-921b-e840fac42b41",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Nov 23, 2023 7:16:23 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:23Z",
+    "eventID": "4718692c-d0db-4fe2-8afb-44a5b8845aef",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Nov 23, 2023, 7:16:23 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:32Z",
+    "eventID": "08b6c271-333c-44f2-9741-cabf3246fe7b",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:50Z",
+    "eventID": "fe88b590-c4a9-429b-ba3d-399fda30fbc7",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Nov 23, 2023 7:16:50 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:16:50Z",
+    "eventID": "eedf732b-deb8-4ac8-a3ec-5624a867c049",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Nov 23, 2023, 7:16:50 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:18:32Z",
+    "eventID": "197da5a2-5775-4b87-bc1c-a22d648e2bb4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSubnets",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "vpc-db0c0ffee56bc40db"
+                }
+              ]
+            },
+            "name": "vpc-id"
+          }
+        ]
+      },
+      "subnetSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:18:32Z",
+    "eventID": "bbc4ff7e-8942-43ff-bb2f-86da80917831",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRouteTables",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "vpc-db0c0ffee56bc40db"
+                }
+              ]
+            },
+            "name": "vpc-id"
+          }
+        ]
+      },
+      "routeTableIdSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:18:32Z",
+    "eventID": "6d63fe2f-0564-4b05-acf0-a7aac8fb4adf",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneIdSet": {},
+      "availabilityZoneSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:18:32Z",
+    "eventID": "38fb07a9-9299-46d1-8b2d-4146449a21d9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSubnets",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "vpc-db0c0ffee56bc40db"
+                }
+              ]
+            },
+            "name": "vpc-id"
+          }
+        ]
+      },
+      "subnetSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:18:32Z",
+    "eventID": "af8730d0-d64c-460b-b97b-2c4afa491a7b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "vpc-db0c0ffee56bc40db"
+                }
+              ]
+            },
+            "name": "vpc-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:18:32Z",
+    "eventID": "75c438a8-6687-4e0f-9003-3c0a6a9d96f9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "vpc-db0c0ffee56bc40db"
+                }
+              ]
+            },
+            "name": "vpc-id"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:13Z",
+    "eventID": "17e67d42-d862-43fa-bb02-a3d6bc01accf",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpointServices",
+    "requestParameters": {
+      "DescribeVpcEndpointServicesRequest": {
+        "ServiceName": {
+          "content": "aws.api.us-east-1.kendra-ranking",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:13Z",
+    "eventID": "b75354ac-5474-4f10-ae9c-65346d5f32ef",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpoints",
+    "requestParameters": {
+      "DescribeVpcEndpointsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:13Z",
+    "eventID": "2eefeed7-830a-4033-8713-fa1fb1ff1c13",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcs",
+    "requestParameters": {
+      "filterSet": {},
+      "vpcSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:13Z",
+    "eventID": "49bd8774-2296-4ade-9815-95d48a45052d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceConnectEndpoints",
+    "requestParameters": {
+      "DescribeInstanceConnectEndpointsRequest": {
+        "MaxResults": 50
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:13Z",
+    "eventID": "089ca63b-f6f9-4e75-aec7-8e68ddee34a4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "CreateVpcEndpoint",
+    "requestParameters": {
+      "CreateVpcEndpointRequest": {
+        "TagSpecification": {
+          "Tag": {
+            "Key": "Name",
+            "Value": "myVPCEndpoint1",
+            "tag": 1
+          },
+          "ResourceType": "vpc-endpoint",
+          "tag": 1
+        },
+        "IpAddressType": "ipv4",
+        "PrivateDnsEnabled": true,
+        "VpcEndpointType": "Interface",
+        "DnsOptions": {
+          "DnsRecordIpType": "ipv4"
+        },
+        "ServiceName": "aws.api.us-east-1.kendra-ranking",
+        "VpcId": "vpc-db0c0ffee56bc40db"
+      }
+    },
+    "responseElements": {
+      "CreateVpcEndpointResponse": {
+        "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+        "vpcEndpoint": {
+          "dnsOptions": {
+            "dnsRecordIpType": "ipv4"
+          },
+          "creationTimestamp": "2023-11-30T07:19:13.036Z",
+          "state": "pending",
+          "privateDnsEnabled": true,
+          "requesterManaged": false,
+          "dnsEntrySet": "",
+          "subnetIdSet": "",
+          "routeTableIdSet": "",
+          "vpcId": "vpc-db0c0ffee56bc40db",
+          "tagSet": {
+            "item": {
+              "key": "Name",
+              "value": "myVPCEndpoint1"
+            }
+          },
+          "vpcEndpointId": "vpce-db0c0ffee984e07fa",
+          "networkInterfaceIdSet": "",
+          "groupSet": {
+            "item": {
+              "groupName": "default",
+              "groupId": "sg-db0c0ffee64dcb055"
+            }
+          },
+          "ownerId": 200802171337,
+          "serviceName": "aws.api.us-east-1.kendra-ranking",
+          "ipAddressType": "ipv4",
+          "vpcEndpointType": "Interface"
+        },
+        "requestId": "10525541-a268-4111-9b64-14cc88047573"
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:13Z",
+    "eventID": "4ea84fb6-c86f-4794-9fa5-b6eab3d104bd",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpoints",
+    "requestParameters": {
+      "DescribeVpcEndpointsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:13Z",
+    "eventID": "f21003c6-383a-430e-8ded-4ddc28536110",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcs",
+    "requestParameters": {
+      "maxResults": 1000,
+      "vpcSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-11-30T07:19:17Z",
+    "eventID": "e7661470-f1ac-4a96-807c-c509441d3d15",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpointServices",
+    "requestParameters": {
+      "DescribeVpcEndpointServicesRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  }
+]

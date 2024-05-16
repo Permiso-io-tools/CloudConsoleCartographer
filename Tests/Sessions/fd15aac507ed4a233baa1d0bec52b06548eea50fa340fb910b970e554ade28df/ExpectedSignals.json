@@ -1,0 +1,240 @@
+{
+  "c34e2323-b69e-46a3-955d-24bb139f4c95": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "c34e2323-b69e-46a3-955d-24bb139f4c95",
+    "FirstEventTime": "2023-06-02T03:28:24Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "c34e2323-b69e-46a3-955d-24bb139f4c95,e9aa1a01-25bf-4c12-bc29-3688c50e2490",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T03:28:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "70fdc4d1-e057-42b5-93e3-4d5ccfe4288d": {
+    "EventCount": 1,
+    "Label": "SearchBar",
+    "AdditionalData": null,
+    "Summary": "Typed content into AWS Console Search Bar.",
+    "CorrelationId": "70fdc4d1-e057-42b5-93e3-4d5ccfe4288d",
+    "FirstEventTime": "2023-06-02T03:23:12Z",
+    "AllEventArr": "resource-explorer-2:ListIndexes",
+    "AllEventIdArr": "70fdc4d1-e057-42b5-93e3-4d5ccfe4288d",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T03:23:12Z",
+    "Name": "Typed into Search Bar"
+  },
+  "52df96cc-1da9-497c-9c9f-88be9e2c5f94": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory_SPECIFICEVENT",
+    "AdditionalData": {
+      "resourceTypeArr": null
+    },
+    "Summary": "Clicked CloudTrail->Event History->SPECIFICEVENT which displays all details for specific CloudTrail Event.",
+    "CorrelationId": "52df96cc-1da9-497c-9c9f-88be9e2c5f94",
+    "FirstEventTime": "2023-06-02T03:28:37Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "52df96cc-1da9-497c-9c9f-88be9e2c5f94,a49eebbe-c01c-412e-9ef5-1e39bd01962e",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events",
+    "LastEventTime": "2023-06-02T03:28:37Z",
+    "Name": "Clicked CloudTrail->Event History->SPECIFICEVENT"
+  },
+  "9db1a7aa-330d-469f-a1a6-3517ef68342e": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "9db1a7aa-330d-469f-a1a6-3517ef68342e",
+    "FirstEventTime": "2023-06-02T03:23:23Z",
+    "AllEventArr": "notifications:ListNotificationHubs,health:DescribeEventAggregates",
+    "AllEventIdArr": "9db1a7aa-330d-469f-a1a6-3517ef68342e,41533eb5-ff39-415d-9197-0ebd26759946,a234bddf-5067-4546-b331-cfa557450914",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T03:23:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "9aa8234a-b4ce-4981-a1d0-ab66968de5a0": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "9aa8234a-b4ce-4981-a1d0-ab66968de5a0",
+    "FirstEventTime": "2023-06-02T03:16:57Z",
+    "AllEventArr": "s3:GetStorageLensDashboardDataInternal,s3:GetStorageLensConfiguration",
+    "AllEventIdArr": "9aa8234a-b4ce-4981-a1d0-ab66968de5a0,fb660864-427b-4146-aee2-3a40028eb211,63c3dc0e-3690-44ef-996a-d615e0496f05,f52b7b66-3bc5-444b-96bd-3c061b2aafee",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-06-02T03:16:58Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "4aa51c0c-8037-4cd4-bd3b-9eac23d68dc8": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4aa51c0c-8037-4cd4-bd3b-9eac23d68dc8",
+    "FirstEventTime": "2023-06-02T03:12:44Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "4aa51c0c-8037-4cd4-bd3b-9eac23d68dc8,5240b602-bee7-4cd8-8226-06ceddb31374,eaf81e58-b7da-412a-bbc5-45c5b8e254a0",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T03:12:44Z",
+    "Name": "Suppressing automated background event"
+  },
+  "1a258e4f-e384-4449-9105-54e2a16163c2": {
+    "EventCount": 4,
+    "Label": "S3_Buckets_EmptyBucket",
+    "AdditionalData": {
+      "bucketName": "randomBucket06",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked S3->Buckets->Empty Bucket to empty all items from the existing S3 Bucket 'randomBucket06' in AWS Region 'us-east-1'.",
+    "CorrelationId": "1a258e4f-e384-4449-9105-54e2a16163c2",
+    "FirstEventTime": "2023-06-02T03:11:54Z",
+    "AllEventArr": "s3:GetBucketObjectLockConfiguration,cloudtrail:DescribeTrails,s3:GetBucketVersioning,cloudtrail:GetEventSelectors",
+    "AllEventIdArr": "1a258e4f-e384-4449-9105-54e2a16163c2,4b9efeac-bf77-46ae-9127-f3b3e5d5e042,a286aaea-f197-4541-ac2e-50f82f2a0edb,ebc272a4-4689-4d75-9df2-e2d20d078556",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/randomBucket06/empty?region=us-east-1",
+    "LastEventTime": "2023-06-02T03:11:55Z",
+    "Name": "Clicked S3->Buckets->Empty Bucket"
+  },
+  "92daa5ab-90a8-4459-9249-63f4a76ba954": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "92daa5ab-90a8-4459-9249-63f4a76ba954",
+    "FirstEventTime": "2023-06-02T03:22:44Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "92daa5ab-90a8-4459-9249-63f4a76ba954,b0e7b6fc-cffa-40d3-95b5-aab45990e0f5",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T03:22:44Z",
+    "Name": "Suppressing automated background event"
+  },
+  "fd9bb629-7633-48ed-8fa3-f8f1e1e3b28e": {
+    "EventCount": 20,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": [
+        "randomBucket04",
+        "randomBucket05",
+        "randomBucket06"
+      ]
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions including 3 S3 Buckets ('randomBucket04','randomBucket05','randomBucket06').",
+    "CorrelationId": "fd9bb629-7633-48ed-8fa3-f8f1e1e3b28e",
+    "FirstEventTime": "2023-06-02T03:12:42Z",
+    "AllEventArr": "s3:ListBuckets,s3:GetStorageLensDashboardDataInternal,s3:GetStorageLensConfiguration,s3:GetBucketPolicyStatus,s3:GetBucketPublicAccessBlock,s3:GetAccountPublicAccessBlock,s3:GetBucketAcl,s3:ListAccessPoints",
+    "AllEventIdArr": "fd9bb629-7633-48ed-8fa3-f8f1e1e3b28e,0a9f2932-df82-45f1-8757-5aed5672fc27,161fdd8e-859e-4fab-a016-060a3c4192e5,2fec609e-8fba-4619-9279-90659a55caba,509c83e4-a551-4bf0-9d6e-91302d2daae2,570b24ba-fa7f-4766-814d-5b9f24f9b3cb,8f8ea6fe-948f-47ad-92dc-82363bcd22db,9a700a4e-2018-4a5f-a041-6fad6114b87a,f8fed33f-6df1-444b-9b75-94b04964156f,fe90d827-07e2-4563-b477-362e57ec6834,46ab851f-03a6-4c4b-b4d1-25d7b458aaa0,510be8f4-57aa-47a6-84b4-8fa54f570e28,65e9ecef-780f-4eac-ae87-f873a558edde,a800cc02-4bd8-4a8a-8c70-d5db69a2eb53,c923c082-265f-4da1-817c-5593855d9cf6,09f30503-1daa-4674-ad9d-36274b769b57,27a37475-de8a-435b-b431-482973f1e8f5,44d57f66-2004-4771-a9bc-27b84dc1a87c,95d6cdf1-a2c2-4ab4-902a-ffcdcc6d754b,b15013d0-2e0c-468f-8f3b-d2e69a295cab",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-06-02T03:12:45Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "0abe5d13-9b6f-478a-ba2c-c4402e1282e8": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0abe5d13-9b6f-478a-ba2c-c4402e1282e8",
+    "FirstEventTime": "2023-06-02T03:17:44Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0abe5d13-9b6f-478a-ba2c-c4402e1282e8,3ee65ef0-08e0-4163-b5a7-8616b202f549",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T03:17:44Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0171052a-1445-4532-b990-7ab14d0c1388": {
+    "EventCount": 4,
+    "Label": "S3_Buckets_EmptyBucket",
+    "AdditionalData": {
+      "bucketName": "randomBucket06",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked S3->Buckets->Empty Bucket to empty all items from the existing S3 Bucket 'randomBucket06' in AWS Region 'us-east-1'.",
+    "CorrelationId": "0171052a-1445-4532-b990-7ab14d0c1388",
+    "FirstEventTime": "2023-06-02T03:13:41Z",
+    "AllEventArr": "cloudtrail:DescribeTrails,s3:GetBucketVersioning,s3:GetBucketObjectLockConfiguration,cloudtrail:GetEventSelectors",
+    "AllEventIdArr": "0171052a-1445-4532-b990-7ab14d0c1388,a18af66d-3819-4e87-b31a-1fc1f5ffb553,f73e1af9-47d8-48c2-b358-696b043287e6,35fec17b-60f9-4150-8600-013b162bac4f",
+    "Url": "https://s3.console.aws.amazon.com/s3/bucket/randomBucket06/empty?region=us-east-1",
+    "LastEventTime": "2023-06-02T03:13:42Z",
+    "Name": "Clicked S3->Buckets->Empty Bucket"
+  },
+  "6f8d8919-0f56-4cf3-9e02-71679e73c21e": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": "EventName",
+      "startTime": null,
+      "attributeValue": "CreateUser",
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventName='CreateUser'.",
+    "CorrelationId": "6f8d8919-0f56-4cf3-9e02-71679e73c21e",
+    "FirstEventTime": "2023-06-02T03:26:30Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "6f8d8919-0f56-4cf3-9e02-71679e73c21e,060d32c2-26fe-4f69-826c-4c6875bff77f",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=CreateUser",
+    "LastEventTime": "2023-06-02T03:26:31Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "5866b282-909b-4446-8d87-621827998ff9": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": "ReadOnly",
+      "startTime": null,
+      "attributeValue": "false",
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by default attribute ReadOnly='false'.",
+    "CorrelationId": "5866b282-909b-4446-8d87-621827998ff9",
+    "FirstEventTime": "2023-06-02T03:24:59Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,config:DescribeConfigurationRecorders,cloudtrail:LookupEvents",
+    "AllEventIdArr": "5866b282-909b-4446-8d87-621827998ff9,f2cc8ab2-6d42-4cf1-859d-83300507e955,7a6351e7-bca7-4b88-97ef-56375c29a40a,f73c7f3e-82cc-40f0-9f78-799a7a801811",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ReadOnly=false",
+    "LastEventTime": "2023-06-02T03:25:00Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "cc4b7a98-ef6a-4977-92fc-c779f51bde43": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "cc4b7a98-ef6a-4977-92fc-c779f51bde43",
+    "FirstEventTime": "2023-06-02T03:12:00Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "cc4b7a98-ef6a-4977-92fc-c779f51bde43,67f19f28-a3f7-4f6f-ad44-81753a229fe4,b33937ef-600a-43fb-8938-78f1046534ca,f700842c-4353-4404-a4d2-57a24fedc87e",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-06-02T03:12:01Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "14d02d85-4190-43ba-82f8-4124fd34f144": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "14d02d85-4190-43ba-82f8-4124fd34f144",
+    "FirstEventTime": "2023-06-02T03:27:45Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "14d02d85-4190-43ba-82f8-4124fd34f144,cbaa11e5-a446-4e8f-9bda-c08c3c44cecd",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T03:27:45Z",
+    "Name": "Suppressing automated background event"
+  },
+  "10e25271-c099-4db3-b5ce-afe11cfe087d": {
+    "EventCount": 9,
+    "Label": "CloudTrail_Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Dashboard which displays a summary of all CloudTrail components (e.g. Trails statuses, Insights and last 5 Events).",
+    "CorrelationId": "10e25271-c099-4db3-b5ce-afe11cfe087d",
+    "FirstEventTime": "2023-06-02T03:23:17Z",
+    "AllEventArr": "cloudtrail:DescribeTrails,s3:ListBuckets,cloudtrail:LookupEvents,organizations:ListDelegatedAdministrators,cloudtrail:GetTrailStatus,organizations:DescribeOrganization",
+    "AllEventIdArr": "10e25271-c099-4db3-b5ce-afe11cfe087d,44fe15ad-a89e-46d9-aa6f-3e35ed45df15,0df722a1-3c1f-46c6-9466-a601e1490e89,2f7bb55f-abf6-4996-8419-66d7921d8bbd,8a4da247-3a83-47a5-b33c-bc1383ed1dc9,be5b311b-e6fe-4c92-aa7c-3e97b715cff8,bf5d13a5-6432-42ce-a453-e0aeb569bbca,e92d2285-618f-43b9-a909-a0fb2228f1bf,eead8334-2b32-4b88-918e-dc5e1a3605bf",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/dashboard",
+    "LastEventTime": "2023-06-02T03:23:25Z",
+    "Name": "Clicked CloudTrail->Dashboard"
+  }
+}

@@ -1,0 +1,866 @@
+{
+  "06271e5c-d4ef-4b37-9dd1-9e20a2a096ce": {
+    "EventCount": 5,
+    "Label": "AWSMarketplace",
+    "AdditionalData": null,
+    "Summary": "Clicked AWS Marketplace to search all AWS Marketplace products.",
+    "CorrelationId": "06271e5c-d4ef-4b37-9dd1-9e20a2a096ce",
+    "FirstEventTime": "2023-04-27T19:14:47Z",
+    "AllEventArr": "discovery-marketplace:SearchListings",
+    "AllEventIdArr": "06271e5c-d4ef-4b37-9dd1-9e20a2a096ce,8210cc5c-43c8-451f-9215-bd5791c01154,937ca3a9-4324-4b60-8084-a4786015573d,b1c502f8-8206-4038-b766-8b84af0c45ce,b35e0fbe-c614-49d8-9043-edd0374efdfa",
+    "Url": "https://s3.console.aws.amazon.com/s3/marketplace?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:14:47Z",
+    "Name": "Clicked AWS Marketplace"
+  },
+  "30ab4c58-e788-4ce4-9571-07adfa9c1b1c": {
+    "EventCount": 1,
+    "Label": "S3_BatchOperations",
+    "AdditionalData": {
+      "jobStatusesArr": [
+        "All status types"
+      ],
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Batch Operations to show all jobs in AWS Region 'us-east-1' with Status Type 'All status types'.",
+    "CorrelationId": "30ab4c58-e788-4ce4-9571-07adfa9c1b1c",
+    "FirstEventTime": "2023-04-27T19:11:01Z",
+    "AllEventArr": "s3:ListJobs",
+    "AllEventIdArr": "30ab4c58-e788-4ce4-9571-07adfa9c1b1c",
+    "Url": "https://s3.console.aws.amazon.com/s3/jobs?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:11:01Z",
+    "Name": "Clicked S3->Batch Operations"
+  },
+  "e06839fe-b368-463e-93a8-3e31a04c11e4": {
+    "EventCount": 1,
+    "Label": "AWSMarketplace_Suboption",
+    "AdditionalData": null,
+    "Summary": "Clicked AWS Marketplace->Suboption to search specific subset of AWS Marketplace products.",
+    "CorrelationId": "e06839fe-b368-463e-93a8-3e31a04c11e4",
+    "FirstEventTime": "2023-04-27T19:15:55Z",
+    "AllEventArr": "discovery-marketplace:SearchListings",
+    "AllEventIdArr": "e06839fe-b368-463e-93a8-3e31a04c11e4",
+    "Url": "https://s3.console.aws.amazon.com/s3/marketplace?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:15:55Z",
+    "Name": "Clicked AWS Marketplace->Suboption"
+  },
+  "be7881ec-e2c1-48a5-ad86-407763228f40": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "be7881ec-e2c1-48a5-ad86-407763228f40",
+    "FirstEventTime": "2023-04-27T19:18:22Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "be7881ec-e2c1-48a5-ad86-407763228f40,f6131acc-a2e2-41dd-904b-da25f3bb0ea5",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:18:22Z",
+    "Name": "Suppressing automated background event"
+  },
+  "3a726049-9ca9-47b3-b544-d3abbb167c09": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "3a726049-9ca9-47b3-b544-d3abbb167c09",
+    "FirstEventTime": "2023-04-27T19:08:22Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "3a726049-9ca9-47b3-b544-d3abbb167c09,71f7f4fd-3da5-47cb-8546-33380e29423d",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:08:22Z",
+    "Name": "Suppressing automated background event"
+  },
+  "47335bf5-2d68-4d32-a8d3-02e8512a8523": {
+    "EventCount": 6,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "47335bf5-2d68-4d32-a8d3-02e8512a8523",
+    "FirstEventTime": "2023-04-27T20:21:43Z",
+    "AllEventArr": "kms:ListAliases,tagging:GetResources,kms:DescribeKey",
+    "AllEventIdArr": "47335bf5-2d68-4d32-a8d3-02e8512a8523,6ec2a358-abce-4914-9249-a88b0bd9d0ae,7e947c38-8d56-4185-93e8-c3b1fb32d1f3,9c024db5-92ca-4d5f-8c11-619d84d01d1d,baf8ce9a-d6a1-4c3a-abea-879b3efde6f2,f01d1345-3c10-469d-9f33-12abcb691b69",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-04-27T20:21:43Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "4e591ce3-a2ca-4ba7-a5f0-45885465f03f": {
+    "EventCount": 8,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "4e591ce3-a2ca-4ba7-a5f0-45885465f03f",
+    "FirstEventTime": "2023-04-27T20:22:40Z",
+    "AllEventArr": "kms:ListAliases,kms:DescribeKey,tagging:GetResources",
+    "AllEventIdArr": "4e591ce3-a2ca-4ba7-a5f0-45885465f03f,51ff1a1c-db1d-447c-b448-b8374171cff3,62c4112e-d5c9-4238-b0a7-e5d91df9f2d7,69938e99-6dba-42dc-9c7f-6d95de85dda9,77f74b18-98b9-49c2-b81c-1cf92d8e8c50,a4a69e7e-61c8-455a-8f44-90f8b27bdb0b,e4287a2b-0d65-4c89-b8d8-a92676dee32c,ecfd93a3-c47a-4102-9fa4-7a6f7a2380ee",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-04-27T20:22:40Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "12af9a5f-c9a3-4c29-a83e-e199ae4f961a": {
+    "EventCount": 4,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "12af9a5f-c9a3-4c29-a83e-e199ae4f961a",
+    "FirstEventTime": "2023-04-27T20:23:37Z",
+    "AllEventArr": "tagging:GetResources,kms:ListAliases,kms:DescribeKey",
+    "AllEventIdArr": "12af9a5f-c9a3-4c29-a83e-e199ae4f961a,35723850-9fae-4d70-b217-71f33406a12a,02077aaa-4c26-49e0-9f60-f9b58bd32c7a,bfef75a4-6b7f-4254-9d10-41bc7a1fec57",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-04-27T20:23:38Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "edab7f88-7389-4b0b-b89b-19120a2b1499": {
+    "EventCount": 1,
+    "Label": "AWSMarketplace_Suboption",
+    "AdditionalData": null,
+    "Summary": "Clicked AWS Marketplace->Suboption to search specific subset of AWS Marketplace products.",
+    "CorrelationId": "edab7f88-7389-4b0b-b89b-19120a2b1499",
+    "FirstEventTime": "2023-04-27T19:16:47Z",
+    "AllEventArr": "discovery-marketplace:SearchListings",
+    "AllEventIdArr": "edab7f88-7389-4b0b-b89b-19120a2b1499",
+    "Url": "https://s3.console.aws.amazon.com/s3/marketplace?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:16:47Z",
+    "Name": "Clicked AWS Marketplace->Suboption"
+  },
+  "a1fac387-90f6-4126-b958-bbb2860fa072": {
+    "EventCount": 1,
+    "Label": "S3_BlockPublicAccessSettings",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Block Public Access Settings For This Account to show and control the settings that allow public access to data in S3 Buckets.",
+    "CorrelationId": "a1fac387-90f6-4126-b958-bbb2860fa072",
+    "FirstEventTime": "2023-04-27T19:12:07Z",
+    "AllEventArr": "s3:GetAccountPublicAccessBlock",
+    "AllEventIdArr": "a1fac387-90f6-4126-b958-bbb2860fa072",
+    "Url": "https://s3.console.aws.amazon.com/s3/settings?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:12:07Z",
+    "Name": "Clicked S3->Block Public Access Settings For This Account"
+  },
+  "4b02e278-7538-4210-bb35-a7c67845748e": {
+    "EventCount": 4,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4b02e278-7538-4210-bb35-a7c67845748e",
+    "FirstEventTime": "2023-04-27T20:24:56Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "4b02e278-7538-4210-bb35-a7c67845748e,4b02e278-7538-4210-bb35-a7c67845748e,4ba6d5e4-dbb4-4ee4-bf7b-1f4c5e49b689,4ba6d5e4-dbb4-4ee4-bf7b-1f4c5e49b689",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:24:56Z",
+    "Name": "Suppressing automated background event"
+  },
+  "333f5a17-2201-4109-a343-eb9a383c839f": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "333f5a17-2201-4109-a343-eb9a383c839f",
+    "FirstEventTime": "2023-04-27T20:39:57Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "333f5a17-2201-4109-a343-eb9a383c839f,c3b9a9e4-15df-40ce-ae5c-8b7c7a17d820",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:39:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "a11150d7-2dd4-4e00-b981-2846a5941a27": {
+    "EventCount": 4,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "a11150d7-2dd4-4e00-b981-2846a5941a27",
+    "FirstEventTime": "2023-04-27T20:34:56Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "a11150d7-2dd4-4e00-b981-2846a5941a27,a11150d7-2dd4-4e00-b981-2846a5941a27,f9aa6f2c-2e83-4219-8563-6dd45b735d5d,f9aa6f2c-2e83-4219-8563-6dd45b735d5d",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:34:56Z",
+    "Name": "Suppressing automated background event"
+  },
+  "26507e6a-b8de-47c7-b8ec-c62f20bd2801": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "26507e6a-b8de-47c7-b8ec-c62f20bd2801",
+    "FirstEventTime": "2023-04-27T20:08:25Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "26507e6a-b8de-47c7-b8ec-c62f20bd2801,e82b0ab0-6d4f-443f-89d1-f797ef475f25",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:08:25Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0f27b4d7-2302-4883-a590-19c28ad4da85": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0f27b4d7-2302-4883-a590-19c28ad4da85",
+    "FirstEventTime": "2023-04-27T19:38:24Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0f27b4d7-2302-4883-a590-19c28ad4da85,ef80a558-d73b-4da8-83f4-140547dd7c1f",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:38:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "18f1e661-a978-4167-8aac-2fbdc5cf4242": {
+    "EventCount": 3,
+    "Label": "S3_StorageLens_AWSOrganizationsSettings",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Storage Lens->AWS Organizations settings to show and control the settings that authorize Storage Lens access and registration of member accounts as delegated administrators.",
+    "CorrelationId": "18f1e661-a978-4167-8aac-2fbdc5cf4242",
+    "FirstEventTime": "2023-04-27T19:13:18Z",
+    "AllEventArr": "organizations:ListAWSServiceAccessForOrganization,organizations:DescribeOrganization,organizations:ListDelegatedAdministrators",
+    "AllEventIdArr": "18f1e661-a978-4167-8aac-2fbdc5cf4242,19111e1b-1cc7-4e2f-9c94-fe96ee79c873,2feaef0d-574f-48cd-a210-b2718a4715b0",
+    "Url": "https://s3.console.aws.amazon.com/s3/lens/organization-settings?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:13:18Z",
+    "Name": "Clicked S3->Storage Lens->AWS Organizations settings"
+  },
+  "0ad46abf-029d-4c68-9aa8-dc9eba967649": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0ad46abf-029d-4c68-9aa8-dc9eba967649",
+    "FirstEventTime": "2023-04-27T20:13:25Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0ad46abf-029d-4c68-9aa8-dc9eba967649,ce800795-1ff2-4c6b-b73e-acbe433461f7",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:13:25Z",
+    "Name": "Suppressing automated background event"
+  },
+  "216e57e5-b7b5-42b8-9824-b7b85d0a46af": {
+    "EventCount": 1,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "216e57e5-b7b5-42b8-9824-b7b85d0a46af",
+    "FirstEventTime": "2023-04-27T19:10:11Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "216e57e5-b7b5-42b8-9824-b7b85d0a46af",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:10:11Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "8f093e4c-fb50-4100-ba2f-27e18a7f8b59": {
+    "EventCount": 1,
+    "Label": "S3_MultiRegionAccessPoints",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Multi-Region Access Points to show all Multi-Region Access Points.",
+    "CorrelationId": "8f093e4c-fb50-4100-ba2f-27e18a7f8b59",
+    "FirstEventTime": "2023-04-27T19:10:39Z",
+    "AllEventArr": "s3:ListMultiRegionAccessPoints",
+    "AllEventIdArr": "8f093e4c-fb50-4100-ba2f-27e18a7f8b59",
+    "Url": "https://s3.console.aws.amazon.com/s3/mraps?region=us-west-2",
+    "LastEventTime": "2023-04-27T19:10:39Z",
+    "Name": "Clicked S3->Multi-Region Access Points"
+  },
+  "153c1256-fbbc-4b65-891a-848af967c822": {
+    "EventCount": 16,
+    "Label": "S3_StorageLens_Dashboards",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->Storage Lens->Dashboards to provide visibility into storage usage and activity trends for S3 Buckets.",
+    "CorrelationId": "153c1256-fbbc-4b65-891a-848af967c822",
+    "FirstEventTime": "2023-04-27T19:12:38Z",
+    "AllEventArr": "s3:ListStorageLensConfigurations",
+    "AllEventIdArr": "153c1256-fbbc-4b65-891a-848af967c822,5061db56-5aaf-4579-98c5-d2d44781cbd8,68d033eb-d5c2-4ee4-9ed5-2f836a1da6b1,828c9953-f53a-46e7-8328-d9b55cd15d20,a22b73c8-a604-45fe-acbb-61289b6424bd,a18aee7a-089c-4298-a009-e7afc9ab7658,bf26f93e-ce58-4d60-91ef-69bb521126ae,c28c9777-d2ea-4615-84ec-7d945b72a297,e73657ec-8022-4df7-8ff1-f65217805ecf,ef2d04ed-f4aa-44f0-9472-a1b96e46c518,8c009608-11cd-41d3-8f18-6359af1990a9,927a18e5-1b3d-4361-8bfc-4d09e8c286e6,35bcc1ee-b2c7-4be1-aee2-a1c7f66164cc,ac47bddf-8b74-41a4-be5d-2d65f020a580,b935d713-631b-4ca3-8cbe-190c430e0c42,eca0ad81-005e-4447-9f8e-08d9ba08a165",
+    "Url": "https://s3.console.aws.amazon.com/s3/lens?region=us-west-2",
+    "LastEventTime": "2023-04-27T19:12:41Z",
+    "Name": "Clicked S3->Storage Lens->Dashboards"
+  },
+  "4f3887d3-6acd-4184-be4d-5cb1d420c218": {
+    "EventCount": 2,
+    "Label": "S3_Buckets_SPECIFICBUCKET_Objects",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->'randomBucket03'->Objects to list all objects in the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "4f3887d3-6acd-4184-be4d-5cb1d420c218",
+    "FirstEventTime": "2023-04-27T19:25:02Z",
+    "AllEventArr": "s3:GetBucketOwnershipControls,s3:GetBucketVersioning",
+    "AllEventIdArr": "4f3887d3-6acd-4184-be4d-5cb1d420c218,903f2b1d-9c02-4860-b8e4-952d3cc7f9cd",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets/randomBucket03?region=us-east-2&tab=objects",
+    "LastEventTime": "2023-04-27T19:25:02Z",
+    "Name": "Clicked S3->Buckets->SPECIFICBUCKET->Objects"
+  },
+  "174cbe1d-7038-4860-bdf0-b73cb9020701": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "174cbe1d-7038-4860-bdf0-b73cb9020701",
+    "FirstEventTime": "2023-04-27T20:20:30Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "174cbe1d-7038-4860-bdf0-b73cb9020701,9c129d7c-c0c6-4921-b837-c809658c989d",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:20:30Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0ae4c3b1-17f9-4af1-abfd-57a702f1fb18": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0ae4c3b1-17f9-4af1-abfd-57a702f1fb18",
+    "FirstEventTime": "2023-04-27T20:18:26Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0ae4c3b1-17f9-4af1-abfd-57a702f1fb18,5263d4a9-84d0-4e47-9699-096ae919983c",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:18:26Z",
+    "Name": "Suppressing automated background event"
+  },
+  "174a9818-dd85-4aa3-916c-efd37f12c73c": {
+    "EventCount": 8,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "174a9818-dd85-4aa3-916c-efd37f12c73c",
+    "FirstEventTime": "2023-04-27T19:08:01Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "174a9818-dd85-4aa3-916c-efd37f12c73c,2447cb71-0831-480c-9144-abc7961798ac,83fc055f-8199-4985-bb8e-949d5de211f7,92658be3-94bc-4afa-8ab4-ef724a924d0e,9a1510ab-fb00-4d78-a161-b7bc0fd2aa73,a0bc37a0-3f6e-4eed-b11c-c7c2aa5adcb9,e34c0642-f4d1-4f39-b868-2c55f1bb7b76,e9e45e9b-abd9-49a2-8936-17a623d03df7",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:08:01Z",
+    "Name": "Suppressing automated background event"
+  },
+  "a0dba731-3ed1-4a75-a77f-0318bec41198": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "a0dba731-3ed1-4a75-a77f-0318bec41198",
+    "FirstEventTime": "2023-04-27T19:58:25Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "a0dba731-3ed1-4a75-a77f-0318bec41198,ac174696-cec9-48eb-816e-62812e8d94c5",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:58:25Z",
+    "Name": "Suppressing automated background event"
+  },
+  "e998ca77-cf18-44f9-a9e7-6f20c0eeeff3": {
+    "EventCount": 1,
+    "Label": "AWSMarketplace_Suboption",
+    "AdditionalData": null,
+    "Summary": "Clicked AWS Marketplace->Suboption to search specific subset of AWS Marketplace products.",
+    "CorrelationId": "e998ca77-cf18-44f9-a9e7-6f20c0eeeff3",
+    "FirstEventTime": "2023-04-27T19:15:10Z",
+    "AllEventArr": "discovery-marketplace:SearchListings",
+    "AllEventIdArr": "e998ca77-cf18-44f9-a9e7-6f20c0eeeff3",
+    "Url": "https://s3.console.aws.amazon.com/s3/marketplace?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:15:10Z",
+    "Name": "Clicked AWS Marketplace->Suboption"
+  },
+  "25da633a-5b60-45de-b9dd-cc162c40d28d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "25da633a-5b60-45de-b9dd-cc162c40d28d",
+    "FirstEventTime": "2023-04-27T19:33:23Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "25da633a-5b60-45de-b9dd-cc162c40d28d,5bb3d7ef-939a-430b-ac60-e0687a78b411",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:33:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0a5d9128-3a88-44e5-afc1-3c72342b1423": {
+    "EventCount": 12,
+    "Label": "S3_Buckets_SPECIFICBUCKET_Permissions",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->'randomBucket03'->Permissions which displays all permissions for the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "0a5d9128-3a88-44e5-afc1-3c72342b1423",
+    "FirstEventTime": "2023-04-27T19:26:15Z",
+    "AllEventArr": "s3:GetBucketOwnershipControls,s3:GetBucketPolicy,s3:GetBucketPublicAccessBlock,s3:GetBucketAcl,s3:GetAccountPublicAccessBlock,s3:ListBuckets,s3:GetBucketCors",
+    "AllEventIdArr": "0a5d9128-3a88-44e5-afc1-3c72342b1423,348d6d6c-6921-44af-8a16-b1b8dcc5220f,99c6a9d3-084b-4d95-83c6-b9c5ab30bb26,b8e30725-9cf6-4ef3-b6d5-211035f860d6,bbd2a02e-2ce7-46cb-8488-dd1b46b7c4c1,1e5db62a-b38b-4a1f-a9c9-4efadff5df6b,31189c3c-210b-449e-8221-72a0f173bc39,3209ee21-854c-4fc5-9739-e2f3f213e9e6,461e5cd7-cbcf-4539-9b07-0d1faf6ab5c7,6ab269fa-9300-4588-975b-dcfe20419de6,71afc764-a379-4f96-a59d-8193c31ed25b,97702292-e4f3-44be-abce-efebfe9a5d70",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets/randomBucket03?region=us-east-2&tab=permissions",
+    "LastEventTime": "2023-04-27T19:26:16Z",
+    "Name": "Clicked S3->Buckets->SPECIFICBUCKET->Permissions"
+  },
+  "bffa7b37-99de-4685-9307-97064346d4c6": {
+    "EventCount": 5,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_KeyPolicy",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Key Policy which displays IAM Users, IAM Roles and AWS Accounts granted access to use and/or administer KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "bffa7b37-99de-4685-9307-97064346d4c6",
+    "FirstEventTime": "2023-04-27T20:21:47Z",
+    "AllEventArr": "iam:ListUsers,kms:GetKeyPolicy,iam:ListRoles",
+    "AllEventIdArr": "bffa7b37-99de-4685-9307-97064346d4c6,d2bc84d2-d17e-45d8-99d9-747cccfc44e3,242f0db9-f575-465c-a57d-2c75ca5fb4d6,28eeb5e1-493e-4932-933d-a523d08147d5,53f5fae8-f1b1-49b8-a98e-25dce60b14d2",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/keyPolicy",
+    "LastEventTime": "2023-04-27T20:21:48Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Key Policy"
+  },
+  "078b9486-eba6-418f-b472-cd1786530312": {
+    "EventCount": 5,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_KeyPolicy",
+    "AdditionalData": {
+      "keyId": "352d8130-1f55-4095-8087-a4476726b460",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'352d8130-1f55-4095-8087-a4476726b460'->Key Policy which displays IAM Users, IAM Roles and AWS Accounts granted access to use and/or administer KMS Key ID '352d8130-1f55-4095-8087-a4476726b460' in AWS Region 'us-east-1'.",
+    "CorrelationId": "078b9486-eba6-418f-b472-cd1786530312",
+    "FirstEventTime": "2023-04-27T20:23:44Z",
+    "AllEventArr": "kms:GetKeyPolicy,iam:ListUsers,iam:ListRoles",
+    "AllEventIdArr": "078b9486-eba6-418f-b472-cd1786530312,5d71f012-a26d-4b17-9bfb-a22631fac704,68593254-d1e3-4464-8f05-446a45a61190,a478762b-2d8c-4871-810f-20a8405f3a25,bfea2af5-c54b-40a9-a31c-32c37ecb74e1",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/352d8130-1f55-4095-8087-a4476726b460/keyPolicy",
+    "LastEventTime": "2023-04-27T20:23:44Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Key Policy"
+  },
+  "c58fab32-dd11-40cd-91bc-bc6286eda4e0": {
+    "EventCount": 1,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "c58fab32-dd11-40cd-91bc-bc6286eda4e0",
+    "FirstEventTime": "2023-04-27T19:07:58Z",
+    "AllEventArr": "signin:ConsoleLogin",
+    "AllEventIdArr": "c58fab32-dd11-40cd-91bc-bc6286eda4e0",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:07:58Z",
+    "Name": "Console Login"
+  },
+  "66aa7495-cfb6-475a-a650-c05b4e5f2a88": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "66aa7495-cfb6-475a-a650-c05b4e5f2a88",
+    "FirstEventTime": "2023-04-27T19:43:24Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "66aa7495-cfb6-475a-a650-c05b4e5f2a88,d54d4e09-17dd-46c5-9725-acd84e079bb5",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:43:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "fd02c285-0224-480c-8844-1fd91ddeb1d8": {
+    "EventCount": 2,
+    "Label": "S3_ObjectLambdaAccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Object Lambda Access Points to show all Object Lambda Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "fd02c285-0224-480c-8844-1fd91ddeb1d8",
+    "FirstEventTime": "2023-04-27T19:17:56Z",
+    "AllEventArr": "s3:ListAccessPointsForObjectLambda",
+    "AllEventIdArr": "fd02c285-0224-480c-8844-1fd91ddeb1d8,fd02c285-0224-480c-8844-1fd91ddeb1d8",
+    "Url": "https://s3.console.aws.amazon.com/s3/olap?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:17:56Z",
+    "Name": "Clicked S3->Object Lambda Access Points"
+  },
+  "221b2571-22ed-4e48-a595-ab17afd45e1c": {
+    "EventCount": 12,
+    "Label": "S3_Buckets_SPECIFICBUCKET_Properties",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->'randomBucket03'->Properties to list all properties of the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "221b2571-22ed-4e48-a595-ab17afd45e1c",
+    "FirstEventTime": "2023-04-27T19:25:43Z",
+    "AllEventArr": "s3:GetBucketIntelligentTieringConfiguration,s3:GetBucketVersioning,s3:GetBucketTagging,s3:GetBucketLogging,s3:GetBucketObjectLockConfiguration,s3:GetBucketNotification,s3:GetBucketEncryption,cloudtrail:DescribeTrails,s3:GetBucketWebsite,s3:GetBucketRequestPayment,s3:GetAccelerateConfiguration,cloudtrail:GetEventSelectors",
+    "AllEventIdArr": "221b2571-22ed-4e48-a595-ab17afd45e1c,5b01b539-e332-4579-bfef-a5df9d3f8b5c,60de9da0-0cfe-470e-8205-d415134bd6ad,887169a7-3205-48a8-9e88-9e3286efbd16,9f12e45d-831f-4bce-8047-7aa55641c5d0,9fd1a294-c5db-4523-89e4-db1c3186a63c,abb510e0-f4d7-4dee-94b5-4095d2f610b1,b93f7f16-424e-42b3-ac65-8727bc9066aa,cba7d46e-6d01-422c-975a-37132dda6862,d0438337-7d3f-4713-918e-bd7d0c7250c7,ee6818b2-e059-4e29-a549-d0f8b7b6e7a6,0966f10d-a76f-4ce4-aabf-7fb2d0148da8",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets/randomBucket03?region=us-east-2&tab=properties",
+    "LastEventTime": "2023-04-27T19:25:44Z",
+    "Name": "Clicked S3->Buckets->SPECIFICBUCKET->Properties"
+  },
+  "0d0935c1-202d-48b5-aea9-2ccf3d70d84a": {
+    "EventCount": 1,
+    "Label": "AWSMarketplace_Suboption",
+    "AdditionalData": null,
+    "Summary": "Clicked AWS Marketplace->Suboption to search specific subset of AWS Marketplace products.",
+    "CorrelationId": "0d0935c1-202d-48b5-aea9-2ccf3d70d84a",
+    "FirstEventTime": "2023-04-27T19:16:27Z",
+    "AllEventArr": "discovery-marketplace:SearchListings",
+    "AllEventIdArr": "0d0935c1-202d-48b5-aea9-2ccf3d70d84a",
+    "Url": "https://s3.console.aws.amazon.com/s3/marketplace?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:16:27Z",
+    "Name": "Clicked AWS Marketplace->Suboption"
+  },
+  "34c404b8-781e-410e-b635-f0b7b45d1e18": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-west-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-west-1'.",
+    "CorrelationId": "34c404b8-781e-410e-b635-f0b7b45d1e18",
+    "FirstEventTime": "2023-04-27T19:09:50Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "34c404b8-781e-410e-b635-f0b7b45d1e18,70795321-cd8f-42ce-b655-b1b6953cd523",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-west-1",
+    "LastEventTime": "2023-04-27T19:09:50Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "ee6936d4-70e4-4ae8-98c7-d51f3579f987": {
+    "EventCount": 1,
+    "Label": "AWSMarketplace_Suboption",
+    "AdditionalData": null,
+    "Summary": "Clicked AWS Marketplace->Suboption to search specific subset of AWS Marketplace products.",
+    "CorrelationId": "ee6936d4-70e4-4ae8-98c7-d51f3579f987",
+    "FirstEventTime": "2023-04-27T19:17:32Z",
+    "AllEventArr": "discovery-marketplace:SearchListings",
+    "AllEventIdArr": "ee6936d4-70e4-4ae8-98c7-d51f3579f987",
+    "Url": "https://s3.console.aws.amazon.com/s3/marketplace?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:17:32Z",
+    "Name": "Clicked AWS Marketplace->Suboption"
+  },
+  "168431f9-e913-42eb-823f-a80f94427967": {
+    "EventCount": 13,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "168431f9-e913-42eb-823f-a80f94427967",
+    "FirstEventTime": "2023-04-27T19:08:01Z",
+    "AllEventArr": "securityhub:ListMembers,securityhub:DescribeHub,ce:GetCostAndUsage,servicecatalog-appregistry:ListApplications,securityhub:ListFindingAggregators,securityhub:GetAdministratorAccount,ec2:DescribeAccountAttributes,ce:GetCostForecast,securityhub:GetInsightResults,ram:ListResources,securityhub:GetFindingAggregator,securityhub:GetControlFindingSummary",
+    "AllEventIdArr": "168431f9-e913-42eb-823f-a80f94427967,2f0cf349-0a3d-4770-9204-c7917e50034d,48695552-c662-4ea6-b499-9d2f4d5e743a,48f9398f-a1a4-4440-b4d9-54f7a0eeff8a,660bfb7c-c858-4a82-b199-50403cc4c4ad,8242a8d8-c185-4557-a440-631799f1ff2a,95a2c679-9414-4e31-8e69-a74f7418b676,fdc1a0f0-c328-4a6d-97d3-8035e8f54e0e,46126ee8-fd20-487d-bf90-636b1aa9f3a3,8783ca84-320f-4ec0-9101-1058323be795,c6232fa9-b6db-4194-84bf-5b57fc8f8edd,e47d6539-bb97-45b5-8403-2132194096e8,50be8a55-9fc1-4da8-9953-6bd428cfbffc",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-04-27T19:08:03Z",
+    "Name": "Console Home"
+  },
+  "a92ea21e-96fd-43fe-aaf9-9306a62f5ebc": {
+    "EventCount": 1,
+    "Label": "AWSMarketplace_Suboption",
+    "AdditionalData": null,
+    "Summary": "Clicked AWS Marketplace->Suboption to search specific subset of AWS Marketplace products.",
+    "CorrelationId": "a92ea21e-96fd-43fe-aaf9-9306a62f5ebc",
+    "FirstEventTime": "2023-04-27T19:17:10Z",
+    "AllEventArr": "discovery-marketplace:SearchListings",
+    "AllEventIdArr": "a92ea21e-96fd-43fe-aaf9-9306a62f5ebc",
+    "Url": "https://s3.console.aws.amazon.com/s3/marketplace?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:17:10Z",
+    "Name": "Clicked AWS Marketplace->Suboption"
+  },
+  "601976ce-d68f-4e66-bb2f-dc75b35ddcc3": {
+    "EventCount": 3,
+    "Label": "S3_Buckets_SPECIFICBUCKET_Management",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->'randomBucket03'->Management which displays management options (Lifecycle Rules, Replication Rules and Inventory Configurations) for the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "601976ce-d68f-4e66-bb2f-dc75b35ddcc3",
+    "FirstEventTime": "2023-04-27T19:27:29Z",
+    "AllEventArr": "s3:GetBucketReplication,s3:GetBucketInventoryConfiguration,s3:GetBucketLifecycle",
+    "AllEventIdArr": "601976ce-d68f-4e66-bb2f-dc75b35ddcc3,b55af451-73b8-4bf8-b247-d8d89a2b071d,c9461e34-7f87-4b90-8eee-68220321b701",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets/randomBucket03?region=us-east-2&tab=management",
+    "LastEventTime": "2023-04-27T19:27:29Z",
+    "Name": "Clicked S3->Buckets->SPECIFICBUCKET->Management"
+  },
+  "0711f453-f88c-4f02-afa6-8b2aec1cd37e": {
+    "EventCount": 2,
+    "Label": "S3_Buckets_SPECIFICBUCKET_Metrics",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->'randomBucket03'->Metrics which displays metrics (Bucket Metrics, Replication Metrics and Storage Class Analysis) for the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "0711f453-f88c-4f02-afa6-8b2aec1cd37e",
+    "FirstEventTime": "2023-04-27T19:27:00Z",
+    "AllEventArr": "s3:GetBucketReplication,s3:GetBucketAnalyticsConfiguration",
+    "AllEventIdArr": "0711f453-f88c-4f02-afa6-8b2aec1cd37e,1e211157-260d-4d04-846a-726a6dce9275",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets/randomBucket03?region=us-east-2&tab=metrics",
+    "LastEventTime": "2023-04-27T19:27:00Z",
+    "Name": "Clicked S3->Buckets->SPECIFICBUCKET->Metrics"
+  },
+  "36888153-ff93-41d3-8206-ee408b4aaa92": {
+    "EventCount": 15,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": "randomBucket03"
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions including 1 S3 Bucket ('randomBucket03').",
+    "CorrelationId": "36888153-ff93-41d3-8206-ee408b4aaa92",
+    "FirstEventTime": "2023-04-27T19:08:22Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:ListBuckets,s3:GetStorageLensDashboardDataInternal,s3:GetBucketPublicAccessBlock,s3:GetBucketPolicyStatus,s3:GetAccountPublicAccessBlock,s3:ListAccessPoints,s3:GetBucketAcl",
+    "AllEventIdArr": "36888153-ff93-41d3-8206-ee408b4aaa92,ead102ab-5f46-4963-8727-1fc5010f10d2,ed288f34-85de-4e79-8f9b-66f51b6d0978,04e0a234-90ac-4485-9970-4407df2ef7c7,521a2970-16a6-4318-82a4-31d0fcae8f02,6344707b-dc0f-4be0-9088-3b7c2911818c,66785777-6093-455c-8263-7c8c44ee6c65,7406d608-d26e-434a-9194-37e0436bbfbb,9a2bc223-bc00-4a4a-ace8-2d146e046f8c,a2af50da-9b46-4ff1-a482-39c21cf0248e,d49c4e26-823e-4940-86a9-e868fc6b6395,da305fd9-4263-40ea-8e57-23a64638ddea,eba9236e-c0fa-4da8-93e6-cc9ecc7c3861,f8a01d87-80da-46da-981e-415dbdf2c92d,fd8073a9-bc0f-4a98-9b04-01debb5f9613",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:08:23Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "967c6a65-8212-48b2-b88b-2b61c44c5f36": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "967c6a65-8212-48b2-b88b-2b61c44c5f36",
+    "FirstEventTime": "2023-04-27T19:23:23Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "967c6a65-8212-48b2-b88b-2b61c44c5f36,c028f2d6-2177-49d7-8efa-bae343516bda",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:23:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "a3b7552c-afe3-4797-ad61-cb875581e4d4": {
+    "EventCount": 1,
+    "Label": "S3_IAMAccessAnalyzer",
+    "AdditionalData": null,
+    "Summary": "Clicked S3->IAM Access Analyzer to show all S3 Buckets configured to allow access by anyone using the Internet or authenticated AWS users.",
+    "CorrelationId": "a3b7552c-afe3-4797-ad61-cb875581e4d4",
+    "FirstEventTime": "2023-04-27T19:11:28Z",
+    "AllEventArr": "access-analyzer:ListAnalyzers",
+    "AllEventIdArr": "a3b7552c-afe3-4797-ad61-cb875581e4d4",
+    "Url": "https://s3.console.aws.amazon.com/s3/access?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:11:28Z",
+    "Name": "Clicked S3->IAM Access Analyzer"
+  },
+  "11aac626-5999-4a8f-8ad4-c1b15b1b1afe": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "11aac626-5999-4a8f-8ad4-c1b15b1b1afe",
+    "FirstEventTime": "2023-04-27T19:18:22Z",
+    "AllEventArr": "s3:GetStorageLensConfiguration,s3:GetStorageLensDashboardDataInternal",
+    "AllEventIdArr": "11aac626-5999-4a8f-8ad4-c1b15b1b1afe,21c0f5cc-01c4-4f1a-b858-a0ad819059f3,6f42b13f-a125-4a83-95cf-b461760752f1,d81da1b8-cba0-4b73-a951-bf4dda45f1ab",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:18:23Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "2f41e1a2-c1db-4d99-8db8-84589186f52d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2f41e1a2-c1db-4d99-8db8-84589186f52d",
+    "FirstEventTime": "2023-04-27T19:48:24Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2f41e1a2-c1db-4d99-8db8-84589186f52d,c302f95d-c4d0-4ffa-9cc9-5496b9a2b2bc",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:48:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "e6d7351b-f152-4dda-89b0-6ab57b37baea": {
+    "EventCount": 1,
+    "Label": "SearchBar",
+    "AdditionalData": null,
+    "Summary": "Typed content into AWS Console Search Bar.",
+    "CorrelationId": "e6d7351b-f152-4dda-89b0-6ab57b37baea",
+    "FirstEventTime": "2023-04-27T20:20:25Z",
+    "AllEventArr": "resource-explorer-2:ListIndexes",
+    "AllEventIdArr": "e6d7351b-f152-4dda-89b0-6ab57b37baea",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:20:25Z",
+    "Name": "Typed into Search Bar"
+  },
+  "0cbba42b-7195-49bc-8933-6f795d1d41fd": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0cbba42b-7195-49bc-8933-6f795d1d41fd",
+    "FirstEventTime": "2023-04-27T19:53:24Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0cbba42b-7195-49bc-8933-6f795d1d41fd,79d70311-413c-4db0-a945-aa494ebbfc67",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:53:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "24f0a3ad-9cf2-4fc0-a6b5-24710353c164": {
+    "EventCount": 5,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_KeyPolicy",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Key Policy which displays IAM Users, IAM Roles and AWS Accounts granted access to use and/or administer KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "24f0a3ad-9cf2-4fc0-a6b5-24710353c164",
+    "FirstEventTime": "2023-04-27T20:22:43Z",
+    "AllEventArr": "iam:ListUsers,iam:ListRoles,kms:GetKeyPolicy",
+    "AllEventIdArr": "24f0a3ad-9cf2-4fc0-a6b5-24710353c164,484401ae-219d-4cfd-9aba-f9788e6b1d9f,726b432c-894b-47ea-876e-ada6b9e006ca,841db998-6f8c-40a0-8f6a-d28cb55881d3,dea203c9-f246-4fb3-a3b9-7f2ccefd8dcb",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/keyPolicy",
+    "LastEventTime": "2023-04-27T20:22:43Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Key Policy"
+  },
+  "2fdc6b1d-6904-4552-94af-fcb19637a809": {
+    "EventCount": 2,
+    "Label": "S3_AccessPoints",
+    "AdditionalData": {
+      "awsRegionArr": "us-east-1"
+    },
+    "Summary": "Clicked S3->Access Points to show all Access Points in AWS Region 'us-east-1'.",
+    "CorrelationId": "2fdc6b1d-6904-4552-94af-fcb19637a809",
+    "FirstEventTime": "2023-04-27T19:09:08Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "2fdc6b1d-6904-4552-94af-fcb19637a809,e134ca11-4591-40f6-bcb2-44a3be0772ab",
+    "Url": "https://s3.console.aws.amazon.com/s3/ap?region=us-east-1",
+    "LastEventTime": "2023-04-27T19:09:08Z",
+    "Name": "Clicked S3->Access Points"
+  },
+  "ca92159c-6d93-4621-8850-080cce0c6bfc": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "ca92159c-6d93-4621-8850-080cce0c6bfc",
+    "FirstEventTime": "2023-04-27T20:44:57Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "ca92159c-6d93-4621-8850-080cce0c6bfc,f9c0119b-6639-47c0-b8b6-1b555db26c94",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:44:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "ea267587-5716-4313-9f49-0509ae133496": {
+    "EventCount": 2,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_CryptographicConfiguration",
+    "AdditionalData": {
+      "keyId": "352d8130-1f55-4095-8087-a4476726b460"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'352d8130-1f55-4095-8087-a4476726b460'->Cryptographic Configuration which displays cryptographic configuration details for KMS Key ID '352d8130-1f55-4095-8087-a4476726b460' in AWS Region 'us-east-1'.",
+    "CorrelationId": "ea267587-5716-4313-9f49-0509ae133496",
+    "FirstEventTime": "2023-04-27T20:24:45Z",
+    "AllEventArr": "kms:DescribeKey,kms:ListAliases",
+    "AllEventIdArr": "ea267587-5716-4313-9f49-0509ae133496,ec3bb194-3e6b-4f3d-9e3f-790969002ac2",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/352d8130-1f55-4095-8087-a4476726b460/cryptographicConfiguration",
+    "LastEventTime": "2023-04-27T20:24:45Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Cryptographic Configuration"
+  },
+  "63618126-a27c-4651-bc2b-6613810e0be6": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "63618126-a27c-4651-bc2b-6613810e0be6",
+    "FirstEventTime": "2023-04-27T19:28:23Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "63618126-a27c-4651-bc2b-6613810e0be6,6f5c121b-1b82-4538-b197-89fa963842ef",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:28:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "2e6c0894-be18-4b54-a610-687ef29f2c35": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2e6c0894-be18-4b54-a610-687ef29f2c35",
+    "FirstEventTime": "2023-04-27T19:13:22Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2e6c0894-be18-4b54-a610-687ef29f2c35,38b47d11-4baa-4c87-b363-3b0a27815a57",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:13:22Z",
+    "Name": "Suppressing automated background event"
+  },
+  "2ac1f3ed-cdfd-4ef0-84ba-27c6b50a1ba0": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2ac1f3ed-cdfd-4ef0-84ba-27c6b50a1ba0",
+    "FirstEventTime": "2023-04-27T20:03:25Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2ac1f3ed-cdfd-4ef0-84ba-27c6b50a1ba0,eb0a0c1d-7ddc-4ca5-932f-96ec24ffc175",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:03:25Z",
+    "Name": "Suppressing automated background event"
+  },
+  "af823d07-486c-452c-8b79-c03f8cc61d43": {
+    "EventCount": 5,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "af823d07-486c-452c-8b79-c03f8cc61d43",
+    "FirstEventTime": "2023-04-27T20:20:30Z",
+    "AllEventArr": "kms:DescribeKey,kms:ListAliases,tagging:GetResources",
+    "AllEventIdArr": "af823d07-486c-452c-8b79-c03f8cc61d43,c832e87d-d4cd-40c7-bdd5-92e147495525,d0544235-7cab-4a87-b409-c33784c73b0b,d5a0fa99-65d8-449f-a589-bb7e99970918,f1ba8f98-5637-4171-87e3-2939742af5f2",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-04-27T20:20:30Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "a9cd8493-36a3-4c6b-a743-682b21acba32": {
+    "EventCount": 1,
+    "Label": "SearchBar",
+    "AdditionalData": null,
+    "Summary": "Typed content into AWS Console Search Bar.",
+    "CorrelationId": "a9cd8493-36a3-4c6b-a743-682b21acba32",
+    "FirstEventTime": "2023-04-27T20:24:52Z",
+    "AllEventArr": "resource-explorer-2:ListIndexes",
+    "AllEventIdArr": "a9cd8493-36a3-4c6b-a743-682b21acba32",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:24:52Z",
+    "Name": "Typed into Search Bar"
+  },
+  "8cd53f3d-779a-4c5d-9a16-a0a85ad2a6cb": {
+    "EventCount": 1,
+    "Label": "SearchBar",
+    "AdditionalData": null,
+    "Summary": "Typed content into AWS Console Search Bar.",
+    "CorrelationId": "8cd53f3d-779a-4c5d-9a16-a0a85ad2a6cb",
+    "FirstEventTime": "2023-04-27T19:08:10Z",
+    "AllEventArr": "resource-explorer-2:ListIndexes",
+    "AllEventIdArr": "8cd53f3d-779a-4c5d-9a16-a0a85ad2a6cb",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T19:08:10Z",
+    "Name": "Typed into Search Bar"
+  },
+  "aee50371-75cf-4090-9691-ce086f6b0baa": {
+    "EventCount": 2,
+    "Label": "S3_Buckets_SPECIFICBUCKET_AccessPoints",
+    "AdditionalData": {
+      "bucketName": "randomBucket03",
+      "awsRegion": "us-east-2"
+    },
+    "Summary": "Clicked S3->Buckets->'randomBucket03'->Access Points which displays all S3 Access Points attached to the existing S3 Bucket 'randomBucket03' in AWS Region 'us-east-2'.",
+    "CorrelationId": "aee50371-75cf-4090-9691-ce086f6b0baa",
+    "FirstEventTime": "2023-04-27T19:28:10Z",
+    "AllEventArr": "s3:ListAccessPoints",
+    "AllEventIdArr": "aee50371-75cf-4090-9691-ce086f6b0baa,98c57853-a311-4a19-a9dd-7aff13674deb",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets/randomBucket03?region=us-east-2&tab=accesspoint",
+    "LastEventTime": "2023-04-27T19:28:11Z",
+    "Name": "Clicked S3->Buckets->SPECIFICBUCKET->Access Points"
+  },
+  "69703b93-1b7e-4aae-bea3-f9bb1ada91b9": {
+    "EventCount": 4,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "69703b93-1b7e-4aae-bea3-f9bb1ada91b9",
+    "FirstEventTime": "2023-04-27T20:29:56Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "69703b93-1b7e-4aae-bea3-f9bb1ada91b9,69703b93-1b7e-4aae-bea3-f9bb1ada91b9,7b15d8b8-273e-4ee5-9b4e-40b5008360a7,7b15d8b8-273e-4ee5-9b4e-40b5008360a7",
+    "Url": "N/A",
+    "LastEventTime": "2023-04-27T20:29:56Z",
+    "Name": "Suppressing automated background event"
+  },
+  "6105a5a7-da93-47af-8bfb-b0cf324d1263": {
+    "EventCount": 10,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "6105a5a7-da93-47af-8bfb-b0cf324d1263",
+    "FirstEventTime": "2023-04-27T20:24:56Z",
+    "AllEventArr": "kms:ListAliases,kms:DescribeKey,tagging:GetResources",
+    "AllEventIdArr": "6105a5a7-da93-47af-8bfb-b0cf324d1263,6105a5a7-da93-47af-8bfb-b0cf324d1263,96237abc-1c4e-4505-9ea9-14250e79b085,96237abc-1c4e-4505-9ea9-14250e79b085,9a9f6b51-d060-4ee6-a362-da3bac494c8a,9a9f6b51-d060-4ee6-a362-da3bac494c8a,ad828992-e093-4aaf-9488-03c61b91a3db,ad828992-e093-4aaf-9488-03c61b91a3db,ba50e44b-99de-4424-a9c1-79144540fa8c,ba50e44b-99de-4424-a9c1-79144540fa8c",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-04-27T20:24:56Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  }
+}

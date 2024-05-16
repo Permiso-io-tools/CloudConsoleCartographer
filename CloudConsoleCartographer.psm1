@@ -33,6 +33,7 @@ Import-Module $scriptDir/Code/SignalDefinitions.ps1
 Import-Module $scriptDir/Code/AddLabel.ps1
 Import-Module $scriptDir/Code/NewSignal.ps1
 Import-Module $scriptDir/Code/AddSignal.ps1
+Import-Module $scriptDir/Tests/Helper.ps1
 
 
 
@@ -395,6 +396,11 @@ https://twitter.com/danielhbohannon
                     # Return current content as-is.
                     $curInputObject
                 }
+                'PSCustomObject' {
+                    # Return current content as-is.
+                    # This is for direct output from Out-MinimizedEvent function.
+                    $curInputObject | ConvertTo-Json -Depth 25
+                }
                 default {
                     Write-Warning "[$($MyInvocation.MyCommand.Name)] Unhandled input format ('$($curInputObject.GetType().Name)') in switch block."
 
@@ -436,13 +442,23 @@ https://twitter.com/danielhbohannon
             {
                 $curInputObjectContent = $curInputObjectContent.Records
             }
+            elseif ($curInputObjectContent.line)
+            {
+                # Adding support for CloudGrappler and CloudGrep structured result format.
+                $curInputObjectContent = $curInputObjectContent.line
+            }
             elseif ($curInputObjectContent -is [System.Object[]] -and $curInputObjectContent[0] -is [System.Collections.Hashtable])
             {
                 # Do nothing since already expected unit test formatting scenario.
             }
+            elseif ($curInputObjectContent -is [PSCustomObject])
+            {
+                # Do nothing since already expected unit test formatting scenario,
+                # specifically as direct output from Out-MinimizedEvent function.
+            }
             else
             {
-                Write-Warning "[$($MyInvocation.MyCommand.Name)] Unhandled nested event format with the following keys: $(($curInputObjectContent | Get-Member -MemberType NoteProperty).Name -join ', ')"
+                Write-Warning "[$($MyInvocation.MyCommand.Name)] Unhandled nested event format ('$($curInputObject.GetType().Name)') with the following keys: $(($curInputObjectContent | Get-Member -MemberType NoteProperty).Name -join ', ')"
             }
 
             # Return current extracted and parsed array of events.

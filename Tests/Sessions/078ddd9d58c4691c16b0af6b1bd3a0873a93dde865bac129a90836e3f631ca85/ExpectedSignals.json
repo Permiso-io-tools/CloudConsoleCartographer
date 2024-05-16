@@ -1,0 +1,1336 @@
+{
+  "531b653c-fefb-4c85-a057-d9d2e5fd2fd6": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "531b653c-fefb-4c85-a057-d9d2e5fd2fd6",
+    "FirstEventTime": "2023-08-01T00:31:14Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "531b653c-fefb-4c85-a057-d9d2e5fd2fd6",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:31:14Z",
+    "Name": "Suppressing automated background event"
+  },
+  "861ccf87-2215-4c11-b383-1c9ec4e1f7a1": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "861ccf87-2215-4c11-b383-1c9ec4e1f7a1",
+    "FirstEventTime": "2023-08-01T01:37:34Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "861ccf87-2215-4c11-b383-1c9ec4e1f7a1",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:37:34Z",
+    "Name": "Suppressing automated background event"
+  },
+  "e71d1ad5-5884-4911-b292-1568cb9faaa3": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "e71d1ad5-5884-4911-b292-1568cb9faaa3",
+    "FirstEventTime": "2023-08-01T00:57:27Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "e71d1ad5-5884-4911-b292-1568cb9faaa3",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:57:27Z",
+    "Name": "Suppressing automated background event"
+  },
+  "41488f4a-19ff-4d06-be66-15bdac8f5088": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "41488f4a-19ff-4d06-be66-15bdac8f5088",
+    "FirstEventTime": "2023-08-01T01:41:22Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "41488f4a-19ff-4d06-be66-15bdac8f5088,fdea6cf4-615e-4d31-b38b-3d33727f95f5",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:41:22Z",
+    "Name": "Suppressing automated background event"
+  },
+  "8694d42f-ca09-40de-8172-63f15576da4e": {
+    "EventCount": 2,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public snapshots",
+        "Uri": "public"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with 'Public snapshots' dropdown selected.",
+    "CorrelationId": "8694d42f-ca09-40de-8172-63f15576da4e",
+    "FirstEventTime": "2023-08-01T00:41:00Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "8694d42f-ca09-40de-8172-63f15576da4e,7a3b886b-ec7a-4119-80e3-4863119a675d",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=public",
+    "LastEventTime": "2023-08-01T00:41:01Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "0243e7ef-ac76-4605-824e-951900857ba2": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0243e7ef-ac76-4605-824e-951900857ba2",
+    "FirstEventTime": "2023-08-01T00:41:12Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "0243e7ef-ac76-4605-824e-951900857ba2,b75c55e3-0d6c-47de-970a-418e92740c6c",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:41:12Z",
+    "Name": "Suppressing automated background event"
+  },
+  "86d44725-c023-4cb9-bb30-4a98723dc3f5": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "86d44725-c023-4cb9-bb30-4a98723dc3f5",
+    "FirstEventTime": "2023-08-01T01:06:17Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "86d44725-c023-4cb9-bb30-4a98723dc3f5,dc7e6848-8002-4476-a784-c06f2b9c22a9",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:06:17Z",
+    "Name": "Suppressing automated background event"
+  },
+  "08c12b3f-8369-4524-a518-5d37db570889": {
+    "EventCount": 5,
+    "Label": "EC2_ElasticBlockStore_Volumes",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null,
+      "volumeIdArr": "vol-db0c0ffeef249634c",
+      "instanceIdArr": "i-db0c0ffeeffd53ad4"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes which displays all EC2 Volumes in a searchable paged format, with current page displaying the current AWS Account's first 1 EC2 Volume ('vol-db0c0ffeef249634c') for 1 EC2 Instance ('i-db0c0ffeeffd53ad4').",
+    "CorrelationId": "08c12b3f-8369-4524-a518-5d37db570889",
+    "FirstEventTime": "2023-08-01T00:31:44Z",
+    "AllEventArr": "ec2:DescribeVolumes,kms:ListAliases,ec2:DescribeTags,ec2:DescribeVolumesModifications,ec2:DescribeVolumeStatus",
+    "AllEventIdArr": "08c12b3f-8369-4524-a518-5d37db570889,8458f216-6a54-4c9c-af88-9b3c757a9280,87989a40-ec80-4241-a75b-cb0b82de431e,9f8a6afd-4b20-45cd-9aae-3ff05e9600c9,a35d8284-4e8b-4959-99f2-6faf8f5a65a3",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Volumes:",
+    "LastEventTime": "2023-08-01T00:31:44Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes"
+  },
+  "a45cab53-8ef0-430f-8f2d-1a81412d6333": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Volumes_SPECIFICVOLUME_StatusChecks",
+    "AdditionalData": {
+      "volumeId": "vol-db0c0ffee7a4ba6c6"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes->'vol-db0c0ffee7a4ba6c6'->Status Checks which displays a summary of all status checks for 'vol-db0c0ffee7a4ba6c6' EC2 Volume.",
+    "CorrelationId": "a45cab53-8ef0-430f-8f2d-1a81412d6333",
+    "FirstEventTime": "2023-08-01T00:26:21Z",
+    "AllEventArr": "ec2:DescribeVolumeAttribute",
+    "AllEventIdArr": "a45cab53-8ef0-430f-8f2d-1a81412d6333",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#VolumeDetails:volumeId=:vol-db0c0ffee7a4ba6c6",
+    "LastEventTime": "2023-08-01T00:26:21Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes->SPECIFICVOLUME->Status Checks"
+  },
+  "8ba54991-652f-4430-b2db-1700b37556f6": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "8ba54991-652f-4430-b2db-1700b37556f6",
+    "FirstEventTime": "2023-08-01T01:26:21Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "8ba54991-652f-4430-b2db-1700b37556f6,c29d1218-3d94-4a34-b8b6-145bfb485885",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:26:21Z",
+    "Name": "Suppressing automated background event"
+  },
+  "640b4d6b-1e86-40f9-9a00-3c3234b6d36e": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "640b4d6b-1e86-40f9-9a00-3c3234b6d36e",
+    "FirstEventTime": "2023-08-01T00:27:54Z",
+    "AllEventArr": "monitoring:DescribeAlarms",
+    "AllEventIdArr": "640b4d6b-1e86-40f9-9a00-3c3234b6d36e",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:27:54Z",
+    "Name": "Suppressing automated background event"
+  },
+  "6a94c97d-599d-49f2-9a96-ebb46f15386c": {
+    "EventCount": 1,
+    "Label": "EC2_EC2Dashboard_ServiceHealth_Refresh",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Service Health->Refresh button to refresh EC2 Service Health summary dashboard tile.",
+    "CorrelationId": "6a94c97d-599d-49f2-9a96-ebb46f15386c",
+    "FirstEventTime": "2023-08-01T01:33:07Z",
+    "AllEventArr": "ec2:DescribeAvailabilityZones",
+    "AllEventIdArr": "6a94c97d-599d-49f2-9a96-ebb46f15386c",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-01T01:33:07Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Service Health->Refresh"
+  },
+  "1b2cb8db-ca48-4a5c-8aca-564c87994c6a": {
+    "EventCount": 3,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "1b2cb8db-ca48-4a5c-8aca-564c87994c6a",
+    "FirstEventTime": "2023-08-01T00:33:22Z",
+    "AllEventArr": "kms:ListAliases,ec2:DescribeTags,ec2:DescribeSnapshots",
+    "AllEventIdArr": "1b2cb8db-ca48-4a5c-8aca-564c87994c6a,1df135e6-12ac-46ee-beec-7d454dae49a6,4195502e-9228-4fec-b7df-059d380844db",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=owned-by-me",
+    "LastEventTime": "2023-08-01T00:33:22Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "4c17d003-4935-420f-aaa6-d32825fd60bf": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4c17d003-4935-420f-aaa6-d32825fd60bf",
+    "FirstEventTime": "2023-08-01T00:51:14Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "4c17d003-4935-420f-aaa6-d32825fd60bf,70cff545-b5b3-41b6-a2e7-1065f221dda8",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:51:14Z",
+    "Name": "Suppressing automated background event"
+  },
+  "e554474f-0e7a-41c0-b1ee-511fff9d3380": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public snapshots",
+        "Uri": "public"
+      },
+      "attributeKeyAndValueObjArr": [
+        {
+          "Key": "snapshotId",
+          "Value": "*snap-db0c0ffee51fe0172*"
+        },
+        {
+          "Key": "ownerId",
+          "Value": "blaOwnerEquals"
+        }
+      ]
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with 'Public snapshots' dropdown selected while filtered by 2 custom attributes (snapshot-id='*snap-db0c0ffee51fe0172*', owner-id='blaOwnerEquals').",
+    "CorrelationId": "e554474f-0e7a-41c0-b1ee-511fff9d3380",
+    "FirstEventTime": "2023-08-01T00:37:53Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "e554474f-0e7a-41c0-b1ee-511fff9d3380",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=public;snapshotId=:snap-db0c0ffee51fe0172;ownerId=blaOwnerEquals;v=3",
+    "LastEventTime": "2023-08-01T00:37:53Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "9394a40e-0fd3-47e4-8a83-89443b84daa2": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "9394a40e-0fd3-47e4-8a83-89443b84daa2",
+    "FirstEventTime": "2023-08-01T01:01:16Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "9394a40e-0fd3-47e4-8a83-89443b84daa2,fbc28ceb-90ce-4523-b435-37482b03e456",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:01:16Z",
+    "Name": "Suppressing automated background event"
+  },
+  "24b73f53-854e-42d9-90e4-d66fc4771d13": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "24b73f53-854e-42d9-90e4-d66fc4771d13",
+    "FirstEventTime": "2023-08-01T00:40:37Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "24b73f53-854e-42d9-90e4-d66fc4771d13",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=owned-by-me",
+    "LastEventTime": "2023-08-01T00:40:37Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "1e5f8657-954e-4472-a6ad-beb05fb75db2": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "1e5f8657-954e-4472-a6ad-beb05fb75db2",
+    "FirstEventTime": "2023-08-01T01:16:19Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "1e5f8657-954e-4472-a6ad-beb05fb75db2,f528ecd4-1923-4492-a09c-f06768d22c38",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:16:19Z",
+    "Name": "Suppressing automated background event"
+  },
+  "3cff05b8-5f64-41be-862e-3fbaa9c45166": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "3cff05b8-5f64-41be-862e-3fbaa9c45166",
+    "FirstEventTime": "2023-08-01T01:12:30Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "3cff05b8-5f64-41be-862e-3fbaa9c45166",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:12:30Z",
+    "Name": "Suppressing automated background event"
+  },
+  "30c10ff1-de36-4848-ba45-39350ba78c76": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "30c10ff1-de36-4848-ba45-39350ba78c76",
+    "FirstEventTime": "2023-08-01T00:23:21Z",
+    "AllEventArr": "monitoring:DescribeAlarms",
+    "AllEventIdArr": "30c10ff1-de36-4848-ba45-39350ba78c76",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:23:21Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7923f984-c151-4a6b-a5c2-9304df2f7944": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "7923f984-c151-4a6b-a5c2-9304df2f7944",
+    "FirstEventTime": "2023-08-01T00:36:44Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "7923f984-c151-4a6b-a5c2-9304df2f7944,8f82befd-9d51-40ad-a5f9-29a0a8583f8e",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:36:44Z",
+    "Name": "Suppressing automated background event"
+  },
+  "c166ca1a-5119-4454-b79d-c627d42e4687": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_PricingHistory",
+    "AdditionalData": {
+      "instanceTypeArr": "c3.large",
+      "availabilityZone": null,
+      "graph": "Availability Zones",
+      "platform": "Linux/UNIX",
+      "timespanStr": "1 week"
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests->Pricing History which displays a summary of EC2 Spot Instance costs over time, currently filtered by default values Graph='Availability Zones', Instance Type='c3.large', Platform='Linux/UNIX' and default Date Range='1 week' ('2023-07-25T01:34:51Z' to '2023-08-01T01:34:51Z').",
+    "CorrelationId": "c166ca1a-5119-4454-b79d-c627d42e4687",
+    "FirstEventTime": "2023-08-01T01:34:52Z",
+    "AllEventArr": "ec2:DescribeSpotPriceHistory",
+    "AllEventIdArr": "c166ca1a-5119-4454-b79d-c627d42e4687",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:34:52Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Pricing History"
+  },
+  "429b9bc8-752b-4807-9781-f9dca99ea369": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "429b9bc8-752b-4807-9781-f9dca99ea369",
+    "FirstEventTime": "2023-08-01T00:31:10Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "429b9bc8-752b-4807-9781-f9dca99ea369,852bd8be-fbb1-45c1-889c-f0ab688b5c16",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:31:10Z",
+    "Name": "Suppressing automated background event"
+  },
+  "c7874890-3900-4ed8-a589-6d8fb1587c61": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private snapshots",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with 'Private snapshots' dropdown selected.",
+    "CorrelationId": "c7874890-3900-4ed8-a589-6d8fb1587c61",
+    "FirstEventTime": "2023-08-01T00:40:10Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "c7874890-3900-4ed8-a589-6d8fb1587c61",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=private",
+    "LastEventTime": "2023-08-01T00:40:10Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "159f2efb-4c90-46af-a759-33a67b979f2d": {
+    "EventCount": 16,
+    "Label": "EC2_EC2Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard which displays all EC2 compute resources (e.g. instances, volumes, snapshots, load balancers, etc.).",
+    "CorrelationId": "159f2efb-4c90-46af-a759-33a67b979f2d",
+    "FirstEventTime": "2023-08-01T00:21:09Z",
+    "AllEventArr": "elasticloadbalancing:DescribeLoadBalancers,ec2:DescribeLaunchTemplates,ec2:DescribeSecurityGroups,ec2:DescribeVolumes,ec2:DescribeHosts,ec2:DescribeAccountAttributes,ec2:DescribeAvailabilityZones,ec2:DescribeVolumeStatus,ec2:DescribeAddresses,ec2:DescribeKeyPairs,ec2:DescribeInstances,ec2:DescribeSnapshots,ec2:DescribePlacementGroups,autoscaling:DescribeAutoScalingGroups,ec2:DescribeInstanceStatus",
+    "AllEventIdArr": "159f2efb-4c90-46af-a759-33a67b979f2d,2905ec9b-431a-49cd-9103-2ed2dff754c3,2ee356b1-2ef2-433a-9b8b-61fdb18285cb,323b7802-2d32-4f7a-819c-26f1f6412d08,33995670-981d-4345-8ed0-6cf2213a2332,3d2cbaac-f8c4-4f6a-8c88-c84a313bded2,413290d4-8829-40de-8851-a56e8ece85a3,7d5cb190-d72c-426f-8482-a7f44aed7fbc,7df87ff9-c77f-4a5c-8346-98782f41e5bf,9c5c2b53-d166-47e5-b738-b97602f1cd05,a4a8c189-49d1-4ad4-8c16-bb00a8a1a578,a7d56896-96c0-4e79-8e10-d496e5362c48,b7bde97e-c4d4-4afc-b682-48390c764d09,e2fe3bcf-732e-4f51-a99b-43da4bf9b08b,f0bdc720-ed04-406e-bb57-bc992494c211,f5652956-912c-449f-8f3e-7af75a70c6fa",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-01T00:21:09Z",
+    "Name": "Clicked EC2->EC2 Dashboard"
+  },
+  "48a52d59-74b2-4270-8cc3-8d39254e7ae9": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "48a52d59-74b2-4270-8cc3-8d39254e7ae9",
+    "FirstEventTime": "2023-08-01T01:21:20Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "48a52d59-74b2-4270-8cc3-8d39254e7ae9,85735b69-6588-4a9b-a840-c502191c8d3f",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:21:20Z",
+    "Name": "Suppressing automated background event"
+  },
+  "cba0d567-f72f-4455-9e90-300453f5b79b": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "cba0d567-f72f-4455-9e90-300453f5b79b",
+    "FirstEventTime": "2023-08-01T00:32:22Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "cba0d567-f72f-4455-9e90-300453f5b79b",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:32:22Z",
+    "Name": "Suppressing automated background event"
+  },
+  "5d1f6f7d-ca20-4fa4-809b-51feb18f076e": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "5d1f6f7d-ca20-4fa4-809b-51feb18f076e",
+    "FirstEventTime": "2023-08-01T00:36:11Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "5d1f6f7d-ca20-4fa4-809b-51feb18f076e,d642ad8f-4258-4d2e-af0d-aa12d00eb9c9",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:36:11Z",
+    "Name": "Suppressing automated background event"
+  },
+  "58152a69-9a17-475d-8488-b7b74e18902e": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "58152a69-9a17-475d-8488-b7b74e18902e",
+    "FirstEventTime": "2023-08-01T00:56:15Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "58152a69-9a17-475d-8488-b7b74e18902e,b4edf96d-d94d-4c1d-899f-92cd4f6870a0",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:56:15Z",
+    "Name": "Suppressing automated background event"
+  },
+  "165b2150-81ee-4835-a7c9-5501d6cf2651": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Volumes_SPECIFICVOLUME_StatusChecks",
+    "AdditionalData": {
+      "volumeId": "vol-db0c0ffeef249634c"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes->'vol-db0c0ffeef249634c'->Status Checks which displays a summary of all status checks for 'vol-db0c0ffeef249634c' EC2 Volume.",
+    "CorrelationId": "165b2150-81ee-4835-a7c9-5501d6cf2651",
+    "FirstEventTime": "2023-08-01T00:31:44Z",
+    "AllEventArr": "ec2:DescribeVolumeAttribute",
+    "AllEventIdArr": "165b2150-81ee-4835-a7c9-5501d6cf2651",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#VolumeDetails:volumeId=:vol-db0c0ffeef249634c",
+    "LastEventTime": "2023-08-01T00:31:44Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes->SPECIFICVOLUME->Status Checks"
+  },
+  "5e770d46-f011-4ef7-ba3b-18b04e617627": {
+    "EventCount": 1,
+    "Label": "EC2_EC2Dashboard_ServiceHealth_Refresh",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Service Health->Refresh button to refresh EC2 Service Health summary dashboard tile.",
+    "CorrelationId": "5e770d46-f011-4ef7-ba3b-18b04e617627",
+    "FirstEventTime": "2023-08-01T01:30:43Z",
+    "AllEventArr": "ec2:DescribeAvailabilityZones",
+    "AllEventIdArr": "5e770d46-f011-4ef7-ba3b-18b04e617627",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-01T01:30:43Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Service Health->Refresh"
+  },
+  "0cdb802a-7b26-42fa-aab4-181160659f63": {
+    "EventCount": 4,
+    "Label": "EC2_ElasticBlockStore_Volumes",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": {
+        "Key": "volumeId",
+        "Value": "*vol-db0c0ffee7a4ba6c6*"
+      },
+      "volumeIdArr": "vol-db0c0ffee7a4ba6c6",
+      "instanceIdArr": "i-db0c0ffee98361ad0"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes which displays all EC2 Volumes in a searchable paged format while filtered by 1 custom attribute (volume-id='*vol-db0c0ffee7a4ba6c6*'), with current page displaying the current AWS Account's first 1 EC2 Volume ('vol-db0c0ffee7a4ba6c6') for 1 EC2 Instance ('i-db0c0ffee98361ad0').",
+    "CorrelationId": "0cdb802a-7b26-42fa-aab4-181160659f63",
+    "FirstEventTime": "2023-08-01T00:23:21Z",
+    "AllEventArr": "ec2:DescribeVolumeStatus,ec2:DescribeTags,ec2:DescribeVolumesModifications,ec2:DescribeVolumes",
+    "AllEventIdArr": "0cdb802a-7b26-42fa-aab4-181160659f63,564847c3-4499-41ea-a64c-e5ff4b2e1285,59fff4b3-4b15-46d8-b8dc-8c30445a34e6,9eb87e0a-c039-4513-a240-d2cd4b1a70b7",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Volumes:volumeId=:vol-db0c0ffee7a4ba6c6;v=3",
+    "LastEventTime": "2023-08-01T00:23:21Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes"
+  },
+  "b0f1e72e-03ea-4992-ab95-ebb77caa095d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "b0f1e72e-03ea-4992-ab95-ebb77caa095d",
+    "FirstEventTime": "2023-08-01T00:51:45Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "b0f1e72e-03ea-4992-ab95-ebb77caa095d,f4f1dab7-09f4-41b5-9ae2-dd6a406606bd",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:51:45Z",
+    "Name": "Suppressing automated background event"
+  },
+  "4f7bf119-de71-4230-9c3f-2677ee161426": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4f7bf119-de71-4230-9c3f-2677ee161426",
+    "FirstEventTime": "2023-08-01T00:46:45Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "4f7bf119-de71-4230-9c3f-2677ee161426,a9985b5b-f9fe-4ee9-abf7-cfa3fa9e0ceb",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:46:45Z",
+    "Name": "Suppressing automated background event"
+  },
+  "762316aa-6b33-4a14-a2dd-2010a458544f": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "762316aa-6b33-4a14-a2dd-2010a458544f",
+    "FirstEventTime": "2023-08-01T01:22:32Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "762316aa-6b33-4a14-a2dd-2010a458544f",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:22:32Z",
+    "Name": "Suppressing automated background event"
+  },
+  "866ef8b0-f34e-4c38-bb9c-bbfeebe988d3": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "866ef8b0-f34e-4c38-bb9c-bbfeebe988d3",
+    "FirstEventTime": "2023-08-01T00:31:44Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "866ef8b0-f34e-4c38-bb9c-bbfeebe988d3,c172a8e8-168f-441c-9cf8-cd3774fb0c2d,e5eff436-036d-4d2d-8472-446491ef0387",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:31:44Z",
+    "Name": "Suppressing automated background event"
+  },
+  "1c493a9d-0221-470c-b1b8-f21fa17e5105": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_SpotRequests_SavingsSummary",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Instances->Spot Requests->Savings Summary which displays a summary of cost savings from running EC2 Spot Instances versus EC2 Instances.",
+    "CorrelationId": "1c493a9d-0221-470c-b1b8-f21fa17e5105",
+    "FirstEventTime": "2023-08-01T01:34:06Z",
+    "AllEventArr": "ec2:DescribeSpotInstanceRequests",
+    "AllEventIdArr": "1c493a9d-0221-470c-b1b8-f21fa17e5105",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:34:06Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Savings Summary"
+  },
+  "1157ce2e-f10c-4291-bc4a-9d22cf85a6c3": {
+    "EventCount": 4,
+    "Label": "EC2_ElasticBlockStore_Snapshots_SPECIFICSNAPSHOT_Details",
+    "AdditionalData": {
+      "snapshotId": "snap-db0c0ffeeef565856"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots->'snap-db0c0ffeeef565856'->Details which displays a summary of all details for 'snap-db0c0ffeeef565856' EC2 Snapshot.",
+    "CorrelationId": "1157ce2e-f10c-4291-bc4a-9d22cf85a6c3",
+    "FirstEventTime": "2023-08-01T00:46:12Z",
+    "AllEventArr": "ec2:DescribeFastSnapshotRestores,kms:ListAliases,ec2:DescribeSnapshotAttribute",
+    "AllEventIdArr": "1157ce2e-f10c-4291-bc4a-9d22cf85a6c3,5eaca4ed-22d0-4985-9bda-e87104845eb0,9d62cfa3-5cda-47c2-a58d-645ccb85641a,ae4997e4-3a5f-4566-a779-41dee6d9bc7e",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SnapshotDetails:snapshotId=snap-db0c0ffeeef565856",
+    "LastEventTime": "2023-08-01T00:46:12Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots->SPECIFICSNAPSHOT->Details"
+  },
+  "0eed01c7-61cd-40c6-a0b7-f98691717552": {
+    "EventCount": 6,
+    "Label": "EC2_Instances_SpotRequests",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests which displays all EC2 Spot Instances in a searchable paged format.",
+    "CorrelationId": "0eed01c7-61cd-40c6-a0b7-f98691717552",
+    "FirstEventTime": "2023-08-01T01:33:42Z",
+    "AllEventArr": "ec2:DescribeSpotInstanceRequests,ec2:DescribeVpcs,ec2:DescribeAccountAttributes,ec2:DescribeSpotFleetRequests,ec2:DescribeImages,ec2:DescribeAvailabilityZones",
+    "AllEventIdArr": "0eed01c7-61cd-40c6-a0b7-f98691717552,1cae71a1-1c8d-4ece-84fd-eaddf9a58c40,30ab3e34-2942-4dce-8f68-2fc77d395e15,b26527f6-a453-4448-a522-b53c6f111da8,ddda7419-cd4d-44a5-be65-e29557a6ae05,f70234c0-4111-4369-a1a1-1d905cc14270",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:33:42Z",
+    "Name": "Clicked EC2->Instances->Spot Requests"
+  },
+  "7508aae6-6b55-41e6-9b50-18f643fec8f6": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "7508aae6-6b55-41e6-9b50-18f643fec8f6",
+    "FirstEventTime": "2023-08-01T01:11:18Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "7508aae6-6b55-41e6-9b50-18f643fec8f6,b68306a9-2012-47b1-ba47-1e3c7ebff1c9",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:11:18Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7b65da50-59da-4325-bf0d-0c0c6510969a": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_SpotRequests",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": {
+        "Key": "state",
+        "Value": "open"
+      }
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests which displays all EC2 Spot Instances in a searchable paged format while filtered by 1 custom attribute (state='open').",
+    "CorrelationId": "7b65da50-59da-4325-bf0d-0c0c6510969a",
+    "FirstEventTime": "2023-08-01T01:32:35Z",
+    "AllEventArr": "ec2:DescribeSpotFleetRequests,ec2:DescribeSpotInstanceRequests",
+    "AllEventIdArr": "7b65da50-59da-4325-bf0d-0c0c6510969a,cdb76c01-2707-4a84-8dbf-608fc2c297c8",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:32:35Z",
+    "Name": "Clicked EC2->Instances->Spot Requests"
+  },
+  "3f4192e7-c0b4-4253-9192-25b2580a7947": {
+    "EventCount": 5,
+    "Label": "EC2_ElasticBlockStore_Snapshots_SPECIFICSNAPSHOT_Details",
+    "AdditionalData": {
+      "snapshotId": "snap-db0c0ffeef740c5be"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots->'snap-db0c0ffeef740c5be'->Details which displays a summary of all details for 'snap-db0c0ffeef740c5be' EC2 Snapshot.",
+    "CorrelationId": "3f4192e7-c0b4-4253-9192-25b2580a7947",
+    "FirstEventTime": "2023-08-01T00:44:13Z",
+    "AllEventArr": "ec2:DescribeSnapshotAttribute,ec2:DescribeFastSnapshotRestores,kms:ListAliases",
+    "AllEventIdArr": "3f4192e7-c0b4-4253-9192-25b2580a7947,4764f080-5d0d-4112-8163-5822845e5427,5b85e71f-1b1b-4099-ae55-39ec4506da6a,692bc420-8294-4ad2-9179-368a2c1a4c9c,9ef0dd69-0ceb-4d68-8de2-167df655e656",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SnapshotDetails:snapshotId=snap-db0c0ffeef740c5be",
+    "LastEventTime": "2023-08-01T00:44:13Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots->SPECIFICSNAPSHOT->Details"
+  },
+  "659cead4-18d1-41f5-9f9e-5be19842710a": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "659cead4-18d1-41f5-9f9e-5be19842710a",
+    "FirstEventTime": "2023-08-01T01:01:46Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "659cead4-18d1-41f5-9f9e-5be19842710a,d46b7916-d869-46b5-b644-a69dc3275fb3",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:01:46Z",
+    "Name": "Suppressing automated background event"
+  },
+  "b932a06f-c88c-4c5d-9416-fe09acaf2f74": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "b932a06f-c88c-4c5d-9416-fe09acaf2f74",
+    "FirstEventTime": "2023-08-01T01:04:51Z",
+    "AllEventArr": "notifications:ListNotificationHubs",
+    "AllEventIdArr": "b932a06f-c88c-4c5d-9416-fe09acaf2f74",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:04:51Z",
+    "Name": "Suppressing automated background event"
+  },
+  "03764a25-35cf-41bf-9d16-138103815a9c": {
+    "EventCount": 14,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public snapshots",
+        "Uri": "public"
+      },
+      "attributeKeyAndValueObjArr": {
+        "Key": "snapshotId",
+        "Value": "*snap-db0c0ffee51fe0172*"
+      }
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with 'Public snapshots' dropdown selected while filtered by 1 custom attribute (snapshot-id='*snap-db0c0ffee51fe0172*').",
+    "CorrelationId": "03764a25-35cf-41bf-9d16-138103815a9c",
+    "FirstEventTime": "2023-08-01T00:35:46Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "03764a25-35cf-41bf-9d16-138103815a9c,4651828d-27c5-4a99-8c3f-7a2a986d48e4,9567955b-5530-4860-aec1-e1aa22814001,9734a4f2-a2a9-4c29-a4ee-f60b200c25ac,bae7dfed-e758-410e-af06-d5f950c9c96f,2ac02f31-01a3-4668-ba80-431f388a5f39,37f16cd8-0c06-49ac-8328-189237392313,4cf7c711-ef0c-4470-b41a-98c118189cc0,17ea887a-c418-48dd-9ec2-ab64ea98b38b,33269187-17e0-43e5-b937-3ddb3c43a820,1fbbd851-cae4-4176-bc7c-e2eabf8ec5ff,7e6892a1-3d2d-41ee-8c06-d24d98807080,d6a9d80a-8654-431e-b615-88dc0f6816bc,e4f54bd2-bb86-46fa-914d-3397da95480b",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=public;snapshotId=:snap-db0c0ffee51fe0172;v=3",
+    "LastEventTime": "2023-08-01T00:35:54Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "3547ff3f-a3f0-4b60-9be0-54455706ad4e": {
+    "EventCount": 1,
+    "Label": "EC2_EC2Dashboard_AccountAttributes_Refresh",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard->Account Attributes->Refresh button to refresh EC2 Account Attributes summary dashboard tile.",
+    "CorrelationId": "3547ff3f-a3f0-4b60-9be0-54455706ad4e",
+    "FirstEventTime": "2023-08-01T01:33:07Z",
+    "AllEventArr": "ec2:DescribeAccountAttributes",
+    "AllEventIdArr": "3547ff3f-a3f0-4b60-9be0-54455706ad4e",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-08-01T01:33:07Z",
+    "Name": "Clicked EC2->EC2 Dashboard->Account Attributes->Refresh"
+  },
+  "4b99d5d9-15e7-4c94-ac91-4668958c5f8b": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4b99d5d9-15e7-4c94-ac91-4668958c5f8b",
+    "FirstEventTime": "2023-08-01T00:41:44Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "4b99d5d9-15e7-4c94-ac91-4668958c5f8b,8c913344-11f5-4a2a-a332-7d390418953a",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:41:44Z",
+    "Name": "Suppressing automated background event"
+  },
+  "5f1aa03c-15ab-4350-a7ac-806d4602234d": {
+    "EventCount": 2,
+    "Label": "EC2_ElasticBlockStore_Volumes_SPECIFICVOLUME_Details",
+    "AdditionalData": {
+      "volumeId": "vol-db0c0ffee12989910",
+      "volumeArn": "arn:aws:ec2:us-east-1:200802171337:volume/vol-db0c0ffee12989910"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes->'vol-db0c0ffee12989910'->Details which displays a summary of all details for 'vol-db0c0ffee12989910' EC2 Volume.",
+    "CorrelationId": "5f1aa03c-15ab-4350-a7ac-806d4602234d",
+    "FirstEventTime": "2023-08-01T00:28:23Z",
+    "AllEventArr": "compute-optimizer:GetEBSVolumeRecommendations,kms:ListAliases",
+    "AllEventIdArr": "5f1aa03c-15ab-4350-a7ac-806d4602234d,7cf66786-cb45-444e-a720-0881bb1b7c46",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#VolumeDetails:volumeId=:vol-db0c0ffee12989910",
+    "LastEventTime": "2023-08-01T00:28:23Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes->SPECIFICVOLUME->Details"
+  },
+  "38a2b937-1cf5-49d1-86fd-7204c3be3b0f": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private snapshots",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with 'Private snapshots' dropdown selected.",
+    "CorrelationId": "38a2b937-1cf5-49d1-86fd-7204c3be3b0f",
+    "FirstEventTime": "2023-08-01T00:34:09Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "38a2b937-1cf5-49d1-86fd-7204c3be3b0f",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=private",
+    "LastEventTime": "2023-08-01T00:34:09Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "ebee03f9-5ae6-4626-9f7a-1f3043418356": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "ebee03f9-5ae6-4626-9f7a-1f3043418356",
+    "FirstEventTime": "2023-08-01T01:02:28Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "ebee03f9-5ae6-4626-9f7a-1f3043418356",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:02:28Z",
+    "Name": "Suppressing automated background event"
+  },
+  "735cac8c-b69b-4a55-ba4d-378f284a236e": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "735cac8c-b69b-4a55-ba4d-378f284a236e",
+    "FirstEventTime": "2023-08-01T00:56:45Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "735cac8c-b69b-4a55-ba4d-378f284a236e,fa30152d-6429-4020-91a8-cc11b0a65322",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:56:45Z",
+    "Name": "Suppressing automated background event"
+  },
+  "58736af9-d00d-423c-9c57-20914df03612": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "58736af9-d00d-423c-9c57-20914df03612",
+    "FirstEventTime": "2023-08-01T00:46:13Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "58736af9-d00d-423c-9c57-20914df03612,8b25e178-0aef-454b-8532-5c34a97dfdca",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:46:13Z",
+    "Name": "Suppressing automated background event"
+  },
+  "502c5983-3514-49eb-b6c2-a3eba723f6d4": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "502c5983-3514-49eb-b6c2-a3eba723f6d4",
+    "FirstEventTime": "2023-08-01T01:17:31Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "502c5983-3514-49eb-b6c2-a3eba723f6d4",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:17:31Z",
+    "Name": "Suppressing automated background event"
+  },
+  "ba514046-4cab-4db8-9285-dc46bc615ce0": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "ba514046-4cab-4db8-9285-dc46bc615ce0",
+    "FirstEventTime": "2023-08-01T00:21:26Z",
+    "AllEventArr": "monitoring:DescribeAlarms",
+    "AllEventIdArr": "ba514046-4cab-4db8-9285-dc46bc615ce0",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:21:26Z",
+    "Name": "Suppressing automated background event"
+  },
+  "29c8dca0-7c64-465d-a166-32a40e6e87b0": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "29c8dca0-7c64-465d-a166-32a40e6e87b0",
+    "FirstEventTime": "2023-08-01T00:42:24Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "29c8dca0-7c64-465d-a166-32a40e6e87b0",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:42:24Z",
+    "Name": "Suppressing automated background event"
+  },
+  "09ea669c-1369-4d80-80c0-eee2e934483a": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs_SPECIFICIMAGE_Storage",
+    "AdditionalData": {
+      "snapshotIdArr": "snap-db0c0ffeeef565856",
+      "imageId": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs->SPECIFICIMAGE->Storage which displays storage device details for current EC2 AMI (Amazon Machine Image).",
+    "CorrelationId": "09ea669c-1369-4d80-80c0-eee2e934483a",
+    "FirstEventTime": "2023-08-01T00:46:12Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "09ea669c-1369-4d80-80c0-eee2e934483a",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#ImageDetails:",
+    "LastEventTime": "2023-08-01T00:46:12Z",
+    "Name": "Clicked EC2->Images->AMIs->SPECIFICIMAGE->Storage"
+  },
+  "3a4f0a0a-4fcd-446f-859a-8a67290ed343": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "3a4f0a0a-4fcd-446f-859a-8a67290ed343",
+    "FirstEventTime": "2023-08-01T01:32:33Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "3a4f0a0a-4fcd-446f-859a-8a67290ed343",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:32:33Z",
+    "Name": "Suppressing automated background event"
+  },
+  "fa0c864c-a253-491e-9484-1d228e9a067d": {
+    "EventCount": 3,
+    "Label": "EC2_Instances_SpotRequests_PlacementScore_Step1",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 1 of 2) which scores AWS Regions to help identify optimal Region or Availability Zones in which to run EC2 Spot Instance workloads.",
+    "CorrelationId": "fa0c864c-a253-491e-9484-1d228e9a067d",
+    "FirstEventTime": "2023-08-01T01:35:20Z",
+    "AllEventArr": "ec2:DescribeAccountAttributes,ec2:DescribeImages,ec2:GetInstanceTypesFromInstanceRequirements",
+    "AllEventIdArr": "fa0c864c-a253-491e-9484-1d228e9a067d,56d89645-d7bd-4f5d-b1fd-0c84b8cd0887,73604994-58ba-439f-95e9-e954a9bda6a5",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotPlacementScore:",
+    "LastEventTime": "2023-08-01T01:35:21Z",
+    "Name": "Clicked EC2->Instances->Spot Requests->Placement Score (Step 1 of 2)"
+  },
+  "05c5471e-5b1b-4cf1-b090-d608f44a6d7d": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_SpotRequests",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests which displays all EC2 Spot Instances in a searchable paged format.",
+    "CorrelationId": "05c5471e-5b1b-4cf1-b090-d608f44a6d7d",
+    "FirstEventTime": "2023-08-01T01:32:53Z",
+    "AllEventArr": "ec2:DescribeSpotFleetRequests,ec2:DescribeSpotInstanceRequests",
+    "AllEventIdArr": "05c5471e-5b1b-4cf1-b090-d608f44a6d7d,68cedd62-9875-4dec-8850-cf5ed4962d16",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:32:53Z",
+    "Name": "Clicked EC2->Instances->Spot Requests"
+  },
+  "048bc91b-c92c-49a3-99e4-582532499946": {
+    "EventCount": 13,
+    "Label": "EC2_Instances_SpotRequests",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests which displays all EC2 Spot Instances in a searchable paged format.",
+    "CorrelationId": "048bc91b-c92c-49a3-99e4-582532499946",
+    "FirstEventTime": "2023-08-01T01:30:43Z",
+    "AllEventArr": "ec2:DescribeVpcs,ec2:DescribeImages,ec2:DescribeAccountAttributes,ec2:DescribeSpotFleetRequests,ec2:DescribeSpotInstanceRequests,ec2:DescribeInstanceTypes",
+    "AllEventIdArr": "048bc91b-c92c-49a3-99e4-582532499946,6040550d-f463-4232-b44e-8d00d8da0144,6729126d-937d-4dda-b480-24a4b7ca7c98,6b36a4c5-87e4-4884-bdec-b673d4e4efcd,943c5cb6-4ec7-4f67-8383-ee094ec85e35,d9e6657c-f1c0-49f2-8f1f-1d34212198ed,e6c8de6a-2190-40c9-bd96-3e3e22bbc70d,0c7f941a-9274-4c00-aa67-400d60a19566,4f0ce398-2687-4a49-98b9-e3c15e9a7615,667815f2-d3ae-4df9-ab1c-74992f36425b,8271f598-7ae9-40b7-8812-939d7bc4955d,ab279c2f-0b2f-457c-9f64-7af64a91ed3f,433c8162-c9b2-49ac-a224-1de80955cd3a",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:30:45Z",
+    "Name": "Clicked EC2->Instances->Spot Requests"
+  },
+  "f6715b90-27aa-4b93-abeb-41fcf53cf663": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "f6715b90-27aa-4b93-abeb-41fcf53cf663",
+    "FirstEventTime": "2023-08-01T00:52:26Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "f6715b90-27aa-4b93-abeb-41fcf53cf663",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:52:26Z",
+    "Name": "Suppressing automated background event"
+  },
+  "dd8bb845-53d4-4d10-b9d4-81fb476161ab": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "dd8bb845-53d4-4d10-b9d4-81fb476161ab",
+    "FirstEventTime": "2023-08-01T01:07:29Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "dd8bb845-53d4-4d10-b9d4-81fb476161ab",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:07:29Z",
+    "Name": "Suppressing automated background event"
+  },
+  "857da431-a83a-4bf7-aacb-182605bcb616": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_SpotRequests",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": {
+        "Key": "state",
+        "Value": "open"
+      }
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests which displays all EC2 Spot Instances in a searchable paged format while filtered by 1 custom attribute (state='open').",
+    "CorrelationId": "857da431-a83a-4bf7-aacb-182605bcb616",
+    "FirstEventTime": "2023-08-01T01:32:19Z",
+    "AllEventArr": "ec2:DescribeSpotFleetRequests,ec2:DescribeSpotInstanceRequests",
+    "AllEventIdArr": "857da431-a83a-4bf7-aacb-182605bcb616,ff6f87fc-cd68-428d-bcb7-9807cd61b23c",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:32:19Z",
+    "Name": "Clicked EC2->Instances->Spot Requests"
+  },
+  "886f30b4-5ac3-4c47-9d6c-7bb598153f2c": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "886f30b4-5ac3-4c47-9d6c-7bb598153f2c",
+    "FirstEventTime": "2023-08-01T00:24:09Z",
+    "AllEventArr": "monitoring:DescribeAlarms",
+    "AllEventIdArr": "886f30b4-5ac3-4c47-9d6c-7bb598153f2c",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:24:09Z",
+    "Name": "Suppressing automated background event"
+  },
+  "565fedac-4161-4e9a-8fb3-ac5b058656d7": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "565fedac-4161-4e9a-8fb3-ac5b058656d7",
+    "FirstEventTime": "2023-08-01T00:37:23Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "565fedac-4161-4e9a-8fb3-ac5b058656d7",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:37:23Z",
+    "Name": "Suppressing automated background event"
+  },
+  "5498325e-bf6a-4506-820f-dded9388cf68": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "5498325e-bf6a-4506-820f-dded9388cf68",
+    "FirstEventTime": "2023-08-01T01:42:34Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "5498325e-bf6a-4506-820f-dded9388cf68",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:42:34Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0ba8fa0e-c2bd-4a87-b943-1efa5a603e01": {
+    "EventCount": 3,
+    "Label": "EC2_ElasticBlockStore_Volumes_SPECIFICVOLUME_Details",
+    "AdditionalData": {
+      "volumeId": "vol-db0c0ffeef249634c",
+      "volumeArn": "arn:aws:ec2:us-east-1:200802171337:volume/vol-db0c0ffeef249634c"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes->'vol-db0c0ffeef249634c'->Details which displays a summary of all details for 'vol-db0c0ffeef249634c' EC2 Volume.",
+    "CorrelationId": "0ba8fa0e-c2bd-4a87-b943-1efa5a603e01",
+    "FirstEventTime": "2023-08-01T00:29:44Z",
+    "AllEventArr": "kms:ListAliases,compute-optimizer:GetEBSVolumeRecommendations,ec2:DescribeVolumeAttribute",
+    "AllEventIdArr": "0ba8fa0e-c2bd-4a87-b943-1efa5a603e01,57b579fa-7266-48a6-9c28-d1e81624ccab,d0c3d825-cb7c-40d9-a5ea-05a010fe1270",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#VolumeDetails:volumeId=:vol-db0c0ffeef249634c",
+    "LastEventTime": "2023-08-01T00:29:44Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes->SPECIFICVOLUME->Details"
+  },
+  "0bd4ae35-837b-4c61-8d9a-cc3eb9b1f7af": {
+    "EventCount": 2,
+    "Label": "EC2_ElasticBlockStore_Volumes_SPECIFICVOLUME_Details",
+    "AdditionalData": {
+      "volumeId": "vol-db0c0ffee7a4ba6c6",
+      "volumeArn": "arn:aws:ec2:us-east-1:200802171337:volume/vol-db0c0ffee7a4ba6c6"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes->'vol-db0c0ffee7a4ba6c6'->Details which displays a summary of all details for 'vol-db0c0ffee7a4ba6c6' EC2 Volume.",
+    "CorrelationId": "0bd4ae35-837b-4c61-8d9a-cc3eb9b1f7af",
+    "FirstEventTime": "2023-08-01T00:25:17Z",
+    "AllEventArr": "kms:ListAliases,compute-optimizer:GetEBSVolumeRecommendations",
+    "AllEventIdArr": "0bd4ae35-837b-4c61-8d9a-cc3eb9b1f7af,4a8715ff-f5a7-4bdb-a1ed-550db4cad892",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#VolumeDetails:volumeId=:vol-db0c0ffee7a4ba6c6",
+    "LastEventTime": "2023-08-01T00:25:17Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes->SPECIFICVOLUME->Details"
+  },
+  "8079b81c-0f9f-4e68-bb00-eaa8de6da014": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": [
+        {
+          "Key": "snapshotId",
+          "Value": "*snap-db0c0ffee51fe0172*"
+        },
+        {
+          "Key": "ownerId",
+          "Value": "blaOwnerEquals"
+        }
+      ]
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with default 'Owned by me' dropdown selected while filtered by 2 custom attributes (snapshot-id='*snap-db0c0ffee51fe0172*', owner-id='blaOwnerEquals').",
+    "CorrelationId": "8079b81c-0f9f-4e68-bb00-eaa8de6da014",
+    "FirstEventTime": "2023-08-01T00:38:19Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "8079b81c-0f9f-4e68-bb00-eaa8de6da014",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=owned-by-me;snapshotId=:snap-db0c0ffee51fe0172;ownerId=blaOwnerEquals;v=3",
+    "LastEventTime": "2023-08-01T00:38:19Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "bbef4f6a-717e-4d1c-93df-8b034a4989b9": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "bbef4f6a-717e-4d1c-93df-8b034a4989b9",
+    "FirstEventTime": "2023-08-01T00:26:09Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "bbef4f6a-717e-4d1c-93df-8b034a4989b9,d6fbd938-25b0-43aa-8b8b-9c09584b5a84",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:26:09Z",
+    "Name": "Suppressing automated background event"
+  },
+  "40720a4e-d435-4b4c-b935-94174796136d": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "40720a4e-d435-4b4c-b935-94174796136d",
+    "FirstEventTime": "2023-08-01T00:47:25Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "40720a4e-d435-4b4c-b935-94174796136d",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:47:25Z",
+    "Name": "Suppressing automated background event"
+  },
+  "245e10cf-6379-4f98-be69-278cfebc7f38": {
+    "EventCount": 2,
+    "Label": "EC2_Instances_SpotRequests",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Instances->Spot Requests which displays all EC2 Spot Instances in a searchable paged format.",
+    "CorrelationId": "245e10cf-6379-4f98-be69-278cfebc7f38",
+    "FirstEventTime": "2023-08-01T01:31:47Z",
+    "AllEventArr": "ec2:DescribeSpotInstanceRequests,ec2:DescribeSpotFleetRequests",
+    "AllEventIdArr": "245e10cf-6379-4f98-be69-278cfebc7f38,a73af632-6ffe-47df-887d-4afb05c81802",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SpotInstances:",
+    "LastEventTime": "2023-08-01T01:31:47Z",
+    "Name": "Clicked EC2->Instances->Spot Requests"
+  },
+  "c1712096-a4bb-4032-9e36-b215ff81f217": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "c1712096-a4bb-4032-9e36-b215ff81f217",
+    "FirstEventTime": "2023-08-01T01:36:22Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "c1712096-a4bb-4032-9e36-b215ff81f217,f9edc68c-00c2-4be4-a92b-7f546e5b5394",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:36:22Z",
+    "Name": "Suppressing automated background event"
+  },
+  "ee407381-493b-459e-84e6-97e5d50b7574": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private snapshots",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": [
+        {
+          "Key": "snapshotId",
+          "Value": "*snap-db0c0ffee51fe0172*"
+        },
+        {
+          "Key": "ownerId",
+          "Value": "blaOwnerEquals"
+        }
+      ]
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with 'Private snapshots' dropdown selected while filtered by 2 custom attributes (snapshot-id='*snap-db0c0ffee51fe0172*', owner-id='blaOwnerEquals').",
+    "CorrelationId": "ee407381-493b-459e-84e6-97e5d50b7574",
+    "FirstEventTime": "2023-08-01T00:39:20Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "ee407381-493b-459e-84e6-97e5d50b7574",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=private;snapshotId=:snap-db0c0ffee51fe0172;ownerId=blaOwnerEquals;v=3",
+    "LastEventTime": "2023-08-01T00:39:20Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "83df5199-ae67-4369-b22d-3dee81684172": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "83df5199-ae67-4369-b22d-3dee81684172",
+    "FirstEventTime": "2023-08-01T00:29:01Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "83df5199-ae67-4369-b22d-3dee81684172",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:29:01Z",
+    "Name": "Suppressing automated background event"
+  },
+  "3b6ca7b9-70da-4022-860a-56886a9a19c7": {
+    "EventCount": 1,
+    "Label": "EC2_ElasticBlockStore_Lifecycle",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Elastic Block Store->Lifecycle Manager which displays a general overview of how to get started using Lifecycle Manager to automate backing up data stored on Amazon EBS (Elastic Block Store) volumes.",
+    "CorrelationId": "3b6ca7b9-70da-4022-860a-56886a9a19c7",
+    "FirstEventTime": "2023-08-01T00:32:43Z",
+    "AllEventArr": "dlm:GetLifecyclePolicies",
+    "AllEventIdArr": "3b6ca7b9-70da-4022-860a-56886a9a19c7",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Lifecycle:",
+    "LastEventTime": "2023-08-01T00:32:43Z",
+    "Name": "Clicked EC2->Elastic Block Store->Lifecycle Manager"
+  },
+  "73ad792b-5f02-41bf-9fbe-2d304fe5464b": {
+    "EventCount": 2,
+    "Label": "Billing_Home",
+    "AdditionalData": null,
+    "Summary": "Clicked Billing->Home which displays an overview of AWS costs and key metrics for account.",
+    "CorrelationId": "73ad792b-5f02-41bf-9fbe-2d304fe5464b",
+    "FirstEventTime": "2023-08-01T01:04:51Z",
+    "AllEventArr": "billingconsole:GetBillingNotifications,ec2:DescribeRegions",
+    "AllEventIdArr": "73ad792b-5f02-41bf-9fbe-2d304fe5464b,0af2011b-9853-4094-8f9d-87a238ba9e8d",
+    "Url": "https://us-east-1.console.aws.amazon.com/billing/home?region=us-east-1#/",
+    "LastEventTime": "2023-08-01T01:04:52Z",
+    "Name": "Clicked Billing->Home"
+  },
+  "03e45d99-7127-4e0b-9ebe-9010dbc9da6d": {
+    "EventCount": 4,
+    "Label": "EC2_ElasticBlockStore_Volumes",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": [
+        {
+          "Key": "volumeId",
+          "Value": "*vol-db0c0ffee7a4ba6c6*"
+        },
+        {
+          "Key": "volumeType",
+          "Value": "gp3"
+        }
+      ],
+      "volumeIdArr": "vol-db0c0ffee7a4ba6c6",
+      "instanceIdArr": "i-db0c0ffee98361ad0"
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes which displays all EC2 Volumes in a searchable paged format while filtered by 2 custom attributes (volume-id='*vol-db0c0ffee7a4ba6c6*', volume-type='gp3'), with current page displaying the current AWS Account's first 1 EC2 Volume ('vol-db0c0ffee7a4ba6c6') for 1 EC2 Instance ('i-db0c0ffee98361ad0').",
+    "CorrelationId": "03e45d99-7127-4e0b-9ebe-9010dbc9da6d",
+    "FirstEventTime": "2023-08-01T00:24:09Z",
+    "AllEventArr": "ec2:DescribeVolumesModifications,ec2:DescribeVolumes,ec2:DescribeVolumeStatus,ec2:DescribeTags",
+    "AllEventIdArr": "03e45d99-7127-4e0b-9ebe-9010dbc9da6d,2a5e4b24-1824-4562-8ded-c4e0173f52fc,3da405ab-5010-4b11-a258-8d18c0fc32f5,69274198-cdb9-40a6-9828-373f511283e7",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Volumes:volumeId=:vol-db0c0ffee7a4ba6c6;volumeType=gp3;v=3",
+    "LastEventTime": "2023-08-01T00:24:09Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes"
+  },
+  "f91b483d-343e-4a95-8280-c85c98fe50bb": {
+    "EventCount": 1,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "f91b483d-343e-4a95-8280-c85c98fe50bb",
+    "FirstEventTime": "2023-08-01T00:20:39Z",
+    "AllEventArr": "signin:ConsoleLogin",
+    "AllEventIdArr": "f91b483d-343e-4a95-8280-c85c98fe50bb",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:20:39Z",
+    "Name": "Console Login"
+  },
+  "3d07d9a3-c55b-4b19-a633-3c3bec5ba0f1": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "3d07d9a3-c55b-4b19-a633-3c3bec5ba0f1",
+    "FirstEventTime": "2023-08-01T00:21:09Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "3d07d9a3-c55b-4b19-a633-3c3bec5ba0f1,bb816c69-a190-489a-8638-36577321bc44,d8f2f66b-1675-46a9-a5a2-310b673189a1",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:21:09Z",
+    "Name": "Suppressing automated background event"
+  },
+  "1cbf1526-ec77-459e-a779-2ffc07552086": {
+    "EventCount": 12,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "1cbf1526-ec77-459e-a779-2ffc07552086",
+    "FirstEventTime": "2023-08-01T00:20:41Z",
+    "AllEventArr": "securityhub:ListFindingAggregators,servicecatalog-appregistry:ListApplications,securityhub:ListMembers,securityhub:GetAdministratorAccount,securityhub:DescribeHub,ec2:DescribeRegions,ce:GetCostAndUsage,ram:ListResources,securityhub:GetFindingAggregator,securityhub:GetControlFindingSummary,securityhub:GetInsightResults",
+    "AllEventIdArr": "1cbf1526-ec77-459e-a779-2ffc07552086,387fc575-5337-41a8-8c38-818d7a025f12,3e7eff19-91b3-4bfc-affe-cc2b05dd2c97,565abf02-2902-4ae3-86bc-084205118b9a,6b59aade-2189-4730-8121-13560563cf48,d76b8f4a-7e2e-46de-b7ef-e913489fe32a,e4825036-e848-4d2d-9567-c777c74b2b35,43f7060d-3d11-4ee3-8410-87ce681ab556,75b0d80e-9b0d-4f99-98aa-f538a385d25e,8dc7205a-cebd-41c2-abe5-0d11fde7b214,977ba77b-c4f9-4515-9890-b70fa1c6ecec,cc2e2612-55ed-4b08-a1cf-f571c18c18c0",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-08-01T00:20:42Z",
+    "Name": "Console Home"
+  },
+  "25e2b4eb-f587-4f31-89ea-5d8797a5bd39": {
+    "EventCount": 2,
+    "Label": "EC2_ElasticBlockStore_Snapshots",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public snapshots",
+        "Uri": "public"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Snapshots which displays all EC2 Snapshots in a searchable paged format with 'Public snapshots' dropdown selected.",
+    "CorrelationId": "25e2b4eb-f587-4f31-89ea-5d8797a5bd39",
+    "FirstEventTime": "2023-08-01T00:34:36Z",
+    "AllEventArr": "ec2:DescribeSnapshots",
+    "AllEventIdArr": "25e2b4eb-f587-4f31-89ea-5d8797a5bd39,42c9665a-8550-47c9-8403-07c6060c111a",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Snapshots:visibility=public",
+    "LastEventTime": "2023-08-01T00:34:37Z",
+    "Name": "Clicked EC2->Elastic Block Store->Snapshots"
+  },
+  "44e3e039-84e5-4dc2-96a4-4920382b7cff": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "44e3e039-84e5-4dc2-96a4-4920382b7cff",
+    "FirstEventTime": "2023-08-01T00:27:20Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "44e3e039-84e5-4dc2-96a4-4920382b7cff,04a1abdc-9be4-40e5-b8a6-a7cc3b3a7e00",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:27:21Z",
+    "Name": "Suppressing automated background event"
+  },
+  "2724b4a1-369f-4631-a474-54b8a2af6133": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2724b4a1-369f-4631-a474-54b8a2af6133",
+    "FirstEventTime": "2023-08-01T01:31:21Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2724b4a1-369f-4631-a474-54b8a2af6133,39be1b39-687c-4455-bacb-43dc1c95b49f",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:31:21Z",
+    "Name": "Suppressing automated background event"
+  },
+  "edc221d2-1c0b-4913-9f41-2c7b3157c9bc": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "edc221d2-1c0b-4913-9f41-2c7b3157c9bc",
+    "FirstEventTime": "2023-08-01T01:27:33Z",
+    "AllEventArr": "logs:DescribeMetricFilters",
+    "AllEventIdArr": "edc221d2-1c0b-4913-9f41-2c7b3157c9bc",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T01:27:33Z",
+    "Name": "Suppressing automated background event"
+  },
+  "1653daa7-e7c4-4742-b9b7-311d406ab9a3": {
+    "EventCount": 4,
+    "Label": "EC2_ElasticBlockStore_Volumes",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null,
+      "volumeIdArr": [
+        "vol-db0c0ffee12989910",
+        "vol-db0c0ffee5153b985",
+        "vol-db0c0ffee7a4ba6c6",
+        "vol-db0c0ffee8aafe18e",
+        "vol-db0c0ffeef249634c"
+      ],
+      "instanceIdArr": [
+        "i-db0c0ffee445fa741",
+        "i-db0c0ffee6e5e585f",
+        "i-db0c0ffee8c20e5fc",
+        "i-db0c0ffee98361ad0",
+        "i-db0c0ffeeffd53ad4"
+      ]
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes which displays all EC2 Volumes in a searchable paged format, with current page displaying the current AWS Account's first 5 EC2 Volumes ('vol-db0c0ffee12989910','vol-db0c0ffee5153b985','vol-db0c0ffee7a4ba6c6','vol-db0c0ffee8aafe18e','vol-db0c0ffeef249634c') for 5 EC2 Instances ('i-db0c0ffee445fa741','i-db0c0ffee6e5e585f','i-db0c0ffee8c20e5fc','i-db0c0ffee98361ad0','i-db0c0ffeeffd53ad4').",
+    "CorrelationId": "1653daa7-e7c4-4742-b9b7-311d406ab9a3",
+    "FirstEventTime": "2023-08-01T00:27:54Z",
+    "AllEventArr": "ec2:DescribeVolumes,ec2:DescribeVolumeStatus,ec2:DescribeTags,ec2:DescribeVolumesModifications",
+    "AllEventIdArr": "1653daa7-e7c4-4742-b9b7-311d406ab9a3,94d01c7a-f2bd-4c8c-99e0-d07df7b78377,9e7cf896-fc75-4a3b-bffa-f05cb869a592,bc2113a0-f560-41e5-93ea-d498be8cb855",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Volumes:",
+    "LastEventTime": "2023-08-01T00:27:54Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes"
+  },
+  "2b6af49d-6afb-4faf-9703-965e5ce655c7": {
+    "EventCount": 7,
+    "Label": "EC2_ElasticBlockStore_Volumes",
+    "AdditionalData": {
+      "attributeKeyAndValueObjArr": null,
+      "volumeIdArr": [
+        "vol-db0c0ffee12989910",
+        "vol-db0c0ffee5153b985",
+        "vol-db0c0ffee7a4ba6c6",
+        "vol-db0c0ffee8aafe18e",
+        "vol-db0c0ffeef249634c"
+      ],
+      "instanceIdArr": [
+        "i-db0c0ffee445fa741",
+        "i-db0c0ffee6e5e585f",
+        "i-db0c0ffee8c20e5fc",
+        "i-db0c0ffee98361ad0",
+        "i-db0c0ffeeffd53ad4"
+      ]
+    },
+    "Summary": "Clicked EC2->Elastic Block Store->Volumes which displays all EC2 Volumes in a searchable paged format, with current page displaying the current AWS Account's first 5 EC2 Volumes ('vol-db0c0ffee12989910','vol-db0c0ffee5153b985','vol-db0c0ffee7a4ba6c6','vol-db0c0ffee8aafe18e','vol-db0c0ffeef249634c') for 5 EC2 Instances ('i-db0c0ffee445fa741','i-db0c0ffee6e5e585f','i-db0c0ffee8c20e5fc','i-db0c0ffee98361ad0','i-db0c0ffeeffd53ad4').",
+    "CorrelationId": "2b6af49d-6afb-4faf-9703-965e5ce655c7",
+    "FirstEventTime": "2023-08-01T00:21:26Z",
+    "AllEventArr": "ec2:DescribeVolumeStatus,kms:ListAliases,ec2:DescribeVolumesModifications,ec2:DescribeVolumes,ec2:DescribeTags,ec2:DescribeAvailabilityZones",
+    "AllEventIdArr": "2b6af49d-6afb-4faf-9703-965e5ce655c7,4bd7153e-a4f7-4d40-9a62-62a9df5ce559,60d31907-655c-45be-9436-9f953b158e3d,6615b530-10e5-434a-ae03-1223a8165b56,b610d968-4171-41e3-b45c-f13af94de512,f6a2ed95-b497-4f5a-9e4f-b933547d08e7,fd585db5-88bd-43c0-aea6-c378801236ef",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Volumes:",
+    "LastEventTime": "2023-08-01T00:21:26Z",
+    "Name": "Clicked EC2->Elastic Block Store->Volumes"
+  },
+  "3655ceb9-9e2a-4eac-a6eb-4a1fcc7828f8": {
+    "EventCount": 9,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "3655ceb9-9e2a-4eac-a6eb-4a1fcc7828f8",
+    "FirstEventTime": "2023-08-01T00:20:41Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "3655ceb9-9e2a-4eac-a6eb-4a1fcc7828f8,3dfbfbcf-9abd-4630-a9fd-24ed41f7c9c5,56bf0bac-cd3e-4446-983e-98230d9a94d6,56d76ed2-5eaf-4eb0-9fca-0810c90ccd59,8a827cab-1683-43ca-a878-1115c3fad5a0,92b97b09-9831-4a27-822a-3e04b8e822a9,bd7fed05-66da-4e01-80a5-0292f25b7e82,bed5aba2-d91d-4a99-811e-a4ec47d72c3a,e10f97d9-6185-4c39-bf76-39c6dc6bbb89",
+    "Url": "N/A",
+    "LastEventTime": "2023-08-01T00:20:41Z",
+    "Name": "Suppressing automated background event"
+  }
+}

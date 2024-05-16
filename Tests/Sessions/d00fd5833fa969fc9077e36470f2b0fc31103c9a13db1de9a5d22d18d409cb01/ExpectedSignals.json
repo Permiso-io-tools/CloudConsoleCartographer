@@ -1,0 +1,855 @@
+{
+  "29fa4c29-3e2a-4a8c-95a3-d8039a39be47": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public images",
+        "Uri": "public-images"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Public images' dropdown selected.",
+    "CorrelationId": "29fa4c29-3e2a-4a8c-95a3-d8039a39be47",
+    "FirstEventTime": "2023-07-31T01:02:14Z",
+    "AllEventArr": "ec2:DescribeTags",
+    "AllEventIdArr": "29fa4c29-3e2a-4a8c-95a3-d8039a39be47,cfd1d530-ad77-4eb8-b1e8-2736f8ccb0d0",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=public-images",
+    "LastEventTime": "2023-07-31T01:02:14Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "322571ae-b899-434c-b290-e871100cb645": {
+    "EventCount": 4,
+    "Label": "EC2_Images_AMICatalog",
+    "AdditionalData": {
+      "checkboxFilterArr": null,
+      "searchText": null
+    },
+    "Summary": "Clicked EC2->Images->AMI Catalog which displays all EC2 AMIs (Amazon Machine Images) in the AWS AMI catalog in a searchable paged format with no checkbox filters applied and with no search text applied.",
+    "CorrelationId": "322571ae-b899-434c-b290-e871100cb645",
+    "FirstEventTime": "2023-07-31T04:19:26Z",
+    "AllEventArr": "ec2:DescribeImages,discovery-marketplace:GetSearchFacets,discovery-marketplace:SearchListings",
+    "AllEventIdArr": "322571ae-b899-434c-b290-e871100cb645,e2846b93-ee53-49b8-a58a-0d485af5cb9f,4c08cacd-1cdf-4acb-9fd6-79150a42aa6e,8c4d6e57-ba24-4579-a17c-7f67383b58d6",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#AMICatalog:",
+    "LastEventTime": "2023-07-31T04:19:27Z",
+    "Name": "Clicked EC2->Images->AMI Catalog"
+  },
+  "43d24e84-0c7c-4b76-8d40-3725ed40f049": {
+    "EventCount": 16,
+    "Label": "EC2_EC2Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard which displays all EC2 compute resources (e.g. instances, volumes, snapshots, load balancers, etc.).",
+    "CorrelationId": "43d24e84-0c7c-4b76-8d40-3725ed40f049",
+    "FirstEventTime": "2023-07-31T00:58:39Z",
+    "AllEventArr": "autoscaling:DescribeAutoScalingGroups,ec2:DescribeLaunchTemplates,elasticloadbalancing:DescribeLoadBalancers,ec2:DescribeKeyPairs,ec2:DescribeAvailabilityZones,ec2:DescribeHosts,ec2:DescribeSecurityGroups,ec2:DescribeInstanceStatus,ec2:DescribeAddresses,ec2:DescribePlacementGroups,ec2:DescribeInstances,ec2:DescribeAccountAttributes,ec2:DescribeVolumes,ec2:DescribeSnapshots,ec2:DescribeVolumeStatus",
+    "AllEventIdArr": "43d24e84-0c7c-4b76-8d40-3725ed40f049,48ea80bb-cd7b-4e3e-83b8-8bb7e852d6ae,58595cdf-c3b0-4b55-8418-ad6b9ab6eff2,62c8c1fb-403b-47c1-be14-fe30fe437793,659d8058-c73e-4e03-955b-ed61c3625eb3,6efbcf66-fbae-4a5b-b330-de861592e6d1,747cc057-a736-4108-ae0c-34442b752734,891cf123-19be-4970-9e0d-04d035378055,8dc302c9-481d-4373-a7c4-58e33fb65a8f,90262a2c-1668-4ada-ab34-d7aec9ca4d07,91777e52-7c7c-4a9d-b588-938c1bae8f69,ae34cc91-ada1-4095-8325-d64e9a79c5c4,b2723070-9b3a-4c27-a900-780cb00cb5a1,b521fc0b-89f6-47be-ab28-30da517293f1,dab1e53c-5d66-4a9e-b24d-42a04ec0bb4f,dfefc0dc-63c5-4453-96fb-4390a319172d",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-07-31T00:58:39Z",
+    "Name": "Clicked EC2->EC2 Dashboard"
+  },
+  "13d53068-dde0-4b06-a1b0-d7822967452c": {
+    "EventCount": 4,
+    "Label": "EC2_Images_AMICatalog",
+    "AdditionalData": {
+      "checkboxFilterArr": null,
+      "searchText": null
+    },
+    "Summary": "Clicked EC2->Images->AMI Catalog which displays all EC2 AMIs (Amazon Machine Images) in the AWS AMI catalog in a searchable paged format with no checkbox filters applied and with no search text applied.",
+    "CorrelationId": "13d53068-dde0-4b06-a1b0-d7822967452c",
+    "FirstEventTime": "2023-07-31T04:09:09Z",
+    "AllEventArr": "ec2:DescribeImages,discovery-marketplace:GetSearchFacets,discovery-marketplace:SearchListings",
+    "AllEventIdArr": "13d53068-dde0-4b06-a1b0-d7822967452c,40433b67-0148-4d17-9bd1-30d3b530f73c,421ca7d9-9f91-4568-bf17-d72038727bb1,eceb6f82-3d0e-4976-b1eb-e4a07290abbb",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#AMICatalog:",
+    "LastEventTime": "2023-07-31T04:09:10Z",
+    "Name": "Clicked EC2->Images->AMI Catalog"
+  },
+  "d0b3aeab-4d07-4f35-b14d-e9a45d237cf7": {
+    "EventCount": 5,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "d0b3aeab-4d07-4f35-b14d-e9a45d237cf7",
+    "FirstEventTime": "2023-07-31T02:34:52Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "d0b3aeab-4d07-4f35-b14d-e9a45d237cf7,6738a848-0e85-4c70-9dc6-6e4dbfb1cbda,19ff04c4-61e8-4846-845f-59ed263052e5,0cf9aacb-e431-410a-b048-0ee27c1fa245,71af6b3c-952c-4987-90ff-1b6adbd0c5d2",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T02:35:05Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "1606636d-5cc3-4950-add6-8ea309b1d0fd": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "1606636d-5cc3-4950-add6-8ea309b1d0fd",
+    "FirstEventTime": "2023-07-31T01:18:42Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "1606636d-5cc3-4950-add6-8ea309b1d0fd,f39a2ab9-c8cb-4bc9-bfd0-cb92e48df918",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T01:18:42Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7a3202de-4530-4fc8-9ac5-fa6d6d8c25ba": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "7a3202de-4530-4fc8-9ac5-fa6d6d8c25ba",
+    "FirstEventTime": "2023-07-31T03:07:01Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "7a3202de-4530-4fc8-9ac5-fa6d6d8c25ba,e053ac10-057e-46c5-8112-09d023e83fcb",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:07:01Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "09a4c90e-077f-4c4f-8adf-5ebc48af2b9c": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMICatalog_SearchBySystemsManagerParameter",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter dropdown which enables searching for an EC2 AMI (Amazon Machine Image) in the AWS AMI catalog by selecting a Systems Manager parameter that resolves to desired AMI ID.",
+    "CorrelationId": "09a4c90e-077f-4c4f-8adf-5ebc48af2b9c",
+    "FirstEventTime": "2023-07-31T04:26:59Z",
+    "AllEventArr": "ssm:DescribeParameters",
+    "AllEventIdArr": "09a4c90e-077f-4c4f-8adf-5ebc48af2b9c,a8fef643-c61c-48e3-9779-fa6c0f7f11ed",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#AMICatalog:",
+    "LastEventTime": "2023-07-31T04:27:00Z",
+    "Name": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter"
+  },
+  "44e3a50b-25ce-4657-b499-945058614290": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "44e3a50b-25ce-4657-b499-945058614290",
+    "FirstEventTime": "2023-07-31T02:36:49Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "44e3a50b-25ce-4657-b499-945058614290",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T02:36:49Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "2229dae7-433f-4638-b41f-b9bdde03612d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2229dae7-433f-4638-b41f-b9bdde03612d",
+    "FirstEventTime": "2023-07-31T01:03:39Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2229dae7-433f-4638-b41f-b9bdde03612d,90d6c146-e8c9-41bc-ae76-e14a636d5347",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T01:03:39Z",
+    "Name": "Suppressing automated background event"
+  },
+  "c2762b17-b96a-44d3-83cb-89c910c2932f": {
+    "EventCount": 7,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "c2762b17-b96a-44d3-83cb-89c910c2932f",
+    "FirstEventTime": "2023-07-31T02:36:33Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "c2762b17-b96a-44d3-83cb-89c910c2932f,5ea22b49-c4c4-4c39-9671-44f9a7d09976,70455cec-f480-4ae3-8f7a-00c65fc8798e,36613941-2c77-4654-b2c3-a6dd0e0cf46f,f9498bfe-32c0-496d-b482-2290a29d8b5a,d5125463-66ac-4de1-b24d-5eaf38385ef1,c409aacf-1b2c-4538-8bbf-72b2f98cca1e",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T02:36:48Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "07b5eb21-d7ed-459d-808c-efbda8b2e656": {
+    "EventCount": 5,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public images",
+        "Uri": "public-images"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Public images' dropdown selected.",
+    "CorrelationId": "07b5eb21-d7ed-459d-808c-efbda8b2e656",
+    "FirstEventTime": "2023-07-31T02:39:07Z",
+    "AllEventArr": "ec2:DescribeTags,ec2:DescribeImages",
+    "AllEventIdArr": "07b5eb21-d7ed-459d-808c-efbda8b2e656,088acc28-f4c0-4644-b994-2da0d80c3252,293f6036-c112-4c8b-bc19-c9713d144a97,cf12545b-f796-4349-8c20-c86da4aaa18e,edd9b422-b223-4650-b8fe-d66855f0f55f",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=public-images",
+    "LastEventTime": "2023-07-31T02:39:07Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "e393cf36-29ce-4802-94d9-c5c848543ecb": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "e393cf36-29ce-4802-94d9-c5c848543ecb",
+    "FirstEventTime": "2023-07-31T03:08:25Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "e393cf36-29ce-4802-94d9-c5c848543ecb",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:08:25Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "51030d96-92ee-4ed7-822f-c4395bb23f18": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "51030d96-92ee-4ed7-822f-c4395bb23f18",
+    "FirstEventTime": "2023-07-31T01:13:41Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "51030d96-92ee-4ed7-822f-c4395bb23f18,a49bcbfb-e78c-4327-8e6c-8a1bd8e731df",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T01:13:41Z",
+    "Name": "Suppressing automated background event"
+  },
+  "d457cf9b-dcd1-4e4b-8b72-853031d02c48": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "d457cf9b-dcd1-4e4b-8b72-853031d02c48",
+    "FirstEventTime": "2023-07-31T02:33:55Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "d457cf9b-dcd1-4e4b-8b72-853031d02c48",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T02:33:55Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "19952bfe-493b-4980-86c7-e993c1105eaa": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMICatalog_SearchBySystemsManagerParameter",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter dropdown which enables searching for an EC2 AMI (Amazon Machine Image) in the AWS AMI catalog by selecting a Systems Manager parameter that resolves to desired AMI ID.",
+    "CorrelationId": "19952bfe-493b-4980-86c7-e993c1105eaa",
+    "FirstEventTime": "2023-07-31T04:26:53Z",
+    "AllEventArr": "ssm:DescribeParameters",
+    "AllEventIdArr": "19952bfe-493b-4980-86c7-e993c1105eaa",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#AMICatalog:",
+    "LastEventTime": "2023-07-31T04:26:53Z",
+    "Name": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter"
+  },
+  "024502c8-f26a-4651-aaa5-2c0f64ae4f95": {
+    "EventCount": 9,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "024502c8-f26a-4651-aaa5-2c0f64ae4f95",
+    "FirstEventTime": "2023-07-31T00:58:35Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "024502c8-f26a-4651-aaa5-2c0f64ae4f95,1e3e267d-adaf-44dc-9fdd-c25bcdbf5047,47506fdb-69ba-4634-b8e3-f12b2e890d61,682a4a73-de9e-4653-94a9-98b8b30886ee,8ce13012-3a89-478e-8879-9bd5478377ac,951ec345-2e3c-430d-ab83-3fc609526f5f,96660feb-494f-4407-a929-3c5ac0b423e3,a617f4f3-156a-4e6a-a5d9-1da182257052,d9c6cbb1-13e5-4732-8ac1-3650c1e1f5ef",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T00:58:35Z",
+    "Name": "Suppressing automated background event"
+  },
+  "6623c779-b5d0-49f8-8e9a-0047adc86f81": {
+    "EventCount": 4,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": {
+        "Key": "productCode",
+        "Value": null
+      }
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected while filtered by 1 custom attribute (product-code=UNDEFINED).",
+    "CorrelationId": "6623c779-b5d0-49f8-8e9a-0047adc86f81",
+    "FirstEventTime": "2023-07-31T01:07:02Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "6623c779-b5d0-49f8-8e9a-0047adc86f81,b7962bd8-5893-4501-9bfd-d26dfa20f1d0,714c5060-6092-4ffc-b463-58f91e9d9677,37b8cbff-72a4-4679-a712-189abe883b3b",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me;productCode=;v=3",
+    "LastEventTime": "2023-07-31T01:07:15Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "b45a85ad-3ecc-48b3-9ebf-c5460c9f7675": {
+    "EventCount": 4,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "b45a85ad-3ecc-48b3-9ebf-c5460c9f7675",
+    "FirstEventTime": "2023-07-31T03:08:44Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "b45a85ad-3ecc-48b3-9ebf-c5460c9f7675,6e97a92f-611a-4629-bce7-e84ef2206f6e,f77615d0-7281-4674-b2c7-93dadd3d1aa2,2c993ce4-9968-4ec1-96ea-c7ea84b6e5cd",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:08:47Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "10e8646b-3ce6-4368-a06e-000142c77945": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "10e8646b-3ce6-4368-a06e-000142c77945",
+    "FirstEventTime": "2023-07-31T02:35:31Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "10e8646b-3ce6-4368-a06e-000142c77945",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T02:35:31Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "90b4bdfc-82ae-4022-a0a3-2bf03873aa79": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private images",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": {
+        "Key": "productCode",
+        "Value": null
+      }
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Private images' dropdown selected while filtered by 1 custom attribute (product-code=UNDEFINED).",
+    "CorrelationId": "90b4bdfc-82ae-4022-a0a3-2bf03873aa79",
+    "FirstEventTime": "2023-07-31T01:09:16Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "90b4bdfc-82ae-4022-a0a3-2bf03873aa79",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=private;productCode=;v=3",
+    "LastEventTime": "2023-07-31T01:09:16Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "e4ed6e58-5dbf-4131-8942-a68f337393aa": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private images",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Private images' dropdown selected.",
+    "CorrelationId": "e4ed6e58-5dbf-4131-8942-a68f337393aa",
+    "FirstEventTime": "2023-07-31T02:23:53Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "e4ed6e58-5dbf-4131-8942-a68f337393aa",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=private",
+    "LastEventTime": "2023-07-31T02:23:53Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "8a7add89-646d-4449-bd87-7145a1329f15": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private images",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Private images' dropdown selected.",
+    "CorrelationId": "8a7add89-646d-4449-bd87-7145a1329f15",
+    "FirstEventTime": "2023-07-31T02:23:30Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "8a7add89-646d-4449-bd87-7145a1329f15",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=private",
+    "LastEventTime": "2023-07-31T02:23:30Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "4735ced7-598c-4e3f-93b1-98e8425ec8e4": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "4735ced7-598c-4e3f-93b1-98e8425ec8e4",
+    "FirstEventTime": "2023-07-31T02:37:33Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "4735ced7-598c-4e3f-93b1-98e8425ec8e4",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T02:37:33Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "cf001ecf-76a3-4255-a691-a5e9e09b5d6f": {
+    "EventCount": 3,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "cf001ecf-76a3-4255-a691-a5e9e09b5d6f",
+    "FirstEventTime": "2023-07-31T01:06:42Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "cf001ecf-76a3-4255-a691-a5e9e09b5d6f,24d57a73-4ae8-4f84-a316-3851edcb9337,6512c680-722d-42a7-b277-0ea6fc571194",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T01:06:51Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "bfe9b454-05f2-44e4-ac76-6954554bed81": {
+    "EventCount": 7,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "bfe9b454-05f2-44e4-ac76-6954554bed81",
+    "FirstEventTime": "2023-07-31T03:07:47Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "bfe9b454-05f2-44e4-ac76-6954554bed81,0ce249a4-3239-4988-9bd1-f7b24192b6e0,8a495c93-748c-43d3-8073-def9303b4e9b,84b73fb0-d08d-43d4-8aa9-71d607ce6a3e,9a601b22-6b78-46e4-98f9-553331827d42,9a601b22-6b78-46e4-98f9-553331827d42,fc7197fd-eb20-4511-8e96-052387bd9fc6",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:07:57Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "615f9c91-9d54-4917-8e1b-6863f4871ca9": {
+    "EventCount": 1,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "615f9c91-9d54-4917-8e1b-6863f4871ca9",
+    "FirstEventTime": "2023-07-31T00:58:32Z",
+    "AllEventArr": "signin:ConsoleLogin",
+    "AllEventIdArr": "615f9c91-9d54-4917-8e1b-6863f4871ca9",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T00:58:32Z",
+    "Name": "Console Login"
+  },
+  "2a8dd266-059b-4590-9dad-db14547fdcc1": {
+    "EventCount": 5,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "2a8dd266-059b-4590-9dad-db14547fdcc1",
+    "FirstEventTime": "2023-07-31T01:05:29Z",
+    "AllEventArr": "ec2:DescribeImages,ec2:DescribeTags",
+    "AllEventIdArr": "2a8dd266-059b-4590-9dad-db14547fdcc1,6cef544f-e6ba-4e01-9b05-22abe1ff69ad,c88d350e-3ad6-4401-aba4-28238e0bbb18,e6da0b5e-589c-4e2f-8a2f-06fb992d68d9,f87670c6-4792-4c3d-a620-3a079da35713",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T01:05:29Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "7f8e3786-92ae-4d0a-bc07-5d0be0e02d7e": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "7f8e3786-92ae-4d0a-bc07-5d0be0e02d7e",
+    "FirstEventTime": "2023-07-31T03:09:02Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "7f8e3786-92ae-4d0a-bc07-5d0be0e02d7e,e8cf1b12-3326-4763-8181-e27676bdebf1",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:09:03Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "8a68290f-b5b0-4a89-96f1-af33f4e4f91c": {
+    "EventCount": 5,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "8a68290f-b5b0-4a89-96f1-af33f4e4f91c",
+    "FirstEventTime": "2023-07-31T03:06:45Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "8a68290f-b5b0-4a89-96f1-af33f4e4f91c,b3070ac1-ef0a-4025-974a-62694094e0ad,224e7cc7-075d-4a22-a8c5-2dd1a3be9d62,d859526a-792c-4117-929d-1078dffb9194,7bf9696e-7f81-4e39-8647-fce2e507ee9e",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:07:00Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "3f6980b6-7086-44e2-aa63-4ffa751beaf3": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "3f6980b6-7086-44e2-aa63-4ffa751beaf3",
+    "FirstEventTime": "2023-07-31T03:07:22Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "3f6980b6-7086-44e2-aa63-4ffa751beaf3",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:07:22Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "034b7fb2-7af7-4b65-8ae2-ac12042f84d0": {
+    "EventCount": 13,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "034b7fb2-7af7-4b65-8ae2-ac12042f84d0",
+    "FirstEventTime": "2023-07-31T00:58:35Z",
+    "AllEventArr": "ce:GetCostAndUsage,securityhub:ListMembers,securityhub:DescribeHub,securityhub:ListFindingAggregators,securityhub:GetAdministratorAccount,ec2:DescribeRegions,servicecatalog-appregistry:ListApplications,securityhub:GetControlFindingSummary,securityhub:GetFindingAggregator,securityhub:GetInsightResults,ram:ListResources,ce:GetCostForecast",
+    "AllEventIdArr": "034b7fb2-7af7-4b65-8ae2-ac12042f84d0,1faa5374-be15-486c-883d-ecad8b01df2d,481ae54f-b214-47a4-8924-d31fd52a455b,9be082c3-3e68-489c-a51b-ae737c0378ea,9ea8ec22-65ec-413f-b411-c51004de4c44,a168f06d-0a14-4356-a6ba-a0106428b535,ab147bfc-373a-4daf-b8ab-4a97173b9af8,01671282-38a7-4e1f-8bab-dfedecd12982,3699e7ee-a0bb-4449-bf5b-7c8fb05fc7f2,998bdfdb-d6b1-44a4-8f29-bb9b64332a5e,a9489d4e-f63b-44ad-8649-d332bd136a83,e4b3ac13-8d72-46f5-abbc-22a889ee991e,c358b352-51d4-4a84-9513-9daffdfffaa2",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-07-31T00:58:37Z",
+    "Name": "Console Home"
+  },
+  "1bc81ae9-0a5f-43a6-8d0b-891b87dbefee": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private images",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Private images' dropdown selected.",
+    "CorrelationId": "1bc81ae9-0a5f-43a6-8d0b-891b87dbefee",
+    "FirstEventTime": "2023-07-31T02:23:10Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "1bc81ae9-0a5f-43a6-8d0b-891b87dbefee",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=private",
+    "LastEventTime": "2023-07-31T02:23:10Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "47fc8738-0920-497b-9d98-78059831ef75": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public images",
+        "Uri": "public-images"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Public images' dropdown selected.",
+    "CorrelationId": "47fc8738-0920-497b-9d98-78059831ef75",
+    "FirstEventTime": "2023-07-31T01:03:46Z",
+    "AllEventArr": "ec2:DescribeTags",
+    "AllEventIdArr": "47fc8738-0920-497b-9d98-78059831ef75,b2be9cbf-6776-465a-ad44-9df508e6aa3f",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=public-images",
+    "LastEventTime": "2023-07-31T01:03:46Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "5f1b4b93-3275-4e79-bee9-3fd668f99c9c": {
+    "EventCount": 3,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": {
+        "Key": "productCode",
+        "Value": null
+      }
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected while filtered by 1 custom attribute (product-code=UNDEFINED).",
+    "CorrelationId": "5f1b4b93-3275-4e79-bee9-3fd668f99c9c",
+    "FirstEventTime": "2023-07-31T01:05:57Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "5f1b4b93-3275-4e79-bee9-3fd668f99c9c,151f3279-5f9a-4745-b85e-1d1f0f1d77de,9140ddab-5054-4c9d-b9cf-91d2804d9fa3",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me;productCode=;v=3",
+    "LastEventTime": "2023-07-31T01:05:59Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "ac86423b-f0fb-4e94-9784-ab5bab3c7982": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "ac86423b-f0fb-4e94-9784-ab5bab3c7982",
+    "FirstEventTime": "2023-07-31T00:58:39Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "ac86423b-f0fb-4e94-9784-ab5bab3c7982,ae994b1f-c3fb-4522-a73c-a9f937312c90,f0302a75-5a0e-4515-970c-16ca4436fe7b",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T00:58:39Z",
+    "Name": "Suppressing automated background event"
+  },
+  "bf4b9f04-0578-4091-99b5-0dd8137571fe": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Private images",
+        "Uri": "private"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Private images' dropdown selected.",
+    "CorrelationId": "bf4b9f04-0578-4091-99b5-0dd8137571fe",
+    "FirstEventTime": "2023-07-31T02:22:19Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "bf4b9f04-0578-4091-99b5-0dd8137571fe",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=private",
+    "LastEventTime": "2023-07-31T02:22:19Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "6aedece3-3a6d-4df7-a882-873e06b2b8a8": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public images",
+        "Uri": "public-images"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Public images' dropdown selected.",
+    "CorrelationId": "6aedece3-3a6d-4df7-a882-873e06b2b8a8",
+    "FirstEventTime": "2023-07-31T01:01:32Z",
+    "AllEventArr": "ec2:DescribeTags",
+    "AllEventIdArr": "6aedece3-3a6d-4df7-a882-873e06b2b8a8,e9439d98-550f-4c50-90d2-ebce99e9b004",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=public-images",
+    "LastEventTime": "2023-07-31T01:01:32Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "aa6159dd-437d-45e5-a707-884ce5efdd6f": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "aa6159dd-437d-45e5-a707-884ce5efdd6f",
+    "FirstEventTime": "2023-07-31T03:06:21Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "aa6159dd-437d-45e5-a707-884ce5efdd6f,5f6dde3c-89ce-4c2b-830e-61b993686512",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:06:23Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "341d4634-eefd-41c8-b4a9-b13c5d754d90": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "341d4634-eefd-41c8-b4a9-b13c5d754d90",
+    "FirstEventTime": "2023-07-31T02:37:07Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "341d4634-eefd-41c8-b4a9-b13c5d754d90",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T02:37:07Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "59eef651-576d-4bf0-a16a-2036aeab728f": {
+    "EventCount": 4,
+    "Label": "EC2_Images_AMICatalog_SearchBySystemsManagerParameter",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter dropdown which enables searching for an EC2 AMI (Amazon Machine Image) in the AWS AMI catalog by selecting a Systems Manager parameter that resolves to desired AMI ID.",
+    "CorrelationId": "59eef651-576d-4bf0-a16a-2036aeab728f",
+    "FirstEventTime": "2023-07-31T04:27:10Z",
+    "AllEventArr": "ssm:DescribeParameters",
+    "AllEventIdArr": "59eef651-576d-4bf0-a16a-2036aeab728f,c4d9781d-c27d-4e14-9a6b-fab74733056f,f17d801a-341b-4a96-9d97-d5e2f96e5d26,54e9c165-07d9-4dcd-a0cf-7d58d1310ac4",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#AMICatalog:",
+    "LastEventTime": "2023-07-31T04:27:13Z",
+    "Name": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter"
+  },
+  "7fc02445-71f2-4299-9976-2a639d269f3b": {
+    "EventCount": 1,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": {
+        "Key": "productCode",
+        "Value": null
+      }
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected while filtered by 1 custom attribute (product-code=UNDEFINED).",
+    "CorrelationId": "7fc02445-71f2-4299-9976-2a639d269f3b",
+    "FirstEventTime": "2023-07-31T01:08:32Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "7fc02445-71f2-4299-9976-2a639d269f3b",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me;productCode=;v=3",
+    "LastEventTime": "2023-07-31T01:08:32Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "35f917db-23c9-40aa-823a-52394e94cf5d": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "35f917db-23c9-40aa-823a-52394e94cf5d",
+    "FirstEventTime": "2023-07-31T01:08:40Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "35f917db-23c9-40aa-823a-52394e94cf5d,a4e0aac9-fdbf-4495-b8f1-846d076eb463",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T01:08:40Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0587c284-5966-47ba-bf82-44711e761240": {
+    "EventCount": 8,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public images",
+        "Uri": "public-images"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Public images' dropdown selected.",
+    "CorrelationId": "0587c284-5966-47ba-bf82-44711e761240",
+    "FirstEventTime": "2023-07-31T00:59:17Z",
+    "AllEventArr": "ec2:DescribeTags,ec2:DescribeImages",
+    "AllEventIdArr": "0587c284-5966-47ba-bf82-44711e761240,3a5f343b-8dab-4f19-8fd7-f6052d03c175,66ef0441-5b86-45cc-a3f0-35f813471641,76c030d9-c7f5-4510-ac3a-718d9b392d72,8fbb2381-b81a-4ef0-aad9-32629901130b,c256a6f5-7862-4af3-9066-5a28ab6e70b1,f2ca266e-07e3-4272-be38-63e9ae965f8e,f6b8e0f4-8df4-48fa-9678-e7a6a5b2ed2c",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=public-images",
+    "LastEventTime": "2023-07-31T00:59:17Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "06559bc4-6a5f-4f7e-b818-268b830a7a28": {
+    "EventCount": 4,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Public images",
+        "Uri": "public-images"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with 'Public images' dropdown selected.",
+    "CorrelationId": "06559bc4-6a5f-4f7e-b818-268b830a7a28",
+    "FirstEventTime": "2023-07-31T01:00:47Z",
+    "AllEventArr": "ec2:DescribeTags",
+    "AllEventIdArr": "06559bc4-6a5f-4f7e-b818-268b830a7a28,1282875c-c11f-44e6-95a4-8b507b7a47fc,19480ca6-74ab-474c-b23c-ef0ed1324b1e,b6f53195-3b80-427b-aeed-f64ce266c4ba",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=public-images",
+    "LastEventTime": "2023-07-31T01:00:47Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "52719128-5131-4c5a-9eb3-92ad7aba51a4": {
+    "EventCount": 2,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "52719128-5131-4c5a-9eb3-92ad7aba51a4",
+    "FirstEventTime": "2023-07-31T04:17:14Z",
+    "AllEventArr": "ec2:DescribeImages",
+    "AllEventIdArr": "52719128-5131-4c5a-9eb3-92ad7aba51a4,f66babe8-114c-4b58-9324-739878b386e8",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T04:17:14Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "2d048196-d03d-41d9-9430-9b26b0496a28": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2d048196-d03d-41d9-9430-9b26b0496a28",
+    "FirstEventTime": "2023-07-31T01:23:43Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "2d048196-d03d-41d9-9430-9b26b0496a28,6e0cc8df-55ca-4316-8f49-bac1f15064e2",
+    "Url": "N/A",
+    "LastEventTime": "2023-07-31T01:23:43Z",
+    "Name": "Suppressing automated background event"
+  },
+  "11646245-ee6f-4779-88c4-51dd1e61bdb3": {
+    "EventCount": 5,
+    "Label": "EC2_Images_AMIs",
+    "AdditionalData": {
+      "visibilityObj": {
+        "Dropdown": "Owned by me",
+        "Uri": "owned-by-me"
+      },
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Images->AMIs which displays all EC2 AMIs (Amazon Machine Images) in a searchable paged format with default 'Owned by me' dropdown selected.",
+    "CorrelationId": "11646245-ee6f-4779-88c4-51dd1e61bdb3",
+    "FirstEventTime": "2023-07-31T03:05:42Z",
+    "AllEventArr": "ec2:DescribeTags,ec2:DescribeImages",
+    "AllEventIdArr": "11646245-ee6f-4779-88c4-51dd1e61bdb3,39729201-47ef-4d7d-bfa0-01ed42aeb829,528441b4-30f9-4d19-8ef7-4881976ba778,a5a549a6-91b9-41da-86ff-380292a2e20a,e99aaa96-c066-4718-8108-3ea09a219f2a",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Images:visibility=owned-by-me",
+    "LastEventTime": "2023-07-31T03:05:42Z",
+    "Name": "Clicked EC2->Images->AMIs"
+  },
+  "07fdc9ac-2e9b-4bcb-9e1a-1cbf2e3503a4": {
+    "EventCount": 3,
+    "Label": "EC2_Images_AMICatalog_SearchBySystemsManagerParameter",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter dropdown which enables searching for an EC2 AMI (Amazon Machine Image) in the AWS AMI catalog by selecting a Systems Manager parameter that resolves to desired AMI ID.",
+    "CorrelationId": "07fdc9ac-2e9b-4bcb-9e1a-1cbf2e3503a4",
+    "FirstEventTime": "2023-07-31T04:27:05Z",
+    "AllEventArr": "ssm:DescribeParameters",
+    "AllEventIdArr": "07fdc9ac-2e9b-4bcb-9e1a-1cbf2e3503a4,a6e8fa12-62ea-4841-a8bb-17cf07ce542b,83e4b80c-73bb-4af9-99a2-b952ed86bc3b",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#AMICatalog:",
+    "LastEventTime": "2023-07-31T04:27:08Z",
+    "Name": "Clicked EC2->Images->AMI Catalog->Search by Systems Manager Parameter"
+  }
+}

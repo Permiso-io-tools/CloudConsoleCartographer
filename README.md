@@ -1,6 +1,8 @@
 ![CloudConsoleCartographer](https://github.com/Permiso-io-tools/CloudConsoleCartographer/blob/main/Images/Cloud-Console-Cartographer.svg "Cloud Console Cartographer Logo")
 
 # Cloud Console Cartographer
+**Permiso:** https://permiso.io  
+**Read our release blog:** https://permiso.io/blog/introducing-cloud-console-cartographer-an-open-source-tool-to-help-security-team-easily-understand-log-events-generated-by-aws-console-use
 
 Released at Black Hat Asia on April 18, 2024, Cloud Console Cartographer is a framework for condensing groupings of cloud events (e.g. CloudTrail logs) and mapping them to the original user input actions in the management console UI for simplified analysis and explainability. This is extremely beneficial for defenders since numerous input actions in management console sessions can generate 10's and even many 100's of events originating from a single interactive click by the end user.
 
@@ -28,7 +30,7 @@ Lastly, what framework would be complete without some ASCII art:
 
 >```bash
 >python3.11
->python3 -m pip3 install -r ./UI/Code/requirements.txt
+>python3 -m pip install -r ./UI/Code/requirements.txt
 >```
 
 ## Usage
@@ -60,3 +62,15 @@ Run command:
 ```cat ./Demo/InputEvents.json | Add-Signal | Show-SessionSummaryUI```
 
 ![CloudConsoleCartographer](https://github.com/Permiso-io-tools/CloudConsoleCartographer/blob/main/Images/Show-SessionSummaryUI_Screenshot.png "Show-SessionSummaryUI Screenshot")
+
+### Contributing to this project
+
+To contribute to this project a new Signal definition must be added to `./Code/SignalDefinitions.ps1` (both `LabelType` enum and `Signal` class constructor) and corresponding Labels added to `./Code/AddLabel.ps1`. If Signal metadata requires substitutions (e.g. Summary property being updated with dynamic values extracted from mapped events) then this logic must be defined in `./Code/NewSignal.ps1`. Less common Signal overrides are defined in `./Code/AddSignal.ps1`.
+
+New unit tests are required for new Signals or modifications to existing Signals. See below for more information.
+
+### Unit tests
+
+New unit tests can be generated using `New-UnitTest` function (e.g. `dir ./Demo/InputEvents.json | New-UnitTest -Verbose`).
+
+Testing against existing unit tests requires the [Pester](https://pester.dev/docs/introduction/installation/) unit testing framework and can be executed using `Invoke-Pester -TagFilter FullEvent`.

@@ -1,0 +1,646 @@
+{
+  "142a6725-ea20-4ec9-b824-944148770ef4": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "142a6725-ea20-4ec9-b824-944148770ef4",
+    "FirstEventTime": "2023-06-02T06:29:55Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "142a6725-ea20-4ec9-b824-944148770ef4,1b1b9b1f-b1a8-4405-b0a2-0571b9b68c73",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:29:55Z",
+    "Name": "Suppressing automated background event"
+  },
+  "81d4085b-ff7e-45e4-99b8-6b3d1fc4023f": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventId",
+      "startTime": "2023-06-01T18:21:26",
+      "attributeValue": "123",
+      "endTime": "2023-06-02T06:21:26"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventId='123' and custom date range of '12 hours' ('2023-06-01T18:21:26Z' to '2023-06-02T06:21:26Z').",
+    "CorrelationId": "81d4085b-ff7e-45e4-99b8-6b3d1fc4023f",
+    "FirstEventTime": "2023-06-02T06:21:26Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "81d4085b-ff7e-45e4-99b8-6b3d1fc4023f",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventId=123&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:21:26Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "adf6bc0d-c0db-4bf8-9a4e-ba620f3e9be1": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-06-01T18:22:22",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:22:22"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ReadOnly='blabla' and custom date range of '12 hours' ('2023-06-01T18:22:22Z' to '2023-06-02T06:22:22Z').",
+    "CorrelationId": "adf6bc0d-c0db-4bf8-9a4e-ba620f3e9be1",
+    "FirstEventTime": "2023-06-02T06:22:22Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "adf6bc0d-c0db-4bf8-9a4e-ba620f3e9be1,b0b98ea1-bd89-4412-a49e-4f2f76a9239a",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ReadOnly=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:22:22Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "a617bb24-de30-4ca3-b2d5-aa6fd97a2060": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "Username",
+      "startTime": "2023-06-01T18:23:54",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:23:54"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute Username='blabla' and custom date range of '12 hours' ('2023-06-01T18:23:54Z' to '2023-06-02T06:23:54Z').",
+    "CorrelationId": "a617bb24-de30-4ca3-b2d5-aa6fd97a2060",
+    "FirstEventTime": "2023-06-02T06:23:54Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "a617bb24-de30-4ca3-b2d5-aa6fd97a2060",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?Username=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:23:54Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "7656051f-5e02-40ec-bef8-9bed8503b5a6": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-06-01T18:22:26",
+      "attributeValue": "true",
+      "endTime": "2023-06-02T06:22:26"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ReadOnly='true' and custom date range of '12 hours' ('2023-06-01T18:22:26Z' to '2023-06-02T06:22:26Z').",
+    "CorrelationId": "7656051f-5e02-40ec-bef8-9bed8503b5a6",
+    "FirstEventTime": "2023-06-02T06:22:26Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "7656051f-5e02-40ec-bef8-9bed8503b5a6,d2573f7f-4d78-482c-91c0-2b6795eb1d96",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ReadOnly=true&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:22:27Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "2019b555-0381-417b-b8b5-a620937bd1d2": {
+    "EventCount": 2,
+    "Label": "CloudTrail_Trails",
+    "AdditionalData": {
+      "trailArnArr": "arn:aws:cloudtrail:us-east-2:200802171337:trail/management-events",
+      "trailNameArr": "management-events"
+    },
+    "Summary": "Clicked CloudTrail->Trails which displays all CloudTrail Trails and their high-level properties (e.g. Region, S3 Bucket, Status, etc.), currently displaying 1 CloudTrail Trail ('management-events').",
+    "CorrelationId": "2019b555-0381-417b-b8b5-a620937bd1d2",
+    "FirstEventTime": "2023-06-02T06:24:17Z",
+    "AllEventArr": "cloudtrail:GetTrailStatus,cloudtrail:DescribeTrails",
+    "AllEventIdArr": "2019b555-0381-417b-b8b5-a620937bd1d2,ac870a63-d57b-437f-ba60-bbc54738eabe",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/trails",
+    "LastEventTime": "2023-06-02T06:24:17Z",
+    "Name": "Clicked CloudTrail->Trails"
+  },
+  "2f0c9d93-0286-497c-b2ee-79ea3a7186e5": {
+    "EventCount": 9,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "2f0c9d93-0286-497c-b2ee-79ea3a7186e5",
+    "FirstEventTime": "2023-06-02T06:15:11Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "2f0c9d93-0286-497c-b2ee-79ea3a7186e5,3b0a5acd-2f73-46f0-804d-02dcc144d7a3,a723be69-a38c-43b3-a4b1-a7e8b032957d,a9e50836-df9c-49cd-873d-90525901876a,c07892f3-9895-4574-a86d-ab7a9e29ad21,c98364e8-69a0-48a6-95e5-a7a98f19d4d1,0850a243-71f4-4fb9-85f2-a1cfcbc91007,3cb5fc9e-2aae-4cfd-9dde-6dfe5a7a4f7e,3facbb46-b16f-4932-8aac-6eab8fceb632",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:15:12Z",
+    "Name": "Suppressing automated background event"
+  },
+  "8906bdda-caa9-4d92-a91b-244269746b44": {
+    "EventCount": 3,
+    "Label": "CloudTrail_Insights",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": null,
+      "startTime": null,
+      "attributeValue": null,
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Insights which displays all CloudTrail Logging Insights events (if enabled), currently with no filter defined.",
+    "CorrelationId": "8906bdda-caa9-4d92-a91b-244269746b44",
+    "FirstEventTime": "2023-06-02T06:23:55Z",
+    "AllEventArr": "cloudtrail:GetTrailStatus,cloudtrail:LookupEvents,cloudtrail:DescribeTrails",
+    "AllEventIdArr": "8906bdda-caa9-4d92-a91b-244269746b44,9000821c-f3d8-4bae-8cf1-1f57b3df3f31,d54395cc-e695-40dc-9168-2978bbbe097f",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/insights",
+    "LastEventTime": "2023-06-02T06:23:55Z",
+    "Name": "Clicked CloudTrail->Insights"
+  },
+  "58271f03-321a-4097-b5fd-947ae18c725f": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventId",
+      "startTime": "2023-06-01T18:21:37",
+      "attributeValue": "123",
+      "endTime": "2023-06-02T06:21:37"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventId='123' and custom date range of '12 hours' ('2023-06-01T18:21:37Z' to '2023-06-02T06:21:37Z').",
+    "CorrelationId": "58271f03-321a-4097-b5fd-947ae18c725f",
+    "FirstEventTime": "2023-06-02T06:21:38Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "58271f03-321a-4097-b5fd-947ae18c725f",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventId=123&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:21:38Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "265c214f-0593-400c-a744-38d83217d855": {
+    "EventCount": 6,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "265c214f-0593-400c-a744-38d83217d855",
+    "FirstEventTime": "2023-06-02T06:15:11Z",
+    "AllEventArr": "servicecatalog-appregistry:ListApplications,ce:GetCostAndUsage,ce:GetCostForecast,securityhub:DescribeHub,ram:ListResources",
+    "AllEventIdArr": "265c214f-0593-400c-a744-38d83217d855,8003b4be-96a6-4d51-ba96-6d502ba121de,9698d464-4ece-4004-bb25-9c28590b69df,ca0c52fc-e157-4ab2-8149-0e2b722be282,53afb2cc-ac01-4d33-8146-e2b911b553a7,61064a74-dc03-49bb-8f80-babcbfeb6285",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-06-02T06:15:12Z",
+    "Name": "Console Home"
+  },
+  "c2ca6f48-00f8-444e-8b85-907345849d7e": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "c2ca6f48-00f8-444e-8b85-907345849d7e",
+    "FirstEventTime": "2023-06-02T06:16:57Z",
+    "AllEventArr": "notifications:ListNotificationHubs,health:DescribeEventAggregates",
+    "AllEventIdArr": "c2ca6f48-00f8-444e-8b85-907345849d7e,c8708733-cb60-492e-b4f3-d4923e1d4cd4,df9fb3e5-f3cb-4b43-9039-f0c20e818fee",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:16:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "399660d7-1a82-47ff-aa44-f63444c37108": {
+    "EventCount": 4,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": null
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions.",
+    "CorrelationId": "399660d7-1a82-47ff-aa44-f63444c37108",
+    "FirstEventTime": "2023-06-02T06:16:00Z",
+    "AllEventArr": "s3:GetStorageLensDashboardDataInternal,s3:GetStorageLensConfiguration",
+    "AllEventIdArr": "399660d7-1a82-47ff-aa44-f63444c37108,95d22e7d-ce41-40c1-9e0e-e879532a9d74,ab9fc6f3-b674-4a44-a4b9-b54ce72e3665,f31c6938-a3bc-4ab7-888e-fecda5ce998c",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-06-02T06:16:01Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "70ed20fe-bb9a-471f-9cc9-e261cff774ef": {
+    "EventCount": 2,
+    "Label": "CloudTrail_Settings",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Settings which displays the list of Delegated Administrators registered to manage CloudTrail resources.",
+    "CorrelationId": "70ed20fe-bb9a-471f-9cc9-e261cff774ef",
+    "FirstEventTime": "2023-06-02T06:26:22Z",
+    "AllEventArr": "organizations:ListDelegatedAdministrators",
+    "AllEventIdArr": "70ed20fe-bb9a-471f-9cc9-e261cff774ef,dfe53056-4f9e-424a-b78e-f6e91107d4fb",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrailv2/home?region=us-east-1#/settings",
+    "LastEventTime": "2023-06-02T06:26:22Z",
+    "Name": "Clicked CloudTrail->Settings"
+  },
+  "3525ffe7-978e-438e-a9c0-dc4fbdc865fa": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "ResourceType",
+      "startTime": "2023-06-01T18:23:08",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:23:08"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceType='blabla' and custom date range of '12 hours' ('2023-06-01T18:23:08Z' to '2023-06-02T06:23:08Z').",
+    "CorrelationId": "3525ffe7-978e-438e-a9c0-dc4fbdc865fa",
+    "FirstEventTime": "2023-06-02T06:23:09Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "3525ffe7-978e-438e-a9c0-dc4fbdc865fa,3e0ac83a-c6a6-4826-a2b5-eec9bff92d3a",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ResourceType=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:23:09Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "9950a410-d7e1-42be-95b9-a94e0f32d148": {
+    "EventCount": 20,
+    "Label": "S3_Buckets",
+    "AdditionalData": {
+      "bucketNameArr": [
+        "randomBucket04",
+        "randomBucket05",
+        "randomBucket06"
+      ]
+    },
+    "Summary": "Clicked S3->Buckets to show all S3 Buckets in all AWS Regions including 3 S3 Buckets ('randomBucket04','randomBucket05','randomBucket06').",
+    "CorrelationId": "9950a410-d7e1-42be-95b9-a94e0f32d148",
+    "FirstEventTime": "2023-06-02T06:15:27Z",
+    "AllEventArr": "s3:ListBuckets,s3:GetStorageLensDashboardDataInternal,s3:GetStorageLensConfiguration,s3:GetAccountPublicAccessBlock,s3:GetBucketAcl,s3:ListAccessPoints,s3:GetBucketPolicyStatus,s3:GetBucketPublicAccessBlock",
+    "AllEventIdArr": "9950a410-d7e1-42be-95b9-a94e0f32d148,28adcd26-72f2-43a5-bd42-bbd5f6b0ecad,63d31a3e-0825-4c16-8bfb-0c85e6b03b95,9dce6848-287c-4669-b0bf-edf80052ffe3,b0c8f170-641a-4c54-8c80-e4c4e6b6811f,04996cd4-1f92-4780-ab16-de072fd564bd,28a4f7da-0026-45f7-a134-2f093956a2f3,56727ed6-d0a8-453b-8a07-85c3a47bf81d,5ab993b3-7807-4fd5-b631-901220cc5f51,6d4eb7dc-8a6e-4c19-9289-0472dcd107e5,74566925-d231-468a-9b59-93a82f112247,84b19201-5a77-4cc3-b28e-41bda30260be,ad936f81-478c-4fa5-95f3-3e869351f95e,e2669bc1-eb25-4f41-9b56-6cbaa03feeda,f1ec6bd6-9ab9-4d48-afc5-de8be9e7b82c,3b84f0c5-b5c5-46b8-bf30-b7f1c13f2296,76671497-1f48-4664-80ad-89b2a01e5be6,8cc8fcbb-ef80-4265-8c32-4463cf1eade6,b1735ea2-0452-49f2-a673-2d1ce49c4720,ea26ed3a-acef-4fc2-9293-477adcb72870",
+    "Url": "https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1",
+    "LastEventTime": "2023-06-02T06:15:32Z",
+    "Name": "Clicked S3->Buckets"
+  },
+  "4c55c76a-6fc0-44ae-a72c-4264a31313b1": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-06-01T18:22:35",
+      "attributeValue": "tRUe",
+      "endTime": "2023-06-02T06:22:35"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ReadOnly='tRUe' and custom date range of '12 hours' ('2023-06-01T18:22:35Z' to '2023-06-02T06:22:35Z').",
+    "CorrelationId": "4c55c76a-6fc0-44ae-a72c-4264a31313b1",
+    "FirstEventTime": "2023-06-02T06:22:35Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "4c55c76a-6fc0-44ae-a72c-4264a31313b1,73afd618-794a-4de7-a684-f9fa1fbd1f41",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ReadOnly=tRUe&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:22:35Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "9d61ded4-718e-42be-9724-589c25314db7": {
+    "EventCount": 3,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "Username",
+      "startTime": "2023-06-01T18:23:22",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:23:22"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute Username='blabla' and custom date range of '12 hours' ('2023-06-01T18:23:22Z' to '2023-06-02T06:23:22Z').",
+    "CorrelationId": "9d61ded4-718e-42be-9724-589c25314db7",
+    "FirstEventTime": "2023-06-02T06:23:22Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "9d61ded4-718e-42be-9724-589c25314db7,b34e3958-3375-482c-a81f-6f9c34669f67,2d81c809-84d1-44c5-8b12-65854dda6193",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?Username=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:23:23Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "2d7dcc56-6e9d-48f4-a739-4b30ef780b17": {
+    "EventCount": 1,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "2d7dcc56-6e9d-48f4-a739-4b30ef780b17",
+    "FirstEventTime": "2023-06-02T06:15:07Z",
+    "AllEventArr": "signin:ConsoleLogin",
+    "AllEventIdArr": "2d7dcc56-6e9d-48f4-a739-4b30ef780b17",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:15:07Z",
+    "Name": "Console Login"
+  },
+  "2a62e1e0-4669-4375-90e0-df1683a51a95": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "AccessKeyId",
+      "startTime": "2023-06-01T18:20:35",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:20:35"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute AccessKeyId='blabla' and custom date range of '12 hours' ('2023-06-01T18:20:35Z' to '2023-06-02T06:20:35Z').",
+    "CorrelationId": "2a62e1e0-4669-4375-90e0-df1683a51a95",
+    "FirstEventTime": "2023-06-02T06:20:35Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "2a62e1e0-4669-4375-90e0-df1683a51a95,dca09e2b-3d52-45c7-a9c1-ec4cd8104844",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?AccessKeyId=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:20:35Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "15f7faa9-171d-452b-9317-40f7bd1e9f07": {
+    "EventCount": 4,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": null,
+      "attributeKey": "ReadOnly",
+      "startTime": null,
+      "attributeValue": "false",
+      "endTime": null
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by default attribute ReadOnly='false'.",
+    "CorrelationId": "15f7faa9-171d-452b-9317-40f7bd1e9f07",
+    "FirstEventTime": "2023-06-02T06:17:21Z",
+    "AllEventArr": "config:DescribeConfigurationRecorderStatus,cloudtrail:LookupEvents,config:DescribeConfigurationRecorders",
+    "AllEventIdArr": "15f7faa9-171d-452b-9317-40f7bd1e9f07,165c5303-35fc-4706-9c8b-0c2296caed19,3b424527-ef6e-40b6-b2c2-b079a003b02d,6f7ca872-1b0f-4e9e-aa9e-ac5ee86a4b50",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ReadOnly=false",
+    "LastEventTime": "2023-06-02T06:17:21Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "1bf512e1-fe80-4482-a43d-9d393077d8fb": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1 hour",
+      "attributeKey": "EventSource",
+      "startTime": "2023-06-02T05:19:24",
+      "attributeValue": "iam.amazonaws.com",
+      "endTime": "2023-06-02T06:19:24"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventSource='iam.amazonaws.com' and custom date range of '1 hour' ('2023-06-02T05:19:24Z' to '2023-06-02T06:19:24Z').",
+    "CorrelationId": "1bf512e1-fe80-4482-a43d-9d393077d8fb",
+    "FirstEventTime": "2023-06-02T06:19:24Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "1bf512e1-fe80-4482-a43d-9d393077d8fb,7883c412-3432-42ef-9f26-c61220fbfea7",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventSource=iam.amazonaws.com&CustomTime=3600000",
+    "LastEventTime": "2023-06-02T06:19:24Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "18744d15-63b0-4af0-8da4-15c5f8d0244b": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventSource",
+      "startTime": "2023-06-01T18:22:03",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:22:03"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventSource='blabla' and custom date range of '12 hours' ('2023-06-01T18:22:03Z' to '2023-06-02T06:22:03Z').",
+    "CorrelationId": "18744d15-63b0-4af0-8da4-15c5f8d0244b",
+    "FirstEventTime": "2023-06-02T06:22:03Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "18744d15-63b0-4af0-8da4-15c5f8d0244b,3b93ddc2-9f3e-4767-b66a-033ace43f2db",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventSource=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:22:03Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "1db72c79-58a6-4fbb-8374-a1eb5ab5ecd2": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventId",
+      "startTime": "2023-06-01T18:21:31",
+      "attributeValue": "123",
+      "endTime": "2023-06-02T06:21:31"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventId='123' and custom date range of '12 hours' ('2023-06-01T18:21:31Z' to '2023-06-02T06:21:31Z').",
+    "CorrelationId": "1db72c79-58a6-4fbb-8374-a1eb5ab5ecd2",
+    "FirstEventTime": "2023-06-02T06:21:31Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "1db72c79-58a6-4fbb-8374-a1eb5ab5ecd2",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventId=123&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:21:31Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "6e9be0d2-8c45-482c-9b0f-7f009ddbdf0b": {
+    "EventCount": 1,
+    "Label": "SearchBar",
+    "AdditionalData": null,
+    "Summary": "Typed content into AWS Console Search Bar.",
+    "CorrelationId": "6e9be0d2-8c45-482c-9b0f-7f009ddbdf0b",
+    "FirstEventTime": "2023-06-02T06:16:36Z",
+    "AllEventArr": "resource-explorer-2:ListIndexes",
+    "AllEventIdArr": "6e9be0d2-8c45-482c-9b0f-7f009ddbdf0b",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:16:36Z",
+    "Name": "Typed into Search Bar"
+  },
+  "26c3aa6e-2b8c-4cf0-b2d2-c5ea377f1fa8": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "1 hour",
+      "attributeKey": "ReadOnly",
+      "startTime": "2023-06-02T05:17:55",
+      "attributeValue": "false",
+      "endTime": "2023-06-02T06:17:55"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by default attribute ReadOnly='false' and custom date range of '1 hour' ('2023-06-02T05:17:55Z' to '2023-06-02T06:17:55Z').",
+    "CorrelationId": "26c3aa6e-2b8c-4cf0-b2d2-c5ea377f1fa8",
+    "FirstEventTime": "2023-06-02T06:17:55Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "26c3aa6e-2b8c-4cf0-b2d2-c5ea377f1fa8",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ReadOnly=false&CustomTime=3600000",
+    "LastEventTime": "2023-06-02T06:17:55Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "8757e87b-03f1-46f3-8a72-512836d34d08": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventSource",
+      "startTime": "2023-06-01T18:19:55",
+      "attributeValue": "iam.amazonaws.com",
+      "endTime": "2023-06-02T06:19:55"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventSource='iam.amazonaws.com' and custom date range of '12 hours' ('2023-06-01T18:19:55Z' to '2023-06-02T06:19:55Z').",
+    "CorrelationId": "8757e87b-03f1-46f3-8a72-512836d34d08",
+    "FirstEventTime": "2023-06-02T06:19:55Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "8757e87b-03f1-46f3-8a72-512836d34d08",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventSource=iam.amazonaws.com&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:19:55Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "30f147de-ef7d-47a0-8fb0-641b5a461b37": {
+    "EventCount": 1,
+    "Label": "CloudTrail_Lake_Query",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Lake->Query which displays steps for getting started with writing queries for events in CloudTrail Lake.",
+    "CorrelationId": "30f147de-ef7d-47a0-8fb0-641b5a461b37",
+    "FirstEventTime": "2023-06-02T06:25:20Z",
+    "AllEventArr": "cloudtrail:ListEventDataStores",
+    "AllEventIdArr": "30f147de-ef7d-47a0-8fb0-641b5a461b37",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrailv2/home?region=us-west-1#/lake/query",
+    "LastEventTime": "2023-06-02T06:25:20Z",
+    "Name": "Clicked CloudTrail->Lake->Query"
+  },
+  "890937e4-0000-4292-9697-d43b655693e8": {
+    "EventCount": 6,
+    "Label": "CloudTrail_Lake_Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Lake->Dashboard which displays steps for getting started with using CloudTrail Lake.",
+    "CorrelationId": "890937e4-0000-4292-9697-d43b655693e8",
+    "FirstEventTime": "2023-06-02T06:24:56Z",
+    "AllEventArr": "organizations:ListDelegatedAdministrators,organizations:DescribeOrganization,cloudtrail:ListEventDataStores",
+    "AllEventIdArr": "890937e4-0000-4292-9697-d43b655693e8,890937e4-0000-4292-9697-d43b655693e8,dd32b2cb-671f-4726-b6b3-231c8d469ffa,dd32b2cb-671f-4726-b6b3-231c8d469ffa,f9bc789b-8d8f-4886-80a4-c805db8b3f8d,f9bc789b-8d8f-4886-80a4-c805db8b3f8d",
+    "Url": "https://us-east-1.console.aws.amazon.com/cloudtrailv2/home?region=us-east-1#/lake",
+    "LastEventTime": "2023-06-02T06:24:56Z",
+    "Name": "Clicked CloudTrail->Lake->Dashboard"
+  },
+  "779cc5bf-2341-4ead-9bd1-c10f019ac63a": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "779cc5bf-2341-4ead-9bd1-c10f019ac63a",
+    "FirstEventTime": "2023-06-02T06:21:57Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "779cc5bf-2341-4ead-9bd1-c10f019ac63a,9797bf1e-ccbb-427d-a815-d9f48e430f5f",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:21:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "d84b8375-3e1d-4bb6-96fd-347341539c73": {
+    "EventCount": 3,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "ResourceName",
+      "startTime": "2023-06-01T18:22:52",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:22:52"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceName='blabla' and custom date range of '12 hours' ('2023-06-01T18:22:52Z' to '2023-06-02T06:22:52Z').",
+    "CorrelationId": "d84b8375-3e1d-4bb6-96fd-347341539c73",
+    "FirstEventTime": "2023-06-02T06:22:52Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "d84b8375-3e1d-4bb6-96fd-347341539c73,ebc25237-a0ce-4f25-80a5-b15de5f7467f,b95e6998-5c31-48dd-8d3d-b8da3256a767",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ResourceName=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:22:53Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "1e6b63fb-a6cf-4d12-ad44-2806b5b739d0": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventId",
+      "startTime": "2023-06-01T18:21:15",
+      "attributeValue": "123",
+      "endTime": "2023-06-02T06:21:15"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventId='123' and custom date range of '12 hours' ('2023-06-01T18:21:15Z' to '2023-06-02T06:21:15Z').",
+    "CorrelationId": "1e6b63fb-a6cf-4d12-ad44-2806b5b739d0",
+    "FirstEventTime": "2023-06-02T06:21:16Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "1e6b63fb-a6cf-4d12-ad44-2806b5b739d0,60ce4a2d-0e41-4931-b8f1-655f113b43d6",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventId=123&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:21:16Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "16f1ff7c-4268-4fce-88a3-73401a681e90": {
+    "EventCount": 2,
+    "Label": "CloudTrail_Lake_Integrations",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Lake->Integrations which displays steps for adding integrations to CloudTrail Lake.",
+    "CorrelationId": "16f1ff7c-4268-4fce-88a3-73401a681e90",
+    "FirstEventTime": "2023-06-02T06:26:05Z",
+    "AllEventArr": "cloudtrail:ListEventDataStores,cloudtrail:ListChannels",
+    "AllEventIdArr": "16f1ff7c-4268-4fce-88a3-73401a681e90,e7bc7a6b-f335-46fd-9edd-2518d70511ee",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrailv2/home?region=us-west-1#/lake/integrations",
+    "LastEventTime": "2023-06-02T06:26:05Z",
+    "Name": "Clicked CloudTrail->Lake->Integrations"
+  },
+  "1bd5b00a-37b8-4fbc-9db3-f9908c4b24eb": {
+    "EventCount": 1,
+    "Label": "CloudTrail_Lake_Query",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Lake->Query which displays steps for getting started with writing queries for events in CloudTrail Lake.",
+    "CorrelationId": "1bd5b00a-37b8-4fbc-9db3-f9908c4b24eb",
+    "FirstEventTime": "2023-06-02T06:25:41Z",
+    "AllEventArr": "cloudtrail:ListEventDataStores",
+    "AllEventIdArr": "1bd5b00a-37b8-4fbc-9db3-f9908c4b24eb",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrailv2/home?region=us-west-1#/lake/query",
+    "LastEventTime": "2023-06-02T06:25:41Z",
+    "Name": "Clicked CloudTrail->Lake->Query"
+  },
+  "ec03b0f8-e262-4577-8f87-bc32a43fd37c": {
+    "EventCount": 1,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "ResourceName",
+      "startTime": "2023-06-01T18:23:05",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:23:05"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute ResourceName='blabla' and custom date range of '12 hours' ('2023-06-01T18:23:05Z' to '2023-06-02T06:23:05Z').",
+    "CorrelationId": "ec03b0f8-e262-4577-8f87-bc32a43fd37c",
+    "FirstEventTime": "2023-06-02T06:23:05Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "ec03b0f8-e262-4577-8f87-bc32a43fd37c",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?ResourceName=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:23:05Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "3e9e7b8a-cf59-4688-b751-312d1212a39d": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "3e9e7b8a-cf59-4688-b751-312d1212a39d",
+    "FirstEventTime": "2023-06-02T06:24:55Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "3e9e7b8a-cf59-4688-b751-312d1212a39d,b27ffc91-d434-4932-9011-9f80909bebed,c9b4537c-0b55-422d-8805-4323ee7ece70",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:24:55Z",
+    "Name": "Suppressing automated background event"
+  },
+  "e13285f7-f5cb-47c1-8871-f92cea538d9c": {
+    "EventCount": 14,
+    "Label": "CloudTrail_Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked CloudTrail->Dashboard which displays a summary of all CloudTrail components (e.g. Trails statuses, Insights and last 5 Events).",
+    "CorrelationId": "e13285f7-f5cb-47c1-8871-f92cea538d9c",
+    "FirstEventTime": "2023-06-02T06:16:55Z",
+    "AllEventArr": "cloudtrail:DescribeTrails,s3:ListBuckets,cloudtrail:GetTrailStatus,organizations:DescribeOrganization,cloudtrail:LookupEvents,organizations:ListDelegatedAdministrators",
+    "AllEventIdArr": "e13285f7-f5cb-47c1-8871-f92cea538d9c,f6fdb9ed-6ac9-4200-b596-94a6e7d40e76,29303fc8-c66b-4e04-b74e-673da22aa9b4,29303fc8-c66b-4e04-b74e-673da22aa9b4,2b925ae2-bc1e-4cef-9a94-8b19151efd10,2b925ae2-bc1e-4cef-9a94-8b19151efd10,5ce367ad-448f-46b0-a089-24ff3f3ac969,5ce367ad-448f-46b0-a089-24ff3f3ac969,6e9fca42-199f-448e-a592-bc085476d472,6e9fca42-199f-448e-a592-bc085476d472,c49c672f-0590-497e-858a-219209093955,c49c672f-0590-497e-858a-219209093955,eff42870-ad13-45f5-bfa8-acc7ed9980a9,eff42870-ad13-45f5-bfa8-acc7ed9980a9",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/dashboard",
+    "LastEventTime": "2023-06-02T06:16:56Z",
+    "Name": "Clicked CloudTrail->Dashboard"
+  },
+  "9e7ebc3b-da3c-457a-a1c8-5572885b151b": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventName",
+      "startTime": "2023-06-01T18:21:43",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:21:43"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventName='blabla' and custom date range of '12 hours' ('2023-06-01T18:21:43Z' to '2023-06-02T06:21:43Z').",
+    "CorrelationId": "9e7ebc3b-da3c-457a-a1c8-5572885b151b",
+    "FirstEventTime": "2023-06-02T06:21:43Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "9e7ebc3b-da3c-457a-a1c8-5572885b151b,f0a5a2fe-f13e-4183-9a19-9c9260f7d0ff",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventName=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:21:43Z",
+    "Name": "Clicked CloudTrail->Event History"
+  },
+  "6439ba42-1d7c-4220-930b-d7b347db3573": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "6439ba42-1d7c-4220-930b-d7b347db3573",
+    "FirstEventTime": "2023-06-02T06:15:30Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "6439ba42-1d7c-4220-930b-d7b347db3573,bff8650d-0fe8-47d5-96f6-8a492496933d,d94304da-66e5-48a0-b91c-8c0a8e8df997",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-02T06:15:30Z",
+    "Name": "Suppressing automated background event"
+  },
+  "72e9e4e5-a7dc-40a8-9e92-0eaf4be2b4e2": {
+    "EventCount": 2,
+    "Label": "CloudTrail_EventHistory",
+    "AdditionalData": {
+      "timespanStr": "12 hours",
+      "attributeKey": "EventId",
+      "startTime": "2023-06-01T18:21:12",
+      "attributeValue": "blabla",
+      "endTime": "2023-06-02T06:21:12"
+    },
+    "Summary": "Clicked CloudTrail->Event History which displays all CloudTrail Events in a searchable paged format, currently filtered by custom attribute EventId='blabla' and custom date range of '12 hours' ('2023-06-01T18:21:12Z' to '2023-06-02T06:21:12Z').",
+    "CorrelationId": "72e9e4e5-a7dc-40a8-9e92-0eaf4be2b4e2",
+    "FirstEventTime": "2023-06-02T06:21:13Z",
+    "AllEventArr": "cloudtrail:LookupEvents",
+    "AllEventIdArr": "72e9e4e5-a7dc-40a8-9e92-0eaf4be2b4e2,b075741b-d554-4c70-8299-5629dcf1dec1",
+    "Url": "https://us-west-1.console.aws.amazon.com/cloudtrail/home?region=us-west-1#/events?EventId=blabla&CustomTime=43200000",
+    "LastEventTime": "2023-06-02T06:21:13Z",
+    "Name": "Clicked CloudTrail->Event History"
+  }
+}

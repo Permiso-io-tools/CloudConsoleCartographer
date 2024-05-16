@@ -1,0 +1,146 @@
+{
+  "04d37fc4-d343-4119-ad0b-49fe22b888f4": {
+    "EventCount": 30,
+    "Label": "EC2_EC2Dashboard",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->EC2 Dashboard which displays all EC2 compute resources (e.g. instances, volumes, snapshots, load balancers, etc.).",
+    "CorrelationId": "04d37fc4-d343-4119-ad0b-49fe22b888f4",
+    "FirstEventTime": "2023-11-25T15:13:19Z",
+    "AllEventArr": "ec2:DescribeAvailabilityZones,ec2:DescribeAddresses,ec2:DescribeAccountAttributes,ec2:DescribeKeyPairs,ec2:DescribeInstances,ec2:DescribeSnapshots,autoscaling:DescribeAutoScalingGroups,ec2:DescribePlacementGroups,ec2:DescribeVolumeStatus,ec2:DescribeSecurityGroups,ec2:DescribeInstanceStatus,elasticloadbalancing:DescribeLoadBalancers,ec2:DescribeLaunchTemplates,ec2:DescribeVolumes,ec2:DescribeHosts",
+    "AllEventIdArr": "04d37fc4-d343-4119-ad0b-49fe22b888f4,14c933e0-7c1f-4b25-be48-9f79a43202e4,2287da8e-4875-4a6a-b3eb-89574cbf856f,2399b102-3ed6-496e-a4ab-e960caca7338,2b77a521-a421-4c5a-97f0-2648ee58845f,31e7b648-4dc5-4ede-b542-111e222dfaad,33cf9075-81c3-4aec-ac73-78e75dc52d44,3d4a8e5a-2c03-4809-b8e1-1bcf29b4e808,4e343458-3ff5-40f3-915e-63af6c159cb0,5ae2543a-66b2-4c17-b71f-2c18a02964f2,64f5ee59-4175-498c-9d77-516723f3831f,82584a62-caff-4c93-8f8a-c8ca3f540cf6,84bbf78b-d0b1-42d2-93cd-3e4fe7644911,878d3e05-63e4-4915-bd31-5518b7311970,950ca7a3-417f-41a5-8bc0-88edfd71c0df,9a9f97b4-2e1c-4124-a2c6-df5f984c8ef9,9d1c09d5-88f7-4064-9300-502bb08b25ea,a10ecd25-2fd6-484d-b47e-5e6833d831da,a32bf3b0-9b1d-477c-9fb6-46f2a0aa87f9,ae15e187-73f1-4a62-88ef-8b81b30e3584,b80704ea-f706-4281-a672-77648c4d6e5f,c19d99a8-addd-40a4-b739-f9d17eb48912,c2c47d54-a167-4372-883c-b99877b3950b,cbbf0748-8d72-450d-a85f-025840ed1793,d2df72d7-f6f8-4497-ad85-43fb3a7ae483,d8b9c330-3f82-427b-9387-3593192807d7,dc34c58d-06a0-40a2-aa9b-1f5dfe19926a,e87e9626-0cd2-4c67-9fcf-9a71f551ee5f,ea4fc9be-bf91-4084-ad6c-66cb221a1b7c,fcfd69a4-70bf-4eaf-b840-8678e29aed12",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:",
+    "LastEventTime": "2023-11-25T15:13:19Z",
+    "Name": "Clicked EC2->EC2 Dashboard"
+  },
+  "03e329e6-fa4c-40c5-bbc1-3d050b65ddef": {
+    "EventCount": 27,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "03e329e6-fa4c-40c5-bbc1-3d050b65ddef",
+    "FirstEventTime": "2023-11-25T15:13:03Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "03e329e6-fa4c-40c5-bbc1-3d050b65ddef,0fd62bfc-8421-4645-b588-c2bc2e3c4350,1f788b31-f8c9-4444-94d3-8556bd8907d9,28e63b7f-1ea5-418f-a934-193cf05f5f6d,31dba87d-7756-4f8e-a623-e9e6a6d02e51,31e00e04-af35-48a7-a2ab-44fe56c23fa4,3a9ce8f6-5d98-4ff4-baa3-a71f7d126948,3aa4cdeb-3047-41f0-8673-47e964398251,3c523e0a-a56e-4bb9-a5bd-4d1473f53c34,4a96ed56-ca09-413d-9019-38dc27c688cd,5968a73c-1dd0-44e4-b07c-bc95748c64e4,687eb2eb-bee9-46d6-950f-c8ce103c4184,6bdcdeae-46af-4a6b-854d-71c7247d99bf,6cf81176-aad7-4907-859c-6f065b37aabe,94dc5e3f-119f-4168-9d28-7bee88e6fb94,98424bf9-405f-4080-95b3-0efc135d8037,998cac7e-e7e8-44e6-aaf4-fbf44d14aafc,a1111938-8da2-40bd-9474-e56ae69b0184,a7a2b772-5f8c-40a1-88ee-012dff12c9e1,c76f94f7-27e5-47ea-ba1a-cd22747b4e7d,ca9bfe4a-ceb4-421a-9ffb-bdca711400aa,dcaac8ff-2349-47f8-9d60-783cdc51f3bd,dd83e100-93dc-48aa-957c-b139abbf521d,f54bbece-443f-4da3-8862-eaa05f819971,f9f97043-3340-4cfa-948e-7c0547713708,80813ef9-a23b-4da3-8976-e13ea0216e30,8d050be4-3c1f-47ce-b79c-1197ac771434",
+    "Url": "N/A",
+    "LastEventTime": "2023-11-25T15:13:04Z",
+    "Name": "Suppressing automated background event"
+  },
+  "886eadd7-1d25-44ce-b489-90f0eec72e64": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "886eadd7-1d25-44ce-b489-90f0eec72e64",
+    "FirstEventTime": "2023-11-25T15:13:19Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "886eadd7-1d25-44ce-b489-90f0eec72e64,c936731b-343f-412d-9343-d3f66834a841,244171cd-efc6-472d-9981-4d2b918c16cf",
+    "Url": "N/A",
+    "LastEventTime": "2023-11-25T15:13:20Z",
+    "Name": "Suppressing automated background event"
+  },
+  "b27fba05-d711-4472-bdda-b2b32167c5c5": {
+    "EventCount": 1,
+    "Label": "EC2_Instances_Instances_LaunchInstance_Step1_KeyPair_Select",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Instances->Instances->Launch Instance (Step 1.5 of 2)->Key Pair (Login) dropdown to select key pair to configure for remote access to soon-to-be-launched EC2 Instance.",
+    "CorrelationId": "b27fba05-d711-4472-bdda-b2b32167c5c5",
+    "FirstEventTime": "2023-11-25T15:15:37Z",
+    "AllEventArr": "ec2:DescribeKeyPairs",
+    "AllEventIdArr": "b27fba05-d711-4472-bdda-b2b32167c5c5",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#LaunchInstances:",
+    "LastEventTime": "2023-11-25T15:15:37Z",
+    "Name": "Clicked EC2->Instances->Instances->Launch Instance (Step 1.5 of 2)->Key Pair (Login)"
+  },
+  "dbd0f09b-2273-4d34-9ce5-ccc1f4806d83": {
+    "EventCount": 1,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "dbd0f09b-2273-4d34-9ce5-ccc1f4806d83",
+    "FirstEventTime": "2023-11-25T15:13:31Z",
+    "AllEventArr": "monitoring:DescribeAlarms",
+    "AllEventIdArr": "dbd0f09b-2273-4d34-9ce5-ccc1f4806d83",
+    "Url": "N/A",
+    "LastEventTime": "2023-11-25T15:13:31Z",
+    "Name": "Suppressing automated background event"
+  },
+  "01eaaff6-36ff-483e-86ed-f33a668e97d5": {
+    "EventCount": 22,
+    "Label": "EC2_Instances_Instances_LaunchInstance_Step1",
+    "AdditionalData": null,
+    "Summary": "Clicked EC2->Instances->Instances->Launch Instance (Step 1 of 2) which launches an EC2 Instance.",
+    "CorrelationId": "01eaaff6-36ff-483e-86ed-f33a668e97d5",
+    "FirstEventTime": "2023-11-25T15:14:31Z",
+    "AllEventArr": "ec2:DescribeSubnets,ec2:GetEbsEncryptionByDefault,ec2:DescribeSecurityGroups,ec2:DescribeVpcs,ec2:DescribeInstanceTypeOfferings,ec2:DescribeInstances,ec2:DescribeAccountAttributes,ec2:DescribeImages,ec2:DescribeInstanceTypes,ec2:DescribeAvailabilityZones,ec2:DescribeSnapshots",
+    "AllEventIdArr": "01eaaff6-36ff-483e-86ed-f33a668e97d5,21a705d7-21e0-4b9a-9053-9d5b518abc3d,51ba265c-1b4a-4eae-bcd7-4630e42b16db,5de8bccf-bd6c-43f0-b574-1b3998e103bb,70f1fcb6-cab4-4a11-af02-504a2e15f717,8320c6d6-6703-49ff-a424-764c8bd816c9,cc405a5c-9d68-4949-8de2-624cc378dc54,d4298cb4-61d4-4621-8861-67d07e4bbbf1,d82b00a2-47d6-4729-95d2-b5c58d0ca056,e541acbe-66f0-4e11-ac05-4296203c826c,e70ae7ad-5217-431b-a48c-65379d272ea5,eb250eb0-3aeb-4509-a7d9-92f2c84b916a,efaecaeb-56e1-4d7a-86d4-d3cbc0fce1e2,2434c327-a4a2-44f9-adf4-e31e7639775a,3c7cbb7f-7482-4b43-b5fe-75dcf9bf01f2,49d48fb0-0621-4400-b35d-d81247147e79,5d8721c0-6d6f-404f-9a37-92a2099cc224,d171e0bb-9c29-41e6-8e26-ad0eea89d44e,15e0d6c3-7f14-4212-828c-af4e66b3405d,5607c597-cb28-4aeb-8b1c-a221e7e698c4,70d0aa22-c962-4b73-91f7-4a1c5f20379e,e513fb07-1ae6-44af-bdcb-5cc676d5a8a0",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#LaunchInstances:",
+    "LastEventTime": "2023-11-25T15:14:33Z",
+    "Name": "Clicked EC2->Instances->Instances->Launch Instance (Step 1 of 2)"
+  },
+  "89376a6a-dd3d-40ad-bcaf-874e2030eb28": {
+    "EventCount": 2,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "89376a6a-dd3d-40ad-bcaf-874e2030eb28",
+    "FirstEventTime": "2023-11-25T15:12:59Z",
+    "AllEventArr": "signin:GetSigninToken,signin:ConsoleLogin",
+    "AllEventIdArr": "89376a6a-dd3d-40ad-bcaf-874e2030eb28,c3a008c9-67df-4fe9-a4cd-b5961a25107d",
+    "Url": "N/A",
+    "LastEventTime": "2023-11-25T15:12:59Z",
+    "Name": "Console Login"
+  },
+  "99ee6ccc-c6fe-4b0d-88e3-0714d1927886": {
+    "EventCount": 3,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "99ee6ccc-c6fe-4b0d-88e3-0714d1927886",
+    "FirstEventTime": "2023-11-25T15:13:03Z",
+    "AllEventArr": "ce:GetCostAndUsage,ec2:DescribeRegions,ce:GetCostForecast",
+    "AllEventIdArr": "99ee6ccc-c6fe-4b0d-88e3-0714d1927886,9d4af419-5b95-473c-9913-14a54768ca65,f42858d3-ad6f-4ac7-b28d-0cd59d54526a",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-11-25T15:13:03Z",
+    "Name": "Console Home"
+  },
+  "0ee44ff2-58fb-4958-877c-377fa6c8278b": {
+    "EventCount": 15,
+    "Label": "EC2_Instances_Instances",
+    "AdditionalData": {
+      "instanceIdArr": [
+        "i-db0c0ffee445fa741",
+        "i-db0c0ffee6e5e585f",
+        "i-db0c0ffee8c20e5fc",
+        "i-db0c0ffee98361ad0",
+        "i-db0c0ffeeffd53ad4"
+      ],
+      "attributeKeyAndValueObjArr": null
+    },
+    "Summary": "Clicked EC2->Instances->Instances which displays all EC2 Instances in a searchable paged format, currently displaying 5 EC2 Instances ('i-db0c0ffee445fa741','i-db0c0ffee6e5e585f','i-db0c0ffee8c20e5fc','i-db0c0ffee98361ad0','i-db0c0ffeeffd53ad4') with no filter applied.",
+    "CorrelationId": "0ee44ff2-58fb-4958-877c-377fa6c8278b",
+    "FirstEventTime": "2023-11-25T15:13:31Z",
+    "AllEventArr": "ec2:DescribeTags,ec2:DescribeInstanceTypes,ec2:DescribeAccountAttributes,ec2:DescribeInstances,ec2:DescribeAddresses,ec2:DescribeInstanceStatus",
+    "AllEventIdArr": "0ee44ff2-58fb-4958-877c-377fa6c8278b,16a7ef39-5ee2-43ce-8987-ad0c7ee07c54,61573e76-9c64-4b32-b401-07cb1bc34230,7a73aeda-0403-48eb-a878-c9c2eceaa304,903147c8-ae49-41eb-b998-26dfca0c845d,93283d89-4ef3-4164-b2a3-8a352e5a0bb2,a7f4b186-756f-45dc-b149-b668a141eb78,dbccec02-2462-4979-a7eb-5100ec7be8cd,edf7e60b-0c50-4e43-8a44-ed7e6c1bea6b,f2ff15a2-78c8-4b9b-a4f5-528d12692a27,112bcf0c-43ed-4f66-a356-52e66be8307a,305b6d7e-ac1d-4f87-8404-539cd93b5b3b,8c917d28-5772-420e-a5b0-5fa4ba0d3e36,d775c133-3fb1-4bd2-9a95-fecf9cfbbb02,f99cd35d-e02c-4f5c-9ef4-8d57b9fbdf10",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:",
+    "LastEventTime": "2023-11-25T15:13:32Z",
+    "Name": "Clicked EC2->Instances->Instances"
+  },
+  "9e2d2ab4-6d7f-4e79-990f-7df11634df1e": {
+    "EventCount": 4,
+    "Label": "EC2_Instances_Instances_LaunchInstance_Step2",
+    "AdditionalData": {
+      "instanceTypeArr": "t2.micro",
+      "securityGroupIdArr": "sg-db0c0ffee596f77eb",
+      "imageIdArr": "ami-db0c0ffeed16d8128",
+      "instanceIdArr": "i-db0c0ffeebb3275e2"
+    },
+    "Summary": "Clicked EC2->Instances->Instances->Launch Instance (Step 2 of 2) which launches an EC2 Instance, specifically 1 EC2 Instance ('i-db0c0ffeebb3275e2') configured with 1 EC2 AMI ('ami-db0c0ffeed16d8128') and built on 1 EC2 Instance Type ('t2.micro') and deployed into 1 Security Group ('sg-db0c0ffee596f77eb').",
+    "CorrelationId": "9e2d2ab4-6d7f-4e79-990f-7df11634df1e",
+    "FirstEventTime": "2023-11-25T15:16:59Z",
+    "AllEventArr": "ec2:CreateSecurityGroup,ec2:DescribeSecurityGroups,ec2:AuthorizeSecurityGroupIngress,ec2:RunInstances",
+    "AllEventIdArr": "9e2d2ab4-6d7f-4e79-990f-7df11634df1e,d85bd3cc-a233-4fb6-a9c7-f4293eda3905,fda2c392-49a1-464e-be83-d717e7d4769c,f7c365e3-be80-49e1-88a6-34e1c0765fef",
+    "Url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#LaunchInstances:",
+    "LastEventTime": "2023-11-25T15:17:01Z",
+    "Name": "Clicked EC2->Instances->Instances->Launch Instance (Step 2 of 2)"
+  }
+}

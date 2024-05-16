@@ -1,0 +1,1532 @@
+[
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "8b349ec3-a060-45bc-875c-a5215752c2fd",
+    "eventSource": "elasticloadbalancing.amazonaws.com",
+    "eventName": "DescribeLoadBalancers",
+    "requestParameters": {
+      "pageSize": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "068ef5f3-b4c0-4411-949a-d3d7a80a1175",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribePlacementGroups",
+    "requestParameters": {
+      "placementGroupSet": {},
+      "placementGroupIdSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "2db75f5c-f86a-46ee-9d3d-7db7c9bb4ef0",
+    "eventSource": "autoscaling.amazonaws.com",
+    "eventName": "DescribeAutoScalingGroups",
+    "requestParameters": {
+      "maxRecords": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "c31894a0-a3a7-42ca-9ecd-a178b82294d6",
+    "eventSource": "elasticloadbalancing.amazonaws.com",
+    "eventName": "DescribeLoadBalancers",
+    "requestParameters": {
+      "pageSize": 200
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "79301446-6699-4537-9fd3-da100effd126",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "7eff6ab9-dc21-45d0-9d14-30f761276644",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeHosts",
+    "requestParameters": {
+      "DescribeHostsRequest": {
+        "MaxResults": 500
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "78f39462-4520-41e2-94f5-3bfe5247edfa",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeKeyPairs",
+    "requestParameters": {
+      "includePublicKey": false,
+      "keySet": {},
+      "keyPairIdSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "bdbd6fb5-f85d-4f91-8336-e2fb80fe4a6e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "820bb596-d09b-4007-a600-9f769df9f5ab",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSnapshots",
+    "requestParameters": {
+      "snapshotSet": {},
+      "maxResults": 1000,
+      "ownersSet": {
+        "items": [
+          {
+            "owner": "200802171337"
+          }
+        ]
+      },
+      "sharedUsersSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:30Z",
+    "eventID": "81e15a03-4b88-48d8-b644-3e0f98fdb7f9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVolumes",
+    "requestParameters": {
+      "volumeSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:56:31Z",
+    "eventID": "a84cf392-e872-499a-aa08-f54e42ec784d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:57:32Z",
+    "eventID": "fb595369-4ad8-4281-95a7-ee77b09c454a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVolumeStatus",
+    "requestParameters": {
+      "volumeSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:57:32Z",
+    "eventID": "65335bd8-c26c-4994-ab13-738ef7a663bc",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceStatus",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 1000,
+      "includeAllInstances": false,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:58:07Z",
+    "eventID": "9156c8e1-7299-4bcb-9589-eac6a38f2647",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneIdSet": {},
+      "availabilityZoneSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:58:26Z",
+    "eventID": "18ed5ad2-1047-4afd-820a-a52302e4eea9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:00Z",
+    "eventID": "af1220c8-da37-44bc-a769-0d6ac0fb98a9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRegions",
+    "requestParameters": {
+      "regionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "ae83e4ed-a74f-4f37-8f47-8bdd6c6f6580",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAddresses",
+    "requestParameters": {
+      "publicIpsSet": {},
+      "allocationIdsSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "86e77fbd-5de9-4b56-b805-6d3a2e494797",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeEgressOnlyInternetGateways",
+    "requestParameters": {
+      "DescribeEgressOnlyInternetGatewaysRequest": {
+        "MaxResults": 255
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "a032cbce-453e-4f85-acf2-12dd89a1525c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRouteTables",
+    "requestParameters": {
+      "maxResults": 100,
+      "routeTableIdSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "4325e5ac-deef-4ba6-a39a-92f66edd76a7",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSubnets",
+    "requestParameters": {
+      "filterSet": {},
+      "maxResults": 1000,
+      "subnetSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "f1bbd1ef-acfb-4c1f-ae00-f0dbcbbc4280",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "004d5928-08e9-4e84-9d7b-5f4a61d3cf7d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcs",
+    "requestParameters": {
+      "maxResults": 1000,
+      "vpcSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "acc335e7-129a-419f-8634-f88beea4df8b",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Jul 31, 2023 3:59:01 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "e3e1e56a-88c6-4b59-9b59-e366748cff6e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRegions",
+    "requestParameters": {
+      "allRegions": true,
+      "regionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "dc614283-8fbc-4e49-b6f3-0b4a16a38c74",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {
+        "items": [
+          {
+            "attributeName": "supported-platforms"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "348dc261-3881-4bd0-bf65-1c5819dd0431",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeDhcpOptions",
+    "requestParameters": {
+      "maxResults": 1000,
+      "dhcpOptionsSet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:01Z",
+    "eventID": "7920a24a-ff9d-4614-8a84-fdc8b1cb2972",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Jul 31, 2023, 3:59:01 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "e4b25ddd-78cb-439c-a399-20efe7cbffd9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpnGateways",
+    "requestParameters": {
+      "vpnGatewaySet": {},
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "099287c8-fe7a-407e-9562-1b3e949bcc82",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpointServiceConfigurations",
+    "requestParameters": {
+      "DescribeVpcEndpointServiceConfigurationsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "09aed6e7-eb1a-4b05-b248-85b6c71f612b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstances",
+    "requestParameters": {
+      "instancesSet": {},
+      "maxResults": 1000,
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "running"
+                }
+              ]
+            },
+            "name": "instance-state-name"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "e9af4547-6db3-4837-a2c8-8a580ddf198b",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcPeeringConnections",
+    "requestParameters": {
+      "vpcPeeringConnectionIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "5c9c1c68-5eed-4a82-b77b-647706b34024",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpcEndpoints",
+    "requestParameters": {
+      "DescribeVpcEndpointsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "1dd292d2-f0fb-49ef-80cb-a25304418284",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeSecurityGroups",
+    "requestParameters": {
+      "securityGroupSet": {},
+      "securityGroupIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "30ec0c52-0e9e-407a-91b6-b987044d4238",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeNetworkAcls",
+    "requestParameters": {
+      "networkAclIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "cff2d1b6-4e7f-4f6b-8718-580fd91e9b90",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCustomerGateways",
+    "requestParameters": {
+      "filterSet": {},
+      "customerGatewaySet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "9bce905a-b3e5-4865-92cc-d7b4d255cf9f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInternetGateways",
+    "requestParameters": {
+      "internetGatewayIdSet": {},
+      "maxResults": 1000,
+      "filterSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:02Z",
+    "eventID": "769b729a-bf61-460e-9722-3e5e5280ad3f",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeVpnConnections",
+    "requestParameters": {
+      "filterSet": {},
+      "vpnConnectionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:48Z",
+    "eventID": "8f3d4e08-965e-4d05-8c8d-12f0fe844905",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetEbsDefaultKmsKeyId",
+    "requestParameters": {
+      "GetEbsDefaultKmsKeyIdRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T03:59:48Z",
+    "eventID": "39270939-1da9-4dd4-86ad-af77f4d1a2d7",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetEbsEncryptionByDefault",
+    "requestParameters": {
+      "GetEbsEncryptionByDefaultRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:02Z",
+    "eventID": "8fb15c2d-4321-4857-a779-c01a6b2111de",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneSet": {},
+      "availabilityZoneIdSet": {},
+      "allAvailabilityZones": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:18Z",
+    "eventID": "a48b1eeb-487d-42c8-914f-01805efc4982",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAASZDJbanTsxg-TPewcvwmm-EcABW2pWcQxYgNaVrQ6H9PVA9b_O2561WRMhXo4pOTZrzsrzDpl4RyaB_1xoqfFGDt2eCXExtix9gTyp-PFcY4Qif7eahwA6q8_mU0__SRyGhZdtyk94F7d4bU0QsLa6dHQBVN22fTPU35LbT6VmFj7L1GnV1W5YJwCS1UyD7wrkcjtcxOaWKolY=",
+        "Filter": {
+          "Name": "burstable-performance-supported",
+          "Value": {
+            "content": true,
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:18Z",
+    "eventID": "e7aa68aa-0d72-4288-94a7-5f0d84888650",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAASl0bNzZwjRPDUEHrxMhtZocJe5_4mZy6z6OpoK2LGo007adONAh7FKpohgD6muILwXR9-f66ZXmX7RtRX0U7OF_kK-yQmOOc2HRexlN2RoId3f0K6i-ZY6Gl-UC9bCa3Iev_htZkxHYqspxtIMqOriRMG6QnBEMw4enDUa13y8KjcAyla8Mzz-1c4b6HFN1g0BuM4wm3wO-UIwivp0=",
+        "Filter": {
+          "Name": "burstable-performance-supported",
+          "Value": {
+            "content": true,
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:18Z",
+    "eventID": "484cd7df-67e0-4723-ab42-1a0bdfcca806",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "Filter": {
+          "Name": "burstable-performance-supported",
+          "Value": {
+            "content": true,
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:18Z",
+    "eventID": "de8a1035-f795-4370-8965-10a88dd45142",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAcL9SEwKDEz9siw6dhA9rVFw7OHCCK_OAQG3fXHfHNHhoeQqtrlpKZ_W7ogfLGi3nbl_-rspLsqNH0QJRhFicPAy9cMM3irxGeNsu7UlNnYanY59RjTerN6VRbRyU_PKc-ql-nnAHdPFuC3TRqUJ-8_F_kXxRA6Lx8-tE0J7hj9Hdo1ApWpgXWIwbdEe_XHWae1_eercje9AjOTMXg==",
+        "Filter": {
+          "Name": "burstable-performance-supported",
+          "Value": {
+            "content": true,
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:18Z",
+    "eventID": "c9e4fcf7-ae25-49f6-8bf7-2a74ba6d0a28",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAX-W_2cN8du8UkYujaDE5jM7vRlTUFAl7t0DDBo_0bPHp1epnfJ30Zy67mYGN87N6U2udKB5HS6pr1wgtVo1Vn9wfxWsmUOy4ecx5CMHkzDPosjI0b5jraS_VLCwovcZ3NzHd929hO2-LSqhDqng7Z25pDXQnRVZHwHeuFXCLeBfGxXxAnKqtz0qU9kiwAgRQeJwBvU-0II=",
+        "Filter": {
+          "Name": "burstable-performance-supported",
+          "Value": {
+            "content": true,
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:18Z",
+    "eventID": "eb7802b5-5e96-4727-8bee-274fe2cd3bd4",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAbzlpatcnN3bLXWqfxhYywefMqq6h2ZufUxUhaMB09q1cdyW7bAlu08Rydinky0vOwqmvPC2S6jERD3OZNoBWTUhw9MUow9UN1C2XSW2mU58eAzRQJpXO45JvvWfe7pSH1pZEi3bBCle-t9I-1C3lcKi2HGC4A4uu742p_W7VRdIB2z3VzVHREuMUY2pVM96ASkQnuQQxyw9SK-FgUI=",
+        "Filter": {
+          "Name": "burstable-performance-supported",
+          "Value": {
+            "content": true,
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:19Z",
+    "eventID": "e143b0bf-21c3-4b48-a28c-e776ccb6017a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetDefaultCreditSpecification",
+    "requestParameters": {
+      "GetDefaultCreditSpecificationRequest": {
+        "InstanceFamily": "t4g"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:19Z",
+    "eventID": "b0e89018-acbb-4265-80db-3bcc83360c07",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetDefaultCreditSpecification",
+    "requestParameters": {
+      "GetDefaultCreditSpecificationRequest": {
+        "InstanceFamily": "t2"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:19Z",
+    "eventID": "c279f926-c376-4733-977a-5651eba35d95",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeInstanceTypes",
+    "requestParameters": {
+      "DescribeInstanceTypesRequest": {
+        "NextToken": "AAIAAaB73ptltAKc_czSL4u85aB2NPb4QDBpXAF6qWk0EgUMk4aa1PPReGvQxUo5JceZlAOwdcQCQCcVBs02c3t9s40sXLk4cj-kadkW9x4mFhu0xUdIiwvnGvWk7CGM59Yc1AacOw7p4odaDalHsye4DQJYo62iO060mMK2JBbv546b1v4s12gYLpFPs4eGwL8KieAmKK_65h4nVV8jKDHk",
+        "Filter": {
+          "Name": "burstable-performance-supported",
+          "Value": {
+            "content": true,
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:19Z",
+    "eventID": "883052ce-c321-45b9-ba72-764f2f5b0268",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetDefaultCreditSpecification",
+    "requestParameters": {
+      "GetDefaultCreditSpecificationRequest": {
+        "InstanceFamily": "t3a"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:19Z",
+    "eventID": "8c0413eb-8f3d-4d9a-ab8a-45bc496e9c76",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetDefaultCreditSpecification",
+    "requestParameters": {
+      "GetDefaultCreditSpecificationRequest": {
+        "InstanceFamily": "t3"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:01:34Z",
+    "eventID": "cc7b27f3-566e-4504-8c38-bc290a3e47e9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetSerialConsoleAccessStatus",
+    "requestParameters": {
+      "GetSerialConsoleAccessStatusRequest": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:03:06Z",
+    "eventID": "33e47cb7-6f6e-49a7-88b5-1127961351eb",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribePlacementGroups",
+    "requestParameters": {
+      "placementGroupSet": {},
+      "placementGroupIdSet": {},
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "cluster"
+                }
+              ]
+            },
+            "name": "strategy"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:03:06Z",
+    "eventID": "1ae755d7-75eb-43ee-a6a9-5473f96c476d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneIdSet": {},
+      "availabilityZoneSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:05:02Z",
+    "eventID": "85a3c372-76f0-4633-83db-6ae075390981",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:05:02Z",
+    "eventID": "4c461e84-032d-493a-9ee9-b5bb4072ebf6",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetCapacityReservationAccountAttribute",
+    "requestParameters": {
+      "GetCapacityReservationAccountAttributeRequest": {
+        "PropertyName": "auto-accept"
+      }
+    },
+    "responseElements": null,
+    "errorCode": "Client.Unsupported",
+    "errorMessage": "Your account is not allowed to perform this operation",
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:05:02Z",
+    "eventID": "fba1178d-0574-4479-840e-f4a86cf9bdeb",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneIdSet": {},
+      "availabilityZoneSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:05:02Z",
+    "eventID": "fd628fd0-fc8f-4b5b-a1b2-49c819d4a62e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "capacity-reservation"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:05:02Z",
+    "eventID": "7dfb2854-ff33-44f7-b2db-5b878d2db108",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "CreateCapacityReservation",
+    "requestParameters": {
+      "CreateCapacityReservationRequest": {
+        "EndDate": "2023-08-08T17:37:37Z",
+        "InstanceCount": 1,
+        "AvailabilityZone": "us-east-1a",
+        "EphemeralStorage": false,
+        "Tenancy": "default",
+        "EndDateType": "limited",
+        "EbsOptimized": false,
+        "InstanceMatchCriteria": "open",
+        "InstanceType": "a1.medium",
+        "InstancePlatform": "Linux/UNIX"
+      }
+    },
+    "responseElements": {
+      "CreateCapacityReservationResponse": {
+        "capacityReservation": {
+          "startDate": "2023-08-07T04:05:02Z",
+          "state": "active",
+          "ebsOptimized": false,
+          "endDate": "2023-08-08T17:37:37Z",
+          "capacityReservationArn": "arn:aws:ec2:us-east-1:200802171337:capacity-reservation/cr-db0c0ffeec8e5ebcf",
+          "endDateType": "limited",
+          "ephemeralStorage": false,
+          "instanceMatchCriteria": "open",
+          "tenancy": "default",
+          "instanceType": "a1.medium",
+          "availableInstanceCount": 1,
+          "createDate": "2023-08-07T04:05:01Z",
+          "ownerId": 200802171337,
+          "availabilityZone": "us-east-1a",
+          "totalInstanceCount": 1,
+          "instancePlatform": "Linux/UNIX",
+          "capacityReservationId": "cr-db0c0ffeec8e5ebcf"
+        },
+        "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+        "requestId": "24018d43-dc65-4405-9223-03d61a1748d3"
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:05:47Z",
+    "eventID": "8f03a2e4-5e80-4520-a006-921df1f06912",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "MaxResults": 1000,
+        "Filter": {
+          "Name": "instance-type",
+          "Value": {
+            "content": "a1.medium",
+            "tag": 1
+          },
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:05:47Z",
+    "eventID": "e1887d08-27e0-41b7-92b8-9581fa36c3ff",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "capacity-reservation"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:06:37Z",
+    "eventID": "e49260b8-7efd-45d2-89e0-6dc79672db24",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "capacity-reservation"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:06:37Z",
+    "eventID": "ac9f4913-cf8d-43c4-9e03-9d7d876d0085",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "MaxResults": 1000,
+        "Filter": [
+          {
+            "Name": "instance-type",
+            "Value": {
+              "content": "a1.medium",
+              "tag": 1
+            },
+            "tag": 1
+          },
+          {
+            "Name": "availability-zone",
+            "Value": {
+              "content": "us-east-1a",
+              "tag": 1
+            },
+            "tag": 2
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:07:16Z",
+    "eventID": "4d871897-b1a1-47ee-ab3b-a797a392f0ed",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "capacity-reservation"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:07:16Z",
+    "eventID": "c2d4499f-21c7-4277-b911-a4d993a65e4e",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "MaxResults": 1000,
+        "Filter": [
+          {
+            "Name": "instance-type",
+            "Value": {
+              "content": "a1.medium",
+              "tag": 1
+            },
+            "tag": 1
+          },
+          {
+            "Name": "availability-zone",
+            "Value": {
+              "content": "us-east-1a",
+              "tag": 1
+            },
+            "tag": 2
+          },
+          {
+            "Name": "instance-match-criteria",
+            "Value": {
+              "content": "open",
+              "tag": 1
+            },
+            "tag": 3
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:07:58Z",
+    "eventID": "a04bb510-33d0-41b2-b68b-a51af2dae8a9",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "capacity-reservation"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:07:58Z",
+    "eventID": "08ac10dc-9c45-44d6-a999-821e2ad27d40",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:08:59Z",
+    "eventID": "b4e76239-e057-4417-a5e2-2f3f923ff488",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "CapacityReservationId": {
+          "content": "cr-db0c0ffeec8e5ebcf",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:08:59Z",
+    "eventID": "403b3348-26c9-42ee-be96-c16fdbd75e5d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetGroupsForCapacityReservation",
+    "requestParameters": {
+      "GetGroupsForCapacityReservationRequest": {
+        "CapacityReservationId": "cr-db0c0ffeec8e5ebcf"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:08:59Z",
+    "eventID": "a897ef64-a73a-430f-bfbc-ff18e90c373a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetCapacityReservationUsage",
+    "requestParameters": {
+      "GetCapacityReservationUsageRequest": {
+        "CapacityReservationId": "cr-db0c0ffeec8e5ebcf"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:08:59Z",
+    "eventID": "4e1ef6c6-aa1b-4774-8de9-18a36ba9a6f6",
+    "eventSource": "ram.amazonaws.com",
+    "eventName": "GetResourceShareAssociations",
+    "requestParameters": {
+      "resourceArn": "arn:aws:ec2:us-east-1:200802171337:capacity-reservation/cr-db0c0ffeec8e5ebcf",
+      "associationType": "RESOURCE"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "EC2ConsoleFrontend, aws-internal/3 aws-sdk-java/1.12.519 Linux/5.10.184-153.749.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.382-b05 java/1.8.0_382 vendor/Oracle_Corporation cfg/retry-mode/standard",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:18Z",
+    "eventID": "b04237be-6463-49d8-988f-eb4ee8fc1611",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "CancelCapacityReservation",
+    "requestParameters": {
+      "CancelCapacityReservationRequest": {
+        "CapacityReservationId": "cr-db0c0ffeec8e5ebcf"
+      }
+    },
+    "responseElements": {
+      "CancelCapacityReservationResponse": {
+        "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+        "return": true,
+        "requestId": "4a9552d4-7831-4d70-8118-f73d0ccef077"
+      }
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:19Z",
+    "eventID": "3b9fc5ef-3c10-4b0b-b1e6-80798d1641b3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetGroupsForCapacityReservation",
+    "requestParameters": {
+      "GetGroupsForCapacityReservationRequest": {
+        "CapacityReservationId": "cr-db0c0ffeec8e5ebcf"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:19Z",
+    "eventID": "248c691a-e9cc-4b7b-a99c-a296c49ec8dd",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetCapacityReservationUsage",
+    "requestParameters": {
+      "GetCapacityReservationUsageRequest": {
+        "CapacityReservationId": "cr-db0c0ffeec8e5ebcf"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:19Z",
+    "eventID": "cb223885-49e9-4add-a8f5-99fdf706fb2a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "CapacityReservationId": {
+          "content": "cr-db0c0ffeec8e5ebcf",
+          "tag": 1
+        }
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:19Z",
+    "eventID": "cfa70597-1e10-4d77-b2fa-0480e8944a41",
+    "eventSource": "ram.amazonaws.com",
+    "eventName": "GetResourceShareAssociations",
+    "requestParameters": {
+      "resourceArn": "arn:aws:ec2:us-east-1:200802171337:capacity-reservation/cr-db0c0ffeec8e5ebcf",
+      "associationType": "RESOURCE"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "EC2ConsoleFrontend, aws-internal/3 aws-sdk-java/1.12.519 Linux/5.10.184-153.731.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.382-b05 java/1.8.0_382 vendor/Oracle_Corporation cfg/retry-mode/standard",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:44Z",
+    "eventID": "89e46aa0-386b-4b01-86f7-e130e22cf61a",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeCapacityReservations",
+    "requestParameters": {
+      "DescribeCapacityReservationsRequest": {
+        "MaxResults": 1000
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:44Z",
+    "eventID": "e8f69d4f-45e5-43d7-8f8d-0c6ede82cc22",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeTags",
+    "requestParameters": {
+      "filterSet": {
+        "items": [
+          {
+            "valueSet": {
+              "items": [
+                {
+                  "value": "capacity-reservation"
+                }
+              ]
+            },
+            "name": "resource-type"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:44Z",
+    "eventID": "bfc5ebaa-4219-47b8-8b24-e50a8c954a2c",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAvailabilityZones",
+    "requestParameters": {
+      "availabilityZoneIdSet": {},
+      "availabilityZoneSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-08-07T04:10:44Z",
+    "eventID": "22186b67-955a-4a5d-8b62-a6b6f2f427ae",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "GetCapacityReservationAccountAttribute",
+    "requestParameters": {
+      "GetCapacityReservationAccountAttributeRequest": {
+        "PropertyName": "auto-accept"
+      }
+    },
+    "responseElements": null,
+    "errorCode": "Client.Unsupported",
+    "errorMessage": "Your account is not allowed to perform this operation",
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  }
+]

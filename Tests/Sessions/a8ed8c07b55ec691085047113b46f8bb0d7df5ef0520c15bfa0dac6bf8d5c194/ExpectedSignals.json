@@ -1,0 +1,492 @@
+{
+  "03690f4a-e94c-4920-a8ae-f3b5acd33ed5": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "03690f4a-e94c-4920-a8ae-f3b5acd33ed5",
+    "FirstEventTime": "2023-06-05T01:29:57Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "03690f4a-e94c-4920-a8ae-f3b5acd33ed5,33c589fe-4f27-4476-86d9-43385b3b85aa",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:29:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "7c0a86d1-cb61-4be6-9600-58c70c368b47": {
+    "EventCount": 7,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_KeyPolicy",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Key Policy which displays IAM Users, IAM Roles and AWS Accounts granted access to use and/or administer KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "7c0a86d1-cb61-4be6-9600-58c70c368b47",
+    "FirstEventTime": "2023-06-05T01:10:54Z",
+    "AllEventArr": "kms:DescribeKey,kms:GetKeyPolicy,kms:ListAliases,iam:ListUsers,iam:ListRoles",
+    "AllEventIdArr": "7c0a86d1-cb61-4be6-9600-58c70c368b47,85cce850-a702-48f8-a93b-5b52a23d8f8b,b974b504-5822-4b69-850d-bc39099f7c14,0ff3decf-f22e-44b5-80bd-0da03fdcbeaa,2e94e98c-65e8-4f2d-9a07-e6068dbfe1b7,7185be47-555f-4138-b31e-832f9055eb42,88a9953f-bf37-4779-85c7-3626cf06ae6c",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/keyPolicy",
+    "LastEventTime": "2023-06-05T01:10:55Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Key Policy"
+  },
+  "5667c0a3-a2e7-4585-bb66-b52d3bbc59a7": {
+    "EventCount": 10,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "4c8e75cc-f147-4d61-95b6-27398da485d8",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 3 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',4c8e75cc-f147-4d61-95b6-27398da485d8',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "5667c0a3-a2e7-4585-bb66-b52d3bbc59a7",
+    "FirstEventTime": "2023-06-05T01:19:56Z",
+    "AllEventArr": "kms:DescribeKey,tagging:GetResources,kms:ListAliases",
+    "AllEventIdArr": "5667c0a3-a2e7-4585-bb66-b52d3bbc59a7,5667c0a3-a2e7-4585-bb66-b52d3bbc59a7,70b7e9a6-d26d-45fe-baa5-af62104ec191,70b7e9a6-d26d-45fe-baa5-af62104ec191,70d0924a-af7c-4097-b661-43962dccbe50,70d0924a-af7c-4097-b661-43962dccbe50,c4b33d11-7245-4e84-a201-407316ac0647,c4b33d11-7245-4e84-a201-407316ac0647,dee7983f-e340-4a29-9fb8-029512a04456,dee7983f-e340-4a29-9fb8-029512a04456",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-06-05T01:19:56Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "6d16ed3b-bfb6-4caa-b296-0a1616cd3c2e": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "6d16ed3b-bfb6-4caa-b296-0a1616cd3c2e",
+    "FirstEventTime": "2023-06-05T01:02:30Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "6d16ed3b-bfb6-4caa-b296-0a1616cd3c2e,9700acc6-bd92-4dac-837c-8df54a416009,9f6c67db-8afa-482c-bbd5-d755a95c3b35",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:02:30Z",
+    "Name": "Suppressing automated background event"
+  },
+  "14251186-94c5-4be7-8e31-9a2eb03b2118": {
+    "EventCount": 6,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "14251186-94c5-4be7-8e31-9a2eb03b2118",
+    "FirstEventTime": "2023-06-05T01:19:56Z",
+    "AllEventArr": "notifications:ListNotificationHubs,health:DescribeEventAggregates",
+    "AllEventIdArr": "14251186-94c5-4be7-8e31-9a2eb03b2118,14251186-94c5-4be7-8e31-9a2eb03b2118,d9c9e641-ba33-4b8b-a7e4-54316b000bd6,d9c9e641-ba33-4b8b-a7e4-54316b000bd6,d9e8a435-2e13-48fb-92ea-654a815e6bb4,d9e8a435-2e13-48fb-92ea-654a815e6bb4",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:19:56Z",
+    "Name": "Suppressing automated background event"
+  },
+  "059766f4-a116-475f-8dc8-f56f8c72599c": {
+    "EventCount": 6,
+    "Label": "KMS_CustomerManagedKeys_CreateKey_Step4",
+    "AdditionalData": {
+      "awsRegion": "us-east-1",
+      "aliasName": "aliasNameGoesHere",
+      "keyId": "4c8e75cc-f147-4d61-95b6-27398da485d8"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->Create Key (Step 4 of 4) to create a new KMS Key 'aliasNameGoesHere' with Key ID '4c8e75cc-f147-4d61-95b6-27398da485d8' in AWS Region 'us-east-1'.",
+    "CorrelationId": "059766f4-a116-475f-8dc8-f56f8c72599c",
+    "FirstEventTime": "2023-06-05T01:18:33Z",
+    "AllEventArr": "tagging:GetResources,kms:CreateKey,kms:DescribeKey,kms:ListAliases,kms:CreateAlias",
+    "AllEventIdArr": "059766f4-a116-475f-8dc8-f56f8c72599c,79d1650a-bbea-455a-abe0-d6d91e113a58,8edbcee4-cbb8-441e-8566-e594acf288e9,d35b9969-e59d-424a-adad-58825a6cb29f,d494afda-3486-47bd-aafc-ed6499d33b66,e6b2fcdf-3770-4090-810c-a723170fc797",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/create",
+    "LastEventTime": "2023-06-05T01:18:33Z",
+    "Name": "Clicked KMS->Customer Managed Keys->Create Key (Step 4 of 4)"
+  },
+  "3b2e835f-b508-463d-8d0d-8eb3efcb57c2": {
+    "EventCount": 8,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "3b2e835f-b508-463d-8d0d-8eb3efcb57c2",
+    "FirstEventTime": "2023-06-05T01:03:44Z",
+    "AllEventArr": "kms:ListAliases,kms:DescribeKey,tagging:GetResources",
+    "AllEventIdArr": "3b2e835f-b508-463d-8d0d-8eb3efcb57c2,4077e5eb-115d-4212-8133-9510d84f2995,47d1a45e-6f8e-482c-839b-9d4b7d263a41,70e3251d-6476-4f33-a48b-f1ab5508775a,c2c0a452-7090-4177-bb29-3570af84f705,ce1d8770-53ba-4351-8f48-bd02639130d4,f077960b-119c-4585-b177-c704d1ac7c5a,fa643c79-a65d-404c-bca1-f36f257f0509",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-06-05T01:03:44Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "4e1c6a55-61bb-42c5-bffc-de9f9464333d": {
+    "EventCount": 3,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": "352d8130-1f55-4095-8087-a4476726b460"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 1 KMS Key defined (352d8130-1f55-4095-8087-a4476726b460').",
+    "CorrelationId": "4e1c6a55-61bb-42c5-bffc-de9f9464333d",
+    "FirstEventTime": "2023-06-05T01:11:13Z",
+    "AllEventArr": "kms:DescribeKey,tagging:GetResources,kms:ListAliases",
+    "AllEventIdArr": "4e1c6a55-61bb-42c5-bffc-de9f9464333d,78e13f2f-6bb2-4ad1-8945-3c714c96835d,c08a6019-0c4e-433f-aba8-9564cfaf88a2",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-06-05T01:11:13Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "46870953-dd36-4018-b012-13c2b786675c": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "46870953-dd36-4018-b012-13c2b786675c",
+    "FirstEventTime": "2023-06-05T01:56:53Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "46870953-dd36-4018-b012-13c2b786675c,7a3b1cf9-d2d8-4dc5-9f03-36826f008bc4",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:56:53Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0e89c691-46cd-4590-b66e-ad03d0ac8547": {
+    "EventCount": 3,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "0e89c691-46cd-4590-b66e-ad03d0ac8547",
+    "FirstEventTime": "2023-06-05T01:10:55Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "0e89c691-46cd-4590-b66e-ad03d0ac8547,13174e06-fd2d-48cb-8c34-bc36600760ad,3a9a701b-2c85-4868-a625-473ccb5289fd",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:10:55Z",
+    "Name": "Suppressing automated background event"
+  },
+  "50bb368a-5070-4df2-8a52-f1f2f4f9fa2c": {
+    "EventCount": 2,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_CryptographicConfiguration",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Cryptographic Configuration which displays cryptographic configuration details for KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "50bb368a-5070-4df2-8a52-f1f2f4f9fa2c",
+    "FirstEventTime": "2023-06-05T01:07:34Z",
+    "AllEventArr": "kms:DescribeKey,kms:ListAliases",
+    "AllEventIdArr": "50bb368a-5070-4df2-8a52-f1f2f4f9fa2c,fec20d97-5f80-47f4-b6f9-48b5b6306104",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/cryptographicConfiguration",
+    "LastEventTime": "2023-06-05T01:07:34Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Cryptographic Configuration"
+  },
+  "970d6500-5a02-4fb1-bd27-32d2d54307e2": {
+    "EventCount": 1,
+    "Label": "KMS",
+    "AdditionalData": null,
+    "Summary": "Clicked KMS dashboard which displays a general overview of how to get started using KMS.",
+    "CorrelationId": "970d6500-5a02-4fb1-bd27-32d2d54307e2",
+    "FirstEventTime": "2023-06-05T01:01:43Z",
+    "AllEventArr": "kms:DescribeCustomKeyStores",
+    "AllEventIdArr": "970d6500-5a02-4fb1-bd27-32d2d54307e2",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/home",
+    "LastEventTime": "2023-06-05T01:01:43Z",
+    "Name": "Clicked KMS"
+  },
+  "0e0dd5ad-975c-4f3e-a2be-40690db4c68e": {
+    "EventCount": 8,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "4c8e75cc-f147-4d61-95b6-27398da485d8",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 3 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',4c8e75cc-f147-4d61-95b6-27398da485d8',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "0e0dd5ad-975c-4f3e-a2be-40690db4c68e",
+    "FirstEventTime": "2023-06-05T01:23:26Z",
+    "AllEventArr": "kms:ListAliases,kms:DescribeKey,tagging:GetResources",
+    "AllEventIdArr": "0e0dd5ad-975c-4f3e-a2be-40690db4c68e,2a2e2184-bc2a-4f5b-a061-6555d3d490d4,59e88680-14b5-42d3-a50a-708dc3888473,866c28c3-cd4f-4356-a6f1-87a21ea9f84b,88b932ad-3beb-4bc3-9b37-c1ba98718f36,9d0bbf48-a754-4291-9951-a22631c1dfbf,6735a843-8c49-4bde-b435-3a4a96e4cb6a,aab45739-ec83-47f9-ad8d-187381facbbf",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-06-05T01:23:27Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "2aa753dc-28c7-43a4-ab06-5ffe23ff4693": {
+    "EventCount": 7,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "2aa753dc-28c7-43a4-ab06-5ffe23ff4693",
+    "FirstEventTime": "2023-06-05T01:06:10Z",
+    "AllEventArr": "kms:DescribeKey,tagging:GetResources,kms:ListAliases,kms:DescribeCustomKeyStores",
+    "AllEventIdArr": "2aa753dc-28c7-43a4-ab06-5ffe23ff4693,4796c332-7acd-4b62-bde2-48bbb21108de,6fa34378-2eed-4347-b070-5901e42ed21d,7db18c2e-c130-4ede-9764-f803f6e005f8,83a69e11-aad9-43a2-8e93-21846c18200d,b2b89ca1-764f-4dfa-bbfa-4334a9bd9e62,df485485-9bc7-445f-9397-223825270690",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-06-05T01:06:10Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "34c6a116-f5ea-41bc-869e-6ebf9d9dafcb": {
+    "EventCount": 6,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 2 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "34c6a116-f5ea-41bc-869e-6ebf9d9dafcb",
+    "FirstEventTime": "2023-06-05T01:04:34Z",
+    "AllEventArr": "kms:ListAliases,kms:DescribeKey,tagging:GetResources",
+    "AllEventIdArr": "34c6a116-f5ea-41bc-869e-6ebf9d9dafcb,396bc115-aaf3-4d80-b3c2-bc1453dddd38,64e5fd6a-d9ff-416d-8e10-c3afdda6acec,8ff42f79-e381-4f43-9ffe-4c847f36feca,cb43e038-f181-4cc8-bb86-e638f9bee5c7,d71a54e0-03cc-42fe-b449-4624cebdefca",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-06-05T01:04:34Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "11265f7d-76af-4a48-af3e-65af2c6664e8": {
+    "EventCount": 2,
+    "Label": "KMS_CustomKeyStores_AWSCloudHSMKeyStores",
+    "AdditionalData": null,
+    "Summary": "Clicked KMS->Custom Key Stores->AWS CloudHSM Key Stores which displays all customer managed KMS keys stored in custom key store in AWS CloudHSM cluster in a searchable paged format.",
+    "CorrelationId": "11265f7d-76af-4a48-af3e-65af2c6664e8",
+    "FirstEventTime": "2023-06-05T01:04:45Z",
+    "AllEventArr": "cloudhsm:DescribeClusters,kms:DescribeCustomKeyStores",
+    "AllEventIdArr": "11265f7d-76af-4a48-af3e-65af2c6664e8,a0285da0-10ed-46b3-a637-364546a1f2fb",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/custom-key-stores/cloudhsm",
+    "LastEventTime": "2023-06-05T01:04:45Z",
+    "Name": "Clicked KMS->Custom Key Stores->AWS CloudHSM Key Stores"
+  },
+  "1a824bb7-0791-40be-a3a5-7711f13f8c97": {
+    "EventCount": 3,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_Tags",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Tags which displays all potential tags for KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "1a824bb7-0791-40be-a3a5-7711f13f8c97",
+    "FirstEventTime": "2023-06-05T01:08:13Z",
+    "AllEventArr": "kms:DescribeKey,kms:ListResourceTags,kms:ListAliases",
+    "AllEventIdArr": "1a824bb7-0791-40be-a3a5-7711f13f8c97,47ec3579-b6fb-4cf1-801c-5a68ea109212,8a060715-7c17-4394-b9b1-21d3720a4c7c",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/tags",
+    "LastEventTime": "2023-06-05T01:08:13Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Tags"
+  },
+  "4392e693-dc6b-423b-80f5-134162c96182": {
+    "EventCount": 5,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_KeyPolicy",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Key Policy which displays IAM Users, IAM Roles and AWS Accounts granted access to use and/or administer KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "4392e693-dc6b-423b-80f5-134162c96182",
+    "FirstEventTime": "2023-06-05T01:06:37Z",
+    "AllEventArr": "iam:ListUsers,iam:ListRoles,kms:GetKeyPolicy",
+    "AllEventIdArr": "4392e693-dc6b-423b-80f5-134162c96182,a9fba898-758c-4a43-92c3-3608d955c293,bdaf00ef-80c2-4dd3-8e43-31f6cff7da56,e140935d-b235-4b0e-8a29-fa0a87e67959,fa90db65-8f50-461b-8572-a6d4211bf07c",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/keyPolicy",
+    "LastEventTime": "2023-06-05T01:06:37Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Key Policy"
+  },
+  "a0d63919-9a63-4ce9-b2c9-7ed1256ba876": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "a0d63919-9a63-4ce9-b2c9-7ed1256ba876",
+    "FirstEventTime": "2023-06-05T01:24:57Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "a0d63919-9a63-4ce9-b2c9-7ed1256ba876,feac66ef-859c-4390-8eff-0806843180fe",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:24:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "c2af9982-e5a4-49fc-af9f-4e8c870e93f5": {
+    "EventCount": 1,
+    "Label": "ConsoleLogin",
+    "AdditionalData": null,
+    "Summary": "Logged into AWS Console.",
+    "CorrelationId": "c2af9982-e5a4-49fc-af9f-4e8c870e93f5",
+    "FirstEventTime": "2023-06-04T22:46:43Z",
+    "AllEventArr": "signin:ConsoleLogin",
+    "AllEventIdArr": "c2af9982-e5a4-49fc-af9f-4e8c870e93f5",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-04T22:46:43Z",
+    "Name": "Console Login"
+  },
+  "4e2cf2b3-88c2-466a-897f-90476003a5be": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "4e2cf2b3-88c2-466a-897f-90476003a5be",
+    "FirstEventTime": "2023-06-05T01:34:57Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "4e2cf2b3-88c2-466a-897f-90476003a5be,93e1a2dc-2253-405d-b130-8a56267b2c9a",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:34:57Z",
+    "Name": "Suppressing automated background event"
+  },
+  "0f2f28be-e77c-4572-a5f9-6bc5f304854e": {
+    "EventCount": 2,
+    "Label": "KMS_CustomerManagedKeys_CreateKey_Step3",
+    "AdditionalData": {
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->Create Key (Step 3 of 4) to create a new KMS Key in AWS Region 'us-east-1'.",
+    "CorrelationId": "0f2f28be-e77c-4572-a5f9-6bc5f304854e",
+    "FirstEventTime": "2023-06-05T01:15:26Z",
+    "AllEventArr": "iam:ListRoles,iam:ListUsers",
+    "AllEventIdArr": "0f2f28be-e77c-4572-a5f9-6bc5f304854e,c095b733-8a17-4f66-9dc3-89508dac54ee",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/create",
+    "LastEventTime": "2023-06-05T01:15:26Z",
+    "Name": "Clicked KMS->Customer Managed Keys->Create Key (Step 3 of 4)"
+  },
+  "43e7c774-877c-4dc8-a4b4-6254f46744d0": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "43e7c774-877c-4dc8-a4b4-6254f46744d0",
+    "FirstEventTime": "2023-06-05T01:15:55Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "43e7c774-877c-4dc8-a4b4-6254f46744d0,d772064c-1e1c-4c01-841f-b6c9d1e144f4",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:15:55Z",
+    "Name": "Suppressing automated background event"
+  },
+  "1dcd7334-4e10-482c-90d2-590f05d142bc": {
+    "EventCount": 2,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "1dcd7334-4e10-482c-90d2-590f05d142bc",
+    "FirstEventTime": "2023-06-05T01:07:31Z",
+    "AllEventArr": "health:DescribeEventAggregates",
+    "AllEventIdArr": "1dcd7334-4e10-482c-90d2-590f05d142bc,40eaa64b-3ccb-4f1c-b79d-d2f7caae5c7b",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-05T01:07:31Z",
+    "Name": "Suppressing automated background event"
+  },
+  "01358683-d42f-4b4b-8c3d-b619ff2a0dc8": {
+    "EventCount": 6,
+    "Label": "KMS_CustomerManagedKeys_CreateKey_Step1",
+    "AdditionalData": {
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->Create Key (Step 1 of 4) to create a new KMS Key in AWS Region 'us-east-1'.",
+    "CorrelationId": "01358683-d42f-4b4b-8c3d-b619ff2a0dc8",
+    "FirstEventTime": "2023-06-05T01:12:03Z",
+    "AllEventArr": "kms:ListAliases,tagging:GetResources,kms:DescribeKey",
+    "AllEventIdArr": "01358683-d42f-4b4b-8c3d-b619ff2a0dc8,3a9dc348-15d7-4787-a9ab-1503492ccb7b,57aa4e41-10a2-4498-b263-c9d66ae3e832,b225f368-e025-4bfd-b5e1-40ff99f2a3af,d95af007-b8f9-47f3-a939-6338a867f267,e72f9f1b-1872-492f-a6bb-f9d1625b5096",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/create",
+    "LastEventTime": "2023-06-05T01:12:03Z",
+    "Name": "Clicked KMS->Customer Managed Keys->Create Key (Step 1 of 4)"
+  },
+  "0525843d-d8e0-40d7-b766-782e7d264d47": {
+    "EventCount": 4,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_KeyRotation",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Key Rotation which displays checkbox to automatically perform annual rotation of KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "0525843d-d8e0-40d7-b766-782e7d264d47",
+    "FirstEventTime": "2023-06-05T01:08:44Z",
+    "AllEventArr": "kms:GetKeyRotationStatus,kms:ListResourceTags,kms:ListAliases,kms:DescribeKey",
+    "AllEventIdArr": "0525843d-d8e0-40d7-b766-782e7d264d47,0e9d5eab-9507-44b6-8be3-443a052f52a9,4da22ac5-bf94-486a-a0cb-a8a40da0f9e1,7d8f0aed-bf9c-415e-b030-467a392d2685",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/keyRotation",
+    "LastEventTime": "2023-06-05T01:08:44Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Key Rotation"
+  },
+  "108b36d8-5cbd-457e-91f5-a93a7351b5fc": {
+    "EventCount": 9,
+    "Label": "SuppressAutomatedBackgroundEvent",
+    "AdditionalData": null,
+    "Summary": "Suppressing automated background event not contributing to any mapping scenario.",
+    "CorrelationId": "108b36d8-5cbd-457e-91f5-a93a7351b5fc",
+    "FirstEventTime": "2023-06-04T22:46:48Z",
+    "AllEventArr": "health:DescribeEventAggregates,notifications:ListNotificationHubs",
+    "AllEventIdArr": "108b36d8-5cbd-457e-91f5-a93a7351b5fc,5e870bf0-c039-4d38-b2d8-73840c536bbb,63a698bd-9642-492c-8014-858b5fad7246,94763762-7514-462e-b626-edf644815558,db7c4ba8-829a-47f5-ba57-c948747a00c1,f875e501-92d9-4104-a00e-ad6beae12d96,5f55eb2e-a889-4380-89cf-b3d77a01d6bf,7970c2d1-a8dd-453e-b2de-daf69d9b6488,8c017a62-8388-4f42-b976-ac61cd81b638",
+    "Url": "N/A",
+    "LastEventTime": "2023-06-04T22:46:49Z",
+    "Name": "Suppressing automated background event"
+  },
+  "4eaf82a6-9523-4d68-abf7-5b0fdf4de207": {
+    "EventCount": 8,
+    "Label": "KMS_CustomerManagedKeys",
+    "AdditionalData": {
+      "keyIdArr": [
+        "352d8130-1f55-4095-8087-a4476726b460",
+        "4c8e75cc-f147-4d61-95b6-27398da485d8",
+        "d9a34b27-feaa-4e5c-82ac-751fb964b6b6"
+      ]
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys which displays all customer managed KMS keys in a searchable paged format with 3 KMS Keys defined (352d8130-1f55-4095-8087-a4476726b460',4c8e75cc-f147-4d61-95b6-27398da485d8',d9a34b27-feaa-4e5c-82ac-751fb964b6b6').",
+    "CorrelationId": "4eaf82a6-9523-4d68-abf7-5b0fdf4de207",
+    "FirstEventTime": "2023-06-05T01:19:10Z",
+    "AllEventArr": "kms:ListAliases,kms:DescribeKey,tagging:GetResources",
+    "AllEventIdArr": "4eaf82a6-9523-4d68-abf7-5b0fdf4de207,71a4fc3b-605c-4aa8-af48-1d2f9c0b8b2d,79b3dbc4-cbf0-444e-9e32-d056db411a28,c126f3e6-189e-4cd9-9851-ad8b8087146f,c9019c71-a509-4891-b3b9-38eb156d4dd1,d8128375-4142-4686-8dfa-9fee14ba9759,e88d5c99-aa8a-4ada-abd5-b3abf1364287,ed7bfa99-1b28-4d04-b685-391a76dcd53a",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys",
+    "LastEventTime": "2023-06-05T01:19:10Z",
+    "Name": "Clicked KMS->Customer Managed Keys"
+  },
+  "4dfdf780-e128-43df-8806-69aae3ae890b": {
+    "EventCount": 7,
+    "Label": "KMS_CustomerManagedKeys_SPECIFICKEY_KeyPolicy",
+    "AdditionalData": {
+      "keyId": "d9a34b27-feaa-4e5c-82ac-751fb964b6b6",
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->'d9a34b27-feaa-4e5c-82ac-751fb964b6b6'->Key Policy which displays IAM Users, IAM Roles and AWS Accounts granted access to use and/or administer KMS Key ID 'd9a34b27-feaa-4e5c-82ac-751fb964b6b6' in AWS Region 'us-east-1'.",
+    "CorrelationId": "4dfdf780-e128-43df-8806-69aae3ae890b",
+    "FirstEventTime": "2023-06-05T01:10:14Z",
+    "AllEventArr": "iam:ListUsers,kms:ListAliases,kms:GetKeyPolicy,iam:ListRoles,kms:DescribeKey",
+    "AllEventIdArr": "4dfdf780-e128-43df-8806-69aae3ae890b,6aa2bb6e-6d32-4f38-8e7b-68459869ab47,7a2dd65d-14ec-4895-916f-8edaf0a7ffea,c0a7336e-cc30-4ac5-98fb-3b6ebfd0f1b9,d8d43aea-5e20-4396-a643-4c55627ff8cc,e1a9d3bd-9794-400f-b1b9-2b978b348d5a,fdc355ea-396c-47c8-ade6-1a76661119de",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/d9a34b27-feaa-4e5c-82ac-751fb964b6b6/keyPolicy",
+    "LastEventTime": "2023-06-05T01:10:14Z",
+    "Name": "Clicked KMS->Customer Managed Keys->SPECIFICKEY->Key Policy"
+  },
+  "34eed362-3997-4328-aa7d-18ecc6ee28cc": {
+    "EventCount": 1,
+    "Label": "KMS_CustomKeyStores_ExternalKeyStores",
+    "AdditionalData": null,
+    "Summary": "Clicked KMS->Custom Key Stores->External Key Stores which displays all customer managed KMS keys stored in an external (i.e. outside of AWS) key manager in a searchable paged format.",
+    "CorrelationId": "34eed362-3997-4328-aa7d-18ecc6ee28cc",
+    "FirstEventTime": "2023-06-05T01:05:30Z",
+    "AllEventArr": "kms:DescribeCustomKeyStores",
+    "AllEventIdArr": "34eed362-3997-4328-aa7d-18ecc6ee28cc",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/custom-key-stores/external",
+    "LastEventTime": "2023-06-05T01:05:30Z",
+    "Name": "Clicked KMS->Custom Key Stores->External Key Stores"
+  },
+  "733f08c8-ad00-4e5e-ae5e-cf6fe611c17c": {
+    "EventCount": 2,
+    "Label": "KMS_AWSManagedKeys",
+    "AdditionalData": null,
+    "Summary": "Clicked KMS->AWS Managed Keys which displays all AWS managed KMS keys in a searchable paged format.",
+    "CorrelationId": "733f08c8-ad00-4e5e-ae5e-cf6fe611c17c",
+    "FirstEventTime": "2023-06-05T01:03:11Z",
+    "AllEventArr": "tagging:GetResources,kms:ListAliases",
+    "AllEventIdArr": "733f08c8-ad00-4e5e-ae5e-cf6fe611c17c,babf51a1-a857-41a8-acbd-6075b9430980",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/defaultKeys",
+    "LastEventTime": "2023-06-05T01:03:11Z",
+    "Name": "Clicked KMS->AWS Managed Keys"
+  },
+  "2ddac15f-2dd8-49de-b87b-1f7571941538": {
+    "EventCount": 6,
+    "Label": "ConsoleHome",
+    "AdditionalData": null,
+    "Summary": "Visited Console Home dashboard which displays general overview information for account (e.g. Recently Visited services, AWS Health, Cost and Usage, etc.).",
+    "CorrelationId": "2ddac15f-2dd8-49de-b87b-1f7571941538",
+    "FirstEventTime": "2023-06-04T22:46:48Z",
+    "AllEventArr": "ce:GetCostAndUsage,servicecatalog-appregistry:ListApplications,securityhub:DescribeHub,ram:ListResources,ce:GetCostForecast",
+    "AllEventIdArr": "2ddac15f-2dd8-49de-b87b-1f7571941538,4be02a05-74f8-44af-a4ef-4bc005ff51e2,79478142-89b4-4cdc-a129-caa6bbe01991,29d6ebda-990c-4dcf-9147-e28713ba2e4d,58c25097-a708-4b8a-a09e-8a2493acc9c3,e1920e38-d7a8-479a-8b94-56e5c6bcc65e",
+    "Url": "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#",
+    "LastEventTime": "2023-06-04T22:46:49Z",
+    "Name": "Console Home"
+  },
+  "039a8606-2b25-44a5-a923-4e97c398b12c": {
+    "EventCount": 2,
+    "Label": "KMS_CustomerManagedKeys_CreateKey_Step2",
+    "AdditionalData": {
+      "awsRegion": "us-east-1"
+    },
+    "Summary": "Clicked KMS->Customer Managed Keys->Create Key (Step 2 of 4) to create a new KMS Key in AWS Region 'us-east-1'.",
+    "CorrelationId": "039a8606-2b25-44a5-a923-4e97c398b12c",
+    "FirstEventTime": "2023-06-05T01:14:21Z",
+    "AllEventArr": "iam:ListRoles,iam:ListUsers",
+    "AllEventIdArr": "039a8606-2b25-44a5-a923-4e97c398b12c,0f862475-087f-40be-97a3-a8470c738fee",
+    "Url": "https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/create",
+    "LastEventTime": "2023-06-05T01:14:21Z",
+    "Name": "Clicked KMS->Customer Managed Keys->Create Key (Step 2 of 4)"
+  }
+}

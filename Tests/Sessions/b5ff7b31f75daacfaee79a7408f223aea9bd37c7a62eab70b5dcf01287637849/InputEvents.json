@@ -1,0 +1,4632 @@
+[
+  {
+    "eventTime": "2023-04-29T04:08:22Z",
+    "eventID": "399a7caa-f60b-41b7-b475-fd4419f2ea33",
+    "eventSource": "signin.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "requestParameters": null,
+    "responseElements": {
+      "ConsoleLogin": "Success"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:25Z",
+    "eventID": "01e306c8-adf5-4265-a171-5cf575faef13",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:08:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:25Z",
+    "eventID": "8e5438db-a15e-44cf-8835-53aa2d77f3f1",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:08:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "0ebb4b89-4b23-48f1-9000-f1684bc80a0f",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "accountNotification"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:08:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "a5c7f434-a24b-4647-901d-c18f364a554e",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "scheduledChange"
+        ],
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:08:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "111f2ca5-4d48-4420-940e-6dffbeb2ab28",
+    "eventSource": "securityhub.amazonaws.com",
+    "eventName": "DescribeHub",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "229f2c4b-009e-438d-8f36-eeaff3d169c1",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "accountNotification"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:08:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "797fcb18-8934-4918-9619-1e87d13b6f29",
+    "eventSource": "ce.amazonaws.com",
+    "eventName": "GetCostForecast",
+    "requestParameters": {
+      "Granularity": "MONTHLY",
+      "Metric": "NET_UNBLENDED_COST",
+      "Filter": {
+        "Not": {
+          "Or": [
+            {
+              "Dimensions": {
+                "Values": [
+                  "Credit"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            },
+            {
+              "Dimensions": {
+                "Values": [
+                  "Refund"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            }
+          ]
+        }
+      },
+      "TimePeriod": {
+        "Start": "2023-04-29T00:00:00Z",
+        "End": "2023-05-01T00:00:00Z"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "6ed00855-8995-4962-82f6-de94571d280b",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "issue"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:08:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "eb00bf52-aa1e-4f7b-a740-1edeb77e78e4",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "scheduledChange"
+        ],
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:08:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "7b1116d1-47ac-4668-a7cd-6ea78fecd063",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventTypeCategories": [
+          "issue"
+        ],
+        "eventStatusCodes": [
+          "open"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:08:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "f2969172-b605-4a42-ba4a-ff2eef4733ee",
+    "eventSource": "ce.amazonaws.com",
+    "eventName": "GetCostAndUsage",
+    "requestParameters": {
+      "GroupBy": [
+        {
+          "Type": "DIMENSION",
+          "Key": "SERVICE"
+        }
+      ],
+      "Filter": {
+        "Not": {
+          "Or": [
+            {
+              "Dimensions": {
+                "Values": [
+                  "Credit"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            },
+            {
+              "Dimensions": {
+                "Values": [
+                  "Refund"
+                ],
+                "Key": "RECORD_TYPE"
+              }
+            }
+          ]
+        }
+      },
+      "Granularity": "MONTHLY",
+      "Metrics": [
+        "UnblendedCost"
+      ],
+      "TimePeriod": {
+        "Start": "2023-03-01T00:00:00Z",
+        "End": "2023-05-01T00:00:00Z"
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "de0d2a53-a0e8-498e-833f-8801ac33f9a2",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeAccountAttributes",
+    "requestParameters": {
+      "filterSet": {},
+      "accountAttributeNameSet": {
+        "items": [
+          {
+            "attributeName": "supported-platforms"
+          }
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:26Z",
+    "eventID": "81ff405d-4dae-4e72-bd7b-a345d2dac890",
+    "eventSource": "servicecatalog-appregistry.amazonaws.com",
+    "eventName": "ListApplications",
+    "requestParameters": {
+      "maxResults": "100"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:27Z",
+    "eventID": "aac28710-df9e-4507-ac2d-2ca80f3349db",
+    "eventSource": "ram.amazonaws.com",
+    "eventName": "ListResources",
+    "requestParameters": {
+      "resourceType": "servicecatalog:Applications",
+      "maxResults": 100,
+      "resourceOwner": "SELF"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:27Z",
+    "eventID": "af5a8dfb-df1d-46c7-821f-6921588f1bfc",
+    "eventSource": "securityhub.amazonaws.com",
+    "eventName": "GetFindingAggregator",
+    "requestParameters": {
+      "FindingAggregatorArn": "arn%3Aaws%3Asecurityhub%3Aus-east-1%3A200802171337%3Afinding-aggregator/dcc10183-006c-cedf-582e-6bb5f3a6b9d2"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:27Z",
+    "eventID": "32abe12b-4e94-4af6-a186-50855575d3df",
+    "eventSource": "securityhub.amazonaws.com",
+    "eventName": "ListFindingAggregators",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:27Z",
+    "eventID": "695b3452-0d8f-49f0-9078-4bd08a5826ae",
+    "eventSource": "securityhub.amazonaws.com",
+    "eventName": "ListMembers",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:27Z",
+    "eventID": "afc6b466-a009-40bc-8ffd-8c2b78832219",
+    "eventSource": "ram.amazonaws.com",
+    "eventName": "ListResources",
+    "requestParameters": {
+      "resourceType": "servicecatalog:Applications",
+      "nextToken": "HyQsHslH2TS4sLM/TLJ1QkCYZD5CTNbd1PWnnbqBJYG/MStK3tzspSEISR+3ykwH0IDa9DdXJRxbhmeK61Kk8dfcJkB0NDoO60+DKfqnwkJVZYTY8MZK+pCuh5E9W6td",
+      "maxResults": 100,
+      "resourceOwner": "SELF"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:27Z",
+    "eventID": "e5cb3864-5d42-4798-8b59-7f85bde66925",
+    "eventSource": "securityhub.amazonaws.com",
+    "eventName": "GetAdministratorAccount",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:27Z",
+    "eventID": "3558997e-0b95-4a76-a75e-7e9970dc1935",
+    "eventSource": "securityhub.amazonaws.com",
+    "eventName": "GetInsightResults",
+    "requestParameters": {
+      "InsightArn": "arn%3Aaws%3Asecurityhub%3A%3A%3Ainsight/securityhub/default/29"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:28Z",
+    "eventID": "55860b4c-3af4-49cf-be91-9dd1f89ed68a",
+    "eventSource": "securityhub.amazonaws.com",
+    "eventName": "GetControlFindingSummary",
+    "requestParameters": {
+      "Accounts": "CURRENT_ACCOUNT",
+      "Regions": "ALL_LINKED_REGIONS"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "17071bdc-abfc-4313-9184-a7032424f769",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:08:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "8d3cbd09-5d60-4069-b449-548d4686114c",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:08:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "fe5ec2a8-2ce4-4631-9bfa-69aea1afb782",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "bucket": "randomBucket03",
+      "maxResults": "1",
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "e4811450-baea-405f-9eb7-167f925fd6f1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "117617b8-5e27-44d2-9d0b-ff6435c6746f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "bucket": "randomBucket03",
+      "maxResults": "1",
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "c745da2b-8912-43a3-94d3-18e9a7d81313",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "d6a77862-5f25-4b9f-8e97-94d0ebd9e3f7",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPolicyStatus",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "policyStatus": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "9f452fed-a2b1-496d-8eae-f06704f7be13",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "8e1c9228-c503-4d52-816f-dd5126a1de29",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "0bbac938-0abb-4ee1-b06e-ecc269309152",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "fecad711-6761-4a15-83f9-986ac825ce8b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPolicyStatus",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "policyStatus": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "e9be18f1-c51e-4f31-be10-f5a962b37201",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "publicAccessBlock": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "275bbaac-c7e6-4128-9181-0a4284a5d035",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "publicAccessBlock": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:32Z",
+    "eventID": "c51dd262-5360-470a-885a-d3e0ab026c35",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "acl": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:33Z",
+    "eventID": "2fb08bd7-89f9-4b3b-b4c4-663bfc23ff55",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:33Z",
+    "eventID": "b37b8014-f647-491a-bd31-c15614f39e0b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:33Z",
+    "eventID": "3b17d865-e070-4e5b-aaaf-79b9f65a1864",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "acl": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:35Z",
+    "eventID": "fef32f94-15fc-47f5-b48a-1edb82d8493d",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:35Z",
+    "eventID": "72d477bf-2925-4e5c-bf1d-b16ac2058f7f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:43Z",
+    "eventID": "901c0b95-b8af-4f7b-8bd2-0246dddb7181",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:08:43Z",
+    "eventID": "f186af9e-5db3-4582-8d69-18ed65421567",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:09:14Z",
+    "eventID": "aff2c8ca-4cc2-4b5c-ac11-7fe3b8379c2b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:09:19Z",
+    "eventID": "b863e527-8ee7-4c1f-b3f6-8261029f5cdd",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:09:26Z",
+    "eventID": "d701e491-fefa-4d72-8a08-31c7aae00007",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:09:27Z",
+    "eventID": "5b08d689-2bba-40b2-8dce-367bfd336f0e",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:09:27Z",
+    "eventID": "72bbe1c6-d9ce-49e9-8018-f2c8fc903ae3",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:09:27Z",
+    "eventID": "9888c4ad-0699-4f6a-834a-d8dd18aea8c3",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:09:35Z",
+    "eventID": "4154c074-cd7a-48d6-95fc-714ff44ef4d8",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListMultiRegionAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:12:30Z",
+    "eventID": "186edd73-7096-4d6c-9d61-96959ac4bb7d",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Cancelled",
+        "Cancelling",
+        "Complete",
+        "Completing",
+        "Failed",
+        "Failing",
+        "New",
+        "Paused",
+        "Pausing",
+        "Preparing",
+        "Ready",
+        "Suspended"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:12:32Z",
+    "eventID": "d685862e-ae97-4782-824f-712df8098c62",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Cancelled",
+        "Cancelling",
+        "Complete",
+        "Completing",
+        "Failed",
+        "Failing",
+        "New",
+        "Paused",
+        "Pausing",
+        "Preparing",
+        "Ready",
+        "Suspended"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:12:36Z",
+    "eventID": "a74f039e-a5bc-450c-98dc-c511290d7870",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Complete",
+        "Cancelled",
+        "Failed"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:06Z",
+    "eventID": "5fa43842-480c-4133-b5bb-5e60e45da78c",
+    "eventSource": "access-analyzer.amazonaws.com",
+    "eventName": "ListAnalyzers",
+    "requestParameters": {
+      "type": "ACCOUNT",
+      "maxResults": "1"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:16Z",
+    "eventID": "50c62504-08ba-4dcb-8a4b-ed251553380c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:16Z",
+    "eventID": "28a25749-ba0d-4c4b-88f2-c50aa9df652f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:17Z",
+    "eventID": "2e5d7a98-bc3d-41e1-a925-99fa7dd367e8",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:17Z",
+    "eventID": "f8dfe77f-3884-49e5-b52d-6017f8729a38",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:32Z",
+    "eventID": "89d0396f-9a67-40a7-9ad4-715585e63ea6",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:13:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:32Z",
+    "eventID": "9e0b2fd2-8b1c-49f5-8eae-04357eb711bf",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:13:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:39Z",
+    "eventID": "cd04e38a-9019-4a10-a63e-abd7f712500f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:13:39Z",
+    "eventID": "89f4d644-33b6-48dc-b667-a5a7d7ec0d46",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:08Z",
+    "eventID": "a6bf1b8c-e219-40e6-ada2-6e21efc5bb60",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListMultiRegionAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:11Z",
+    "eventID": "ec6cc333-0d15-4882-8abd-e699469db9a3",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Cancelled",
+        "Cancelling",
+        "Complete",
+        "Completing",
+        "Failed",
+        "Failing",
+        "New",
+        "Paused",
+        "Pausing",
+        "Preparing",
+        "Ready",
+        "Suspended"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:38Z",
+    "eventID": "f3e657ad-d3d5-45e0-bb5e-baae42e8508a",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:38Z",
+    "eventID": "51e08a35-99f0-4b99-9e93-c5047221774c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:39Z",
+    "eventID": "76e69a56-76ec-4098-ae0f-71fb70dc317c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:39Z",
+    "eventID": "11a0f746-1fbb-4d69-8988-c1c6a939eef9",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:40Z",
+    "eventID": "82d64d20-cd0d-453a-b4f4-f6931fa7dea9",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:14:40Z",
+    "eventID": "3960bcc3-dd1e-46d6-a25d-48db9bc4ac1c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:16:37Z",
+    "eventID": "7a78df34-426c-4a45-8b76-ac546343facf",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:16:39Z",
+    "eventID": "a9ef998a-8a6f-4302-bf3f-0f41c50aeffd",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:16:39Z",
+    "eventID": "62663eda-0d24-4e3f-b8e8-b10058244301",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:16:41Z",
+    "eventID": "7f712fbd-520b-4c64-8888-911389bc1059",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:16:41Z",
+    "eventID": "74c1ea6c-822f-446b-a38b-33a2d2d9a6a3",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Cancelled",
+        "Cancelling",
+        "Complete",
+        "Completing",
+        "Failed",
+        "Failing",
+        "New",
+        "Paused",
+        "Pausing",
+        "Preparing",
+        "Ready",
+        "Suspended"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:18:32Z",
+    "eventID": "0cdfa615-24ed-44e2-b911-813c0e0c2bb3",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:18:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:18:32Z",
+    "eventID": "592eebbc-8cb3-4f11-b7b4-e49e729e0057",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:18:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:23:33Z",
+    "eventID": "7f373925-4c7f-43f3-88b3-5b2643335439",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:23:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:23:33Z",
+    "eventID": "fba1ba2c-7edd-4e08-9246-9008906d1b73",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:23:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:28:33Z",
+    "eventID": "b99589c3-e7c5-4931-94fa-492f5ec0b98f",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:28:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:28:33Z",
+    "eventID": "22e90d18-e1f5-4e4e-94f1-1b0641506545",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:28:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:33:33Z",
+    "eventID": "1ae71c09-bbc9-4476-a2c7-93644f9bc986",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:33:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:33:33Z",
+    "eventID": "b69cf13e-b27d-46fb-bbe3-1ed65586cf1e",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:33:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:34:27Z",
+    "eventID": "31a32d47-4a08-4ddc-87d8-8effa8af4c2c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "New",
+        "Preparing",
+        "Suspended",
+        "Ready"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:11Z",
+    "eventID": "815d3bc9-a27a-429e-8ebb-a5ad6f588a3e",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:11Z",
+    "eventID": "775568cf-582a-4e6f-9523-2b0e2cc39528",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:11Z",
+    "eventID": "fac1886f-509c-45b9-a7aa-f7dd6c9fe764",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:11Z",
+    "eventID": "0b4862d2-0289-412b-9926-ead8b8c67195",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:18Z",
+    "eventID": "27cb68c0-077e-45c6-b516-9d4feac2c740",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:18Z",
+    "eventID": "c5c3787d-bcf4-482c-aab0-2866a5129768",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:34Z",
+    "eventID": "eaab614c-e463-438b-8a63-bd58d10d4833",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:38:34 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:34Z",
+    "eventID": "27400641-4fcc-468f-9fa6-ae59df4d281b",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:38:34 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:47Z",
+    "eventID": "45155940-12d3-4eea-adfc-dad0c7ac8cd6",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:47Z",
+    "eventID": "d6d05426-09db-4949-89c4-9454fac49fff",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:47Z",
+    "eventID": "3cb2afff-97af-4e43-9fb6-c73878ccc393",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:38:47Z",
+    "eventID": "3bc475a8-da3e-47ae-b3cb-e9ddcbf965b1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:39:04Z",
+    "eventID": "765630a0-c0ef-4813-b1d3-cf68c971f86e",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketWebsite",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "website": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:39:04Z",
+    "eventID": "60bc0439-8d58-4778-a1b8-d0067214602a",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "bucket": "randomBucket03",
+      "maxResults": "1",
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:39:04Z",
+    "eventID": "9cd9c5d3-5950-4327-a0f9-87d5c35f5475",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPolicy",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "policy": "",
+      "Host": "randomBucket03.s3.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:39:05Z",
+    "eventID": "494a97e5-0e03-427a-8f50-5e71db195f27",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListMultiRegionAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:39:48Z",
+    "eventID": "1109a5e4-ce9c-4769-a3b8-87c37c89c979",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:39:48Z",
+    "eventID": "6e572164-fbf0-4c3d-8886-a93f2a2a5fa9",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "DeleteBucket",
+    "requestParameters": {
+      "Host": "s3.us-east-2.amazonaws.com",
+      "bucketName": "randomBucket03"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:39:48Z",
+    "eventID": "d5da9e4c-c1bb-4f42-938f-d60689df23bf",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:12Z",
+    "eventID": "2d7ef990-51d3-4905-af5e-990b6bb7039a",
+    "eventSource": "resource-explorer-2.amazonaws.com",
+    "eventName": "ListIndexes",
+    "requestParameters": {
+      "Type": "AGGREGATOR"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:16Z",
+    "eventID": "932683fb-b99c-4a54-bbc7-e41ed7fb3c47",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:40:16 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:16Z",
+    "eventID": "9e69af21-5e39-4fdf-8100-a7166552a859",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:40:16 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:16Z",
+    "eventID": "fc10d059-37b6-43e3-86af-700684e54c83",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:37Z",
+    "eventID": "8b7d73bb-92b8-4442-919f-b951e20d3918",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:37Z",
+    "eventID": "7ad1752c-7491-4632-8d8b-3116388a74ac",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:37Z",
+    "eventID": "f0b68232-2566-4eb6-8192-0c761d047d21",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:38Z",
+    "eventID": "a7e2bd8a-f80d-4503-b5cc-8383da44bef2",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:38Z",
+    "eventID": "0ccc3e7b-212a-4495-b423-3c0cb0751574",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:38Z",
+    "eventID": "ce5ab799-3324-4d23-91de-9198cc29efae",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:40:51Z",
+    "eventID": "da93afec-9b1e-4058-a885-4fbf3a745578",
+    "eventSource": "access-analyzer.amazonaws.com",
+    "eventName": "ListAnalyzers",
+    "requestParameters": {
+      "type": "ACCOUNT",
+      "maxResults": "1"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:41:12Z",
+    "eventID": "7bd4095e-6ce2-4a5d-a630-a91f246f5c07",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:41:12Z",
+    "eventID": "87593e01-33ad-4ce5-afe5-fa97b69425df",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:41:13Z",
+    "eventID": "c1277d7b-bf80-4133-88f8-5fe107feddec",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:41:13Z",
+    "eventID": "0d7aa55a-424d-4aa1-87e6-08b2782141ca",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:41:13Z",
+    "eventID": "9e8cee6e-90ac-4a0f-b55c-926ec3a23b8d",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:42:03Z",
+    "eventID": "b227db90-1ac6-454c-b691-9f64433b3645",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:43:37Z",
+    "eventID": "2bd98967-c086-47cc-95bd-637001b5704f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "CreateBucket",
+    "requestParameters": {
+      "bucketName": "randomBucket03",
+      "CreateBucketConfiguration": {
+        "LocationConstraint": "us-west-2",
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/"
+      },
+      "x-amz-object-ownership": "BucketOwnerEnforced",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:17Z",
+    "eventID": "fcca24f5-e512-4b46-b7e2-71035b4fd8fd",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:45:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:17Z",
+    "eventID": "09ba562c-ca19-46df-8848-b54754f5fcdd",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:45:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:50Z",
+    "eventID": "dd1c0d11-930b-4ca3-b85c-bbc69bb4bf85",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "CreateBucket",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "CreateBucketConfiguration": {
+        "LocationConstraint": "us-west-2",
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/"
+      },
+      "x-amz-object-ownership": "BucketOwnerEnforced",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:50Z",
+    "eventID": "12f8c480-b7e8-4e60-8f88-c1b2d9402827",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "PublicAccessBlockConfiguration": {
+        "BlockPublicPolicy": true,
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/",
+        "IgnorePublicAcls": true,
+        "RestrictPublicBuckets": true,
+        "BlockPublicAcls": true
+      },
+      "publicAccessBlock": "",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "1c404cd0-2093-406f-ac06-5c5928db9d9f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketEncryption",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "ServerSideEncryptionConfiguration": {
+        "Rule": {
+          "BucketKeyEnabled": true,
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          }
+        },
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/"
+      },
+      "encryption": "",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "02bf6bb0-6de2-4484-b8d7-c2d8ea7e2bb0",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "publicAccessBlock": "",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "18d11d7d-e49d-4f52-bc4d-daf001e9323f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketVersioning",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "versioning": "",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "74482440-21d9-473f-90d9-7a7e8d5f7112",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "98a99938-8df2-4e1e-91f4-323e24fac0dc",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketEncryption",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "encryption": "",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "f942995f-6455-47a5-b6d7-41aed074201b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "285bb73e-8f4c-432a-baa0-ec1903f569a6",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketOwnershipControls",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "Host": "s3.us-west-2.amazonaws.com",
+      "ownershipControls": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "718e0adb-d679-4b23-a477-f4f2852beb27",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketTagging",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "tagging": "",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "4c5b4f72-8eb0-49ac-a631-cdbdfb5b82f0",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketObjectLockConfiguration",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "object-lock": "",
+      "Host": "s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:51Z",
+    "eventID": "496501e8-e30d-468f-903e-944bc7705de9",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "daef18d3-ba0d-4011-8bab-48bc308c6f46",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "12d16687-3da5-48e9-9297-d45135116e61",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "6b0550c7-c434-4317-a145-05d56a52572d",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "e3d1b0f2-c119-4e33-82d1-a0bad5849942",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "bucket": "randomBucket04",
+      "maxResults": "1",
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "7dc0c098-21f3-431c-89a3-54cc30e17f08",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "bucket": "randomBucket04",
+      "maxResults": "1",
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.346.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "e8dfc9fc-0d37-40bd-8259-310e7fc5c231",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.346.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "acc468c8-8c55-4406-84bc-d2b899241d4b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "67c6a250-4eb2-4459-bf68-0f8ef89e715c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPolicyStatus",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "policyStatus": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:52Z",
+    "eventID": "7d123f7d-55be-4b39-ac37-32513f336082",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "publicAccessBlock": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:53Z",
+    "eventID": "f056109b-4c79-44ae-bb53-e435b967b1b8",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPolicyStatus",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "policyStatus": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.346.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:53Z",
+    "eventID": "3d24233f-4c7c-4228-8f40-1b3fac731db5",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "acl": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:53Z",
+    "eventID": "af94bb79-838d-4b7d-b132-3422c11ec5c4",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "publicAccessBlock": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.346.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:45:53Z",
+    "eventID": "2ccfaa3a-865e-4665-b216-2f865cc0194d",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "acl": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.346.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:46:19Z",
+    "eventID": "7a423648-22ef-4fa8-a5e2-0fc5a3e44f12",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:15Z",
+    "eventID": "30a40fa4-6093-4d71-b2b4-93d6806096a2",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "PublicAccessBlockConfiguration": {
+        "BlockPublicPolicy": true,
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/",
+        "IgnorePublicAcls": true,
+        "RestrictPublicBuckets": true,
+        "BlockPublicAcls": true
+      },
+      "publicAccessBlock": "",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:15Z",
+    "eventID": "a8f84426-9171-42db-a63a-34734a5563b1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "CreateBucket",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "CreateBucketConfiguration": {
+        "LocationConstraint": "us-west-1",
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/"
+      },
+      "x-amz-object-ownership": "BucketOwnerEnforced",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "91859819-fc6e-4463-96bf-72f15d64b234",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketEncryption",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "encryption": "",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "1a9e46ad-9a06-46bf-972c-22be9b10866b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketOwnershipControls",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "Host": "s3.us-west-1.amazonaws.com",
+      "ownershipControls": ""
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "2b9481ae-2064-421e-a488-7911d21e1e28",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketVersioning",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "versioning": "",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "e8821275-0a71-4de3-a6d0-d202fd0100a2",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketTagging",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "Tagging": {
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/",
+        "TagSet": {
+          "Tag": [
+            {
+              "Value": "tagKey1Val",
+              "Key": "tagKey1"
+            },
+            {
+              "Value": "",
+              "Key": "tagKey2"
+            },
+            {
+              "Value": "tagKey3Val",
+              "Key": "tagKey3"
+            }
+          ]
+        }
+      },
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "b3b1d78c-f051-4832-b1a3-46751056e941",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketTagging",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "tagging": "",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "588312b4-5421-4e18-8be0-a51b4d96ddde",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketObjectLockConfiguration",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "object-lock": "",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "d118b2fe-4a91-4443-8ef5-40f4fd32b4a6",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketEncryption",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "ServerSideEncryptionConfiguration": {
+        "Rule": {
+          "BucketKeyEnabled": true,
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          }
+        },
+        "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/"
+      },
+      "encryption": "",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:16Z",
+    "eventID": "db28a52e-5a49-4125-a972-7ed1e55c899c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "publicAccessBlock": "",
+      "Host": "s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:17Z",
+    "eventID": "311ed6d1-15e1-4537-a067-29c6bf7e9fea",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:17Z",
+    "eventID": "df5dba17-4323-4cd9-a036-c26d445018e7",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:17Z",
+    "eventID": "87611d12-05be-4648-832b-b998ae287791",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:17Z",
+    "eventID": "7cab004c-a0fe-48c2-84a1-e40e007d753c",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:17Z",
+    "eventID": "414b6458-16bf-4cec-9e7c-a4509e33bbe3",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListBuckets",
+    "requestParameters": {
+      "Host": "s3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:17Z",
+    "eventID": "58626bc6-6fff-47c2-8445-b91d88aad9d4",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:18Z",
+    "eventID": "dad5e8b8-3504-4276-a1e7-825d70768702",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:18Z",
+    "eventID": "1aab9b59-0498-4b9c-8f6c-f3369cb90cc7",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPolicyStatus",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "policyStatus": "",
+      "Host": "randomBucket05.s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:18Z",
+    "eventID": "fd1dd51c-5b29-48d6-b31c-ad68bb67049b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "acl": "",
+      "Host": "randomBucket05.s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:18Z",
+    "eventID": "625a3078-4fc5-4bd0-ad88-f52065abdf8b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "bucket": "randomBucket05",
+      "maxResults": "1",
+      "Host": "200802171337.s3-control.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:18Z",
+    "eventID": "7378f3d1-de87-4f8b-b60a-308ee3658bb2",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket05",
+      "publicAccessBlock": "",
+      "Host": "randomBucket05.s3.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:19Z",
+    "eventID": "50c05a19-3fab-4d3f-a43d-8f75d2004a20",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "bucket": "randomBucket04",
+      "maxResults": "1",
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:19Z",
+    "eventID": "fe889d90-6e6b-4047-8ece-76d600311d2e",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:19Z",
+    "eventID": "ec12d0e5-731e-462d-ad56-3a40914b11dc",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPublicAccessBlock",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "publicAccessBlock": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:19Z",
+    "eventID": "c75de468-3f9b-4b8b-9dba-2c494b765df1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketPolicyStatus",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "policyStatus": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:19Z",
+    "eventID": "26763340-f37b-4f09-bb70-acc188416d19",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "requestParameters": {
+      "bucketName": "randomBucket04",
+      "acl": "",
+      "Host": "randomBucket04.s3.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:47Z",
+    "eventID": "ea8aa1f6-41cc-4166-aefe-2e82deef1e14",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:48:47Z",
+    "eventID": "8198fce4-5d96-4e4e-9c0b-d97f3cf7c79b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:49:15Z",
+    "eventID": "1e3e532a-0fd6-4381-80fc-aa2cbc8eab02",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:49:15Z",
+    "eventID": "bc326c44-bc52-41ab-b42b-a6277b4253ba",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:50:15Z",
+    "eventID": "ce5789c1-8665-4417-932e-ca65a51c1247",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:50:17Z",
+    "eventID": "0af32865-b01d-4dae-93b8-d18880043ac1",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:50:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:50:17Z",
+    "eventID": "40035d40-14e9-4cf4-82aa-8dfcd12933ff",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:50:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:50:41Z",
+    "eventID": "971b2f59-f014-4de5-a88b-8048b71dc08a",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:55:17Z",
+    "eventID": "e9398e3e-dfd5-4e75-bf98-8e01db924ca0",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 4:55:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:55:17Z",
+    "eventID": "eb41e53d-e688-4d21-9ab8-2ea222a51328",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 4:55:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:57:50Z",
+    "eventID": "1548557a-9325-4a35-9918-7de8cb84cd12",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListMultiRegionAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T04:58:26Z",
+    "eventID": "5ec8c33e-4a25-4d5c-ac59-8370c971b8c7",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Cancelled",
+        "Cancelling",
+        "Complete",
+        "Completing",
+        "Failed",
+        "Failing",
+        "New",
+        "Paused",
+        "Pausing",
+        "Preparing",
+        "Ready",
+        "Suspended"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:58:48Z",
+    "eventID": "47c52182-3390-40b9-8128-f47134f6f057",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Cancelled",
+        "Cancelling",
+        "Complete",
+        "Completing",
+        "Failed",
+        "Failing",
+        "New",
+        "Paused",
+        "Pausing",
+        "Preparing",
+        "Ready",
+        "Suspended"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T04:59:49Z",
+    "eventID": "d662abf0-2f81-4efc-8641-eb1db1e6fbe5",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Cancelled",
+        "Cancelling",
+        "Complete",
+        "Completing",
+        "Failed",
+        "Failing",
+        "New",
+        "Paused",
+        "Pausing",
+        "Preparing",
+        "Ready",
+        "Suspended"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:00:02Z",
+    "eventID": "53841595-acc8-4811-9f28-08ee4b044872",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "New",
+        "Preparing",
+        "Suspended",
+        "Ready"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:00:18Z",
+    "eventID": "c8d36b77-01b6-43c8-9790-d7bf7e89dced",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:00:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:00:18Z",
+    "eventID": "a03c8a65-2e59-4c48-b11c-459a1e7bc445",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:00:17 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:00:30Z",
+    "eventID": "3d1409f4-fbea-4c27-9f15-78872a4469d1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Active",
+        "Pausing",
+        "Cancelling",
+        "Failing",
+        "Paused",
+        "Completing"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:00:52Z",
+    "eventID": "424ab23c-da7a-4a44-8f12-5820efadaa88",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": [
+        "Complete",
+        "Cancelled",
+        "Failed"
+      ],
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:01:14Z",
+    "eventID": "baabae6d-167b-4661-918a-4c161d400a9f",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": "Suspended",
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:01:38Z",
+    "eventID": "5921bddb-1b7d-4ef0-81ac-add198c3e326",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": "Complete",
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:01:59Z",
+    "eventID": "00986270-2608-42f6-b8a9-09f5930d9141",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": "Cancelled",
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:02:21Z",
+    "eventID": "c153e7e2-fbfd-47dc-93bd-37fbc0b5b547",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListJobs",
+    "requestParameters": {
+      "jobStatuses": "Failed",
+      "maxResults": "1000",
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:03:45Z",
+    "eventID": "0e7ace3a-605d-48a5-9aab-8780dbb9fb8e",
+    "eventSource": "access-analyzer.amazonaws.com",
+    "eventName": "ListAnalyzers",
+    "requestParameters": {
+      "type": "ACCOUNT",
+      "maxResults": "1"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:05:18Z",
+    "eventID": "c2c4010c-2b41-4c2b-8ddb-6f0d08f321d0",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:05:18 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:05:18Z",
+    "eventID": "cf46a1a9-aaa6-4fe8-afd0-5a749dde07b9",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:05:18 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:10:18Z",
+    "eventID": "0b65164b-4b00-4b01-9b17-9eae73ad555c",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:10:18 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:10:18Z",
+    "eventID": "94d5eb68-f62c-432c-9d1d-7961d8725a4f",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:10:18 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:13:54Z",
+    "eventID": "4d423fcc-3e0f-4866-b304-99b62b5fbdf4",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:14:00Z",
+    "eventID": "2cf78e95-2b20-4c83-934a-1a449064c19b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:14:00Z",
+    "eventID": "6ff6f41b-bd36-4974-9031-b24761f7f813",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:14:08Z",
+    "eventID": "11ca4669-9082-4623-86bd-eb8882fdde38",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:14:09Z",
+    "eventID": "14b74e97-19a8-4a54-93a0-72a5067100d6",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:14:09Z",
+    "eventID": "e772116b-24bf-442a-a3b1-9280c04dd9f9",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:14:09Z",
+    "eventID": "239df194-2918-434b-9dc3-c9d274005095",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:15:18Z",
+    "eventID": "94a4b6eb-2f27-4661-9fa0-16fdc35ca759",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:15:18 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:15:18Z",
+    "eventID": "d91575bf-6e94-4037-bb64-1ef8765c4053",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:15:18 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:17:00Z",
+    "eventID": "83c5514b-0109-45e5-9994-c6e2d0217261",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListMultiRegionAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T05:17:14Z",
+    "eventID": "2e132b93-a5c3-482e-85fb-7af65be668be",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPointsForObjectLambda",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:20:19Z",
+    "eventID": "9d8e74f0-684d-4fd3-b7ed-63ed6ce7cb9e",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:20:19 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:20:19Z",
+    "eventID": "9c4c8b4e-5b92-43a0-8a3a-37ae07942698",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:20:19 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:22:26Z",
+    "eventID": "26cdc7f5-eb41-4c4c-b4cc-340f785de1bc",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:22:26Z",
+    "eventID": "5b6ac7f4-19bd-4249-8e9b-beccdece2bb7",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:22:47Z",
+    "eventID": "ffd9c357-1613-4011-9d4a-57d896783b1e",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListMultiRegionAccessPoints",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com",
+      "maxResults": "1000"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T05:25:19Z",
+    "eventID": "611ae1f2-8a2b-45a2-9b53-191760a41a73",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:25:19 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:25:19Z",
+    "eventID": "65798bf9-55f2-4dfc-adbb-42f58061cdde",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:25:19 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:25:33Z",
+    "eventID": "93c5725f-3737-47e3-9557-354951cec315",
+    "eventSource": "access-analyzer.amazonaws.com",
+    "eventName": "ListAnalyzers",
+    "requestParameters": {
+      "type": "ACCOUNT",
+      "maxResults": "1"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:30:19Z",
+    "eventID": "670e5182-d7f2-482a-ae72-432c4b0648a2",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:30:19 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:30:19Z",
+    "eventID": "94c8fb82-8d8b-448f-9723-a08ea9d010e8",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:30:19 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:30:37Z",
+    "eventID": "88d4476a-2a72-4438-a57b-76cc6b3a820b",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetAccountPublicAccessBlock",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:35:20Z",
+    "eventID": "2273239e-2496-4f71-b684-e9ec5a8dce86",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:35:20 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:35:20Z",
+    "eventID": "f4413ce7-14c7-4c49-bdc1-34992359f110",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:35:20 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:20Z",
+    "eventID": "6c9995f1-96f4-4038-a887-81e6538ba76f",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:40:20 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:20Z",
+    "eventID": "1d4da16f-365c-4ded-89cd-68e7c8ead367",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:40:20 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:40Z",
+    "eventID": "3c60a5a5-db24-4fab-894c-8c260cefa16e",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:40Z",
+    "eventID": "03f5228a-5031-47be-b8a4-5e9e7c5097d7",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-2"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:41Z",
+    "eventID": "4071fc27-5f74-49f5-b9ae-c27df0683f7a",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.eu-west-3.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "eu-west-3"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:41Z",
+    "eventID": "0bc8e31a-f372-4887-aff0-a65cec364123",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.eu-central-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "eu-central-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:41Z",
+    "eventID": "4bfa0a1b-1b44-48a7-8860-6913763ce6f1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.ca-central-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "ca-central-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:41Z",
+    "eventID": "c85f62d9-d263-47e0-93e9-798f73a54f76",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:41Z",
+    "eventID": "ed3a1dbe-9cfc-4c11-8678-bb97ecf541d8",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:41Z",
+    "eventID": "a18c5769-9bf5-4899-88cf-d0f46e06e8c6",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.eu-west-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "eu-west-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:41Z",
+    "eventID": "dd0dee20-3cf5-4b0d-9117-c4fb38f1d0f1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.eu-west-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "eu-west-2"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:42Z",
+    "eventID": "c5ffb7ac-a15f-44e0-b16e-e69334730034",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.eu-north-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "eu-north-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:43Z",
+    "eventID": "66b74965-b6a9-467f-8e70-828bcc2695a2",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.ap-northeast-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "ap-northeast-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:43Z",
+    "eventID": "313b019d-da35-46f0-9c6f-d91b6eb63c8e",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.sa-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "sa-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:43Z",
+    "eventID": "6e6277d3-73a5-449d-bf18-2710a3ce0a94",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.ap-northeast-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "ap-northeast-2"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:43Z",
+    "eventID": "6bf5058f-97d2-4d97-aaca-00040ace67e1",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.ap-south-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "ap-south-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:43Z",
+    "eventID": "c8185f4b-c280-4509-878f-4c26b16aaf70",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.ap-southeast-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "ap-southeast-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:40:44Z",
+    "eventID": "ad2a72f1-348b-4a07-b4fe-d15836a30a12",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "ListStorageLensConfigurations",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.ap-southeast-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.238-155.347.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "ap-southeast-2"
+  },
+  {
+    "eventTime": "2023-04-29T05:42:35Z",
+    "eventID": "06ba65d3-9839-48f3-aa44-ff1d6d4b3839",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.1030 Linux/5.4.235-151.344.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.362-b10 java/1.8.0_362 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:42:36Z",
+    "eventID": "54fcd590-9514-4a29-87e1-621e27f83efe",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:42:36Z",
+    "eventID": "525d8317-51f8-4f30-bbec-618255832ba3",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensDashboardDataInternal",
+    "requestParameters": {
+      "configurationARN": "arn:aws:s3:us-east-1:200802171337:storage-lens/default-account-dashboard"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:42:36Z",
+    "eventID": "b45841c2-2684-487e-973e-66c63217ce85",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetStorageLensConfiguration",
+    "requestParameters": {
+      "Host": "200802171337.s3-control.us-east-1.amazonaws.com"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:45:20Z",
+    "eventID": "2b9d2918-dcfa-494e-8fba-4605094ca09f",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:45:20 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:45:20Z",
+    "eventID": "cae84992-aca6-454b-b2d1-90e4f70d68b5",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:45:20 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:50:21Z",
+    "eventID": "ef2ce040-4d03-4f37-bbca-f5e09cbd0fa2",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:50:21 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:50:21Z",
+    "eventID": "0debb81b-1a67-47dc-909c-9dd06e057ba8",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:50:21 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:51:11Z",
+    "eventID": "016b7c90-1a5d-469b-8665-419aa91b72cc",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "DescribeOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:51:11Z",
+    "eventID": "7d67de2a-f942-491d-b25d-0a239041224d",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "ListAWSServiceAccessForOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:51:12Z",
+    "eventID": "9d7eda9d-3392-45cb-98ad-e3be5572fb26",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "ListDelegatedAdministrators",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:55:21Z",
+    "eventID": "baf2158c-5222-459a-a646-a7cb2fe6900d",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023 5:55:21 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-04-29T05:55:21Z",
+    "eventID": "4a794576-c454-41af-9ac7-67eedd5d74ea",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Apr 22, 2023, 5:55:21 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  }
+]

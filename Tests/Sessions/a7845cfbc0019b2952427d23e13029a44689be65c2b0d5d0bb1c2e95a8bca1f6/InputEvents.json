@@ -1,0 +1,3192 @@
+[
+  {
+    "eventTime": "2023-12-08T03:54:24Z",
+    "eventID": "f491d818-597f-4a6a-abc4-fc9831055eba",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:54:25Z",
+    "eventID": "b1d45286-5c1b-4a9f-9cd9-97dfbd9db58e",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:54:25Z",
+    "eventID": "b989a0a5-dd07-4a32-9d3e-361fd82345e0",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:54:25Z",
+    "eventID": "dbc71756-3239-4405-9700-d81c695f7abb",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 3:54:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:54:25Z",
+    "eventID": "ced5301f-4712-4aba-b7bd-57dded54a843",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 3:54:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:55:54Z",
+    "eventID": "60741ec4-bed3-42b8-b0a2-07fc952864ac",
+    "eventSource": "redshift.amazonaws.com",
+    "eventName": "DescribeClusters",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:55:54Z",
+    "eventID": "bdb7fe7d-2cc3-4980-8ea9-fbcb9e0ecae0",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "ListAliases",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:55:55Z",
+    "eventID": "6abf3722-e70c-428f-aa1d-90acb8ae874c",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "DescribeDBClusters",
+    "requestParameters": {
+      "includeShared": false,
+      "filters": [
+        {
+          "name": "engine",
+          "values": [
+            "docdb"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:55:55Z",
+    "eventID": "c46bf9a9-4ad7-4a3a-9ce8-f42be4779561",
+    "eventSource": "docdb-elastic.amazonaws.com",
+    "eventName": "ListClusters",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:55:55Z",
+    "eventID": "daddf204-679a-49e8-8ad3-11fae0013d11",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "DescribeDBInstances",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:55:55Z",
+    "eventID": "1d24f0e8-2a44-4d7e-8707-5facc0bd334d",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "DescribeDBClusters",
+    "requestParameters": {
+      "includeShared": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:56:32Z",
+    "eventID": "15ed4f4d-29b5-4a3e-9528-3a6c6a194857",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 3:56:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:56:32Z",
+    "eventID": "41f09d53-999d-4d3a-9aca-150dc48ae488",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 3:56:32 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:56:52Z",
+    "eventID": "e011e206-f270-4553-b574-a1dfa41e346f",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 3:56:52 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:56:52Z",
+    "eventID": "a275429a-faee-4871-ad24-f1a2d7757f70",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 3:56:52 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:59:25Z",
+    "eventID": "b06e21f1-e681-45cb-a746-4d5dd0e2ad0d",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 3:59:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T03:59:25Z",
+    "eventID": "c52c4c56-a207-4363-90f8-1ad0a8f5b56b",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 3:59:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:00:45Z",
+    "eventID": "d7335f47-2e90-4358-9f98-99497d541345",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRegions",
+    "requestParameters": {
+      "allRegions": true,
+      "regionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:01:27Z",
+    "eventID": "0e8e4cd0-b646-4dd0-9618-e35b8c224a9e",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "myNewSecretName"
+    },
+    "responseElements": null,
+    "errorCode": "ResourceNotFoundException",
+    "errorMessage": "Secrets Manager can't find the specified secret.",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:01:33Z",
+    "eventID": "7d977a96-c9d3-464f-9b39-96b21b97b53a",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:01:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:01:33Z",
+    "eventID": "021914f7-0684-4437-aa00-323d5cecd17e",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:01:33 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:01:35Z",
+    "eventID": "e1c76b40-fef1-4814-aa97-60d488f351fa",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "myNewSecretName"
+    },
+    "responseElements": null,
+    "errorCode": "ResourceNotFoundException",
+    "errorMessage": "Secrets Manager can't find the specified secret.",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:01:53Z",
+    "eventID": "5ca8fd49-d23a-409a-b215-0c2632868615",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:01:52 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:01:53Z",
+    "eventID": "e8f70218-ffbe-4da7-b416-9719577f5e23",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:01:52 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:02:05Z",
+    "eventID": "1481899f-5a0c-4fb0-a862-cf078c5b2334",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "myNewSecretName"
+    },
+    "responseElements": null,
+    "errorCode": "ResourceNotFoundException",
+    "errorMessage": "Secrets Manager can't find the specified secret.",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:02:05Z",
+    "eventID": "26bfc466-3808-47e8-9e76-86126512f50c",
+    "eventSource": "lambda.amazonaws.com",
+    "eventName": "ListFunctions20150331",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:03:54Z",
+    "eventID": "53b80acc-e708-438d-b446-be1cc98799f5",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "CreateSecret",
+    "requestParameters": {
+      "clientRequestToken": "dee444ad-0497-4866-a6ba-b4dbf31d7199",
+      "name": "myNewSecretName",
+      "description": "myOptionalDescription",
+      "forceOverwriteReplicaSecret": false
+    },
+    "responseElements": {
+      "arn": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:03:54Z",
+    "eventID": "516b1e90-935b-4575-8b76-32e062d84e7a",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "RotateSecret",
+    "requestParameters": {
+      "clientRequestToken": "ef16d56f-2337-48d4-927a-dba977039ab2",
+      "rotationLambdaARN": "arn:aws:lambda:us-east-1:200802171337:function:testfunction",
+      "rotateImmediately": true,
+      "secretId": "myNewSecretName",
+      "rotationRules": {
+        "scheduleExpression": "rate(23 hours)"
+      }
+    },
+    "responseElements": null,
+    "errorCode": "AccessDenied",
+    "errorMessage": "Secrets Manager cannot invoke the specified Lambda function. Ensure that the function policy grants access to the principal secretsmanager.amazonaws.com.",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:03:54Z",
+    "eventID": "22d03e50-461b-416c-80fd-c4ea853ae783",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "GenerateDataKey",
+    "requestParameters": {
+      "keyId": "alias/aws/secretsmanager",
+      "encryptionContext": {
+        "SecretVersionId": "dee444ad-0497-4866-a6ba-b4dbf31d7199",
+        "SecretARN": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+      },
+      "keySpec": "AES_256"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "secretsmanager.amazonaws.com",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:03:55Z",
+    "eventID": "0ca7d656-db86-4bbd-a887-c105e9cb7224",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:04:26Z",
+    "eventID": "7deb4fc3-7fd7-494b-88fc-628b701fca9e",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:04:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:04:26Z",
+    "eventID": "68c9c13b-d7cc-4d13-9837-da949ab56c42",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:04:25 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:07:01Z",
+    "eventID": "31b9f506-295c-4d58-a39d-6df98209c138",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "filters": [],
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:07:25Z",
+    "eventID": "e928da6c-a888-4dc7-8057-e124295c853f",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "filters": [
+        {
+          "key": "name",
+          "values": [
+            "best"
+          ]
+        }
+      ],
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:08:00Z",
+    "eventID": "7a7647c0-14ee-47be-b165-e09c051ba068",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "filters": [],
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:09:26Z",
+    "eventID": "dbb33910-6631-44ed-9c6d-eca909ec87be",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:09:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:09:26Z",
+    "eventID": "f6c3c092-e2e1-4b8f-a5c8-5672d1fdf26c",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:09:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:13:12Z",
+    "eventID": "56615e97-409a-4efa-b912-84f49acd5f41",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "GetResourcePolicy",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:13:12Z",
+    "eventID": "973fe426-a642-47e5-b79c-10181015d747",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "myNewSecretName"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:13:12Z",
+    "eventID": "f0cff0a6-8734-4397-a6ed-024732bb37e8",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "ListAliases",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:14:26Z",
+    "eventID": "6d0b1202-9e1b-418d-8218-bb4cfd4f3129",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:14:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:14:26Z",
+    "eventID": "51d083ee-a9eb-4cd3-aea8-7a0fbffbfb71",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:14:26 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:15:58Z",
+    "eventID": "8e08feff-18fe-4eb9-8806-cfd461dbc27c",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecretVersionIds",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b",
+      "maxResults": 100
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:17:02Z",
+    "eventID": "f2c6ddc0-8408-47ee-b50b-6e6cf2a8a1bc",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:17:33Z",
+    "eventID": "86ee3890-2cc8-476a-bd94-bd40b2e71701",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "DescribeDBClusters",
+    "requestParameters": {
+      "includeShared": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:17:33Z",
+    "eventID": "1952763e-5778-473b-bdaf-786e4e66ed43",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "DescribeDBInstances",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:17:33Z",
+    "eventID": "1623f581-8c8a-40bc-a61d-da07fda67891",
+    "eventSource": "redshift.amazonaws.com",
+    "eventName": "DescribeClusters",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:17:33Z",
+    "eventID": "9cf87c85-9f48-4133-ae7c-078bad1396d8",
+    "eventSource": "docdb-elastic.amazonaws.com",
+    "eventName": "ListClusters",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:17:34Z",
+    "eventID": "72193b6e-a33e-4c44-b91b-c3369789a87e",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "DescribeDBClusters",
+    "requestParameters": {
+      "includeShared": false,
+      "filters": [
+        {
+          "name": "engine",
+          "values": [
+            "docdb"
+          ]
+        }
+      ]
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:19:27Z",
+    "eventID": "dd1129c4-bfa8-4bea-8c19-940e4aa53828",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:19:27 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:19:27Z",
+    "eventID": "7431acd9-8d3c-450c-8fb2-3bd553412262",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:19:27 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:19:47Z",
+    "eventID": "50d6015b-fc04-4ce9-b26e-08e239e6b6f3",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRegions",
+    "requestParameters": {
+      "allRegions": true,
+      "regionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:21:45Z",
+    "eventID": "ef5763c7-e061-4afc-8822-0a708a85bcc3",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "my/secret/name"
+    },
+    "responseElements": null,
+    "errorCode": "ResourceNotFoundException",
+    "errorMessage": "Secrets Manager can't find the specified secret.",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:22:00Z",
+    "eventID": "31dd2945-0ea8-4192-9afa-6aebb552288a",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "my/secret/name"
+    },
+    "responseElements": null,
+    "errorCode": "ResourceNotFoundException",
+    "errorMessage": "Secrets Manager can't find the specified secret.",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:22:53Z",
+    "eventID": "d6d4674f-f29a-4592-bcb0-ae441ccdc4a4",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "GenerateDataKey",
+    "requestParameters": {
+      "keyId": "alias/aws/secretsmanager",
+      "encryptionContext": {
+        "SecretVersionId": "56459a9a-13e5-41fc-87c7-1bb9d55906f3",
+        "SecretARN": "arn:aws:secretsmanager:us-east-1:200802171337:secret:my/secret/name-q59uQ0"
+      },
+      "keySpec": "AES_256"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "secretsmanager.amazonaws.com",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:22:53Z",
+    "eventID": "7f1973a1-9ca2-4008-bfd7-21b9c8555fe3",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:22:53Z",
+    "eventID": "e1f744d3-529d-4ea9-a035-2cff15cca10e",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "CreateSecret",
+    "requestParameters": {
+      "clientRequestToken": "56459a9a-13e5-41fc-87c7-1bb9d55906f3",
+      "name": "my/secret/name",
+      "description": "",
+      "forceOverwriteReplicaSecret": false
+    },
+    "responseElements": {
+      "arn": "arn:aws:secretsmanager:us-east-1:200802171337:secret:my/secret/name-q59uQ0"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:23:44Z",
+    "eventID": "1891ca5f-60e0-4dc6-9d7b-5a8a3f06a8e6",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "myNewSecretName"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:23:44Z",
+    "eventID": "c9180d73-6a2b-4d5f-92ec-b4fa1ade850b",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "GetResourcePolicy",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:23:44Z",
+    "eventID": "1e7ba6a7-9118-4ade-adf8-69dd1f572e4c",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "ListAliases",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:24:08Z",
+    "eventID": "9a6e03a9-9c9b-4cef-94ab-c83095cc8271",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "GetSecretValue",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:24:08Z",
+    "eventID": "9c818fa6-56eb-4df4-8f14-bc3e7f0558b5",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "Decrypt",
+    "requestParameters": {
+      "encryptionContext": {
+        "SecretVersionId": "dee444ad-0497-4866-a6ba-b4dbf31d7199",
+        "SecretARN": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+      },
+      "encryptionAlgorithm": "SYMMETRIC_DEFAULT"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "secretsmanager.amazonaws.com",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:24:27Z",
+    "eventID": "297d59e7-7ed1-4950-a8f9-5be220a2ac4c",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:24:27 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:24:27Z",
+    "eventID": "59af095a-ffee-4c30-88e9-9bd677e9c03f",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:24:27 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:26:16Z",
+    "eventID": "6f0def73-c29d-44de-b612-204d3415e857",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "ListAliases",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:26:16Z",
+    "eventID": "9eecf48b-d126-41b9-b6d4-71796674e946",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:26:16Z",
+    "eventID": "55cdf183-64b2-4f8b-a600-731f60938da4",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DeleteSecret",
+    "requestParameters": {
+      "recoveryWindowInDays": 30,
+      "secretId": "myNewSecretName"
+    },
+    "responseElements": {
+      "aRN": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b",
+      "name": "myNewSecretName",
+      "deletionDate": "Jan 7, 2024, 4:26:16 AM"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:27:27Z",
+    "eventID": "db0e72b0-f482-4af3-9b88-96b901840a6f",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "RestoreSecret",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "responseElements": {
+      "aRN": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b",
+      "name": "myNewSecretName"
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:27:27Z",
+    "eventID": "054e468a-a68f-4b1d-82d7-f569098ce264",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "DescribeSecret",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:27:27Z",
+    "eventID": "375265ab-f1ff-441b-a095-8228ad60db2c",
+    "eventSource": "kms.amazonaws.com",
+    "eventName": "ListAliases",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:27:27Z",
+    "eventID": "516189af-f34c-49d6-bd03-6430a528d43a",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "GetResourcePolicy",
+    "requestParameters": {
+      "secretId": "arn:aws:secretsmanager:us-east-1:200802171337:secret:myNewSecretName-UlD74b"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:28:02Z",
+    "eventID": "10ff3120-50c8-4aa2-8528-a336d3a69142",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:28Z",
+    "eventID": "ac659243-64f0-4447-ab6f-a4d8ddcd9328",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:29:28 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:28Z",
+    "eventID": "88dcbc41-07b2-4399-a5bd-32296210cdc4",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:29:28 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:33Z",
+    "eventID": "436d7b36-eb91-4b47-925d-4267a641ab8e",
+    "eventSource": "resource-explorer-2.amazonaws.com",
+    "eventName": "ListIndexes",
+    "requestParameters": {
+      "Type": "AGGREGATOR"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:54Z",
+    "eventID": "6132c0d0-8c20-4051-982f-8dcbf1f6f7cf",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetInvitationsCount",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:54Z",
+    "eventID": "ec1a1cec-9a84-429a-aaf9-90e2cd326f9f",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "DescribeOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:54Z",
+    "eventID": "6e1b168c-3ddc-402e-9e4f-780935cec376",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListDetectors",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "985f762b-c708-439a-a814-fd6017ba43f7",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetDetector",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "b4bc65a7-cb9f-4de9-be23-462aa0945a9d",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DescribeRegions",
+    "requestParameters": {
+      "allRegions": true,
+      "regionSet": {}
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "493296b4-b1d1-41f9-b5a6-d34cf3e51d0f",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetMasterAccount",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "d88adf11-4c06-4491-9804-62b6cd46124d",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:29:55 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "5f4d6ede-c62e-4702-ae8a-fd83e7305a6c",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListMembers",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "maxResults": "50"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "585d1528-30c6-46ee-8c8d-cfed8866b13d",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701925199999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "26c1f2a8-bf1e-4437-9641-94ff62225b9b",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetInvitationsCount",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "e7f08233-3843-4bd6-a750-87c8044c36c6",
+    "eventSource": "notifications.amazonaws.com",
+    "eventName": "ListNotificationHubs",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "bdcec72d-4015-4795-8ff2-c9e5b6275c85",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701925199999,
+            "gt": 1701838799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "7bf2954f-172a-42b9-b2a4-afe8a7f46233",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetDetector",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "6d4b65d3-1f8e-4505-95ae-469261967fdb",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "DescribeOrganizationConfiguration",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": "BadRequestException",
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "f8e900ec-d5f9-4d28-9a31-b436e73c2f09",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListMembers",
+    "requestParameters": {
+      "onlyAssociated": "false",
+      "maxResults": "50",
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:29:55Z",
+    "eventID": "e0d0e7c9-e4da-420d-a183-8aeef06da23a",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:29:55 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:30:53Z",
+    "eventID": "6a8b27a8-b758-48fc-a2b5-7b5a4e7004b8",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701925199999,
+            "gt": 1701838799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:30:53Z",
+    "eventID": "ab01298c-533b-4dc0-af4f-a89cc7caba60",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701925199999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:31:12Z",
+    "eventID": "28f46fd4-c496-48c5-bd58-5f804ade1279",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701838799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:31:12Z",
+    "eventID": "c8acdc50-df0e-44b4-9ff8-a7969fac4fc1",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701838799999,
+            "gt": 1701665999999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:31:32Z",
+    "eventID": "2ef0c4e3-e45b-4ae6-8891-b696f9e64f33",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701838799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:31:32Z",
+    "eventID": "ea05cc29-81aa-4d27-b027-1de148321a09",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701838799999,
+            "gt": 1701665999999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:31:54Z",
+    "eventID": "54379703-d523-4d76-b7a4-7397a7305b2a",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701406799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:31:54Z",
+    "eventID": "10f68b60-7120-4592-8d56-52f47a92fc51",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701406799999,
+            "gt": 1700801999999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:07Z",
+    "eventID": "157793b8-aeee-4e3b-bdfa-3af63118dd37",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701406799999,
+            "gt": 1700801999999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:07Z",
+    "eventID": "af79d3d6-91f7-4d7b-afd5-f2259aeae494",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701406799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:28Z",
+    "eventID": "cef87da3-e8eb-4033-85eb-a8d3c6c8e051",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1699419599999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:28Z",
+    "eventID": "ed005d4e-d703-417f-9e25-875abf7be52f",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1699419599999,
+            "gt": 1696827599999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:40Z",
+    "eventID": "bd4acdfc-32a8-4f25-b95f-1b119169cf5b",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1699419599999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:40Z",
+    "eventID": "85400b95-3313-4823-affe-e8b491f8277f",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1699419599999,
+            "gt": 1696827599999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:53Z",
+    "eventID": "35578d7d-278b-4823-a8bb-ce7fcdc14b8e",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701925199999,
+            "gt": 1701838799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:32:53Z",
+    "eventID": "cf222264-f8e0-4663-8bf7-588e8c3ccb28",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701925199999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:05Z",
+    "eventID": "c7065f21-932d-4d50-8644-c5d33c0e9b7c",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1701925199999,
+            "gt": 1701838799999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:05Z",
+    "eventID": "b5fb7f68-f016-4f41-a6cd-af0c40230474",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          },
+          "updatedAt": {
+            "lt": 1702011599999,
+            "gt": 1701925199999
+          }
+        }
+      },
+      "maxResults": 1000,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "consoleOnly": true
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:50Z",
+    "eventID": "5c19ca6a-a2ed-4a4f-b199-7085ab9f05c6",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetFindingsStatistics",
+    "requestParameters": {
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      },
+      "findingStatisticTypes": [
+        "COUNT_BY_SEVERITY"
+      ],
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:50Z",
+    "eventID": "d891c3f6-61a8-428b-be4d-9451538d7516",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFilters",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "maxResults": "50"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:50Z",
+    "eventID": "aadb69a4-c1c7-4fe8-ab09-40b4275dcd7b",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListPublishingDestinations",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:50Z",
+    "eventID": "fe85afe7-c416-4ff5-89d3-d62d25fdc7dd",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetFindingsStatistics",
+    "requestParameters": {
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      },
+      "findingStatisticTypes": [
+        "COUNT_BY_SEVERITY"
+      ],
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:50Z",
+    "eventID": "a97d6ea5-6abf-4708-9e92-d56d9d8984ad",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListMembers",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "maxResults": "50"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:50Z",
+    "eventID": "c2a26f64-fa83-401c-a156-77219551eabb",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListFindings",
+    "requestParameters": {
+      "sortCriteria": {
+        "orderBy": "DESC",
+        "attributeName": "service.eventLastSeen"
+      },
+      "findingCriteria": {
+        "criterion": {
+          "service.archived": {
+            "eq": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      },
+      "maxResults": 25,
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:33:50Z",
+    "eventID": "e0297ccd-0559-42d1-885a-0312ebd197ea",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetMasterAccount",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:17Z",
+    "eventID": "61329067-a7eb-4baa-8a7a-10d98a72f963",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListMembers",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "maxResults": "50"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:17Z",
+    "eventID": "c8b9c8df-acbc-4c9c-bd6a-199d1f40ca10",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetMasterAccount",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:17Z",
+    "eventID": "b27b2f2e-9d52-48e6-8efa-ed0b6ddbd4cc",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:17Z",
+    "eventID": "43b75ff9-92db-4c3b-b276-df939c8f9657",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "DescribeOrganizationConfiguration",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": "BadRequestException",
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:17Z",
+    "eventID": "48099c3f-4df7-48b7-8556-b0894d708e7e",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetUsageStatistics",
+    "requestParameters": {
+      "usageStatisticsType": "SUM_BY_DATA_SOURCE",
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "usageCriteria": {
+        "dataSources": [
+          "CLOUD_TRAIL",
+          "DNS_LOGS",
+          "FLOW_LOGS",
+          "S3_LOGS",
+          "KUBERNETES_AUDIT_LOGS",
+          "EC2_MALWARE_SCAN"
+        ],
+        "accountIds": [
+          "200802171337"
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:18Z",
+    "eventID": "600db5bf-35f2-4986-b93e-a3c880f94395",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetUsageStatistics",
+    "requestParameters": {
+      "usageStatisticsType": "TOP_RESOURCES",
+      "maxResults": 6,
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "usageCriteria": {
+        "dataSources": [
+          "S3_LOGS"
+        ]
+      }
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:19Z",
+    "eventID": "33787eb2-ed01-4b6d-98e5-f494dd7d4e9b",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:19Z",
+    "eventID": "e66bc24e-b396-4abb-9099-509fd09feb18",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:19Z",
+    "eventID": "fad56f20-dfec-4253-9a3e-009218b6a059",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:20Z",
+    "eventID": "cf93b895-4550-4c9e-a3bf-43f4a673f045",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:20Z",
+    "eventID": "70f892a8-19a4-423d-9ae1-d6ec8361d246",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:54Z",
+    "eventID": "04eaf26c-a610-4ad0-94bc-fa87fc2da16f",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "DescribeMalwareScans",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "maxResults": 50
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:55Z",
+    "eventID": "9fd54135-6991-4cd3-91f8-8da40ff71eb2",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:34:55 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:34:55Z",
+    "eventID": "86b8fba3-1d73-460b-b4c3-8c88204f09fb",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:34:55 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:36:15Z",
+    "eventID": "7cdc31e9-c5c6-4152-901e-8029206216ca",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:36:55Z",
+    "eventID": "ea95f475-7b71-4701-957a-cc02c63e8c58",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:36:56Z",
+    "eventID": "67ff9908-efaa-4682-8b79-a9bfed23c5c5",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:37:28Z",
+    "eventID": "038cef0c-c105-49b0-8015-7d0afed04700",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:38:29Z",
+    "eventID": "1cb23e69-cd77-447b-bf2d-3c396eb89e9f",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "ListAWSServiceAccessForOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": "AccessDenied",
+    "errorMessage": "User: arn:aws:sts::200802171337:assumed-role/AWSReservedSSO_AdministratorAccess_db0c0ffee5667faa/krileva@demo.io is not authorized to perform: organizations:ListAWSServiceAccessForOrganization on resource: * because no resource-based policy allows the organizations:ListAWSServiceAccessForOrganization action",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:38:29Z",
+    "eventID": "76ffda05-1d0f-450f-8419-bde80cda9750",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetMalwareScanSettings",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:38:29Z",
+    "eventID": "9380e96e-dc35-40cb-84d4-e9e505df6943",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:38:29Z",
+    "eventID": "4fb94e2a-cd81-4728-9451-56f01fd1b120",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "DescribeOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:39:09Z",
+    "eventID": "d1f32667-281a-497f-b732-67f56decf645",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "UpdateMalwareScanSettings",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "ebsSnapshotPreservation": "RETENTION_WITH_FINDING"
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": "BadRequestException",
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:39:56Z",
+    "eventID": "26a34c20-1c21-4e51-9321-9fef7d807e37",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023, 4:39:56 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:39:56Z",
+    "eventID": "41fa14af-c73b-459b-a392-dfec2ad353c4",
+    "eventSource": "health.amazonaws.com",
+    "eventName": "DescribeEventAggregates",
+    "requestParameters": {
+      "filter": {
+        "eventStatusCodes": [
+          "open",
+          "upcoming"
+        ],
+        "startTimes": [
+          {
+            "from": "Dec 1, 2023 4:39:56 AM"
+          }
+        ]
+      },
+      "aggregateField": "eventTypeCategory"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "AWS Internal",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:39:57Z",
+    "eventID": "2952025a-56d0-4c80-a9e4-2d096f686df1",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:40:16Z",
+    "eventID": "ce29278d-1700-4c7c-aa49-ca208a0431a9",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetRemainingFreeTrialDays",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28",
+      "accountIds": [
+        "200802171337"
+      ]
+    },
+    "responseElements": {
+      "error": "Response body is invalid."
+    },
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:40:37Z",
+    "eventID": "169db39b-b1d2-40e1-b977-88be0b375ba5",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "DescribeOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:40:37Z",
+    "eventID": "893b1330-f9b8-4e81-b7d8-2ff7f2f34204",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "ListAWSServiceAccessForOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": "AccessDenied",
+    "errorMessage": "User: arn:aws:sts::200802171337:assumed-role/AWSReservedSSO_AdministratorAccess_db0c0ffee5667faa/krileva@demo.io is not authorized to perform: organizations:ListAWSServiceAccessForOrganization on resource: * because no resource-based policy allows the organizations:ListAWSServiceAccessForOrganization action",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:40:37Z",
+    "eventID": "859190a4-4eb3-4b3f-8363-2eb3547c78db",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "ListDelegatedAdministrators",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": "AccessDenied",
+    "errorMessage": "User: arn:aws:sts::200802171337:assumed-role/AWSReservedSSO_AdministratorAccess_db0c0ffee5667faa/krileva@demo.io is not authorized to perform: organizations:ListDelegatedAdministrators on resource: * because no resource-based policy allows the organizations:ListDelegatedAdministrators action",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:40:37Z",
+    "eventID": "288680a9-f7c3-41b0-a07f-b3c96e4d7ef7",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "GetMasterAccount",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:05Z",
+    "eventID": "7d5fe234-f88d-4460-b692-5c9fa56a0db7",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetPolicyVersion",
+    "requestParameters": {
+      "policyArn": "arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyServiceRolePolicy",
+      "versionId": "v7"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:05Z",
+    "eventID": "f003eb99-e5ec-41bc-80e0-9fcc3933ef5b",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "ListAttachedRolePolicies",
+    "requestParameters": {
+      "roleName": "AWSServiceRoleForAmazonGuardDuty"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:05Z",
+    "eventID": "deb36d3d-76a0-4190-9db3-14d9bda4a86c",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "ListRolePolicies",
+    "requestParameters": {
+      "roleName": "AWSServiceRoleForAmazonGuardDuty"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:05Z",
+    "eventID": "90369806-eb31-40df-90d4-0229d8fc1178",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "GetPolicy",
+    "requestParameters": {
+      "policyArn": "arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyServiceRolePolicy"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:05Z",
+    "eventID": "1f64da1e-43d7-4641-aa95-80d37ee6120a",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListTagsForResource",
+    "requestParameters": {
+      "resourceArn": "arn:aws:guardduty:us-east-1:200802171337:detector/80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:05Z",
+    "eventID": "60361beb-9596-4f2b-acd3-347d5777abc2",
+    "eventSource": "organizations.amazonaws.com",
+    "eventName": "DescribeOrganization",
+    "requestParameters": null,
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:05Z",
+    "eventID": "ad85a88e-b3e0-464a-b6eb-82dcf8c8bfca",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListPublishingDestinations",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:41:58Z",
+    "eventID": "83219edd-68e7-4b1b-bd14-c09f63316baf",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "CreateSampleFindings",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:42:22Z",
+    "eventID": "f7e0ce9e-ca7d-463f-ba7f-5317253cf26c",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListIPSets",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T04:42:22Z",
+    "eventID": "2dc9d709-4c57-45ed-bbfa-fe87dd04e492",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "ListThreatIntelSets",
+    "requestParameters": {
+      "detectorId": "80c22c8f53143342747de6fa22786e28"
+    },
+    "responseElements": null,
+    "errorCode": null,
+    "errorMessage": null,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  },
+  {
+    "eventTime": "2023-12-08T22:29:05Z",
+    "eventID": "d55e60b9-7e87-489f-b948-4a0b60b46c71",
+    "eventSource": "secretsmanager.amazonaws.com",
+    "eventName": "ListSecrets",
+    "requestParameters": {
+      "sortOrder": "desc",
+      "maxResults": 100,
+      "filters": [
+        {
+          "key": "name",
+          "values": [
+            "nameValue"
+          ]
+        },
+        {
+          "key": "description",
+          "values": [
+            "descriptionValue"
+          ]
+        },
+        {
+          "key": "tag-key",
+          "values": [
+            "tagKeyValue"
+          ]
+        },
+        {
+          "key": "tag-value",
+          "values": [
+            "tagValueValue"
+          ]
+        },
+        {
+          "key": "primary-region",
+          "values": [
+            "replicatedSecretsValue"
+          ]
+        },
+        {
+          "key": "owning-service",
+          "values": [
+            "managedByValue"
+          ]
+        },
+        {
+          "key": "name",
+          "values": [
+            "nameValue2"
+          ]
+        },
+        {
+          "key": "description",
+          "values": [
+            "descriptionValue2"
+          ]
+        },
+        {
+          "key": "tag-key",
+          "values": [
+            "tagKeyValue2"
+          ]
+        },
+        {
+          "key": "tag-value",
+          "values": [
+            "tagValueValue2"
+          ]
+        },
+        {
+          "key": "primary-region",
+          "values": [
+            "replicatedSecretsValue2"
+          ]
+        },
+        {
+          "key": "owning-service",
+          "values": [
+            "managedByValue2"
+          ]
+        }
+      ],
+      "includePlannedDeletion": false
+    },
+    "responseElements": null,
+    "errorCode": "ValidationException",
+    "errorMessage": "1 validation error detected: Value '[Filter(key=name, values=[nameValue]), Filter(key=description, v ...' at 'filters' failed to satisfy constraint: Member must have length less than or equal to 10",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "awsRegion": "us-east-1"
+  }
+]
