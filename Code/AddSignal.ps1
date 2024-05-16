@@ -118,8 +118,8 @@ https://twitter.com/danielhbohannon
         # Ensure input events are parsed and formatted correctly regardless of input format.
         $eventArr = Format-EventObject -InputObject $eventArr
 
-        # Ensure input events are sorted by eventTime property.
-        $eventArr = $eventArr | Sort-Object -Property eventTime
+        # Ensure input events are sorted by eventTime and eventId properties.
+        $eventArr = $eventArr | Sort-Object -Property eventTime,eventId
 
         # Add Labels to input events for use in later Signal evaluation, tracking elapsed
         # time for Add-Label function invocation.

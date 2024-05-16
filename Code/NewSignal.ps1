@@ -628,7 +628,7 @@ https://twitter.com/danielhbohannon
             {
                 # Different operators in AWS Console are not specifically populated in CloudTrail logs, so defaulting
                 # to '=' operator in Summary property below.
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ', '))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ', '))."
             }
 
             # Potentially append additional optional values to temporary Uri array to add to current Signal's Url property.
@@ -714,7 +714,7 @@ https://twitter.com/danielhbohannon
             {
                 # Different operators in AWS Console are not specifically populated in CloudTrail logs, so defaulting
                 # to '=' operator in Summary property below.
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ', '))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ', '))."
             }
 
             # Potentially append additional optional value(s) to current Signal's Summary property.
@@ -911,7 +911,7 @@ https://twitter.com/danielhbohannon
             {
                 # Different operators in AWS Console are not specifically populated in
                 # CloudTrail logs, so defaulting to '=' operator in Summary property below.
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ', '))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ', '))."
             }
 
             # Potentially append additional optional values to temporary Uri array to add
@@ -1030,7 +1030,7 @@ https://twitter.com/danielhbohannon
 
             if ($attributeKeyAndValueObjArr.Count -gt 0)
             {
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ', '))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ', '))."
             }
             else
             {
@@ -1862,7 +1862,7 @@ https://twitter.com/danielhbohannon
             }
             elseif ($attributeKeyAndValueObjArr.Count -gt 0)
             {
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ', '))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ', '))."
             }
             else
             {
@@ -2060,7 +2060,7 @@ https://twitter.com/danielhbohannon
 
             if ($attributeKeyAndValueObjArr.Count -gt 0)
             {
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ', '))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ', '))."
             }
 
             # Store extracted value(s) in current Signal's AdditionalData property for later retrieval.
@@ -2332,7 +2332,7 @@ https://twitter.com/danielhbohannon
             $policyArnArr = $loginProfileCreated -and $passwordResetRequired ? $policyArnArr.Where( { $_ -cne 'arn:aws:iam::aws:policy/IAMUserChangePassword' } ) : $policyArnArr
             $inlinePolicyArnArr = $RelatedEvents.Where( { $_.Enrichment.EventNameFull -ceq 'iam:PutUserPolicy' } ).ForEach( { $_.Event.requestParameters.policyName } ).Where( { $_ } ) | Sort-Object -Unique
             $groupNameArr = $RelatedEvents.Where( { $_.Enrichment.EventNameFull -ceq 'iam:AddUserToGroup' } ).ForEach( { $_.Event.requestParameters.groupName } ).Where( { $_ } ) | Sort-Object -Unique
-            $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " with $($loginProfileCreated -eq $false ? 'no ' : 'a ')login profile created$($loginProfileCreated -eq $true ? " (password reset $($passwordResetRequired -eq $false ? 'NOT ' : '')required)" : ''), $($null -eq $permissionsBoundary ? 'no ' : 'a ')Permissions Boundary set$($null -eq $permissionsBoundary ? '' : " ('$permissionsBoundary')"), $($tagsArr.ForEach( { $_ } ).Count) Tag$($tagsArr.ForEach( { $_ } ).Count -eq 1 ? '' : 's') defined$($tagsArr.Count -eq 0 ? '' : " ($($tagsArr.ForEach( { "$($_.key)='$($_.value)'" } ) -join ','))"), $($inlinePolicyArnArr.Count) Inline Polic$($inlinePolicyArnArr.Count -eq 1 ? 'y' : 'ies') directly attached$($inlinePolicyArnArr.Count -eq 0 ? '' : " ($($inlinePolicyArnArr.ForEach( { "'$_'" } ) -join ','))"), $($policyArnArr.Count) IAM Polic$($policyArnArr.Count -eq 1 ? 'y' : 'ies') attached$($policyArnArr.Count -eq 0 ? '' : " ($($policyArnArr.ForEach( { "'$_'" } ) -join ','))") and added to $($groupNameArr.Count) IAM Group$($groupNameArr.Count -eq 1 ? '' : 's')$($groupNameArr.Count -eq 0 ? '' : " ($($groupNameArr.ForEach( { "'$_'" } ) -join ','))")."
+            $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " with $($loginProfileCreated -eq $false ? 'no ' : 'a ')login profile created$($loginProfileCreated -eq $true ? " (password reset $($passwordResetRequired -eq $false ? 'NOT ' : '')required)" : ''), $($null -eq $permissionsBoundary ? 'no ' : 'a ')Permissions Boundary set$($null -eq $permissionsBoundary ? '' : " ('$permissionsBoundary')"), $($tagsArr.ForEach( { $_ } ).Count) Tag$($tagsArr.ForEach( { $_ } ).Count -eq 1 ? '' : 's') defined$($tagsArr.Count -eq 0 ? '' : " ($($tagsArr.ForEach( { -not $_.value ? "$($_.key)=UNDEFINED" : "$($_.key)='$($_.value)'" } ) -join ','))"), $($inlinePolicyArnArr.Count) Inline Polic$($inlinePolicyArnArr.Count -eq 1 ? 'y' : 'ies') directly attached$($inlinePolicyArnArr.Count -eq 0 ? '' : " ($($inlinePolicyArnArr.ForEach( { "'$_'" } ) -join ','))"), $($policyArnArr.Count) IAM Polic$($policyArnArr.Count -eq 1 ? 'y' : 'ies') attached$($policyArnArr.Count -eq 0 ? '' : " ($($policyArnArr.ForEach( { "'$_'" } ) -join ','))") and added to $($groupNameArr.Count) IAM Group$($groupNameArr.Count -eq 1 ? '' : 's')$($groupNameArr.Count -eq 0 ? '' : " ($($groupNameArr.ForEach( { "'$_'" } ) -join ','))")."
 
             # Store extracted value(s) in current Signal's AdditionalData property for later retrieval.
             $AnchorEvent.Enrichment.Signal.AdditionalData = @{
@@ -3119,7 +3119,7 @@ https://twitter.com/danielhbohannon
             $tagObjArr = $RelatedEvents.Where( { $_.Enrichment.EventNameFull -ceq 's3:PutBucketTagging' } ).ForEach( { $_.Event.requestParameters.Tagging.TagSet.Tag } ) | Select-Object -Property Key,Value -Unique
             if ($tagObjArr.Count -gt 0)
             {
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " with $($tagObjArr.Count) Tag$($tagObjArr.Count -eq 1 ? '' : 's') defined ($($tagObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ','))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " with $($tagObjArr.Count) Tag$($tagObjArr.Count -eq 1 ? '' : 's') defined ($($tagObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ','))."
             }
             else
             {
@@ -3310,7 +3310,7 @@ https://twitter.com/danielhbohannon
             {
                 # Only operator defined in AWS Console for SecretsManager listing is Contains operator, so defaulting
                 # to '=' operator in Summary property below.
-                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { "$($_.Key)='$($_.Value)'" } ) -join ', '))."
+                $AnchorEvent.Enrichment.Signal.Summary = $AnchorEvent.Enrichment.Signal.Summary.TrimEnd('.') + " while filtered by $($attributeKeyAndValueObjArr.Count) custom attribute$($attributeKeyAndValueObjArr.Count -eq 1 ? '' : 's') ($($attributeKeyAndValueObjArr.ForEach( { -not $_.Value ? "$($_.Key)=UNDEFINED" : "$($_.Key)='$($_.Value)'" } ) -join ', '))."
             }
 
             # Potentially append additional optional values to temporary Uri array to add to current Signal's Url property.
@@ -3348,7 +3348,7 @@ https://twitter.com/danielhbohannon
             if ($uriArr.Count -gt 0)
             {
                 $AnchorEvent.Enrichment.Signal.Url += '&search=' + ($uriArr -join '%26')
-            }    
+            }
 
             # Store extracted value(s) in current Signal's AdditionalData property for later retrieval.
             $AnchorEvent.Enrichment.Signal.AdditionalData = @{
